@@ -7,7 +7,7 @@ tags:
   - js
   - transform
   - array
-thumbnail: https://tuhbm.github.io/images/bnr-java.jpg
+thumbnail: https://tuhbm.github.io/images/bnr-js.jpg
 ---
 
 # [Array 1편]코드 30초 시리즈
