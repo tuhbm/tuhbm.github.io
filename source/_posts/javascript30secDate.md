@@ -37,7 +37,7 @@ const dayOfYear = date => {
 dayOfYear(new Date()); // 272
 ````
 *****
-
+<!-- more -->
 ### formatDuration
 
 주어진 milliseconds 숫자를 사람이 읽을 수 있는 형식을 반환합니다.
