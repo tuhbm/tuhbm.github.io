@@ -28,7 +28,6 @@ thumbnail: https://tuhbm.github.io/images/bnr-js.jpg
 `Array.prototype.every()`를 사용하여 컬렉션의 모든 요소가 fn에 따라 `true`를 반환하는지 테스트합니다. 부울을 기본값으로 사용하려면 두 번째 인수 fn을 생략하십시오.
 ```javascript
 const all = (arr, fn = Boolean) => arr.every(fn);
-
 // EXAMPLES
 all([4, 2, 3], x => x > 1); // true
 all([1, 2, 3]); // true
