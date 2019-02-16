@@ -8,6 +8,7 @@ tags:
   - transform
   - array
 thumbnail: https://tuhbm.github.io/images/bnr-js.jpg
+date: 2019-02-10 01:38:48
 ---
 
 # [Array 1편]코드 30초 시리즈
