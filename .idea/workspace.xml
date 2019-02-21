@@ -39,8 +39,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secArray1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <first_editor relative-caret-position="202">
+                <caret line="185" column="10" selection-start-line="185" selection-start-column="10" selection-end-line="185" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -51,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secDate.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="25" />
+              <first_editor relative-caret-position="92">
+                <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -117,10 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>color-default</find>
-      <find>toUpper</find>
-      <find>tags</find>
-      <find>tag</find>
       <find>Gulp</find>
       <find>Task-Runner</find>
       <find>Task</find>
@@ -147,6 +143,10 @@
       <find>taekyun</find>
       <find>Dev</find>
       <find>branch</find>
+      <find>return</find>
+      <find />
+      <find>diffe</find>
+      <find>```javascript</find>
     </findStrings>
     <replaceStrings>
       <replace>https://tuhbm.github.io/</replace>
@@ -161,6 +161,9 @@
       <replace>(https://tuhbm.github.io/</replace>
       <replace>##</replace>
       <replace>###</replace>
+      <replace>return</replace>
+      <replace />
+      <replace>```</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/source/_posts</dir>
@@ -244,7 +247,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -416,15 +419,15 @@
       <workItem from="1544277303952" duration="8866000" />
       <workItem from="1549546303765" duration="3917000" />
       <workItem from="1549984059073" duration="460000" />
-      <workItem from="1550335015232" duration="329000" />
+      <workItem from="1550335015232" duration="1205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87750000" />
+    <option name="totallyTimeSpent" value="88626000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -443,6 +446,7 @@
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499" visible="true" weight="0.22818312" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.501" side_tool="true" weight="0.21618743" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -455,7 +459,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -889,8 +892,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secDate.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="25" />
+          <first_editor relative-caret-position="92">
+            <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -899,8 +902,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secArray1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <first_editor relative-caret-position="202">
+            <caret line="185" column="10" selection-start-line="185" selection-start-column="10" selection-end-line="185" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>

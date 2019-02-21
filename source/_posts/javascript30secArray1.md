@@ -137,7 +137,7 @@ deepFlatten([1, [2], [[3], 4], 5]); // [1,2,3,4,5]
 ### difference
 2개의 배열의 차이를 돌려줍니다.
 b에서 Set을 만든 다음 a에 `Array.prototype.filter()`를 사용하여 b에 포함되지 않은 값만 유지합니다.
-```javascirpt
+```javascript
 const difference = (a, b) => {
   const s = new Set(b);
   return a.filter(x => !s.has(x));
@@ -216,7 +216,7 @@ filterFalsy(['', true, {}, false, 'sample', 1, 0]); // [true, {}, 'sample', 1]
 `Array.prototype.filter()`고유 한 값만 포함하는 배열에 사용 합니다.
 ```javascript
 const filterNonUnique = arr => {
-    return arr.filter(i => arr.indexOf(i) === arr.lastIndexOf(i));
+  return arr.filter(i => arr.indexOf(i) === arr.lastIndexOf(i));
 }
 // EXAMPLES
 filterNonUnique([1, 2, 2, 3, 4, 4, 5]); // [1, 3, 5]

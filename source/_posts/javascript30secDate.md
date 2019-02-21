@@ -31,7 +31,7 @@ date: 2019-02-17 01:38:48
 `Math.floor()`으로 결과를 정수로 적절하게 반올림하여 사용하세요.
 ````javascript
 const dayOfYear = date => {
-	return Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24); 
+  return Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24); 
 }
 // EXAMPLES
 dayOfYear(new Date()); // 272
@@ -92,7 +92,7 @@ getColonTimeFromDate(new Date()); // "23:31:58"
 
 ```javascript
 const getDaysDiffBetweenDates = (dateInitial, dateFinal) => {
-	return (dateFinal - dateInitial) / (1000 * 3600 * 24); 
+  return (dateFinal - dateInitial) / (1000 * 3600 * 24); 
 }
 // EXAMPLES
 getDaysDiffBetweenDates(new Date('2019-02-12'), new Date('2019-02-21')); // 9
@@ -109,7 +109,7 @@ getDaysDiffBetweenDates(new Date('2019-02-12'), new Date('2019-02-21')); // 9
 ```javascript
 const getMeridiemSuffixOfInteger = num => {
   if(num > 24) {
-	throw new Error('num 값이 너무 큽니다.');
+  throw new Error('num 값이 너무 큽니다.');
   }
   return num === 0 || num === 24
     ? 12 + 'am'
