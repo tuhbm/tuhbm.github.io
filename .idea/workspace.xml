@@ -35,12 +35,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javascript30secArray1.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="javascript30secArray1.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secArray1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="202">
-                <caret line="185" column="10" selection-start-line="185" selection-start-column="10" selection-end-line="185" selection-end-column="10" />
+              <first_editor relative-caret-position="462">
+                <caret line="287" column="1" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="javascript30secUtiltity.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secUtiltity.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="24">
+                <caret line="30" selection-start-line="30" selection-end-line="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -51,8 +63,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secDate.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <first_editor relative-caret-position="614">
+                <caret line="222" column="6" lean-forward="true" selection-start-line="214" selection-end-line="222" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -117,10 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Gulp</find>
-      <find>Task-Runner</find>
-      <find>Task</find>
-      <find>- task</find>
       <find>Lib</find>
       <find>**</find>
       <find>translation</find>
@@ -147,6 +155,10 @@
       <find />
       <find>diffe</find>
       <find>```javascript</find>
+      <find>hex</find>
+      <find>```</find>
+      <find>```javascirpt</find>
+      <find>`</find>
     </findStrings>
     <replaceStrings>
       <replace>https://tuhbm.github.io/</replace>
@@ -164,6 +176,7 @@
       <replace>return</replace>
       <replace />
       <replace>```</replace>
+      <replace>```javascript</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/source/_posts</dir>
@@ -178,7 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/_posts/vanillaJS.md" />
         <option value="$PROJECT_DIR$/source/_posts/vue1.md" />
         <option value="$PROJECT_DIR$/source/_posts/vue2.md" />
         <option value="$PROJECT_DIR$/source/_posts/vue3.md" />
@@ -229,6 +241,7 @@
         <option value="$PROJECT_DIR$/source/_drafts/javascript30secDate.md" />
         <option value="$PROJECT_DIR$/source/_posts/javascript30secDate.md" />
         <option value="$PROJECT_DIR$/source/_posts/javascript30secArray1.md" />
+        <option value="$PROJECT_DIR$/source/_posts/javascript30secUtiltity.md" />
       </list>
     </option>
   </component>
@@ -248,7 +261,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="y" value="323" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -419,15 +432,15 @@
       <workItem from="1544277303952" duration="8866000" />
       <workItem from="1549546303765" duration="3917000" />
       <workItem from="1549984059073" duration="460000" />
-      <workItem from="1550335015232" duration="1205000" />
+      <workItem from="1550335015232" duration="2479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88626000" />
+    <option name="totallyTimeSpent" value="89900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1097" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -441,10 +454,10 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Quokka" order="9" />
-      <window_info active="true" anchor="bottom" x="0" y="624" width="1440" height="150" id="Terminal" order="7" sideWeight="0.49307775" visible="true" weight="0.28" />
+      <window_info active="true" anchor="bottom" x="0" y="624" width="1440" height="150" id="Terminal" order="7" sideWeight="0.49307775" visible="true" weight="0.191" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499" visible="true" weight="0.22818312" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499" visible="true" weight="0.16986156" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -499,16 +512,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/about/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="168">
-            <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/javaObjectOriented.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -889,21 +892,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secDate.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secArray1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <first_editor relative-caret-position="462">
+            <caret line="287" column="1" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secArray1.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secDate.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="202">
-            <caret line="185" column="10" selection-start-line="185" selection-start-column="10" selection-end-line="185" selection-end-column="10" />
+          <first_editor relative-caret-position="614">
+            <caret line="222" column="6" lean-forward="true" selection-start-line="214" selection-end-line="222" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secUtiltity.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="24">
+            <caret line="30" selection-start-line="30" selection-end-line="30" />
           </first_editor>
           <second_editor />
         </state>
