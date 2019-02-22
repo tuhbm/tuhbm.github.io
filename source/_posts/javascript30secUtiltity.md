@@ -33,9 +33,8 @@ const castArray = val => (Array.isArray(val) ? val : [val]);
 castArray('foo'); // ['foo']
 castArray([1,2,3,4]); // [1,2,3,4]
 ```
-
 *****
-
+<!-- more -->
 ### cloneRegExp
 정규식을 복제합니다.
 `new RegExp()`를 사용하고 [RegExp.source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source)와 [RegExp.flags](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags)지정된 정규 표현을 복제 할 수 있습니다.

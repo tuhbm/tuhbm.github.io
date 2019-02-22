@@ -39,8 +39,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secArray1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="462">
-                <caret line="287" column="1" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
+              <first_editor relative-caret-position="497">
+                <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -51,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secUtiltity.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="24">
-                <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <first_editor relative-caret-position="563">
+                <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,7 +64,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="614">
-                <caret line="222" column="6" lean-forward="true" selection-start-line="214" selection-end-line="222" selection-end-column="6" />
+                <caret line="222" column="6" selection-start-line="214" selection-end-line="222" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -156,9 +156,9 @@
       <find>diffe</find>
       <find>```javascript</find>
       <find>hex</find>
-      <find>```</find>
-      <find>```javascirpt</find>
       <find>`</find>
+      <find>```javascirpt</find>
+      <find>```</find>
     </findStrings>
     <replaceStrings>
       <replace>https://tuhbm.github.io/</replace>
@@ -175,8 +175,8 @@
       <replace>###</replace>
       <replace>return</replace>
       <replace />
-      <replace>```</replace>
       <replace>```javascript</replace>
+      <replace>```</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/source/_posts</dir>
@@ -432,12 +432,12 @@
       <workItem from="1544277303952" duration="8866000" />
       <workItem from="1549546303765" duration="3917000" />
       <workItem from="1549984059073" duration="460000" />
-      <workItem from="1550335015232" duration="2479000" />
+      <workItem from="1550335015232" duration="2873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89900000" />
+    <option name="totallyTimeSpent" value="90294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1097" extended-state="6" />
@@ -892,21 +892,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secArray1.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secDate.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="462">
-            <caret line="287" column="1" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
+          <first_editor relative-caret-position="614">
+            <caret line="222" column="6" selection-start-line="214" selection-end-line="222" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secDate.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secArray1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="614">
-            <caret line="222" column="6" lean-forward="true" selection-start-line="214" selection-end-line="222" selection-end-column="6" />
+          <first_editor relative-caret-position="497">
+            <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
@@ -915,8 +915,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secUtiltity.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="24">
-            <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <first_editor relative-caret-position="563">
+            <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
