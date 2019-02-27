@@ -11,18 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cssAlignCenter.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/cssAlignCenter.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
-                <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cssArchitecture.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/cssArchitecture.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -47,12 +35,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javascript30secUtiltity.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="javascript30secUtiltity.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secUtiltity.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="563">
-                <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <first_editor relative-caret-position="272">
+                <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accessModifier.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/accessModifier.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="212">
+                <caret line="121" column="24" lean-forward="true" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -113,18 +113,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javaScope.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/javaScope.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="576">
-                <caret line="24" column="59" selection-start-line="24" selection-end-line="24" selection-end-column="59" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -157,8 +145,8 @@
       <find>```javascript</find>
       <find>hex</find>
       <find>`</find>
-      <find>```javascirpt</find>
       <find>```</find>
+      <find>```javascirpt</find>
     </findStrings>
     <replaceStrings>
       <replace>https://tuhbm.github.io/</replace>
@@ -175,8 +163,8 @@
       <replace>###</replace>
       <replace>return</replace>
       <replace />
-      <replace>```javascript</replace>
       <replace>```</replace>
+      <replace>```javascript</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/source/_posts</dir>
@@ -191,8 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/_posts/vue1.md" />
-        <option value="$PROJECT_DIR$/source/_posts/vue2.md" />
         <option value="$PROJECT_DIR$/source/_posts/vue3.md" />
         <option value="$PROJECT_DIR$/source/_posts/vue4.md" />
         <option value="$PROJECT_DIR$/source/_posts/firstProgramming.md" />
@@ -242,6 +228,8 @@
         <option value="$PROJECT_DIR$/source/_posts/javascript30secDate.md" />
         <option value="$PROJECT_DIR$/source/_posts/javascript30secArray1.md" />
         <option value="$PROJECT_DIR$/source/_posts/javascript30secUtiltity.md" />
+        <option value="$PROJECT_DIR$/source/_posts/defaultAccessModifier.md" />
+        <option value="$PROJECT_DIR$/source/_posts/accessModifier.md" />
       </list>
     </option>
   </component>
@@ -260,8 +248,8 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="323" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -432,15 +420,15 @@
       <workItem from="1544277303952" duration="8866000" />
       <workItem from="1549546303765" duration="3917000" />
       <workItem from="1549984059073" duration="460000" />
-      <workItem from="1550335015232" duration="2873000" />
+      <workItem from="1550335015232" duration="5675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90294000" />
+    <option name="totallyTimeSpent" value="93096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1097" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -454,10 +442,10 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Quokka" order="9" />
-      <window_info active="true" anchor="bottom" x="0" y="624" width="1440" height="150" id="Terminal" order="7" sideWeight="0.49307775" visible="true" weight="0.191" />
+      <window_info active="true" anchor="bottom" x="0" y="624" width="1440" height="150" id="Terminal" order="7" sideWeight="0.49307775" visible="true" weight="0.27285713" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499" visible="true" weight="0.16986156" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499" visible="true" weight="0.22818312" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -512,26 +500,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/javaObjectOriented.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="570">
-            <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/cli.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="139">
-            <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/python2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -912,11 +880,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/vue3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/javascript30secUtiltity.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="563">
-            <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <first_editor relative-caret-position="272">
+            <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/accessModifier.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="212">
+            <caret line="121" column="24" lean-forward="true" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
