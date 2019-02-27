@@ -29,7 +29,7 @@ public, private, protected의 접근 제한자는 `Typescript` 공부를 진행�
 *public*은 영어단어 뜻은 `공공의`, `대중의`입니다. 단어처럼 접근 제한이 따로 없습니다. `상속도 가능`하고,` 외부 객체를 통한 접근도 가능`합니다.
 
 예제를 보겠습니다.
-
+<!-- more -->
 ```typescript
 class Base {
 	public defaultAge = 30;
@@ -46,7 +46,6 @@ class Member extends Base {
 let member = new Member();
 console.log(member.getAge()); // 31
 ```
-<!-- more -->
 위 코드를 보면 `부모클래스(Base)`에서 `자식클래스(Member)`로 *상속이 가능*하고, 또한 멤버변수인 `member`에서 실행 했을때도 접근이 가능하여 `31`이 출력됩니다.
 
 이처럼 public은 *상속, 외부객체를 통한 접근 모두 가능*합니다.
