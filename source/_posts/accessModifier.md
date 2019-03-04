@@ -1,5 +1,5 @@
 ---
-title: 접근 제한자
+title: Typescript - 접근 제한자
 categories:
   - Javascript
   - Typescript
@@ -12,7 +12,7 @@ thumbnail: https://tuhbm.github.io/images/bnr-ts.jpg
 date: 2019-02-27 21:37:30
 ---
 
-# 접근제한자
+# [Typescript] - 접근제한자
 ![접근제한자](https://tuhbm.github.io/images/typescript/accessModifier.png)
 
 ### 개요

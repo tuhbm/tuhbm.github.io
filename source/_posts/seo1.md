@@ -1,8 +1,8 @@
 ---
-title: SEO(Search Engine Optimization) 검색 엔진 최적화
+title: SEO(Search Engine Optimization) 검색 엔진 최적화 1편
 date: 2018-09-29 18:32:59
 categories:
-- HTML
+- SEO
 tags:
 - html
 - seo
@@ -11,7 +11,7 @@ tags:
 - engine 
 - optimization
 - 검색최적화
-thumbnail: https://tuhbm.github.io/images/bnr-html.jpg
+thumbnail: https://tuhbm.github.io/images/bnr-seo.jpg
 ---
 
 ![SEO](https://tuhbm.github.io/images/seo.jpg)
