@@ -7,10 +7,11 @@ tags:
 - html
 - seo
 - search
-- search 
 - engine 
 - optimization
 - 검색최적화
+- canonical
+- noindex
 thumbnail: https://tuhbm.github.io/images/bnr-seo.jpg
 ---
 

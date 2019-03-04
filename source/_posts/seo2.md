@@ -8,6 +8,7 @@ tags:
   - Optimization
   - noindex
   - canonical
+  - alternate
 thumbnail: https://tuhbm.github.io/images/bnr-seo.jpg
 date: 2019-03-04 23:12:59
 ---
