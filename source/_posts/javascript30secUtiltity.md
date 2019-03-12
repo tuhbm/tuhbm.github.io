@@ -8,6 +8,7 @@ tags:
   - transform
   - Utiltity
 thumbnail: https://tuhbm.github.io/images/bnr-js.jpg
+date: 2019-02-22 01:38:48
 ---
 
 # [Utiltity]코드 30초 시리즈
