@@ -31,8 +31,7 @@ Axios는 Promise를 기반으로하여 async/await문법을 사용하여 [XHR](h
 4. [CSRF](https://laravel.kr/docs/5.5/csrf) 보호 기능이 내장되어있다.
 5. JSON 데이터 자동변환
 6. Node.js에서의 사용
-
-
+<!-- more -->
 
 ## 설치
 
