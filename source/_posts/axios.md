@@ -177,7 +177,7 @@ axios.get('https://test.com/', {
 axios.post('https://test.com');
 ```
 
-post 역시 매개변수를 추가하는방법은 get과 같습니다.
+POST 역시 매개변수를 추가하는방법은 GET과 같습니다.
 
 ```javascript
 axios.post('https://test.com/', {
