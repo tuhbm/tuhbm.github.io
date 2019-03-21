@@ -10,7 +10,7 @@ tags:
 thumbnail: https://tuhbm.github.io/images/bnr-js.jpg
 date: 2019-03-21 19:02:50
 ---
-![SEO](https://tuhbm.github.io/images/javascript/img_axios.png)
+![Axios](https://tuhbm.github.io/images/javascript/img_axios.png)
 
 # Axios
 
