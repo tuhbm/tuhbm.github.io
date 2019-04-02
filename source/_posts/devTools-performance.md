@@ -54,9 +54,6 @@ p.s구간 해제는 *더블클릭*입니다.
 ![스냅샷](https://tuhbm.github.io/images/devTools/performance_motion.gif)
 
 
-
-
-
 ### Main
 
 html부터 렌더링이 완료되기까지의 요청 및 렌더링의 파일 순서등을 보여줍니다.
@@ -86,15 +83,10 @@ html부터 렌더링이 완료되기까지의 요청 및 렌더링의 파일 순
 - HTML 상에 필요한 모든 리소스가 로드된 시점
 - 제이쿼리 기준 - $(window).load(…)시점
 
-
-
-performance탭에서 확인 할 수 있는 내용
-
+##### performance탭에서 확인 할 수 있는 내용
 - 파싱 순서
 - FMP시점
 - 스냅샷을 통한 렌더링 순서
-
-
 
 #### performance **탭 외의 진단도구**
 
