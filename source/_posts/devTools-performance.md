@@ -1,5 +1,5 @@
 ---
-title: 개발자도구 - performance편
+title: 개발자도구 - Performance편
 categories:
   - ETC
 tags:
@@ -16,7 +16,7 @@ tags:
 thumbnail: https://tuhbm.github.io/images/bnr-etc.jpg
 date: 2019-04-02 23:02:50
 ---
-![SEO](https://tuhbm.github.io/images/devTools/develop_tools.jpg)
+![DevTool](https://tuhbm.github.io/images/devTools/develop_tools.jpg)
 
 # 개요
 웹 개발자라면 이슈가 생겼을 때 보통 브라우저에서 개발자 도구를 열어 코드를 확인하며 어떠한 부분에서 이슈가 발생했는지 확인합니다. 제가 주로 사용하는 개발자도구는 크롬입니다. 개발자도구는 보통 브라우저에 포함된 기능입니다. 심지어 우리의 주적인 *IE*까지도 개발자도구가 존재합니다.
