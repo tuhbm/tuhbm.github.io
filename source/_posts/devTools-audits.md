@@ -26,8 +26,9 @@ date: 2019-04-10 22:02:50
 Audits탭은 해당 페이지의 전체적인 검사를 하는 기능이 있습니다.
 
 ![audits 실행전](https://tuhbm.github.io/images/devTools/audits1.png)
+Desktop과 Mobile 중 어떤 플랫폼으로 실행을 할 것인지, 통신속도는 어떻게 할것인지 선택도 가능합니다.
 <!-- more -->
-페이지의 원하는 부분의 검사를 진행할 수 있습니다. 선택 가능한 항목은 아래와 같습니다.
+또한 어떤 부분을 검사하고 싶은지 선택 가능한 항목은 아래와 같습니다.
 
 - 성능
 - PWA
@@ -41,24 +42,23 @@ Audits탭은 해당 페이지의 전체적인 검사를 하는 기능이 있습�
 
 또한 View Trace 버튼을 누르면 performance탭으로 이동합니다.
 
-위형태를 보면
+Performance단락을 살펴보면
 
 **[TTI(Time to Interactive)](https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive?hl=ko)** - 유저가 인터렉션(ex:클릭,마우스오버)을 사용할 수 있는 시간이 있는데,
 
-이부분을 보통 유저가 체감가능한 렌더링시점으로 생각하시면 됩니다.
-
-쿠팡같은경우 TTI기준을 2초로 잡고있다고 합니다.
+이부분이 보통 유저가 체감가능한 렌더링시점으로 생각하시면 됩니다.
+보통의 서비스들은 TTI기준을 잡는지 모르지만, 지인을 통해 알아본 쿠팡의 경우 TTI기준을 2초를 기준으로 개발을 하고 있다고 합니다.
 
 [RAIL 모델로 성능 측정](https://developers.google.com/web/fundamentals/performance/rail?hl=ko)
 
 
 
-그리고 권장사항 및 권고사항들을 클릭하면 이미지, 파일 minify등의
+각 항목에 대한 권장사항을 리스트로 나타내줍니다.
+또한 권고사항들을 클릭하면
 
 ![권장사항](https://tuhbm.github.io/images/devTools/audits3.png)
 
 해당 항목에 대한 성능을 높일 수 있는 방법을 제공합니다.
 
 ## 결론
-Audits탭을 통해 SEO, PWA, 접근성등의 필수는 아니지만 더욱 유저들에게 필요한 부분에 대한 권장사항들에 대한 내용
-그리고 Performance 점수등의 여러 점수들을 제공하고, 또한 이러한 부분들에 대한 수정을 권장하는 내용들을 제공하므로써 더욱 나은 웹서비스들을 만들 수 있도록 도와줍니다.
+Audits탭을 통해 SEO, PWA, 접근성등의 필수는 아니지만 더욱 유저들에게 필요한 부분에 대한 권장사항들에 대한 내용 그리고 Performance 점수등의 여러 점수들을 제공하고, 또한 이러한 부분들에 대한 수정을 권장하는 내용들을 제공하므로써 더욱 나은 웹서비스들을 만들 수 있도록 도와줍니다.
