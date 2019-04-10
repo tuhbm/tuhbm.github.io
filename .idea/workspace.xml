@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c99574a-43cd-434f-9118-37e8277e0a4e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/source/_posts/devTools-audits.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/devTools-audits.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/devTools-audits.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <first_editor relative-caret-position="94">
+                <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -199,12 +198,12 @@
       <updated>1553170496742</updated>
       <workItem from="1553170500972" duration="581000" />
       <workItem from="1554213137735" duration="1510000" />
-      <workItem from="1554904071449" duration="1968000" />
+      <workItem from="1554904071449" duration="2027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4059000" />
+    <option name="totallyTimeSpent" value="4118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="6" />
@@ -301,8 +300,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/devTools-audits.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <first_editor relative-caret-position="94">
+            <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
