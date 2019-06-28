@@ -18,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/rxjs1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="264">
-                <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <first_editor relative-caret-position="479">
+                <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               </first_editor>
               <second_editor />
             </state>
@@ -209,12 +209,12 @@
       <workItem from="1555504454022" duration="613000" />
       <workItem from="1556115110074" duration="685000" />
       <workItem from="1559562629276" duration="2963000" />
-      <workItem from="1561722742947" duration="349000" />
+      <workItem from="1561722742947" duration="677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8848000" />
+    <option name="totallyTimeSpent" value="9176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1097" extended-state="6" />
@@ -231,10 +231,10 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Quokka" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.354" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.354" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29925454" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29925454" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -509,8 +509,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/rxjs1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <first_editor relative-caret-position="479">
+            <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
           </first_editor>
           <second_editor />
         </state>
