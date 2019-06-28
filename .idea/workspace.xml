@@ -18,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/rxjs1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="321">
-                <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <first_editor relative-caret-position="264">
+                <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/vue1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="157">
+              <first_editor relative-caret-position="672">
                 <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="13" />
               </first_editor>
               <second_editor />
@@ -209,12 +209,12 @@
       <workItem from="1555504454022" duration="613000" />
       <workItem from="1556115110074" duration="685000" />
       <workItem from="1559562629276" duration="2963000" />
-      <workItem from="1561722742947" duration="186000" />
+      <workItem from="1561722742947" duration="349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8685000" />
+    <option name="totallyTimeSpent" value="8848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1097" extended-state="6" />
@@ -499,7 +499,7 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/vue1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="157">
+          <first_editor relative-caret-position="672">
             <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="13" />
           </first_editor>
           <second_editor />
@@ -509,8 +509,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/rxjs1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="321">
-            <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <first_editor relative-caret-position="264">
+            <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>

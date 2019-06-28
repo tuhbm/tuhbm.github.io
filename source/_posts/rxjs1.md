@@ -3,13 +3,13 @@ title: Rxjs를 시작하기전에...
 categories: 
 - Javascript
 - RxJS
-  tags:
+tags:
   - RxJS
   - 스트림
   - 입력
   - 로직
   - 상태
-  - Oservable
+  - Observable
   - 데이터
 date: 2019-06-28 21:49:08
 thumbnail: https://tuhbm.github.io/images/bnr-rxjs.png
