@@ -29,7 +29,7 @@ RxJS 시리즈 포스팅은 Quick Start RxJS를 읽으면서 공부하고 정리
 실제로 [RxJS 공식사이트](https://rxjs-dev.firebaseapp.com/guide/overview)에서도 `'Observable을 사용하여 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리이다.'`라고 써있
 `'이벤트용 lodash정도...'`라고 써있기도합니다. 
 그러면 이제부터 RxJS를 사용해 개발하는 패턴을 알아보겠습니다.
-
+<!-- more -->
 ## 설치
 최근 node를 통해 개발하는 방법인 npm을 통해 설치가 가능합니다.
 ````commandline
