@@ -19,7 +19,7 @@ thumbnail: https://tuhbm.github.io/images/bnr-rxjs.png
 ---
 
 ## RxJS
-![RxJS](https://tuhbm.github.io/images/bnr-rxjs.png)
+![RxJS](https://tuhbm.github.io/images/rxjs.png)
 RxJS 시리즈 포스팅은 Quick Start RxJS를 읽으면서 공부하고 정리한 내용입니다.
 ******
 # RxJS 시작하기
