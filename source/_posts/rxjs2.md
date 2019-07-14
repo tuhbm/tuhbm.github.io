@@ -26,8 +26,8 @@ RxJS 시리즈 포스팅은 Quick Start RxJS를 읽으면서 공부하고 정리
 지난 포스팅인 [Rxjs를 시작하기전에](https://tuhbm.github.io/2019/06/28/rxjs1/)편에서 최근 개발트랜드와 Rxjs를 사용해야 하는 원인에 대해 알아보았습니다.
 최근 개발패턴인 SPA(Single Page Application)는 데이터의 상태를 통해 웹페이지의 View와 데이터가 변경됩니다.
 그렇기에 RxJS를 통해 상태체크를 통해 데이터의 흐름을 관리하는 라이브러리인 RxJS를 사용해 개발한다고 말씀드렸습니다.
-실제로 [RxJS 공식사이트](https://rxjs-dev.firebaseapp.com/guide/overview)에서도 `'Observable을 사용하여 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리이다.'`라고 써있
-`'이벤트용 lodash정도...'`라고 써있기도합니다. 
+실제로 [RxJS 공식사이트](https://rxjs-dev.firebaseapp.com/guide/overview)에서도 `'Observable을 사용하여 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리이다.'`이다.
+간단히 `'이벤트용 lodash정도...'`라고 써있기도합니다. 
 그러면 이제부터 RxJS를 사용해 개발하는 패턴을 알아보겠습니다.
 <!-- more -->
 ## 설치
