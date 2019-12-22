@@ -4,6 +4,7 @@
     <list default="true" id="5c99574a-43cd-434f-9118-37e8277e0a4e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/themes/icarus" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/article.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/article.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="book-review-interviewBook.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/book-review-interviewBook.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -40,7 +32,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="120">
-                <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+                <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,11 +53,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="article.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="article.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/article.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="379">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -74,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/themes/icarus/layout/ads/coupang_ad.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -152,6 +153,7 @@
         <option value="$PROJECT_DIR$/source/_posts/simpleSoftware.md" />
         <option value="$PROJECT_DIR$/themes/icarus/layout/ads/coupang_ad.ejs" />
         <option value="$PROJECT_DIR$/themes/icarus/layout/common/article.ejs" />
+        <option value="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" />
       </list>
     </option>
   </component>
@@ -365,12 +367,12 @@
       <workItem from="1568548617851" duration="3267000" />
       <workItem from="1573729730834" duration="1320000" />
       <workItem from="1575553861696" duration="22000" />
-      <workItem from="1576583979923" duration="1366000" />
+      <workItem from="1576583979923" duration="1665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27643000" />
+    <option name="totallyTimeSpent" value="27942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
@@ -415,16 +417,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/rxjs2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
-            <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -847,7 +839,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="120">
-            <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
@@ -866,14 +858,21 @@
     <entry file="file://$PROJECT_DIR$/themes/icarus/layout/ads/coupang_ad.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/article.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="379">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
