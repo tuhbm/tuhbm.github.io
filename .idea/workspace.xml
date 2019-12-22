@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c99574a-43cd-434f-9118-37e8277e0a4e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/article.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/article.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,12 +35,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simpleSoftware.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simpleSoftware.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/simpleSoftware.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="48">
-                <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <first_editor relative-caret-position="120">
+                <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -52,6 +52,29 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="29" selection-start-column="29" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/icarus/layout/post.ejs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="article.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/article.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coupang_ad.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/icarus/layout/ads/coupang_ad.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -75,7 +98,7 @@
         </entry>
       </file>
       <file leaf-file-name="personalClanguage.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/personalClanguage.md">
+        <entry file="file://$PROJECT_DIR$/source/_drafts/personalClanguage.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="48">
@@ -127,6 +150,8 @@
         <option value="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" />
         <option value="$PROJECT_DIR$/themes/icarus/layout/ads/adsense.ejs" />
         <option value="$PROJECT_DIR$/source/_posts/simpleSoftware.md" />
+        <option value="$PROJECT_DIR$/themes/icarus/layout/ads/coupang_ad.ejs" />
+        <option value="$PROJECT_DIR$/themes/icarus/layout/common/article.ejs" />
       </list>
     </option>
   </component>
@@ -139,16 +164,18 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,16 +191,43 @@
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="ads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="icarus" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,7 +238,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/_drafts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/_drafts" />
       <recent name="$PROJECT_DIR$/themes/icarus/layout/ads" />
     </key>
   </component>
@@ -307,14 +365,16 @@
       <workItem from="1568548617851" duration="3267000" />
       <workItem from="1573729730834" duration="1320000" />
       <workItem from="1575553861696" duration="22000" />
+      <workItem from="1576583979923" duration="1366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26277000" />
+    <option name="totallyTimeSpent" value="27643000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -327,10 +387,10 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Quokka" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36083916" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26875" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19670959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1485623" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -355,40 +415,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/ads/adsense.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/personalClanguage.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="48">
-            <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/rxjs1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="432">
-            <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/rxjs2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -731,7 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/personalClanguage.md">
+    <entry file="file://$PROJECT_DIR$/source/_drafts/personalClanguage.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="48">
@@ -783,13 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/head.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
@@ -814,13 +833,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/simpleSoftware.md">
+    <entry file="file://$PROJECT_DIR$/source/_drafts/personalClanguage.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="48">
-            <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/simpleSoftware.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/post.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/ads/coupang_ad.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/icarus/layout/common/article.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
         </state>
       </provider>
     </entry>
