@@ -32,15 +32,15 @@ public, private, protected의 접근 제한자는 `Typescript` 공부를 진행�
 <!-- more -->
 ```typescript
 class Base {
-	public defaultAge = 30;
+    public defaultAge = 30;
 }
 
 class Member extends Base {
-	age = 1;
-	
-	public getAge() {
-    	return this.age + this.defaultAge;
-	}
+    age = 1;
+
+    public getAge() {
+        return this.age + this.defaultAge;
+    }
 }
 
 let member = new Member();
@@ -60,13 +60,13 @@ console.log(member.getAge()); // 31
 
 ```typescript
 class Base {
-	protected birthYear = '1989';
+    protected birthYear = '1989';
 }
 
 class Member extends Base {
-	protected getBirthYear() {
-    	return this.birthYear
-	}
+    protected getBirthYear() {
+        return this.birthYear
+    }
 }
 
 let member = new Member();
@@ -87,19 +87,19 @@ member.getBirthYear(); // Property 'getBirthYear' is protected and only accessib
 
  ```typescript
 class Base {
-	private birthYear = '1989';
+    private birthYear = '1989';
 }
 
 class Member extends Base {
-	private age = 0;
+    private age = 0;
 
-	private getBirthYear() {
-    	return this.birthYear; // Property 'birthYear' is private and only accessible within class 'Base'.
-	}
-	
-	private getAge() {
-    	return this.age;
-	}
+    private getBirthYear() {
+        return this.birthYear; // Property 'birthYear' is private and only accessible within class 'Base'.
+    }
+    
+    private getAge() {
+        return this.age;
+    }
 }
 
 let member = new Member();
