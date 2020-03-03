@@ -45,7 +45,7 @@ Rxjs를 시작하기에 앞서 JavaScript 코드와 RxJS를 사용한 개발방�
 
 ```javascript
 const eventHandler = event => {
-	console.log(event.currentTarget);
+    console.log(event.currentTarget);
 }
 
 document.addEventListener("click", eventHandler);
@@ -58,7 +58,7 @@ document.addEventListener("click", eventHandler);
 import { fromEvent } from 'rxjs';
 const click$ = fromEvent(document, "click"); // observable
 const observer = event => {
-	console.log(event.currnetTarget);
+    console.log(event.currnetTarget);
 }
 click$.subscribe(observer);
 ```
@@ -76,30 +76,30 @@ Observable는 어떠한 행위를 하는 **객체 또는 데이터**라고 이�
 
 ```javascript
 const users = [{
-		name: "유비",
-		birthYear: 161,
-		nationality: "촉",
-	}, {
-		name: "손권",
-		birthYear: 182,
-		nationality: "오"
-	}, {
-		name: "관우",
-		birthYear: 160,
-		nationality: "촉",
-	}, {
-		name: "장비",
-		birthYear: 168,
-		nationality: "촉",
-	}, {
-		name: "조조",
-		birthYear: 155,
-		nationality: "위"
-	}, {
-		name: "손권",
-		birthYear: 182,
-		nationality: "오"
-	}
+        name: "유비",
+        birthYear: 161,
+        nationality: "촉",
+    }, {
+        name: "손권",
+        birthYear: 182,
+        nationality: "오"
+    }, {
+        name: "관우",
+        birthYear: 160,
+        nationality: "촉",
+    }, {
+        name: "장비",
+        birthYear: 168,
+        nationality: "촉",
+    }, {
+        name: "조조",
+        birthYear: 155,
+        nationality: "위"
+    }, {
+        name: "손권",
+        birthYear: 182,
+        nationality: "오"
+    }
 ].filter(user => user.nationality === '촉');
 
 const log = user => console.log(user);
@@ -114,32 +114,32 @@ import { from } from 'rxjs';
 import { filter } from 'rxjs.operators';
 
 const users$ = from([{
-	name: "유비",
-	birthYear: 161,
-	nationality: "촉",
+    name: "유비",
+    birthYear: 161,
+    nationality: "촉",
 }, {
-	name: "손권",
-	birthYear: 182,
-	nationality: "오"
+    name: "손권",
+    birthYear: 182,
+    nationality: "오"
 }, {
-	name: "관우",
-	birthYear: 160,
-	nationality: "촉",
+    name: "관우",
+    birthYear: 160,
+    nationality: "촉",
 }, {
-	name: "장비",
-	birthYear: 168,
-	nationality: "촉",
+    name: "장비",
+    birthYear: 168,
+    nationality: "촉",
 }, {
-	name: "조조",
-	birthYear: 155,
-	nationality: "위"
+    name: "조조",
+    birthYear: 155,
+    nationality: "위"
 }, {
-	name: "손권",
-	birthYear: 182,
-	nationality: "오"
+    name: "손권",
+    birthYear: 182,
+    nationality: "오"
 }
 ]).pipe(
-	filter(user => user.nationality === "촉")
+    filter(user => user.nationality === "촉")
 )
 
 const observer = user => console.log(user);
@@ -169,17 +169,17 @@ pipe오퍼레이터 사용 시 webpack을 통해 트리쉐이킹(사용하지 �
 ```javascript
 /// 도트체이닝 오퍼레이터 예제
 ajax$
-	.switchMap(data => ...)
+    .switchMap(data => ...)
     .filter(user => ...)
-	.map(user => ...);
+    .map(user => ...);
          
 /// pipe 오퍼레이터 예제
 ajax$
-	.pipe(
-		switchMap(data => ...),
-		filter(user => ...),
-		map(user => ...)
-	);
+    .pipe(
+        switchMap(data => ...),
+        filter(user => ...),
+        map(user => ...)
+    );
 ```
 
 #### Observer
@@ -187,9 +187,9 @@ Observable에 전달된 `데이터를 소비하는 주체`이며, next, error, c
 
 ```javascript
 const observer = {
-	next : x => console.log(`Observer가 Observable로 받은 데이터: ${x}`),
-	error: err => console.error(`Observer가 Observable로 받은 에러 데이터: ${error}`),
-	complete: () => console.log(`Observer가 Observable로 부터 종료 되었다는 알림 메시지`)
+    next : x => console.log(`Observer가 Observable로 받은 데이터: ${x}`),
+    error: err => console.error(`Observer가 Observable로 받은 에러 데이터: ${error}`),
+    complete: () => console.log(`Observer가 Observable로 부터 종료 되었다는 알림 메시지`)
 }
 
 click$.subscribe(observer);
