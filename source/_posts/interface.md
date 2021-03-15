@@ -6,8 +6,10 @@ categories:
 tags:
    - interface
    - 매개체
-   - 연결고
-   - 메모리
+   - 연결고리
+   - 접속
+   - 접촉
+   - 경계
 thumbnail: https://tuhbm.github.io/images/bnr-etc.jpg
 ---
 ## 용어정리
