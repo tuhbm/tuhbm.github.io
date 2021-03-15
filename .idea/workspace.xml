@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c99574a-43cd-434f-9118-37e8277e0a4e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/images/terms/interface_img1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/icarus/layout/ads/coupang_ad.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" afterDir="false" />
@@ -50,6 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -151,11 +150,25 @@
       <workItem from="1583247368987" duration="215000" />
       <workItem from="1585094872875" duration="36000" />
       <workItem from="1615511649360" duration="102000" />
-      <workItem from="1615809492063" duration="506000" />
+      <workItem from="1615809492063" duration="877000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="74" key="SettingsEditor" timestamp="1615810355213">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state x="221" y="74" key="SettingsEditor/1440.23.1920.1057/0.23.1440.824@0.23.1440.824" timestamp="1615810355213" />
+    <state x="376" y="192" width="687" height="486" key="find.popup" timestamp="1615810358538">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state x="376" y="192" width="687" height="486" key="find.popup/1440.23.1920.1057/0.23.1440.824@0.23.1440.824" timestamp="1615810358538" />
+    <state x="385" y="171" width="670" height="676" key="search.everywhere.popup" timestamp="1615810363650">
+      <screen x="0" y="23" width="1440" height="824" />
+    </state>
+    <state x="385" y="171" width="670" height="676" key="search.everywhere.popup/1440.23.1920.1057/0.23.1440.824@0.23.1440.824" timestamp="1615810363650" />
   </component>
 </project>
