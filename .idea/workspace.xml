@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c99574a-43cd-434f-9118-37e8277e0a4e" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/themes/icarus/layout/ads/coupang_ad.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/interface.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/interface.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" afterDir="false" />
@@ -138,7 +137,7 @@
       <workItem from="1583247368987" duration="215000" />
       <workItem from="1585094872875" duration="36000" />
       <workItem from="1615511649360" duration="102000" />
-      <workItem from="1615809492063" duration="1392000" />
+      <workItem from="1615809492063" duration="1690000" />
     </task>
     <servers />
   </component>
