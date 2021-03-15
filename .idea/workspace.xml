@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5c99574a-43cd-434f-9118-37e8277e0a4e" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/themes/icarus/layout/ads/coupang_ad.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" afterDir="false" />
@@ -15,21 +17,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>https://tuhbm.github.io</find>
-      <find>bnr-work</find>
-      <find />
-      <find>#container</find>
-      <find>#footer</find>
-      <find />
-    </findStrings>
-    <replaceStrings>
-      <replace>..</replace>
-      <replace />
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +35,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -150,7 +138,7 @@
       <workItem from="1583247368987" duration="215000" />
       <workItem from="1585094872875" duration="36000" />
       <workItem from="1615511649360" duration="102000" />
-      <workItem from="1615809492063" duration="877000" />
+      <workItem from="1615809492063" duration="1392000" />
     </task>
     <servers />
   </component>
