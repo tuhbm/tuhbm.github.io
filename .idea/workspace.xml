@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c99574a-43cd-434f-9118-37e8277e0a4e" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/themes/icarus/layout/ads/coupang_ad.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/copy.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/copy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/terms/copy_img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/terms/copy_img1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" afterDir="false" />
@@ -145,7 +145,7 @@
       <workItem from="1615511649360" duration="102000" />
       <workItem from="1615809492063" duration="2316000" />
       <workItem from="1615898687617" duration="746000" />
-      <workItem from="1616025527414" duration="1270000" />
+      <workItem from="1616025527414" duration="1522000" />
     </task>
     <servers />
   </component>
