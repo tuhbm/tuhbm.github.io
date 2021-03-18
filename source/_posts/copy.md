@@ -17,7 +17,7 @@ thumbnail: https://tuhbm.github.io/images/bnr-etc.jpg
 제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.  
 오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.
 ***
-
+![복사 아이콘](https://tuhbm.github.io/images/terms/copoy_img1.png)
 ### 사전적정의
 **복사**
 원본을 베낌.  원본을 본뜨거나 그대로 옮겨 놓는것
