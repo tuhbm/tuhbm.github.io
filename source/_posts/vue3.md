@@ -211,14 +211,14 @@ new Vue({
 html에 랜더링 시켜보겠습니다.
 ```html
 <ul>
-        <!--<li v-for="character in characters">{{character}}</li> 원래는 이렇게 사용-->
-        <!-- <li v-for="x in characters">x</li> 이렇게 변수 명을 바꿔서도 사용가능-->
-        <li v-for="(x,index) in characters">{{index}}.{{x}}</li><!-- 이처럼 자동으로 인덱스도 계산이 가능 -->
-    </ul>
-    <ul>
-        <!--<li v-for="ninja in ninjas">{{ninja.name}} - {{ninja.age}}</li>-->
-        <li v-for="(ninja,index) in ninjas">{{index}}.{{ninja.name}} - {{ninja.age}}</li>
-    </ul>
+    <!--<li v-for="character in characters">{{character}}</li> 원래는 이렇게 사용-->
+    <!-- <li v-for="x in characters">x</li> 이렇게 변수 명을 바꿔서도 사용가능-->
+    <li v-for="(x,index) in characters">{{index}}.{{x}}</li><!-- 이처럼 자동으로 인덱스도 계산이 가능 -->
+</ul>
+<ul>
+    <!--<li v-for="ninja in ninjas">{{ninja.name}} - {{ninja.age}}</li>-->
+    <li v-for="(ninja,index) in ninjas">{{index}}.{{ninja.name}} - {{ninja.age}}</li>
+</ul>
 ```
 결과를 보도록 하죠.
 ![v-for](https://tuhbm.github.io/images/vue/3/img5.png)

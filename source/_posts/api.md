@@ -13,7 +13,6 @@ tags:
    - 소프트웨어 상호작용
 thumbnail: https://tuhbm.github.io/images/bnr-etc.jpg
 ---
-# API(Application Programming Interface)
 
 ## 용어정리
 
