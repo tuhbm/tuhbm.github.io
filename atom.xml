@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2021-03-16T12:50:13.119Z</updated>
+  <updated>2021-03-18T00:05:12.552Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -17,15 +17,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>얕은복사(shallow copy)&amp;깊은복사(deep copy)</title>
+    <link href="https://tuhbm.github.io/2021/03/17/copy/"/>
+    <id>https://tuhbm.github.io/2021/03/17/copy/</id>
+    <published>2021-03-17T12:45:01.000Z</published>
+    <updated>2021-03-18T00:05:12.552Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;사전적정의&quot;&gt;&lt;a href=&quot;#사전적정의&quot; class=&quot;headerlink&quot; title=&quot;사전적정의&quot;&gt;&lt;/a&gt;사전적정의&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;복사&lt;/strong&gt;&lt;br&gt;원본을 베낌.  원본을 본뜨거나 그대로 옮겨 놓는것&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="용어정리" scheme="https://tuhbm.github.io/categories/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/"/>
+    
+    
+      <category term="shallow copy" scheme="https://tuhbm.github.io/tags/shallow-copy/"/>
+    
+      <category term="deep copy" scheme="https://tuhbm.github.io/tags/deep-copy/"/>
+    
+      <category term="원시값" scheme="https://tuhbm.github.io/tags/%EC%9B%90%EC%8B%9C%EA%B0%92/"/>
+    
+      <category term="참조값" scheme="https://tuhbm.github.io/tags/%EC%B0%B8%EC%A1%B0%EA%B0%92/"/>
+    
+  </entry>
+  
+  <entry>
     <title>API(Application Programming Interface)</title>
     <link href="https://tuhbm.github.io/2021/03/16/api/"/>
     <id>https://tuhbm.github.io/2021/03/16/api/</id>
     <published>2021-03-16T12:45:01.000Z</published>
-    <updated>2021-03-16T12:50:13.119Z</updated>
+    <updated>2021-03-18T00:00:58.376Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;API-Application-Programming-Interface&quot;&gt;&lt;a href=&quot;#API-Application-Programming-Interface&quot; class=&quot;headerlink&quot; title=&quot;API(Application Programming Interface)&quot;&gt;&lt;/a&gt;API(Application Programming Interface)&lt;/h1&gt;&lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
+      &lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/terms/api_img1.png&quot; alt=&quot;api&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;사전적정의&quot;&gt;&lt;a href=&quot;#사전적정의&quot; class=&quot;headerlink&quot; title=&quot;사전적정의&quot;&gt;&lt;/a&gt;사전적정의&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;API&lt;/strong&gt;(Application Programming Interface  애플리케이션 프로그래밍 인터페이스, 응용 프로그램 프로그래밍 인터페이스)는 응용 프로그램에서 사용할 수 있도록, 운영 체제나 프로그래밍 언어가 제공하는 기능을 제어할 수 있게 만든 인터페이스를 뜻한다.&lt;/p&gt;
@@ -684,37 +712,6 @@
       <category term="js" scheme="https://tuhbm.github.io/tags/js/"/>
     
       <category term="date" scheme="https://tuhbm.github.io/tags/date/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>번역 - 자바스크립트 코드 30초 시리즈&lt;Array&gt; 1편</title>
-    <link href="https://tuhbm.github.io/2019/02/10/javascript30secArray1/"/>
-    <id>https://tuhbm.github.io/2019/02/10/javascript30secArray1/</id>
-    <published>2019-02-09T16:38:48.000Z</published>
-    <updated>2019-03-12T15:00:41.951Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Array-1편-코드-30초-시리즈&quot;&gt;&lt;a href=&quot;#Array-1편-코드-30초-시리즈&quot; class=&quot;headerlink&quot; title=&quot;[Array 1편]코드 30초 시리즈&quot;&gt;&lt;/a&gt;[Array 1편]코드 30초 시리즈&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/javascript/img-javascript30.png&quot; alt=&quot;Javascript 30 seconds&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;개요&quot;&gt;&lt;a href=&quot;#개요&quot; class=&quot;headerlink&quot; title=&quot;개요&quot;&gt;&lt;/a&gt;개요&lt;/h3&gt;&lt;p&gt;기능을 직접 한땀 한땀 개발하는 것은 개발자로써 매우 중요한 업무입니다.&lt;br&gt;하지만 모든 기능을 미리 만들어 놓고 util함수 처럼 사용한다고 하면 어떨까요?&lt;br&gt;코드 30초만 있다면 빠르게 필요한 기능을 찾아 개발 할 수 있습니다.&lt;br&gt;어떠한 라이브러리도 사용하지않고 오로지 ES6로만 작성되어 있습니다.&lt;br&gt;이제 필요한 코드 찾아 사용하세요.&lt;br&gt;코드 30초 시리즈는 &lt;a href=&quot;https://30secondsofcode.org/index&quot;&gt;https://30secondsofcode.org/index&lt;/a&gt;를 기반으로 번역 &amp;amp; 정리하였습니다.&lt;/p&gt;
-&lt;h2 id=&quot;Array편&quot;&gt;&lt;a href=&quot;#Array편&quot; class=&quot;headerlink&quot; title=&quot;Array편&quot;&gt;&lt;/a&gt;Array편&lt;/h2&gt;&lt;hr&gt;
-&lt;h3 id=&quot;all&quot;&gt;&lt;a href=&quot;#all&quot; class=&quot;headerlink&quot; title=&quot;all&quot;&gt;&lt;/a&gt;all&lt;/h3&gt;&lt;p&gt;제공된 조건부 함수가 컬렉션의 모든 요소에 대해 true를 반환하면 true를 반환하고 그렇지 않으면 false를 반환합니다.&lt;br&gt;&lt;code&gt;Array.prototype.every()&lt;/code&gt;를 사용하여 컬렉션의 모든 요소가 fn에 따라 &lt;code&gt;true&lt;/code&gt;를 반환하는지 테스트합니다. 부울을 기본값으로 사용하려면 두 번째 인수 fn을 생략하십시오.&lt;/p&gt;
-&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; all = &lt;span class=&quot;function&quot;&gt;(&lt;span class=&quot;params&quot;&gt;arr, fn = &lt;span class=&quot;built_in&quot;&gt;Boolean&lt;/span&gt;&lt;/span&gt;) =&amp;gt;&lt;/span&gt; arr.every(fn);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// EXAMPLES&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;all([&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;], &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;params&quot;&gt;x&lt;/span&gt; =&amp;gt;&lt;/span&gt; x &amp;gt; &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;); &lt;span class=&quot;comment&quot;&gt;// true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;all([&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;]); &lt;span class=&quot;comment&quot;&gt;// true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;hr&gt;
-    
-    </summary>
-    
-      <category term="Javascript" scheme="https://tuhbm.github.io/categories/Javascript/"/>
-    
-    
-      <category term="transform" scheme="https://tuhbm.github.io/tags/transform/"/>
-    
-      <category term="30sec" scheme="https://tuhbm.github.io/tags/30sec/"/>
-    
-      <category term="js" scheme="https://tuhbm.github.io/tags/js/"/>
-    
-      <category term="array" scheme="https://tuhbm.github.io/tags/array/"/>
     
   </entry>
   
