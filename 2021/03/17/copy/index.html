@@ -5,16 +5,16 @@
     
     <title>얕은복사(shallow copy)&amp;깊은복사(deep copy) | 보고 배우는 개발</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="용어정리이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.  사전적정의복사원본을 베낌.  원본을 본뜨거나 그대로 옮겨 놓는것">
+    <meta name="description" content="용어정리이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.   사전적정의복사원본을 베낌.  원본을 본뜨거나 그대로 옮겨 놓는것">
 <meta property="og:type" content="article">
 <meta property="og:title" content="얕은복사(shallow copy)&amp;깊은복사(deep copy)">
 <meta property="og:url" content="https://tuhbm.github.io/2021/03/17/copy/index.html">
 <meta property="og:site_name" content="보고 배우는 개발">
-<meta property="og:description" content="용어정리이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.  사전적정의복사원본을 베낌.  원본을 본뜨거나 그대로 옮겨 놓는것">
+<meta property="og:description" content="용어정리이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.   사전적정의복사원본을 베낌.  원본을 본뜨거나 그대로 옮겨 놓는것">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="https://tuhbm.github.io/images/bnr-etc.jpg">
 <meta property="article:published_time" content="2021-03-17T12:45:01.000Z">
-<meta property="article:modified_time" content="2021-03-18T00:05:12.552Z">
+<meta property="article:modified_time" content="2021-03-18T00:25:17.514Z">
 <meta property="article:author" content="Taekyun Kim">
 <meta property="article:tag" content="shallow copy">
 <meta property="article:tag" content="deep copy">
@@ -276,6 +276,7 @@ ga('send', 'pageview');
             
             <h2 id="용어정리"><a href="#용어정리" class="headerlink" title="용어정리"></a>용어정리</h2><p>이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.<br>제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.<br>오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.</p>
 <hr>
+<p><img src="https://tuhbm.github.io/images/terms/copoy_img1.png" alt="복사 아이콘"></p>
 <h3 id="사전적정의"><a href="#사전적정의" class="headerlink" title="사전적정의"></a>사전적정의</h3><p><strong>복사</strong><br>원본을 베낌.  원본을 본뜨거나 그대로 옮겨 놓는것</p>
 <span id="more"></span>
 <p>자바스크립트에서 복사( a = b)의 방법은 값에 타입에 따라 할당 또는 참조의 형태로 실행된다. 사실 어떠한 값을 변수에 지정시 변수명은 데이터의 메모리 공간에 대한 주소를 가르킨다. 이러한 부분은 데이터의 형태에 따라 복사시 실제 값을 할당하거나, 그 데이터의 값을 참조하는 형태로 복사된다.</p>
