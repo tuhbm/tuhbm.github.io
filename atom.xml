@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2021-03-18T00:26:22.259Z</updated>
+  <updated>2021-03-19T01:41:08.344Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>일급객체</title>
+    <link href="https://tuhbm.github.io/2021/03/19/first-class-citizen/"/>
+    <id>https://tuhbm.github.io/2021/03/19/first-class-citizen/</id>
+    <published>2021-03-19T01:34:00.451Z</published>
+    <updated>2021-03-19T01:41:08.344Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;일급객체&quot;&gt;&lt;a href=&quot;#일급객체&quot; class=&quot;headerlink&quot; title=&quot;일급객체&quot;&gt;&lt;/a&gt;일급객체&lt;/h2&gt;&lt;p&gt;다른 객체들에 일반적으로 적용 가능한 연산을 모두 지원하는 객체를 가리킨다. 보통 함수에 매개변수로 넘기기, 수정하기, 변수에 대입하기와 같은 연산을 지원할 때 일급 객체라고 한다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="용어정리" scheme="https://tuhbm.github.io/categories/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/"/>
+    
+    
+      <category term="함수" scheme="https://tuhbm.github.io/tags/%ED%95%A8%EC%88%98/"/>
+    
+      <category term="값" scheme="https://tuhbm.github.io/tags/%EA%B0%92/"/>
+    
+      <category term="function" scheme="https://tuhbm.github.io/tags/function/"/>
+    
+      <category term="value" scheme="https://tuhbm.github.io/tags/value/"/>
+    
+      <category term="parameter" scheme="https://tuhbm.github.io/tags/parameter/"/>
+    
+      <category term="first class citizen" scheme="https://tuhbm.github.io/tags/first-class-citizen/"/>
+    
+  </entry>
   
   <entry>
     <title>얕은복사(shallow copy)&amp;깊은복사(deep copy)</title>
@@ -64,9 +96,9 @@
       <category term="용어정리" scheme="https://tuhbm.github.io/categories/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/"/>
     
     
-      <category term="programming" scheme="https://tuhbm.github.io/tags/programming/"/>
-    
       <category term="application" scheme="https://tuhbm.github.io/tags/application/"/>
+    
+      <category term="programming" scheme="https://tuhbm.github.io/tags/programming/"/>
     
       <category term="Interface" scheme="https://tuhbm.github.io/tags/Interface/"/>
     
@@ -349,9 +381,9 @@
       <category term="book" scheme="https://tuhbm.github.io/categories/book/"/>
     
     
-      <category term="book-review" scheme="https://tuhbm.github.io/tags/book-review/"/>
-    
       <category term="알고리즘" scheme="https://tuhbm.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
+    
+      <category term="book-review" scheme="https://tuhbm.github.io/tags/book-review/"/>
     
       <category term="python" scheme="https://tuhbm.github.io/tags/python/"/>
     
@@ -418,8 +450,6 @@
       <category term="book" scheme="https://tuhbm.github.io/categories/book/"/>
     
     
-      <category term="book-review" scheme="https://tuhbm.github.io/tags/book-review/"/>
-    
       <category term="알고리즘" scheme="https://tuhbm.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
     
       <category term="욕망" scheme="https://tuhbm.github.io/tags/%EC%9A%95%EB%A7%9D/"/>
@@ -429,6 +459,8 @@
       <category term="her" scheme="https://tuhbm.github.io/tags/her/"/>
     
       <category term="우버" scheme="https://tuhbm.github.io/tags/%EC%9A%B0%EB%B2%84/"/>
+    
+      <category term="book-review" scheme="https://tuhbm.github.io/tags/book-review/"/>
     
       <category term="비트코인" scheme="https://tuhbm.github.io/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/"/>
     
@@ -682,37 +714,6 @@
       <category term="js" scheme="https://tuhbm.github.io/tags/js/"/>
     
       <category term="Utiltity" scheme="https://tuhbm.github.io/tags/Utiltity/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>번역 - 자바스크립트 코드 30초 시리즈&lt;Date&gt; 1편</title>
-    <link href="https://tuhbm.github.io/2019/02/17/javascript30secDate/"/>
-    <id>https://tuhbm.github.io/2019/02/17/javascript30secDate/</id>
-    <published>2019-02-16T16:38:48.000Z</published>
-    <updated>2019-03-12T15:00:41.951Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Date-코드-30초-시리즈&quot;&gt;&lt;a href=&quot;#Date-코드-30초-시리즈&quot; class=&quot;headerlink&quot; title=&quot;[Date]코드 30초 시리즈&quot;&gt;&lt;/a&gt;[Date]코드 30초 시리즈&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/javascript/img-javascript30.png&quot; alt=&quot;Javascript 30 seconds&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;개요&quot;&gt;&lt;a href=&quot;#개요&quot; class=&quot;headerlink&quot; title=&quot;개요&quot;&gt;&lt;/a&gt;개요&lt;/h3&gt;&lt;p&gt;기능을 직접 한땀 한땀 개발하는 것은 개발자로써 매우 중요한 업무입니다.&lt;br&gt;하지만 모든 기능을 미리 만들어 놓고 util함수 처럼 사용한다고 하면 어떨까요?&lt;br&gt;코드 30초만 있다면 빠르게 필요한 기능을 찾아 개발 할 수 있습니다.&lt;br&gt;어떠한 라이브러리도 사용하지않고 오로지 ES6로만 작성되어 있습니다.&lt;br&gt;이제 필요한 코드 찾아 사용하세요.&lt;br&gt;코드 30초 시리즈는 &lt;a href=&quot;https://30secondsofcode.org/index&quot;&gt;https://30secondsofcode.org/index&lt;/a&gt;를 기반으로 번역 &amp;amp; 정리하였습니다.&lt;/p&gt;
-&lt;h2 id=&quot;Date편&quot;&gt;&lt;a href=&quot;#Date편&quot; class=&quot;headerlink&quot; title=&quot;Date편&quot;&gt;&lt;/a&gt;Date편&lt;/h2&gt;&lt;hr&gt;
-&lt;p&gt;###dayOfYear&lt;br&gt;&lt;code&gt;Date&lt;/code&gt;객체에서 새해로부터 몇번째 날인지 가져옵니다.&lt;br&gt;&lt;code&gt;new Date()&lt;/code&gt;를 하고 &lt;code&gt;Date.prototype.getFullYear()&lt;/code&gt;를 사용하여, 해당 연도의 첫날의 &lt;code&gt;Date&lt;/code&gt;객체에서 인자로 받은 &lt;code&gt;date&lt;/code&gt;를 뺀 값을 milliseconds로 나누워 결과를 얻습니다.&lt;br&gt;&lt;code&gt;Math.floor()&lt;/code&gt;으로 결과를 정수로 적절하게 반올림하여 사용하세요.&lt;/p&gt;
-&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; dayOfYear = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;params&quot;&gt;date&lt;/span&gt; =&amp;gt;&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Math&lt;/span&gt;.floor((date - &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;(date.getFullYear(), &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)) / &lt;span class=&quot;number&quot;&gt;1000&lt;/span&gt; / &lt;span class=&quot;number&quot;&gt;60&lt;/span&gt; / &lt;span class=&quot;number&quot;&gt;60&lt;/span&gt; / &lt;span class=&quot;number&quot;&gt;24&lt;/span&gt;); &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// EXAMPLES&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;dayOfYear(&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;()); &lt;span class=&quot;comment&quot;&gt;// 272&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;hr&gt;
-    
-    </summary>
-    
-      <category term="Javascript" scheme="https://tuhbm.github.io/categories/Javascript/"/>
-    
-    
-      <category term="transform" scheme="https://tuhbm.github.io/tags/transform/"/>
-    
-      <category term="30sec" scheme="https://tuhbm.github.io/tags/30sec/"/>
-    
-      <category term="js" scheme="https://tuhbm.github.io/tags/js/"/>
-    
-      <category term="date" scheme="https://tuhbm.github.io/tags/date/"/>
     
   </entry>
   
