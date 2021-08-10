@@ -29,14 +29,14 @@ ellipsis 사용시 CSS 지정 글꼴(Font)과 브라우저에 따라 표현되�
  
 **셋,**
 적용시에는 아래 두 속성도 함께 넣어줍니다.
-    
-    div#title{
-        width:200px;
-        overflow:hidden; 
-        white-space:nowrap; 
-        text-overflow:ellipsis;  
-    }
- 
+```css    
+div#title{
+    width:200px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow:ellipsis;  
+}
+ ```
 **overflow:hidden;**
 고정폭을 넘어가는 text를 숨기고
 

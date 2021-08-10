@@ -1,19 +1,20 @@
 ---
 title: 혼자 공부하는 C언어
-date: 2019-08-07 22:10:20
+tags:
+  - C
+  - programming
+  - major
+  - personal
+  - book-review
+  - 북리뷰
+  - 프로그래머
+  - 비전공자
 categories:
   - book
-tags:
-    - C
-    - programming
-    - major
-    - personal
-    - book-review
-    - 북리뷰
-    - 프로그래머
-    - 비전공자
-thumbnail: https://tuhbm.github.io/images/bnr-books.jpg
+thumbnail: 'https://tuhbm.github.io/images/bnr-books.jpg'
+date: 2019-08-07 22:10:20
 ---
+
 이 카테고리는 책을 읽고, 느낀점에 대해 리뷰를 남기는 카테고리입니다.
 *****
 

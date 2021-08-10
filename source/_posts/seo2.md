@@ -91,14 +91,14 @@ http://www.exemple.com/game/kr/search/list/TAG/view/2012431?listType=2&display_o
 canonical역시 `head태그`에 적용하는데 위 noindex와 는 다르게 `link태그`를 사용합니다.
 
 ```html
-< link rel="canonical" href="{대표URL 설정}" />
+<link rel="canonical" href="{대표URL 설정}" />
 ```
 이러한 방법으로 사용합니다.
 
 위 url에 적용을 해본다면
 
 ```html
-< link rel="canonical" href="http://www.exemple.com/game/kr/main/view/2012431" />
+<link rel="canonical" href="http://www.exemple.com/game/kr/main/view/2012431" />
 ```
 
 이렇게 적용한다면, 대표 URL을 설정하므로써 컨텐츠의 검색랭킹을 올릴 수 있습니다.

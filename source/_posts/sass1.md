@@ -70,7 +70,7 @@ CSS는 웹의 스타일을 담당하는 웹에서 필수는 아니지만, 보이
 ### .SASS와 .SCSS의 차이
 같은 사스라도 말씀드린 것처럼 .sass와 .scss가 있습니다.
 차이를 알아보도록 하겠습니다.
-````sass
+````css
 $normalFont: 14px
 header
     font-size: $normalFont
@@ -91,7 +91,8 @@ header
 지금은 짧은 내용이지만, 내용이 길어지면 더욱 헷갈릴듯 합니다.
 
 그렇게에 사스는 3.0버전부터는 문법이 .scss로 통일되었습니다.
-````scss
+
+````css
 $normalFont: 14px;
 header {
   font-size: $normalFont;

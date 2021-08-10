@@ -45,19 +45,20 @@ OOCCS를 사용하여 코드를 재사용하면 코드의 중복이 제거 되�
 [Nicole Sullivan의 2010년 포스팅 글](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/)에서는 미디어 객체의 OOCSS를 적용한 장점에 대해 설명했습니다.
 이글의 주요 내용은 HTML과 CSS 모두를 코드블록 형태로 패턴화하고 추상화하는 내용입니다. 다음은 Nicole의 미디어 객체의 예제입니다.
 
-```text
+```html
 <div class="media">
   <a href="#" class="img">
     <img src="" alt="" />
   </a> 
   <div class="bd"></div>
 </div>
-
+<style>
 .media {...} 
 .media .img {...} 
 .media .img img {...} 
 .media .imgExt {...} 
 .bd {...}
+</style>
 ```
 보시면 아시겠지만, 컴포넌트를 캡슐화하여 CSS의 다른곳에서도 스타일을 적절히 사용합니다.
 밀단 미디어 컴포넌트를 배치하면 모든 코드는 일관적으로 동작해야합니다.
@@ -71,13 +72,14 @@ BEM은 Yandex가 만든 OOCSS 원칙을 구체적으로 적용한 것입니다.
 이러한 버전은은 이미 대부분의 요구를 충족합니다.
 
 이전 코드의 예제에 BEM 네임 스페이스를 적용해보겠습니다.
-```text
+```html
 <div class="media media--inverted">
   <a href="#" class="media__image-wrapper">
     <img class="media__image" src="" alt="" />
   </a>
   <div class="media__content"></div>
 </div>
+<style>
 .media {...}
 .media--inverter {...}
 .media__image-wrapper {...}
@@ -90,6 +92,7 @@ BEM은 Yandex가 만든 OOCSS 원칙을 구체적으로 적용한 것입니다.
   &__image {...} 
   &__content {...} 
 }
+</style>
 ```
 BEM에서 한가지 중요한 점은 특이성 제어입니다. 위에서 언급한 명명 규칙을 사용하여 우리는 `.class`단일 선택자 `[0 0 1 0]`로 우리의 특이성을 자동으로 무너트립니다.
 계단식 특이성이 너무 복잡하다는 사실을 알게 되면, 아래와 같은 사항을 명심하세요.
@@ -124,7 +127,7 @@ SMACSS 두번째 수정버전은 구성 요소와 React Craze가 출시되기 �
 
 ### CSS 컴포넌트 모듈성 이론
 
-```text
+```css
 .block 
   .block__element 
   .block__slot

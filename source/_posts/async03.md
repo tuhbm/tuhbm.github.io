@@ -74,7 +74,7 @@ const promiseChain = readFile('example.txt')
 아래는 항상 피해야 하는 코드의 예입니다.
 
 ```javascript
-getUserData () 
+getUserData ()
   .then (info => { 
     authenticate (info) 
     .then (authResult => { 
