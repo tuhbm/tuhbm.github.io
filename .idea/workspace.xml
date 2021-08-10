@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c99574a-43cd-434f-9118-37e8277e0a4e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/source/images/column/importanceOfFirstMoney.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/icarus/layout/ads/coupang_ad.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_drafts/personalClanguage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/cssArchitecture.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/cssArchitecture.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/oneLine-ellipsis.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/oneLine-ellipsis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/sass1.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/sass1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/seo2.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/seo2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/footer.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/icarus/layout/common/head.ejs" afterDir="false" />
@@ -50,13 +46,14 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/_drafts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/images/column" />
       <recent name="$PROJECT_DIR$/source/images/terms" />
       <recent name="$PROJECT_DIR$/source/_drafts" />
       <recent name="$PROJECT_DIR$/themes/icarus/layout/ads" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source/_drafts" />
     </key>
   </component>
   <component name="RunManager">
@@ -153,7 +150,7 @@
       <workItem from="1615898687617" duration="746000" />
       <workItem from="1616025527414" duration="2027000" />
       <workItem from="1616117591016" duration="650000" />
-      <workItem from="1628599248482" duration="1187000" />
+      <workItem from="1628599248482" duration="2613000" />
     </task>
     <servers />
   </component>
