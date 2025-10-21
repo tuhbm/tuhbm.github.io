@@ -25,7 +25,7 @@
   },
   "scripts": {
     "deploy": "npm run gh-pages && npm run master",
-    "gh-pages": "git add . && git commit -m \"update on `date +\"%Y/%m/%d %H:%M:%S\"`\" && git push -f origin gh-pages; exit 0",
+    "gh-pages": "git add . && git commit -m \"update\" && git push -f origin gh-pages; exit 0",
     "master": "hexo clean && hexo deploy; exit 0"
   }
 }
