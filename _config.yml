@@ -104,4 +104,3 @@ deploy:
   type: git
   repo: https://github.com/tuhbm/tuhbm.github.io
   branch: gh-pages
-
