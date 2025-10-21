@@ -1,7 +1,8 @@
 ---
 title: let 과 const
 date: 2018-03-05 22:32:46
-categories: 
+categories:  
+- 공부
 - Javascript
 
 tags:

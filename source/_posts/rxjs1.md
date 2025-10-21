@@ -1,6 +1,7 @@
 ---
 title: Rxjs를 시작하기전에...
-categories: 
+categories:  
+- 공부
 - Javascript
 - RxJS
 tags:

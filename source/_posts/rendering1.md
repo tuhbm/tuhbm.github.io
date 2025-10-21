@@ -1,7 +1,8 @@
 ---
 title: rendering 1편
 date: 2017-08-10 18:51:01
-categories:
+categories: 
+- 공부
 - HTML
 tags:
 - 랜더링

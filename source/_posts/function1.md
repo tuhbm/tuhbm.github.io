@@ -1,7 +1,8 @@
 ---
 title: 자바스트립트 함수 정리 1편
 date: 2017-08-17 21:50:26
-categories: 
+categories:  
+- 공부
 - Javascript
 tags:
 - function

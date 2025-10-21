@@ -1,7 +1,8 @@
 ---
 title: 자주쓰는 CLI명령어
 date: 2017-07-17 14:55:23
-categories: 
+categories:  
+- 공부
 - ETC
 
 tags:

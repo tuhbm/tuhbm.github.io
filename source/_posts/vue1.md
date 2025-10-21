@@ -1,6 +1,7 @@
 ---
 title: vue 알아보기 1편
-categories: 
+categories:  
+- 공부
 - Javascript
 - Vue
 tags:

@@ -2,7 +2,8 @@
 title: doctype이란 무엇인가?
 date: 2017-08-21 17:03:11
 
-categories:
+categories: 
+- 공부
 - HTML
 tags:
 - DTD

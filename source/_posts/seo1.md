@@ -1,7 +1,8 @@
 ---
 title: SEO(Search Engine Optimization) 검색 엔진 최적화 1편
 date: 2018-09-29 18:32:59
-categories:
+categories: 
+- 공부
 - SEO
 tags:
 - html

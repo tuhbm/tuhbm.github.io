@@ -1,7 +1,8 @@
 ---
 title: rendering 2편
 date: 2017-08-14 16:00:37
-categories:
+categories: 
+- 공부
 - HTML
 
 tags:
