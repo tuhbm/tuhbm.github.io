@@ -19,7 +19,7 @@ permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: docs
+public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -103,4 +103,5 @@ feed:
 deploy:
   type: git
   repo: https://github.com/tuhbm/tuhbm.github.io
-  branch: gh-pages
+  branch: master
+  message: "build: by hexo"
