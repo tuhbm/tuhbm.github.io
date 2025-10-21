@@ -1,0 +1,40 @@
+name: Build & Deploy Hexo (master root)
+
+on:
+  push:
+    branches: [ gh-pages ]   # 소스가 gh-pages에 커밋될 때마다 동작
+
+permissions:
+  contents: write            # GITHUB_TOKEN으로 커밋/푸시 허용
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source (gh-pages)
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build Hexo
+        run: |
+          npx hexo clean
+          npx hexo generate     # ./public 생성
+
+      - name: Deploy to master (root)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: master
+          # 아래 옵션은 필요시 사용
+          # force_orphan: false
+          # commit_message: "build: ${{ github.sha }}"
