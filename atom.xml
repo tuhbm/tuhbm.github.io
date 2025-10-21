@@ -53,37 +53,6 @@
   </entry>
   
   <entry>
-    <title>blog로 부업하기</title>
-    <link href="https://tuhbm.github.io/2025/10/21/blog_restart/"/>
-    <id>https://tuhbm.github.io/2025/10/21/blog_restart/</id>
-    <published>2025-10-21T12:37:30.000Z</published>
-    <updated>2025-10-21T13:06:03.359Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Typescript-접근제한자&quot;&gt;&lt;a href=&quot;#Typescript-접근제한자&quot; class=&quot;headerlink&quot; title=&quot;[Typescript] - 접근제한자&quot;&gt;&lt;/a&gt;[Typescript] - 접근제한자&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/typescript/accessModifier.png&quot; alt=&quot;접근제한자&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;개요&quot;&gt;&lt;a href=&quot;#개요&quot; class=&quot;headerlink&quot; title=&quot;개요&quot;&gt;&lt;/a&gt;개요&lt;/h3&gt;&lt;p&gt;public, private, protected의 접근 제한자는 &lt;code&gt;Typescript&lt;/code&gt; 공부를 진행하면서, &lt;code&gt;Java&lt;/code&gt;에서 사용하던것은 알겠는데 정확히 무엇인지 인지하지 못해 정리를 하게되었습니다. 많이 보았지만 각각의 제한자는 어떤 범위까지 제한하는지 정리해보겠습니다.&lt;/p&gt;
-&lt;p&gt;우선 &lt;code&gt;ES6&lt;/code&gt;에서부터 &lt;code&gt;class&lt;/code&gt;를 통한 객체화가 가능해졌습니다. 그렇기에 &lt;code&gt;상속&lt;/code&gt;도 가능해졌습니다.&lt;/p&gt;
-&lt;p&gt;하지만 &lt;code&gt;Javascript&lt;/code&gt;의 상위 개념인 &lt;code&gt;Typescript&lt;/code&gt;는 기존 Java와 같이 interface등을 통해 더욱 객체지향프로그래밍에 가까워 졌습니다. 또한 &lt;code&gt;public&lt;/code&gt;,&lt;code&gt; private&lt;/code&gt;,&lt;code&gt; protected&lt;/code&gt;등 접근 제한자도 사용이 가능합니다.&lt;/p&gt;
-&lt;h2 id=&quot;Public&quot;&gt;&lt;a href=&quot;#Public&quot; class=&quot;headerlink&quot; title=&quot;Public&quot;&gt;&lt;/a&gt;Public&lt;/h2&gt;&lt;p&gt;&lt;em&gt;public&lt;/em&gt;은 영어단어 뜻은 &lt;code&gt;공공의&lt;/code&gt;, &lt;code&gt;대중의&lt;/code&gt;입니다. 단어처럼 접근 제한이 따로 없습니다. &lt;code&gt;상속도 가능&lt;/code&gt;하고,&lt;code&gt; 외부 객체를 통한 접근도 가능&lt;/code&gt;합니다.&lt;/p&gt;
-&lt;p&gt;예제를 보겠습니다.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="ETC" scheme="https://tuhbm.github.io/categories/ETC/"/>
-    
-    
-      <category term="access" scheme="https://tuhbm.github.io/tags/access/"/>
-    
-      <category term="public" scheme="https://tuhbm.github.io/tags/public/"/>
-    
-      <category term="private" scheme="https://tuhbm.github.io/tags/private/"/>
-    
-      <category term="protected" scheme="https://tuhbm.github.io/tags/protected/"/>
-    
-  </entry>
-  
-  <entry>
     <title>일급객체</title>
     <link href="https://tuhbm.github.io/2021/10/21/first-class-citizen/"/>
     <id>https://tuhbm.github.io/2021/10/21/first-class-citizen/</id>
@@ -740,6 +709,45 @@
       <category term="domContentLoadedEvent" scheme="https://tuhbm.github.io/tags/domContentLoadedEvent/"/>
     
       <category term="loadEvent" scheme="https://tuhbm.github.io/tags/loadEvent/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Axios를 사용하여 HTTP요청하기</title>
+    <link href="https://tuhbm.github.io/2019/03/21/axios/"/>
+    <id>https://tuhbm.github.io/2019/03/21/axios/</id>
+    <published>2019-03-21T10:02:50.000Z</published>
+    <updated>2025-10-21T13:06:03.359Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/javascript/img_axios.png&quot; alt=&quot;Axios&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Axios&quot;&gt;&lt;a href=&quot;#Axios&quot; class=&quot;headerlink&quot; title=&quot;Axios&quot;&gt;&lt;/a&gt;Axios&lt;/h1&gt;&lt;h2 id=&quot;소개&quot;&gt;&lt;a href=&quot;#소개&quot; class=&quot;headerlink&quot; title=&quot;소개&quot;&gt;&lt;/a&gt;소개&lt;/h2&gt;&lt;p&gt;Axios는 HTTP통신을 하는데 매우 인기있는 Javascript라이브러리입니다. Axios는 브라우저와 &lt;a href=&quot;https://flaviocopes.com/nodejs/&quot;&gt;Node.js&lt;/a&gt; 플랫폼에서 모두 사용할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;또한 IE8이상을 포함한 모든 최신 브라우저를 지원합니다.&lt;/p&gt;
+&lt;p&gt;Axios는 Promise를 기반으로하여 async/await문법을 사용하여 &lt;a href=&quot;https://flaviocopes.com/xhr/&quot;&gt;XHR&lt;/a&gt;요청을 매우 쉽게 할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://flaviocopes.com/fetch-api/&quot;&gt;Fetch API&lt;/a&gt;보다 Axios가 더 좋은 장점은 아래와 같습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;구형브라우저를 지원합니다.(Fetch API의 경우는 &lt;a href=&quot;http://hacks.mozilla.or.kr/2014/12/an-easier-way-of-using-polyfills/&quot;&gt;폴리필&lt;/a&gt;이 필요합니다.)&lt;/li&gt;
+&lt;li&gt;요청을 중단시킬 수 있습니다.&lt;/li&gt;
+&lt;li&gt;응답 시간 초과를 설정하는 방법이 있습니다.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://laravel.kr/docs/5.5/csrf&quot;&gt;CSRF&lt;/a&gt; 보호 기능이 내장되어있다.&lt;/li&gt;
+&lt;li&gt;JSON 데이터 자동변환&lt;/li&gt;
+&lt;li&gt;Node.js에서의 사용
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="Javascript" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/Javascript/"/>
+    
+    
+      <category term="http" scheme="https://tuhbm.github.io/tags/http/"/>
+    
+      <category term="request" scheme="https://tuhbm.github.io/tags/request/"/>
+    
+      <category term="get" scheme="https://tuhbm.github.io/tags/get/"/>
+    
+      <category term="post" scheme="https://tuhbm.github.io/tags/post/"/>
     
   </entry>
   
