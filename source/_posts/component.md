@@ -1,10 +1,10 @@
 ---
 title: Component
 tags:
-  - 공부
   - Component
   - 컴포넌트
-categories:
+categories: 
+  - 공부
   - 용어정리
 date: 2017-09-06 18:04:01
 thumbnail: https://tuhbm.github.io/images/bnr-word.jpg

@@ -1,7 +1,8 @@
 ---
 title: framework 와 library
 date: 2017-07-17 13:55:55
-categories: 
+categories:  
+- 공부
 - 용어정리
 tags:
 - framework
