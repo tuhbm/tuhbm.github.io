@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>코드머니 플레이북</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://tuhbm.github.io/"/>
+  <updated>2025-10-21T13:53:16.123Z</updated>
+  <id>https://tuhbm.github.io/</id>
+  
+  <author>
+    <name>Taekyun Kim</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2025년 10월, 진짜 잘하는 AI는 누구? GPT-5·Gemini 2.5·Claude 3.7·Grok 4·Cursor 실사용 비교</title>
+    <link href="https://tuhbm.github.io/2025/10/21/aiComparison/"/>
+    <id>https://tuhbm.github.io/2025/10/21/aiComparison/</id>
+    <published>2025-10-21T13:50:00.000Z</published>
+    <updated>2025-10-21T13:53:16.123Z</updated>
+    
+    <summary type="html">
+    
+      업무에서 바로 도움이 되는 AI 선택 가이드. 모델(두뇌)과 도구(손발)를 함께 비교하여 코딩·리팩터링·장문 요약·연구형 문제·프로젝트 자동화에 맞는 조합을 정리했습니다.
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="AI" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/AI/"/>
+    
+    
+      <category term="GPT-5" scheme="https://tuhbm.github.io/tags/GPT-5/"/>
+    
+      <category term="Gemini 2.5" scheme="https://tuhbm.github.io/tags/Gemini-2-5/"/>
+    
+      <category term="Claude 3.7" scheme="https://tuhbm.github.io/tags/Claude-3-7/"/>
+    
+      <category term="Grok 4" scheme="https://tuhbm.github.io/tags/Grok-4/"/>
+    
+      <category term="Cursor" scheme="https://tuhbm.github.io/tags/Cursor/"/>
+    
+      <category term="코드자동화" scheme="https://tuhbm.github.io/tags/%EC%BD%94%EB%93%9C%EC%9E%90%EB%8F%99%ED%99%94/"/>
+    
+      <category term="긴문맥" scheme="https://tuhbm.github.io/tags/%EA%B8%B4%EB%AC%B8%EB%A7%A5/"/>
+    
+      <category term="에이전트" scheme="https://tuhbm.github.io/tags/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>blog로 부업하기</title>
+    <link href="https://tuhbm.github.io/2025/10/21/blog_restart/"/>
+    <id>https://tuhbm.github.io/2025/10/21/blog_restart/</id>
+    <published>2025-10-21T12:37:30.000Z</published>
+    <updated>2025-10-21T13:06:03.359Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Typescript-접근제한자&quot;&gt;&lt;a href=&quot;#Typescript-접근제한자&quot; class=&quot;headerlink&quot; title=&quot;[Typescript] - 접근제한자&quot;&gt;&lt;/a&gt;[Typescript] - 접근제한자&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/typescript/accessModifier.png&quot; alt=&quot;접근제한자&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;개요&quot;&gt;&lt;a href=&quot;#개요&quot; class=&quot;headerlink&quot; title=&quot;개요&quot;&gt;&lt;/a&gt;개요&lt;/h3&gt;&lt;p&gt;public, private, protected의 접근 제한자는 &lt;code&gt;Typescript&lt;/code&gt; 공부를 진행하면서, &lt;code&gt;Java&lt;/code&gt;에서 사용하던것은 알겠는데 정확히 무엇인지 인지하지 못해 정리를 하게되었습니다. 많이 보았지만 각각의 제한자는 어떤 범위까지 제한하는지 정리해보겠습니다.&lt;/p&gt;
+&lt;p&gt;우선 &lt;code&gt;ES6&lt;/code&gt;에서부터 &lt;code&gt;class&lt;/code&gt;를 통한 객체화가 가능해졌습니다. 그렇기에 &lt;code&gt;상속&lt;/code&gt;도 가능해졌습니다.&lt;/p&gt;
+&lt;p&gt;하지만 &lt;code&gt;Javascript&lt;/code&gt;의 상위 개념인 &lt;code&gt;Typescript&lt;/code&gt;는 기존 Java와 같이 interface등을 통해 더욱 객체지향프로그래밍에 가까워 졌습니다. 또한 &lt;code&gt;public&lt;/code&gt;,&lt;code&gt; private&lt;/code&gt;,&lt;code&gt; protected&lt;/code&gt;등 접근 제한자도 사용이 가능합니다.&lt;/p&gt;
+&lt;h2 id=&quot;Public&quot;&gt;&lt;a href=&quot;#Public&quot; class=&quot;headerlink&quot; title=&quot;Public&quot;&gt;&lt;/a&gt;Public&lt;/h2&gt;&lt;p&gt;&lt;em&gt;public&lt;/em&gt;은 영어단어 뜻은 &lt;code&gt;공공의&lt;/code&gt;, &lt;code&gt;대중의&lt;/code&gt;입니다. 단어처럼 접근 제한이 따로 없습니다. &lt;code&gt;상속도 가능&lt;/code&gt;하고,&lt;code&gt; 외부 객체를 통한 접근도 가능&lt;/code&gt;합니다.&lt;/p&gt;
+&lt;p&gt;예제를 보겠습니다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="ETC" scheme="https://tuhbm.github.io/categories/ETC/"/>
+    
+    
+      <category term="access" scheme="https://tuhbm.github.io/tags/access/"/>
+    
+      <category term="public" scheme="https://tuhbm.github.io/tags/public/"/>
+    
+      <category term="private" scheme="https://tuhbm.github.io/tags/private/"/>
+    
+      <category term="protected" scheme="https://tuhbm.github.io/tags/protected/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>일급객체</title>
+    <link href="https://tuhbm.github.io/2021/10/21/first-class-citizen/"/>
+    <id>https://tuhbm.github.io/2021/10/21/first-class-citizen/</id>
+    <published>2021-10-21T12:37:30.000Z</published>
+    <updated>2025-10-21T13:06:03.360Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;일급객체&quot;&gt;&lt;a href=&quot;#일급객체&quot; class=&quot;headerlink&quot; title=&quot;일급객체&quot;&gt;&lt;/a&gt;일급객체&lt;/h2&gt;&lt;p&gt;다른 객체들에 일반적으로 적용 가능한 연산을 모두 지원하는 객체를 가리킨다. 보통 함수에 매개변수로 넘기기, 수정하기, 변수에 대입하기와 같은 연산을 지원할 때 일급 객체라고 한다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="용어정리" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/"/>
+    
+    
+      <category term="함수" scheme="https://tuhbm.github.io/tags/%ED%95%A8%EC%88%98/"/>
+    
+      <category term="값" scheme="https://tuhbm.github.io/tags/%EA%B0%92/"/>
+    
+      <category term="function" scheme="https://tuhbm.github.io/tags/function/"/>
+    
+      <category term="value" scheme="https://tuhbm.github.io/tags/value/"/>
+    
+      <category term="parameter" scheme="https://tuhbm.github.io/tags/parameter/"/>
+    
+      <category term="first class citizen" scheme="https://tuhbm.github.io/tags/first-class-citizen/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>자료정렬</title>
+    <link href="https://tuhbm.github.io/2021/09/21/arrayAlign/"/>
+    <id>https://tuhbm.github.io/2021/09/21/arrayAlign/</id>
+    <published>2021-09-21T12:37:30.000Z</published>
+    <updated>2025-10-21T13:06:03.359Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/terms/align1.jpg&quot; alt=&quot;정렬&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;정렬&quot;&gt;&lt;a href=&quot;#정렬&quot; class=&quot;headerlink&quot; title=&quot;정렬&quot;&gt;&lt;/a&gt;정렬&lt;/h1&gt;&lt;p&gt;지난시간에 &lt;a href=&quot;https://tuhbm.github.io/2018/08/20/algorithm/&quot;&gt;알고리즘&lt;/a&gt;에 대해 알아보았습니다.&lt;br&gt;알고리즘을 요약하자면, &lt;em&gt;어떠한 명령어들을 처리하는 과정&lt;/em&gt;이라고 하였습니다.&lt;/p&gt;
+&lt;p&gt;이러한 과정을 함에 있어서 &lt;strong&gt;효율적이고 좋은 성능&lt;/strong&gt;을 통해 개발을 하는 것이 좋은 알고리즘이라고 했었습니다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="용어정리" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/"/>
+    
+    
+      <category term="효율성" scheme="https://tuhbm.github.io/tags/%ED%9A%A8%EC%9C%A8%EC%84%B1/"/>
+    
+      <category term="algorithm" scheme="https://tuhbm.github.io/tags/algorithm/"/>
+    
+      <category term="알고리즘" scheme="https://tuhbm.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
+    
+      <category term="개발" scheme="https://tuhbm.github.io/tags/%EA%B0%9C%EB%B0%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>첫 연봉의 중요성</title>
+    <link href="https://tuhbm.github.io/2021/08/11/importanceOfFirstAnnualSalary/"/>
+    <id>https://tuhbm.github.io/2021/08/11/importanceOfFirstAnnualSalary/</id>
+    <published>2021-08-11T13:35:06.000Z</published>
+    <updated>2025-10-21T13:06:03.361Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;‘시작이 반’&lt;/em&gt; 이라는 말이 있다. 이처럼 &lt;em&gt;첫연봉&lt;/em&gt;은 사회로 나온 처음으로 매겨진 나의 가치이다.&lt;br&gt;모든 직업과 직군에 따라 하는 업무와 연봉과 사회적 지휘 그리고 준비과정은 각각 다르다.&lt;br&gt;그리고 본인이 하고 있는 직군을 그만두고 새로운 일을 시작 하지 않는 이상 본인이 준비했던 직군의 일을 계속 할 것이다.&lt;br&gt;나는 현재 개발자로써 직장생활에서의 느낀 점을 적어보려한다. 물론 각 직군마다 내가 말한 점과는 다를 수 있다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Column" scheme="https://tuhbm.github.io/categories/Column/"/>
+    
+    
+      <category term="초년생" scheme="https://tuhbm.github.io/tags/%EC%B4%88%EB%85%84%EC%83%9D/"/>
+    
+      <category term="연봉" scheme="https://tuhbm.github.io/tags/%EC%97%B0%EB%B4%89/"/>
+    
+      <category term="월급" scheme="https://tuhbm.github.io/tags/%EC%9B%94%EA%B8%89/"/>
+    
+      <category term="격차" scheme="https://tuhbm.github.io/tags/%EA%B2%A9%EC%B0%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>얕은복사(shallow copy)&amp;깊은복사(deep copy)</title>
+    <link href="https://tuhbm.github.io/2021/03/17/copy/"/>
+    <id>https://tuhbm.github.io/2021/03/17/copy/</id>
+    <published>2021-03-17T12:45:01.000Z</published>
+    <updated>2025-10-21T13:06:03.360Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/terms/copy_img1.png&quot; alt=&quot;복사 아이콘&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;사전적정의&quot;&gt;&lt;a href=&quot;#사전적정의&quot; class=&quot;headerlink&quot; title=&quot;사전적정의&quot;&gt;&lt;/a&gt;사전적정의&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;복사&lt;/strong&gt; - 원본을 베낌.  원본을 본뜨거나 그대로 옮겨 놓는것&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="용어정리" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/"/>
+    
+    
+      <category term="shallow copy" scheme="https://tuhbm.github.io/tags/shallow-copy/"/>
+    
+      <category term="deep copy" scheme="https://tuhbm.github.io/tags/deep-copy/"/>
+    
+      <category term="원시값" scheme="https://tuhbm.github.io/tags/%EC%9B%90%EC%8B%9C%EA%B0%92/"/>
+    
+      <category term="참조값" scheme="https://tuhbm.github.io/tags/%EC%B0%B8%EC%A1%B0%EA%B0%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>API(Application Programming Interface)</title>
+    <link href="https://tuhbm.github.io/2021/03/16/api/"/>
+    <id>https://tuhbm.github.io/2021/03/16/api/</id>
+    <published>2021-03-16T12:45:01.000Z</published>
+    <updated>2025-10-21T13:06:03.359Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/terms/api_img1.png&quot; alt=&quot;api&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;사전적정의&quot;&gt;&lt;a href=&quot;#사전적정의&quot; class=&quot;headerlink&quot; title=&quot;사전적정의&quot;&gt;&lt;/a&gt;사전적정의&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;API&lt;/strong&gt;(Application Programming Interface  애플리케이션 프로그래밍 인터페이스, 응용 프로그램 프로그래밍 인터페이스)는 응용 프로그램에서 사용할 수 있도록, 운영 체제나 프로그래밍 언어가 제공하는 기능을 제어할 수 있게 만든 인터페이스를 뜻한다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="용어정리" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/"/>
+    
+    
+      <category term="application" scheme="https://tuhbm.github.io/tags/application/"/>
+    
+      <category term="programming" scheme="https://tuhbm.github.io/tags/programming/"/>
+    
+      <category term="Interface" scheme="https://tuhbm.github.io/tags/Interface/"/>
+    
+      <category term="애플리케이션" scheme="https://tuhbm.github.io/tags/%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98/"/>
+    
+      <category term="프로그래밍" scheme="https://tuhbm.github.io/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/"/>
+    
+      <category term="인터페이스" scheme="https://tuhbm.github.io/tags/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/"/>
+    
+      <category term="소프트웨어 상호작용" scheme="https://tuhbm.github.io/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%83%81%ED%98%B8%EC%9E%91%EC%9A%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>인터페이스(interface)</title>
+    <link href="https://tuhbm.github.io/2021/03/15/interface/"/>
+    <id>https://tuhbm.github.io/2021/03/15/interface/</id>
+    <published>2021-03-15T11:58:59.000Z</published>
+    <updated>2025-10-21T13:06:03.361Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/terms/interface_img1.png&quot; alt=&quot;인터페이스&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;사전적정의&quot;&gt;&lt;a href=&quot;#사전적정의&quot; class=&quot;headerlink&quot; title=&quot;사전적정의&quot;&gt;&lt;/a&gt;사전적정의&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;전기 신호의 변환(變換)으로 중앙 처리 장치와 그 주변 장치를 서로 잇는 부분. 또는, 그 접속 장치.&lt;/li&gt;
+&lt;li&gt;키보드나 디스플레이 등처럼 사람과 컴퓨터를 연결하는 장치.&lt;/li&gt;
+&lt;li&gt;소프트웨어끼리 접촉·공통되는 부분. 순화어는 `접속’.&lt;/li&gt;
+&lt;li&gt;사물과 사물 사이 또는 사물과 인간 사이의 경계에서, 상호 간의 소통을 위해 만들어진 물리적 매개체
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="용어정리" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/"/>
+    
+    
+      <category term="interface" scheme="https://tuhbm.github.io/tags/interface/"/>
+    
+      <category term="매개체" scheme="https://tuhbm.github.io/tags/%EB%A7%A4%EA%B0%9C%EC%B2%B4/"/>
+    
+      <category term="연결고리" scheme="https://tuhbm.github.io/tags/%EC%97%B0%EA%B2%B0%EA%B3%A0%EB%A6%AC/"/>
+    
+      <category term="접속" scheme="https://tuhbm.github.io/tags/%EC%A0%91%EC%86%8D/"/>
+    
+      <category term="접촉" scheme="https://tuhbm.github.io/tags/%EC%A0%91%EC%B4%89/"/>
+    
+      <category term="경계" scheme="https://tuhbm.github.io/tags/%EA%B2%BD%EA%B3%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>심플 소프트웨어</title>
+    <link href="https://tuhbm.github.io/2019/11/14/simpleSoftware/"/>
+    <id>https://tuhbm.github.io/2019/11/14/simpleSoftware/</id>
+    <published>2019-11-14T11:28:20.000Z</published>
+    <updated>2025-10-21T13:06:03.362Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;이 카테고리는 책을 읽고, 느낀점에 대해 리뷰를 남기는 카테고리입니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;심플-소프트웨어&quot;&gt;&lt;a href=&quot;#심플-소프트웨어&quot; class=&quot;headerlink&quot; title=&quot;심플 소프트웨어&quot;&gt;&lt;/a&gt;심플 소프트웨어&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/books/simpleSoftware_cover.jpg&quot; alt=&quot;심플 소프트웨어&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;한줄평-리뷰&quot;&gt;&lt;a href=&quot;#한줄평-리뷰&quot; class=&quot;headerlink&quot; title=&quot;한줄평 리뷰&quot;&gt;&lt;/a&gt;한줄평 리뷰&lt;/h2&gt;&lt;p&gt;읽다 보면 자기 반성을 하게되는 책!&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="book" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/book/"/>
+    
+    
+      <category term="programming" scheme="https://tuhbm.github.io/tags/programming/"/>
+    
+      <category term="book" scheme="https://tuhbm.github.io/tags/book/"/>
+    
+      <category term="review" scheme="https://tuhbm.github.io/tags/review/"/>
+    
+      <category term="심플" scheme="https://tuhbm.github.io/tags/%EC%8B%AC%ED%94%8C/"/>
+    
+      <category term="소프트웨어" scheme="https://tuhbm.github.io/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/"/>
+    
+      <category term="software" scheme="https://tuhbm.github.io/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>프로그래밍 면접 이렇게 준비한다</title>
+    <link href="https://tuhbm.github.io/2019/09/15/book-review-interviewBook/"/>
+    <id>https://tuhbm.github.io/2019/09/15/book-review-interviewBook/</id>
+    <published>2019-09-15T12:32:20.000Z</published>
+    <updated>2025-10-21T13:06:03.359Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;이 카테고리는 책을 읽고, 느낀점에 대해 리뷰를 남기는 카테고리입니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;프로그래밍-면접-이렇게-준비한다&quot;&gt;&lt;a href=&quot;#프로그래밍-면접-이렇게-준비한다&quot; class=&quot;headerlink&quot; title=&quot;프로그래밍 면접 이렇게 준비한다&quot;&gt;&lt;/a&gt;프로그래밍 면접 이렇게 준비한다&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/books/interview_ready.jpg&quot; alt=&quot;프로그래밍 면접 이렇게 준비한다&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;한줄평-리뷰&quot;&gt;&lt;a href=&quot;#한줄평-리뷰&quot; class=&quot;headerlink&quot; title=&quot;한줄평 리뷰&quot;&gt;&lt;/a&gt;한줄평 리뷰&lt;/h2&gt;&lt;p&gt;처음 모든 구직자들을 위한 자신의 성향 파악에서 시작하여, 프로그래머로써의 질문에 대한 답을 하는 과정으로 진행 후 전화면접을 지나 최종적으로&lt;br&gt;이력서에 대한 내용까지 1부터 10까지의 내용이 포함되어있는 프로그래머의 구직과정 전반에 대한 모든 내용을 담고 있다.&lt;br&gt;또한 단 한번만 읽고 끝내는 책이 아닌, 두고두고 곱씹어보며 이직에 대한 뽐뿌가 왔을때마다 또는 면접을 준비할 때마다 보면 좋을책이다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="book" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/book/"/>
+    
+    
+      <category term="programming" scheme="https://tuhbm.github.io/tags/programming/"/>
+    
+      <category term="interview" scheme="https://tuhbm.github.io/tags/interview/"/>
+    
+      <category term="layout" scheme="https://tuhbm.github.io/tags/layout/"/>
+    
+      <category term="book" scheme="https://tuhbm.github.io/tags/book/"/>
+    
+      <category term="review" scheme="https://tuhbm.github.io/tags/review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SMACSS</title>
+    <link href="https://tuhbm.github.io/2019/08/21/book-review-smacss/"/>
+    <id>https://tuhbm.github.io/2019/08/21/book-review-smacss/</id>
+    <published>2019-08-21T12:32:20.000Z</published>
+    <updated>2025-10-21T13:06:03.359Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;이 카테고리는 책을 읽고, 느낀점에 대해 리뷰를 남기는 카테고리입니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;새로운-CSS-레이아웃&quot;&gt;&lt;a href=&quot;#새로운-CSS-레이아웃&quot; class=&quot;headerlink&quot; title=&quot;새로운 CSS 레이아웃&quot;&gt;&lt;/a&gt;새로운 CSS 레이아웃&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/books/smacss.jpg&quot; alt=&quot;SMACSS&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;한줄평-리뷰&quot;&gt;&lt;a href=&quot;#한줄평-리뷰&quot; class=&quot;headerlink&quot; title=&quot;한줄평 리뷰&quot;&gt;&lt;/a&gt;한줄평 리뷰&lt;/h2&gt;&lt;p&gt;css 방법론 중에 한가지인 SMACSS에 대해 설명되어 있다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;기초(Base)&lt;/li&gt;
+&lt;li&gt;레이아웃(Layout)&lt;/li&gt;
+&lt;li&gt;모듈(Module)&lt;/li&gt;
+&lt;li&gt;상태(States)&lt;/li&gt;
+&lt;li&gt;테마(Theme)&lt;br&gt;위와 같은 구조로 css의 구조를 설정하여, 탄탄한 CSS구조와 유연함을 동시에 잡을 수 있는 장점을 가지고 있다.&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="book" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/book/"/>
+    
+    
+      <category term="layout" scheme="https://tuhbm.github.io/tags/layout/"/>
+    
+      <category term="smacss" scheme="https://tuhbm.github.io/tags/smacss/"/>
+    
+      <category term="theme" scheme="https://tuhbm.github.io/tags/theme/"/>
+    
+      <category term="base" scheme="https://tuhbm.github.io/tags/base/"/>
+    
+      <category term="module" scheme="https://tuhbm.github.io/tags/module/"/>
+    
+      <category term="states" scheme="https://tuhbm.github.io/tags/states/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>혼자 공부하는 C언어</title>
+    <link href="https://tuhbm.github.io/2019/08/07/personalClanguage/"/>
+    <id>https://tuhbm.github.io/2019/08/07/personalClanguage/</id>
+    <published>2019-08-07T13:10:20.000Z</published>
+    <updated>2025-10-21T13:06:03.362Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;이 카테고리는 책을 읽고, 느낀점에 대해 리뷰를 남기는 카테고리입니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;혼자-공부하는-C언어&quot;&gt;&lt;a href=&quot;#혼자-공부하는-C언어&quot; class=&quot;headerlink&quot; title=&quot;혼자 공부하는 C언어&quot;&gt;&lt;/a&gt;혼자 공부하는 C언어&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/books/c_book1.jpg&quot; alt=&quot;혼자 공부하는 C언어&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;한줄평-리뷰&quot;&gt;&lt;a href=&quot;#한줄평-리뷰&quot; class=&quot;headerlink&quot; title=&quot;한줄평 리뷰&quot;&gt;&lt;/a&gt;한줄평 리뷰&lt;/h2&gt;&lt;p&gt;어마어마한 두께만큼 배울때 보면 좋은도서다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="book" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/book/"/>
+    
+    
+      <category term="programming" scheme="https://tuhbm.github.io/tags/programming/"/>
+    
+      <category term="book-review" scheme="https://tuhbm.github.io/tags/book-review/"/>
+    
+      <category term="북리뷰" scheme="https://tuhbm.github.io/tags/%EB%B6%81%EB%A6%AC%EB%B7%B0/"/>
+    
+      <category term="프로그래머" scheme="https://tuhbm.github.io/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8/"/>
+    
+      <category term="비전공자" scheme="https://tuhbm.github.io/tags/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90/"/>
+    
+      <category term="major" scheme="https://tuhbm.github.io/tags/major/"/>
+    
+      <category term="C" scheme="https://tuhbm.github.io/tags/C/"/>
+    
+      <category term="personal" scheme="https://tuhbm.github.io/tags/personal/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>새로운 CSS 레이아웃</title>
+    <link href="https://tuhbm.github.io/2019/07/28/newLayout/"/>
+    <id>https://tuhbm.github.io/2019/07/28/newLayout/</id>
+    <published>2019-07-28T13:51:20.000Z</published>
+    <updated>2025-10-21T13:06:03.361Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;이 카테고리는 책을 읽고, 느낀점에 대해 리뷰를 남기는 카테고리입니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;새로운-CSS-레이아웃&quot;&gt;&lt;a href=&quot;#새로운-CSS-레이아웃&quot; class=&quot;headerlink&quot; title=&quot;새로운 CSS 레이아웃&quot;&gt;&lt;/a&gt;새로운 CSS 레이아웃&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/books/newLayout.jpg&quot; alt=&quot;새로운 CSS 레이아웃&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;한줄평-리뷰&quot;&gt;&lt;a href=&quot;#한줄평-리뷰&quot; class=&quot;headerlink&quot; title=&quot;한줄평 리뷰&quot;&gt;&lt;/a&gt;한줄평 리뷰&lt;/h2&gt;&lt;p&gt;구형 브라우저를 대응하느라 css3를 사용해보 못한 마크업 방법 중 레이아웃의 분야에 대해 친절히 설명한 책이다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="book" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/book/"/>
+    
+    
+      <category term="layout" scheme="https://tuhbm.github.io/tags/layout/"/>
+    
+      <category term="flex" scheme="https://tuhbm.github.io/tags/flex/"/>
+    
+      <category term="float" scheme="https://tuhbm.github.io/tags/float/"/>
+    
+      <category term="grid" scheme="https://tuhbm.github.io/tags/grid/"/>
+    
+      <category term="css3" scheme="https://tuhbm.github.io/tags/css3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RxJS 시작하기</title>
+    <link href="https://tuhbm.github.io/2019/07/14/rxjs2/"/>
+    <id>https://tuhbm.github.io/2019/07/14/rxjs2/</id>
+    <published>2019-07-14T12:49:08.000Z</published>
+    <updated>2025-10-21T13:06:03.362Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;RxJS&quot;&gt;&lt;a href=&quot;#RxJS&quot; class=&quot;headerlink&quot; title=&quot;RxJS&quot;&gt;&lt;/a&gt;RxJS&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/rxjs.png&quot; alt=&quot;RxJS&quot;&gt;&lt;br&gt;RxJS 시리즈 포스팅은 Quick Start RxJS를 읽으면서 공부하고 정리한 내용입니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;RxJS-시작하기&quot;&gt;&lt;a href=&quot;#RxJS-시작하기&quot; class=&quot;headerlink&quot; title=&quot;RxJS 시작하기&quot;&gt;&lt;/a&gt;RxJS 시작하기&lt;/h1&gt;&lt;p&gt;지난 포스팅인 &lt;a href=&quot;https://tuhbm.github.io/2019/06/28/rxjs1/&quot;&gt;Rxjs를 시작하기전에&lt;/a&gt;편에서 최근 개발트랜드와 Rxjs를 사용해야 하는 원인에 대해 알아보았습니다.&lt;br&gt;최근 개발패턴인 SPA(Single Page Application)는 데이터의 상태를 통해 웹페이지의 View와 데이터가 변경됩니다.&lt;br&gt;그렇기에 RxJS를 통해 상태체크를 통해 데이터의 흐름을 관리하는 라이브러리인 RxJS를 사용해 개발한다고 말씀드렸습니다.&lt;br&gt;실제로 &lt;a href=&quot;https://rxjs-dev.firebaseapp.com/guide/overview&quot;&gt;RxJS 공식사이트&lt;/a&gt;에서도 &lt;code&gt;&amp;#39;Observable을 사용하여 비동기 및 이벤트 기반 프로그램을 작성하기 위한 라이브러리이다.&amp;#39;&lt;/code&gt;이다.&lt;br&gt;간단히 &lt;code&gt;&amp;#39;이벤트용 lodash정도...&amp;#39;&lt;/code&gt;라고 써있기도합니다.&lt;br&gt;그러면 이제부터 RxJS를 사용해 개발하는 패턴을 알아보겠습니다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="Javascript" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/Javascript/"/>
+    
+      <category term="RxJS" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/Javascript/RxJS/"/>
+    
+    
+      <category term="RxJS" scheme="https://tuhbm.github.io/tags/RxJS/"/>
+    
+      <category term="스트림" scheme="https://tuhbm.github.io/tags/%EC%8A%A4%ED%8A%B8%EB%A6%BC/"/>
+    
+      <category term="Observable" scheme="https://tuhbm.github.io/tags/Observable/"/>
+    
+      <category term="observer" scheme="https://tuhbm.github.io/tags/observer/"/>
+    
+      <category term="pipe" scheme="https://tuhbm.github.io/tags/pipe/"/>
+    
+      <category term="도트체이닝" scheme="https://tuhbm.github.io/tags/%EB%8F%84%ED%8A%B8%EC%B2%B4%EC%9D%B4%EB%8B%9D/"/>
+    
+      <category term="오퍼레이터" scheme="https://tuhbm.github.io/tags/%EC%98%A4%ED%8D%BC%EB%A0%88%EC%9D%B4%ED%84%B0/"/>
+    
+      <category term="subscription" scheme="https://tuhbm.github.io/tags/subscription/"/>
+    
+      <category term="구독" scheme="https://tuhbm.github.io/tags/%EA%B5%AC%EB%8F%85/"/>
+    
+      <category term="subscribe" scheme="https://tuhbm.github.io/tags/subscribe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Rxjs를 시작하기전에...</title>
+    <link href="https://tuhbm.github.io/2019/06/28/rxjs1/"/>
+    <id>https://tuhbm.github.io/2019/06/28/rxjs1/</id>
+    <published>2019-06-28T12:49:08.000Z</published>
+    <updated>2025-10-21T13:06:03.362Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;RxJS&quot;&gt;&lt;a href=&quot;#RxJS&quot; class=&quot;headerlink&quot; title=&quot;RxJS&quot;&gt;&lt;/a&gt;RxJS&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/rxjs.png&quot; alt=&quot;RxJS&quot;&gt;&lt;br&gt;RxJS 시리즈 포스팅은 Quick Start RxJS를 읽으면서 공부하고 정리한 내용입니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;Rxjs를-시작하기전에…&quot;&gt;&lt;a href=&quot;#Rxjs를-시작하기전에…&quot; class=&quot;headerlink&quot; title=&quot;Rxjs를 시작하기전에…&quot;&gt;&lt;/a&gt;Rxjs를 시작하기전에…&lt;/h1&gt;&lt;h2 id=&quot;개발-트랜드&quot;&gt;&lt;a href=&quot;#개발-트랜드&quot; class=&quot;headerlink&quot; title=&quot;개발 트랜드&quot;&gt;&lt;/a&gt;개발 트랜드&lt;/h2&gt;&lt;p&gt;최근 많은 개발자들이 사용하고 있는 SPA(Single Page Application)를 웹 어플리케이션 개발은 &lt;code&gt;상태에 따라 변화하는 상태머신으로 보아도 무방합니다. &lt;/code&gt;&lt;br&gt;과거 개발시 각 기능별로 모든 페이지가 존재했었습니다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="Javascript" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/Javascript/"/>
+    
+      <category term="RxJS" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/Javascript/RxJS/"/>
+    
+    
+      <category term="RxJS" scheme="https://tuhbm.github.io/tags/RxJS/"/>
+    
+      <category term="스트림" scheme="https://tuhbm.github.io/tags/%EC%8A%A4%ED%8A%B8%EB%A6%BC/"/>
+    
+      <category term="입력" scheme="https://tuhbm.github.io/tags/%EC%9E%85%EB%A0%A5/"/>
+    
+      <category term="로직" scheme="https://tuhbm.github.io/tags/%EB%A1%9C%EC%A7%81/"/>
+    
+      <category term="상태" scheme="https://tuhbm.github.io/tags/%EC%83%81%ED%83%9C/"/>
+    
+      <category term="Observable" scheme="https://tuhbm.github.io/tags/Observable/"/>
+    
+      <category term="데이터" scheme="https://tuhbm.github.io/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>게임으로 익히는 코딩 알고리즘</title>
+    <link href="https://tuhbm.github.io/2019/06/03/gameLearningAlgorithm/"/>
+    <id>https://tuhbm.github.io/2019/06/03/gameLearningAlgorithm/</id>
+    <published>2019-06-03T12:52:26.000Z</published>
+    <updated>2025-10-21T13:06:03.360Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;이 카테고리는 책을 읽고, 느낀점에 대해 리뷰를 남기는 카테고리입니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;게임으로-익히는-코딩-알고리즘&quot;&gt;&lt;a href=&quot;#게임으로-익히는-코딩-알고리즘&quot; class=&quot;headerlink&quot; title=&quot;게임으로 익히는 코딩 알고리즘&quot;&gt;&lt;/a&gt;게임으로 익히는 코딩 알고리즘&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/books/gameLearningAlgorithms.jpg&quot; alt=&quot;게임으로 익히는 코딩 알고리즘&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;한줄평-리뷰&quot;&gt;&lt;a href=&quot;#한줄평-리뷰&quot; class=&quot;headerlink&quot; title=&quot;한줄평 리뷰&quot;&gt;&lt;/a&gt;한줄평 리뷰&lt;/h2&gt;&lt;p&gt;알고리즘을 게임을 통해 보다 쉽고 즐기면서 배울 수 있었다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="book" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/book/"/>
+    
+    
+      <category term="알고리즘" scheme="https://tuhbm.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
+    
+      <category term="book-review" scheme="https://tuhbm.github.io/tags/book-review/"/>
+    
+      <category term="python" scheme="https://tuhbm.github.io/tags/python/"/>
+    
+      <category term="코딩게임" scheme="https://tuhbm.github.io/tags/%EC%BD%94%EB%94%A9%EA%B2%8C%EC%9E%84/"/>
+    
+      <category term="codingame" scheme="https://tuhbm.github.io/tags/codingame/"/>
+    
+      <category term="game" scheme="https://tuhbm.github.io/tags/game/"/>
+    
+      <category term="learning" scheme="https://tuhbm.github.io/tags/learning/"/>
+    
+      <category term="수도코드" scheme="https://tuhbm.github.io/tags/%EC%88%98%EB%8F%84%EC%BD%94%EB%93%9C/"/>
+    
+      <category term="pseudocode" scheme="https://tuhbm.github.io/tags/pseudocode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>아키텍처란 무엇인가?</title>
+    <link href="https://tuhbm.github.io/2019/04/24/architecture/"/>
+    <id>https://tuhbm.github.io/2019/04/24/architecture/</id>
+    <published>2019-04-24T14:20:50.000Z</published>
+    <updated>2025-10-21T13:06:03.359Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/img-architecture.jpg&quot; alt=&quot;Architecture&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;아키텍처-Architecture&quot;&gt;&lt;a href=&quot;#아키텍처-Architecture&quot; class=&quot;headerlink&quot; title=&quot;아키텍처(Architecture)&quot;&gt;&lt;/a&gt;아키텍처(Architecture)&lt;/h1&gt;&lt;h2 id=&quot;개요&quot;&gt;&lt;a href=&quot;#개요&quot; class=&quot;headerlink&quot; title=&quot;개요&quot;&gt;&lt;/a&gt;개요&lt;/h2&gt;&lt;p&gt;업무를 진행하면서 듣는 많은 단어들이 있습니다. 그중에 어떤 프로젝트를 시작하기전에 항상 들리는 단어가 있습니다. 바로 &lt;strong&gt;아키텍처&lt;/strong&gt;입니다. 보통 초보개발자가 아키텍처를 구성하는 일은 지극히 드문 케이스입니다.&lt;/p&gt;
+&lt;p&gt;하지만 저와 같은 ‘초보 개발자들도 도대체 &lt;strong&gt;아키텍처&lt;/strong&gt;가 무엇이길래? 왜 우리한테는 이 업무가 주어지지 않는가?’ 에 대해 생각해 볼 수 있기에 정리를 해보려고 합니다. &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="용어정리" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/"/>
+    
+    
+      <category term="architecture" scheme="https://tuhbm.github.io/tags/architecture/"/>
+    
+      <category term="설계" scheme="https://tuhbm.github.io/tags/%EC%84%A4%EA%B3%84/"/>
+    
+      <category term="구조" scheme="https://tuhbm.github.io/tags/%EA%B5%AC%EC%A1%B0/"/>
+    
+      <category term="기본" scheme="https://tuhbm.github.io/tags/%EA%B8%B0%EB%B3%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>알고리즘이 욕망하는 것들</title>
+    <link href="https://tuhbm.github.io/2019/04/17/bookAlgorithms/"/>
+    <id>https://tuhbm.github.io/2019/04/17/bookAlgorithms/</id>
+    <published>2019-04-17T12:51:20.000Z</published>
+    <updated>2025-10-21T13:06:03.359Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;이 카테고리는 책을 읽고, 느낀점에 대해 리뷰를 남기는 카테고리입니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;알고리즘이-욕망하는-것들-What-Algorithms-Want&quot;&gt;&lt;a href=&quot;#알고리즘이-욕망하는-것들-What-Algorithms-Want&quot; class=&quot;headerlink&quot; title=&quot;알고리즘이 욕망하는 것들(What Algorithms Want)&quot;&gt;&lt;/a&gt;알고리즘이 욕망하는 것들(What Algorithms Want)&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/books/algorithms.jpg&quot; alt=&quot;알고리즘이 욕망하는 것들&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;한줄평-리뷰&quot;&gt;&lt;a href=&quot;#한줄평-리뷰&quot; class=&quot;headerlink&quot; title=&quot;한줄평 리뷰&quot;&gt;&lt;/a&gt;한줄평 리뷰&lt;/h2&gt;&lt;p&gt;알고리즘에 대한 공학적인 도서라고 생각하면 대단히 잘못된 생각이다. 매우 어려운 한글로 풀어져 있는 인문학도서이다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="book" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/book/"/>
+    
+    
+      <category term="알고리즘" scheme="https://tuhbm.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
+    
+      <category term="욕망" scheme="https://tuhbm.github.io/tags/%EC%9A%95%EB%A7%9D/"/>
+    
+      <category term="넷플릭스" scheme="https://tuhbm.github.io/tags/%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4/"/>
+    
+      <category term="her" scheme="https://tuhbm.github.io/tags/her/"/>
+    
+      <category term="우버" scheme="https://tuhbm.github.io/tags/%EC%9A%B0%EB%B2%84/"/>
+    
+      <category term="book-review" scheme="https://tuhbm.github.io/tags/book-review/"/>
+    
+      <category term="비트코인" scheme="https://tuhbm.github.io/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/"/>
+    
+      <category term="netflix" scheme="https://tuhbm.github.io/tags/netflix/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>개발자도구 - Audits편</title>
+    <link href="https://tuhbm.github.io/2019/04/10/devTools-audits/"/>
+    <id>https://tuhbm.github.io/2019/04/10/devTools-audits/</id>
+    <published>2019-04-10T13:02:50.000Z</published>
+    <updated>2025-10-21T13:06:03.360Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/devTools/develop_tools.jpg&quot; alt=&quot;DevTool&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;개요&quot;&gt;&lt;a href=&quot;#개요&quot; class=&quot;headerlink&quot; title=&quot;개요&quot;&gt;&lt;/a&gt;개요&lt;/h1&gt;&lt;p&gt;웹 개발자라면 이슈가 생겼을 때 보통 브라우저에서 개발자 도구를 열어 코드를 확인하며 어떠한 부분에서 이슈가 발생했는지 확인합니다. 제가 주로 사용하는 개발자도구는 크롬입니다. 개발자도구는 보통 브라우저에 포함된 기능입니다. 심지어 우리의 주적인 &lt;em&gt;IE&lt;/em&gt;까지도 개발자도구가 존재합니다.&lt;/p&gt;
+&lt;p&gt;하지만 저도 개발자도구의 좋은 기능들을 활용하지 못했습니다. 최근 한 세미나에 참여하며, 개발자도구의 활용방법에 대해 배웠습니다. 생각보다 좋은 기능들이 많아 우리가 편리하게 개발을 하는데 도움을 받을 수 있습니다. 이러한 좋은 기능에 대해 기록해보겠습니다.&lt;/p&gt;
+&lt;h1 id=&quot;Audits탭&quot;&gt;&lt;a href=&quot;#Audits탭&quot; class=&quot;headerlink&quot; title=&quot;Audits탭&quot;&gt;&lt;/a&gt;Audits탭&lt;/h1&gt;&lt;p&gt;Audits탭은 해당 페이지의 전체적인 검사를 하는 기능이 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/devTools/audits1.png&quot; alt=&quot;audits 실행전&quot;&gt;&lt;br&gt;Desktop과 Mobile 중 어떤 플랫폼으로 실행을 할 것인지, 통신속도는 어떻게 할것인지 선택도 가능합니다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="ETC" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/ETC/"/>
+    
+    
+      <category term="성능최적화" scheme="https://tuhbm.github.io/tags/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94/"/>
+    
+      <category term="개발자도구" scheme="https://tuhbm.github.io/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8F%84%EA%B5%AC/"/>
+    
+      <category term="성능" scheme="https://tuhbm.github.io/tags/%EC%84%B1%EB%8A%A5/"/>
+    
+      <category term="PWA" scheme="https://tuhbm.github.io/tags/PWA/"/>
+    
+      <category term="BestPractices" scheme="https://tuhbm.github.io/tags/BestPractices/"/>
+    
+      <category term="접근성" scheme="https://tuhbm.github.io/tags/%EC%A0%91%EA%B7%BC%EC%84%B1/"/>
+    
+      <category term="TTI" scheme="https://tuhbm.github.io/tags/TTI/"/>
+    
+      <category term="TimeToInteractive" scheme="https://tuhbm.github.io/tags/TimeToInteractive/"/>
+    
+      <category term="검색엔진최적화" scheme="https://tuhbm.github.io/tags/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%B5%9C%EC%A0%81%ED%99%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>개발자도구 - Performance편</title>
+    <link href="https://tuhbm.github.io/2019/04/02/devTools-performance/"/>
+    <id>https://tuhbm.github.io/2019/04/02/devTools-performance/</id>
+    <published>2019-04-02T14:02:50.000Z</published>
+    <updated>2025-10-21T13:06:03.360Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/devTools/develop_tools.jpg&quot; alt=&quot;DevTool&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;개요&quot;&gt;&lt;a href=&quot;#개요&quot; class=&quot;headerlink&quot; title=&quot;개요&quot;&gt;&lt;/a&gt;개요&lt;/h1&gt;&lt;p&gt;웹 개발자라면 이슈가 생겼을 때 보통 브라우저에서 개발자 도구를 열어 코드를 확인하며 어떠한 부분에서 이슈가 발생했는지 확인합니다. 제가 주로 사용하는 개발자도구는 크롬입니다. 개발자도구는 보통 브라우저에 포함된 기능입니다. 심지어 우리의 주적인 &lt;em&gt;IE&lt;/em&gt;까지도 개발자도구가 존재합니다.&lt;/p&gt;
+&lt;p&gt;하지만 저도 개발자도구의 좋은 기능들을 활용하지 못했습니다. 최근 한 세미나에 참여하며, 개발자도구의 활용방법에 대해 배웠습니다. 생각보다 좋은 기능들이 많아 우리가 편리하게 개발을 하는데 도움을 받을 수 있습니다. 이러한 좋은 기능에 대해 기록해보겠습니다.&lt;/p&gt;
+&lt;h1 id=&quot;Performance탭&quot;&gt;&lt;a href=&quot;#Performance탭&quot; class=&quot;headerlink&quot; title=&quot;Performance탭&quot;&gt;&lt;/a&gt;Performance탭&lt;/h1&gt;&lt;p&gt;performance탭은 말 그대로 성능을 측정 할 수 있는 있는 도구입니다.&lt;br&gt;맨위에 녹화 버튼을 눌러 녹화를 시작한 후 새로고침을 통해 페이지의 렌더링을 진행합니다.&lt;br&gt;렌더링이 완료되면 &lt;em&gt;STOP&lt;/em&gt; 버튼을 클릭합니다.&lt;br&gt;그렇다면 아래와 같은 그래프 및 랜더링이 진행되는 화면들이 스냅샷으로 확인 가능합니다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
+    
+      <category term="ETC" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/ETC/"/>
+    
+    
+      <category term="성능최적화" scheme="https://tuhbm.github.io/tags/%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94/"/>
+    
+      <category term="개발자도구" scheme="https://tuhbm.github.io/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8F%84%EA%B5%AC/"/>
+    
+      <category term="performance" scheme="https://tuhbm.github.io/tags/performance/"/>
+    
+      <category term="DCL" scheme="https://tuhbm.github.io/tags/DCL/"/>
+    
+      <category term="FCP" scheme="https://tuhbm.github.io/tags/FCP/"/>
+    
+      <category term="FMP" scheme="https://tuhbm.github.io/tags/FMP/"/>
+    
+      <category term="Frames" scheme="https://tuhbm.github.io/tags/Frames/"/>
+    
+      <category term="Timings" scheme="https://tuhbm.github.io/tags/Timings/"/>
+    
+      <category term="domContentLoadedEvent" scheme="https://tuhbm.github.io/tags/domContentLoadedEvent/"/>
+    
+      <category term="loadEvent" scheme="https://tuhbm.github.io/tags/loadEvent/"/>
+    
+  </entry>
+  
+</feed>
