@@ -102,6 +102,6 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/tuhbm/tuhbm.github.io
+  repo: https://github.com/tuhbm/tuhbm.github.io.git
   branch: master
   message: "build: by hexo"
