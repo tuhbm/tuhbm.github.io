@@ -3,9 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 보고 배우는 개발
-subtitle: 보고 배우는 유
-description: 개발자로 일하며 보고 배운 개발 내용에 대해 작성하여 정보 전달 & 책을 읽고 느낀 리뷰 & 개인적으로 느낀 점을을 칼럼으로 작성하였습니다.
+title: 코드머니 플레이북
+description: 개발자로 공부한내용 & 살아가며 취득한 정보 전달 & 책을 읽고 느낀 리뷰 & 개인적으로 느낀 점을을 칼럼으로 작성하였습니다.
 author: Taekyun Kim
 language: ko
 timezone:
