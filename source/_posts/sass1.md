@@ -8,6 +8,7 @@ tags:
   - processors
   - 사스
 categories:
+  - 공부
   - CSS
   - SASS
 date: 2018-01-24 16:12:13
