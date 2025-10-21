@@ -29,6 +29,6 @@
     "build": "hexo clean && hexo generate",
     "deploy": "npm run gh-pages && npm run master",
     "gh-pages": "bash ./deploy-gh.sh",
-    "master": "hexo clean && hexo generate && hexo deploy; exit 0"
+    "master": "hexo clean && hexo deploy; exit 0"
   }
 }

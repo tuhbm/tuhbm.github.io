@@ -9,6 +9,7 @@ tags:
    - 알고리즘
    - 개발
 thumbnail: https://tuhbm.github.io/images/bnr-etc.jpg
+date: 2021-09-21 21:37:30
 ---
 ## 용어정리
 이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.

@@ -8,7 +8,7 @@ tags:
   - private
   - protected
 thumbnail: https://tuhbm.github.io/images/bnr-ts.jpg
-date: 2025-10-20 21:37:30
+date: 2025-10-21 21:37:30
 ---
 
 # [Typescript] - 접근제한자

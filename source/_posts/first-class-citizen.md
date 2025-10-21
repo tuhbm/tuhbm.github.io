@@ -10,6 +10,7 @@ tags:
    - parameter
    - first class citizen
 thumbnail: https://tuhbm.github.io/images/bnr-etc.jpg
+date: 2021-10-21 21:37:30
 ---
 
 ## 용어정리
