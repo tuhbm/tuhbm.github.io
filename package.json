@@ -28,6 +28,6 @@
     "dev": "hexo clean && hexo server -i 0.0.0.0 -p 4000",
     "deploy": "npm run gh-pages && npm run master",
     "gh-pages": "bash ./deploy-gh.sh",
-    "master": "hexo clean && hexo deploy; exit 0"
+    "master": "hexo clean && hexo hexo g -d; exit 0"
   }
 }
