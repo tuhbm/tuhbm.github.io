@@ -5,6 +5,7 @@ tags:
   - object
   - destructuring
 categories:
+  - 공부
   - Javascript
 thumbnail: 'https://tuhbm.github.io/images/bnr-js.jpg'
 date: 2018-12-01 16:02:03

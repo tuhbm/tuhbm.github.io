@@ -4,6 +4,7 @@ tags:
   - Component
   - 컴포넌트
 categories:
+  - 공부
   - 용어정리
 date: 2017-09-08 13:49:47
 thumbnail: https://tuhbm.github.io/images/bnr-word.jpg

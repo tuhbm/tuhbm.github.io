@@ -1,6 +1,7 @@
 ---
 title: VanillaJS
 categories:
+  - 공부
   - Javascript
 tags:
   - javascript

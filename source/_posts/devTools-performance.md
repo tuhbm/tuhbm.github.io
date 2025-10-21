@@ -1,6 +1,7 @@
 ---
 title: 개발자도구 - Performance편
 categories:
+  - 공부
   - ETC
 tags:
   - 성능최적화

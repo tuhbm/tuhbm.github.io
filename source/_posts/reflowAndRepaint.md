@@ -2,6 +2,7 @@
 title: Reflow와 Repaint
 date: 2018-02-22 22:56:50
 categories:
+  - 공부
   - 용어정리
 tags:
     - reflow

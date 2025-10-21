@@ -2,6 +2,7 @@
 title: python 시작하기
 date: 2018-02-12 21:17:35
 categories:
+  - 공부
   - Python
 tags:
     - 파이썬

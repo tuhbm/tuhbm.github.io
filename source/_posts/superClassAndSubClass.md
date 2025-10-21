@@ -2,6 +2,7 @@
 title: 슈퍼클래스 와 서브클래스
 date: 2018-03-11 13:30:13
 categories:
+  - 공부
   - 용어정리
 tags:
   - superClass

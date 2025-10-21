@@ -7,6 +7,7 @@ tags:
   - transform
   - translate
 categories:
+  - 공부
   - CSS
 thumbnail: 'https://tuhbm.github.io/images/bnr-css.jpg'
 date: 2018-10-31 19:56:08

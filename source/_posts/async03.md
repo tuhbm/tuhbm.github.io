@@ -11,6 +11,7 @@ tags:
   - synchronous
   - asynchronous
 categories:
+  - 공부
   - Javascript
 thumbnail: 'https://tuhbm.github.io/images/bnr-js.jpg'
 date: 2018-11-24 17:18:14

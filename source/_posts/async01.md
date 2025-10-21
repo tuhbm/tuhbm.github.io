@@ -1,6 +1,7 @@
 ---
 title: 번역 - 비동기 자바스크립트의 간단한 참고서 1편
 categories:
+  - 공부
   - Javascript
 tags:
 - callback

@@ -5,6 +5,7 @@ tags:
   - 부수효과
   - functional programming
 categories:
+  - 공부
   - 용어정리
 date: 2018-01-22 22:40:55
 thumbnail: https://tuhbm.github.io/images/bnr-word.jpg

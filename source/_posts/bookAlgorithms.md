@@ -2,6 +2,7 @@
 title: 알고리즘이 욕망하는 것들
 date: 2019-04-17 21:51:20
 categories:
+  - 공부
   - book
 tags:
     - 알고리즘

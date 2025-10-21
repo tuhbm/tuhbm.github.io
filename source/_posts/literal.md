@@ -2,6 +2,7 @@
 title: 리터럴이란 무엇일까?
 date: 2018-01-26 19:43:00
 categories:
+  - 공부
   - 용어정리
 tags:
    - var

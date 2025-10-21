@@ -2,6 +2,7 @@
 title: API(Application Programming Interface)
 date: 2021-03-16 21:45:01
 categories:
+  - 공부
   - 용어정리
 tags:
    - application

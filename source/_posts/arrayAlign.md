@@ -2,6 +2,7 @@
 title: 자료정렬
 
 categories:
+  - 공부
   - 용어정리
 tags:
    - 효율성

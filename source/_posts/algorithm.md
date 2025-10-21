@@ -2,6 +2,7 @@
 title: 알고리즘
 date: 2018-08-20 22:47:40
 categories:
+  - 공부
   - 용어정리
 tags:
    - 효율성

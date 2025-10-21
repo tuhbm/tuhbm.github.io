@@ -2,6 +2,7 @@
 title: Java Data Type
 date: 2018-06-14 21:27:36
 categories:
+  - 공부
   - JAVA
 tags:
     - java

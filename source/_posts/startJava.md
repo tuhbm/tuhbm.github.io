@@ -2,6 +2,7 @@
 title: Java 시작
 date: 2018-06-11 22:07:25
 categories:
+  - 공부
   - JAVA
 tags:
     - java

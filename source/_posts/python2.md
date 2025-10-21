@@ -2,6 +2,7 @@
 title: python2
 date: 2018-02-14 22:41:49
 categories:
+  - 공부
   - Python
 tags:
     - 파이썬

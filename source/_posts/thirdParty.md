@@ -2,6 +2,7 @@
 title: ThirdParty(서드파티)
 date: 2018-01-26 20:54:28
 categories:
+  - 공부
   - 용어정리
 tags:
    - third party

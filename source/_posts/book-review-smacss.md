@@ -2,6 +2,7 @@
 title: SMACSS
 date: 2019-08-21 21:32:20
 categories:
+  - 공부
   - book
 tags:
     - smacss

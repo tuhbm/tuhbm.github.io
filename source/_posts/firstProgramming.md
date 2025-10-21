@@ -2,6 +2,7 @@
 title: 프로그래머 첫걸음
 date: 2018-02-21 21:51:20
 categories:
+  - 공부
   - book
 tags:
     - python

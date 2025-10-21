@@ -1,6 +1,7 @@
 ---
 title: 번역 - 자바스크립트 코드 30초 시리즈<Utiltity> 1편
 categories:
+  - 공부
   - Javascript
 tags:
   - 30sec

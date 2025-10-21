@@ -1,6 +1,7 @@
 ---
 title: Axios를 사용하여 HTTP요청하기
 categories:
+  - 공부
   - Javascript
 tags:
   - http

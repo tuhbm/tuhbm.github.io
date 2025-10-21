@@ -2,6 +2,7 @@
 title: 프로그래밍 면접 이렇게 준비한다
 date: 2019-09-15 21:32:20
 categories:
+  - 공부
   - book
 tags:
     - interview

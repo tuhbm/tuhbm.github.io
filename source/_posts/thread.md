@@ -2,6 +2,7 @@
 title: 스레드(thread)
 date: 2018-02-06 21:43:00
 categories:
+  - 공부
   - 용어정리
 tags:
    - thread

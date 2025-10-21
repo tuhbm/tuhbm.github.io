@@ -10,6 +10,7 @@ tags:
   - 프로그래머
   - 비전공자
 categories:
+  - 공부
   - book
 thumbnail: 'https://tuhbm.github.io/images/bnr-books.jpg'
 date: 2019-08-07 22:10:20

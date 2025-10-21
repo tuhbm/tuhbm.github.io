@@ -1,6 +1,7 @@
 ---
 title: 일급객체
 categories:
+  - 공부
   - 용어정리
 tags:
    - 함수

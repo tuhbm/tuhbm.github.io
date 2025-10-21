@@ -2,6 +2,7 @@
 title: 이것이 자바다
 date: 2018-04-12 21:51:20
 categories:
+  - 공부
   - book
 tags:
     - java

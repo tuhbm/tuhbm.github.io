@@ -1,6 +1,7 @@
 ---
 title: Component
 tags:
+  - 공부
   - Component
   - 컴포넌트
 categories:

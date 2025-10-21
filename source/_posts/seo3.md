@@ -1,6 +1,7 @@
 ---
 title: SEO(Search Engine Optimization) 검색 엔진 최적화 3편
 categories:
+  - 공부
   - SEO
 tags:
   - Search

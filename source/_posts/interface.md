@@ -2,6 +2,7 @@
 title: 인터페이스(interface)
 date: 2021-03-15 20:58:59
 categories:
+  - 공부
   - 용어정리
 tags:
    - interface

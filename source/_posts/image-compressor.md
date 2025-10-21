@@ -7,6 +7,7 @@ tags:
   - compressor
   - image compressor
 categories:
+  - 공부
   - ETC
 date: 2017-08-16 16:17:26
 thumbnail: https://tuhbm.github.io/images/bnr-etc.jpg

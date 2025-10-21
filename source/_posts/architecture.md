@@ -1,6 +1,7 @@
 ---
 title: 아키텍처란 무엇인가?
 categories:
+  - 공부
   - 용어정리
 tags:
   - architecture

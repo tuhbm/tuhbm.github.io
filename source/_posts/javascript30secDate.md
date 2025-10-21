@@ -6,6 +6,7 @@ tags:
   - transform
   - date
 categories:
+  - 공부
   - Javascript
 thumbnail: 'https://tuhbm.github.io/images/bnr-js.jpg'
 date: 2019-02-17 01:38:48
