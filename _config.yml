@@ -103,6 +103,5 @@ feed:
 deploy:
   type: git
   repo: https://github.com/tuhbm/tuhbm.github.io
-  branch: master
-  public_dir: docs
+  branch: gh-pages
 
