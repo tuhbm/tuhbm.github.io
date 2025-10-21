@@ -1,15 +1,14 @@
 ---
-title: Typescript - 접근 제한자
+title: blog로 부업하기
 categories:
-  - Javascript
-  - Typescript
+  - ETC
 tags:
   - access
   - public
   - private
   - protected
 thumbnail: https://tuhbm.github.io/images/bnr-ts.jpg
-date: 2019-02-27 21:37:30
+date: 2025-10-20 21:37:30
 ---
 
 # [Typescript] - 접근제한자
