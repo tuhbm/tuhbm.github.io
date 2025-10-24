@@ -9,6 +9,7 @@ tags:
 - 연금
 - 직장인
 categories: 
+- 경제
 - 투자
 description: ETF가 처음이신가요? 초보자 관점에서 ETF 핵심 개념, 국내·해외 과세 차이, 환헤지 선택, 좋은 ETF 고르는 법, 많이 추천되는 대표 전략과 실제 티커 예시표(총보수·분배주기·헤지·유동성)까지 한 글에 담았습니다.
 ---
@@ -98,7 +99,7 @@ description: ETF가 처음이신가요? 초보자 관점에서 ETF 핵심 개념
 
 ---
 
-## 주석/출처 (클릭해 확인)
+## 주석/출처
 - 국내 ETF 과세 가이드(삼성자산운용 공식): https://www.samsungfund.com/etf/insight/guide/view05.do  
 - 해외주식 양도소득세(국세청 안내 PDF): https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=42e27a680ded33cc64242dc2a83908fc  
 - TIGER 미국S&P500·나스닥100 **총보수 0.0068% 인하 공지**(미래에셋 공식): https://investments.miraeasset.com/tigeretf/ko/customer/notice/view.do?detailsKey=590  
