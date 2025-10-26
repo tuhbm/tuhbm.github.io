@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2025-10-25T06:26:52.695Z</updated>
+  <updated>2025-10-26T03:19:00.300Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>한화 이글스 vs LG 트윈스, 2025 한국시리즈 관전 포인트 총정리</title>
+    <link href="https://tuhbm.github.io/2025/10/26/2025_korea_baseball/"/>
+    <id>https://tuhbm.github.io/2025/10/26/2025_korea_baseball/</id>
+    <published>2025-10-26T03:15:30.000Z</published>
+    <updated>2025-10-26T03:19:00.300Z</updated>
+    
+    <summary type="html">
+    
+      10월 26일 개막하는 2025 한국시리즈(한화 이글스 vs LG 트윈스). 홈·원정 구도, 선발 로테이션, 불펜/수비, 타선 스타일, 키 매치업과 흐름 시나리오까지 블로그용으로 한눈에 정리했습니다.
+    
+    </summary>
+    
+      <category term="스포츠" scheme="https://tuhbm.github.io/categories/%EC%8A%A4%ED%8F%AC%EC%B8%A0/"/>
+    
+    
+      <category term="야구" scheme="https://tuhbm.github.io/tags/%EC%95%BC%EA%B5%AC/"/>
+    
+      <category term="KBO" scheme="https://tuhbm.github.io/tags/KBO/"/>
+    
+      <category term="한국시리즈" scheme="https://tuhbm.github.io/tags/%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88/"/>
+    
+      <category term="한화이글스" scheme="https://tuhbm.github.io/tags/%ED%95%9C%ED%99%94%EC%9D%B4%EA%B8%80%EC%8A%A4/"/>
+    
+      <category term="LG트윈스" scheme="https://tuhbm.github.io/tags/LG%ED%8A%B8%EC%9C%88%EC%8A%A4/"/>
+    
+      <category term="관전포인트" scheme="https://tuhbm.github.io/tags/%EA%B4%80%EC%A0%84%ED%8F%AC%EC%9D%B8%ED%8A%B8/"/>
+    
+      <category term="선발로테이션" scheme="https://tuhbm.github.io/tags/%EC%84%A0%EB%B0%9C%EB%A1%9C%ED%85%8C%EC%9D%B4%EC%85%98/"/>
+    
+  </entry>
   
   <entry>
     <title>10·15 부동산 대책 총정리 — 규제지역 확대·LTV 차등·허가구역 강화</title>
@@ -439,9 +471,9 @@
     
       <category term="programming" scheme="https://tuhbm.github.io/tags/programming/"/>
     
-      <category term="layout" scheme="https://tuhbm.github.io/tags/layout/"/>
-    
       <category term="interview" scheme="https://tuhbm.github.io/tags/interview/"/>
+    
+      <category term="layout" scheme="https://tuhbm.github.io/tags/layout/"/>
     
       <category term="book" scheme="https://tuhbm.github.io/tags/book/"/>
     
@@ -477,11 +509,11 @@
       <category term="book" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/book/"/>
     
     
+      <category term="layout" scheme="https://tuhbm.github.io/tags/layout/"/>
+    
       <category term="smacss" scheme="https://tuhbm.github.io/tags/smacss/"/>
     
       <category term="theme" scheme="https://tuhbm.github.io/tags/theme/"/>
-    
-      <category term="layout" scheme="https://tuhbm.github.io/tags/layout/"/>
     
       <category term="base" scheme="https://tuhbm.github.io/tags/base/"/>
     
@@ -683,38 +715,6 @@
       <category term="수도코드" scheme="https://tuhbm.github.io/tags/%EC%88%98%EB%8F%84%EC%BD%94%EB%93%9C/"/>
     
       <category term="pseudocode" scheme="https://tuhbm.github.io/tags/pseudocode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>아키텍처란 무엇인가?</title>
-    <link href="https://tuhbm.github.io/2019/04/24/architecture/"/>
-    <id>https://tuhbm.github.io/2019/04/24/architecture/</id>
-    <published>2019-04-24T14:20:50.000Z</published>
-    <updated>2025-10-21T13:06:03.359Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/img-architecture.jpg&quot; alt=&quot;Architecture&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;아키텍처-Architecture&quot;&gt;&lt;a href=&quot;#아키텍처-Architecture&quot; class=&quot;headerlink&quot; title=&quot;아키텍처(Architecture)&quot;&gt;&lt;/a&gt;아키텍처(Architecture)&lt;/h1&gt;&lt;h2 id=&quot;개요&quot;&gt;&lt;a href=&quot;#개요&quot; class=&quot;headerlink&quot; title=&quot;개요&quot;&gt;&lt;/a&gt;개요&lt;/h2&gt;&lt;p&gt;업무를 진행하면서 듣는 많은 단어들이 있습니다. 그중에 어떤 프로젝트를 시작하기전에 항상 들리는 단어가 있습니다. 바로 &lt;strong&gt;아키텍처&lt;/strong&gt;입니다. 보통 초보개발자가 아키텍처를 구성하는 일은 지극히 드문 케이스입니다.&lt;/p&gt;
-&lt;p&gt;하지만 저와 같은 ‘초보 개발자들도 도대체 &lt;strong&gt;아키텍처&lt;/strong&gt;가 무엇이길래? 왜 우리한테는 이 업무가 주어지지 않는가?’ 에 대해 생각해 볼 수 있기에 정리를 해보려고 합니다. &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
-    
-      <category term="용어정리" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/"/>
-    
-    
-      <category term="architecture" scheme="https://tuhbm.github.io/tags/architecture/"/>
-    
-      <category term="설계" scheme="https://tuhbm.github.io/tags/%EC%84%A4%EA%B3%84/"/>
-    
-      <category term="구조" scheme="https://tuhbm.github.io/tags/%EA%B5%AC%EC%A1%B0/"/>
-    
-      <category term="기본" scheme="https://tuhbm.github.io/tags/%EA%B8%B0%EB%B3%B8/"/>
     
   </entry>
   
