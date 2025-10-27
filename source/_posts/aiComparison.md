@@ -3,7 +3,6 @@ title: 2025년 10월, 진짜 잘하는 AI는 누구? GPT-5·Gemini 2.5·Claude 3
 date: 2025-10-21 22:50:00
 categories:
   - 공부
-  - AI
 tags:
   - GPT-5
   - Gemini 2.5
