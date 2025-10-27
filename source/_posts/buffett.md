@@ -3,8 +3,9 @@ title: 워런 버핏 투자법, 초보자를 위한 실전 가이드
 slug: warren-buffett-investing-for-beginners
 date: 2025-10-27 11:00:00
 categories:
+- 경제
 - 투자
-  tags:
+tags:
 - 워런버핏
 - 가치투자
 - 경쟁우위
