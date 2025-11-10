@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2025-10-31T04:16:02.979Z</updated>
+  <updated>2025-11-10T00:51:02.997Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>일론 머스크 ‘1조 달러’ 주주보상, 쉽게 풀어보기</title>
+    <link href="https://tuhbm.github.io/2025/11/10/teslaCompensation/"/>
+    <id>https://tuhbm.github.io/2025/11/10/teslaCompensation/</id>
+    <published>2025-11-10T19:00:00.000Z</published>
+    <updated>2025-11-10T00:51:02.997Z</updated>
+    
+    <summary type="html">
+    
+      2025년 11월 테슬라 주주총회에서 통과된 일론 머스크의 최대 1조 달러 주식 보상안. 무엇이고 왜 통과됐는지, 투자자에게 의미하는 바를 쉬운 말로 정리합니다.
+    
+    </summary>
+    
+      <category term="경제" scheme="https://tuhbm.github.io/categories/%EA%B2%BD%EC%A0%9C/"/>
+    
+      <category term="투자" scheme="https://tuhbm.github.io/categories/%EA%B2%BD%EC%A0%9C/%ED%88%AC%EC%9E%90/"/>
+    
+    
+      <category term="테슬라" scheme="https://tuhbm.github.io/tags/%ED%85%8C%EC%8A%AC%EB%9D%BC/"/>
+    
+      <category term="일론머스크" scheme="https://tuhbm.github.io/tags/%EC%9D%BC%EB%A1%A0%EB%A8%B8%EC%8A%A4%ED%81%AC/"/>
+    
+      <category term="주주보상" scheme="https://tuhbm.github.io/tags/%EC%A3%BC%EC%A3%BC%EB%B3%B4%EC%83%81/"/>
+    
+      <category term="지배구조" scheme="https://tuhbm.github.io/tags/%EC%A7%80%EB%B0%B0%EA%B5%AC%EC%A1%B0/"/>
+    
+      <category term="로보택시" scheme="https://tuhbm.github.io/tags/%EB%A1%9C%EB%B3%B4%ED%83%9D%EC%8B%9C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>한국, 왜 지금 ‘핵추진잠수함’인가 -도입 계기·맞교환 구조·향후 과제 쉽게 정리</title>
     <link href="https://tuhbm.github.io/2025/10/31/nuclearSubmarine/"/>
     <id>https://tuhbm.github.io/2025/10/31/nuclearSubmarine/</id>
     <published>2025-10-31T01:00:00.000Z</published>
-    <updated>2025-10-31T04:16:02.979Z</updated>
+    <updated>2025-11-10T00:51:02.996Z</updated>
     
     <summary type="html">
     
@@ -51,7 +81,7 @@
     <link href="https://tuhbm.github.io/2025/10/30/usaAndKoreaMeeting/"/>
     <id>https://tuhbm.github.io/2025/10/30/usaAndKoreaMeeting/</id>
     <published>2025-10-30T03:00:00.000Z</published>
-    <updated>2025-10-31T04:16:02.980Z</updated>
+    <updated>2025-11-10T00:51:02.998Z</updated>
     
     <summary type="html">
     
@@ -83,7 +113,7 @@
     <link href="https://tuhbm.github.io/2025/10/28/sam_10/"/>
     <id>https://tuhbm.github.io/2025/10/28/sam_10/</id>
     <published>2025-10-28T17:23:15.000Z</published>
-    <updated>2025-10-31T04:16:02.980Z</updated>
+    <updated>2025-11-10T00:51:02.997Z</updated>
     
     <summary type="html">
     
@@ -113,7 +143,7 @@
     <link href="https://tuhbm.github.io/2025/10/27/buffett/"/>
     <id>https://tuhbm.github.io/2025/10/27/buffett/</id>
     <published>2025-10-27T11:00:00.000Z</published>
-    <updated>2025-10-31T04:16:02.977Z</updated>
+    <updated>2025-11-10T00:51:02.994Z</updated>
     
     <summary type="html">
     
@@ -147,7 +177,7 @@
     <link href="https://tuhbm.github.io/2025/10/26/2025_korea_baseball/"/>
     <id>https://tuhbm.github.io/2025/10/26/2025_korea_baseball/</id>
     <published>2025-10-26T12:15:30.000Z</published>
-    <updated>2025-10-31T04:16:02.976Z</updated>
+    <updated>2025-11-10T00:51:02.993Z</updated>
     
     <summary type="html">
     
@@ -179,7 +209,7 @@
     <link href="https://tuhbm.github.io/2025/10/25/10_15_realty/"/>
     <id>https://tuhbm.github.io/2025/10/25/10_15_realty/</id>
     <published>2025-10-25T15:23:10.000Z</published>
-    <updated>2025-10-31T04:16:02.976Z</updated>
+    <updated>2025-11-10T00:51:02.993Z</updated>
     
     <summary type="html">
     
@@ -211,7 +241,7 @@
     <link href="https://tuhbm.github.io/2025/10/24/etf/"/>
     <id>https://tuhbm.github.io/2025/10/24/etf/</id>
     <published>2025-10-24T12:24:20.000Z</published>
-    <updated>2025-10-31T04:16:02.978Z</updated>
+    <updated>2025-11-10T00:51:02.995Z</updated>
     
     <summary type="html">
     
@@ -243,7 +273,7 @@
     <link href="https://tuhbm.github.io/2025/10/23/highBUff/"/>
     <id>https://tuhbm.github.io/2025/10/23/highBUff/</id>
     <published>2025-10-23T15:20:23.000Z</published>
-    <updated>2025-10-31T04:16:02.978Z</updated>
+    <updated>2025-11-10T00:51:02.995Z</updated>
     
     <summary type="html">
     
@@ -273,7 +303,7 @@
     <link href="https://tuhbm.github.io/2025/10/22/lateNightSnack/"/>
     <id>https://tuhbm.github.io/2025/10/22/lateNightSnack/</id>
     <published>2025-10-22T11:20:00.000Z</published>
-    <updated>2025-10-31T04:16:02.979Z</updated>
+    <updated>2025-11-10T00:51:02.996Z</updated>
     
     <summary type="html">
     
@@ -309,7 +339,7 @@
     <link href="https://tuhbm.github.io/2025/10/21/aiComparison/"/>
     <id>https://tuhbm.github.io/2025/10/21/aiComparison/</id>
     <published>2025-10-21T22:50:00.000Z</published>
-    <updated>2025-10-31T04:16:02.977Z</updated>
+    <updated>2025-11-10T00:51:02.994Z</updated>
     
     <summary type="html">
     
@@ -343,7 +373,7 @@
     <link href="https://tuhbm.github.io/2021/10/21/first-class-citizen/"/>
     <id>https://tuhbm.github.io/2021/10/21/first-class-citizen/</id>
     <published>2021-10-21T21:37:30.000Z</published>
-    <updated>2025-10-31T04:16:02.978Z</updated>
+    <updated>2025-11-10T00:51:02.995Z</updated>
     
     <summary type="html">
     
@@ -377,7 +407,7 @@
     <link href="https://tuhbm.github.io/2021/09/21/arrayAlign/"/>
     <id>https://tuhbm.github.io/2021/09/21/arrayAlign/</id>
     <published>2021-09-21T21:37:30.000Z</published>
-    <updated>2025-10-31T04:16:02.977Z</updated>
+    <updated>2025-11-10T00:51:02.994Z</updated>
     
     <summary type="html">
     
@@ -409,7 +439,7 @@
     <link href="https://tuhbm.github.io/2021/08/11/importanceOfFirstAnnualSalary/"/>
     <id>https://tuhbm.github.io/2021/08/11/importanceOfFirstAnnualSalary/</id>
     <published>2021-08-11T22:35:06.000Z</published>
-    <updated>2025-10-31T04:16:02.978Z</updated>
+    <updated>2025-11-10T00:51:02.995Z</updated>
     
     <summary type="html">
     
@@ -435,7 +465,7 @@
     <link href="https://tuhbm.github.io/2021/03/17/copy/"/>
     <id>https://tuhbm.github.io/2021/03/17/copy/</id>
     <published>2021-03-17T21:45:01.000Z</published>
-    <updated>2025-10-31T04:16:02.978Z</updated>
+    <updated>2025-11-10T00:51:02.994Z</updated>
     
     <summary type="html">
     
@@ -466,7 +496,7 @@
     <link href="https://tuhbm.github.io/2021/03/16/api/"/>
     <id>https://tuhbm.github.io/2021/03/16/api/</id>
     <published>2021-03-16T21:45:01.000Z</published>
-    <updated>2025-10-31T04:16:02.977Z</updated>
+    <updated>2025-11-10T00:51:02.994Z</updated>
     
     <summary type="html">
     
@@ -503,7 +533,7 @@
     <link href="https://tuhbm.github.io/2021/03/15/interface/"/>
     <id>https://tuhbm.github.io/2021/03/15/interface/</id>
     <published>2021-03-15T20:58:59.000Z</published>
-    <updated>2025-10-31T04:16:02.978Z</updated>
+    <updated>2025-11-10T00:51:02.995Z</updated>
     
     <summary type="html">
     
@@ -542,7 +572,7 @@
     <link href="https://tuhbm.github.io/2019/11/14/simpleSoftware/"/>
     <id>https://tuhbm.github.io/2019/11/14/simpleSoftware/</id>
     <published>2019-11-14T20:28:20.000Z</published>
-    <updated>2025-10-31T04:16:02.980Z</updated>
+    <updated>2025-11-10T00:51:02.997Z</updated>
     
     <summary type="html">
     
@@ -577,7 +607,7 @@
     <link href="https://tuhbm.github.io/2019/09/15/book-review-interviewBook/"/>
     <id>https://tuhbm.github.io/2019/09/15/book-review-interviewBook/</id>
     <published>2019-09-15T21:32:20.000Z</published>
-    <updated>2025-10-31T04:16:02.977Z</updated>
+    <updated>2025-11-10T00:51:02.994Z</updated>
     
     <summary type="html">
     
@@ -610,7 +640,7 @@
     <link href="https://tuhbm.github.io/2019/08/21/book-review-smacss/"/>
     <id>https://tuhbm.github.io/2019/08/21/book-review-smacss/</id>
     <published>2019-08-21T21:32:20.000Z</published>
-    <updated>2025-10-31T04:16:02.977Z</updated>
+    <updated>2025-11-10T00:51:02.994Z</updated>
     
     <summary type="html">
     
@@ -644,45 +674,6 @@
       <category term="module" scheme="https://tuhbm.github.io/tags/module/"/>
     
       <category term="states" scheme="https://tuhbm.github.io/tags/states/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>혼자 공부하는 C언어</title>
-    <link href="https://tuhbm.github.io/2019/08/07/personalClanguage/"/>
-    <id>https://tuhbm.github.io/2019/08/07/personalClanguage/</id>
-    <published>2019-08-07T22:10:20.000Z</published>
-    <updated>2025-10-31T04:16:02.979Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;이 카테고리는 책을 읽고, 느낀점에 대해 리뷰를 남기는 카테고리입니다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;혼자-공부하는-C언어&quot;&gt;&lt;a href=&quot;#혼자-공부하는-C언어&quot; class=&quot;headerlink&quot; title=&quot;혼자 공부하는 C언어&quot;&gt;&lt;/a&gt;혼자 공부하는 C언어&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/books/c_book1.jpg&quot; alt=&quot;혼자 공부하는 C언어&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;한줄평-리뷰&quot;&gt;&lt;a href=&quot;#한줄평-리뷰&quot; class=&quot;headerlink&quot; title=&quot;한줄평 리뷰&quot;&gt;&lt;/a&gt;한줄평 리뷰&lt;/h2&gt;&lt;p&gt;어마어마한 두께만큼 배울때 보면 좋은도서다.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
-    
-      <category term="book" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/book/"/>
-    
-    
-      <category term="programming" scheme="https://tuhbm.github.io/tags/programming/"/>
-    
-      <category term="book-review" scheme="https://tuhbm.github.io/tags/book-review/"/>
-    
-      <category term="북리뷰" scheme="https://tuhbm.github.io/tags/%EB%B6%81%EB%A6%AC%EB%B7%B0/"/>
-    
-      <category term="프로그래머" scheme="https://tuhbm.github.io/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8/"/>
-    
-      <category term="비전공자" scheme="https://tuhbm.github.io/tags/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90/"/>
-    
-      <category term="major" scheme="https://tuhbm.github.io/tags/major/"/>
-    
-      <category term="C" scheme="https://tuhbm.github.io/tags/C/"/>
-    
-      <category term="personal" scheme="https://tuhbm.github.io/tags/personal/"/>
     
   </entry>
   
