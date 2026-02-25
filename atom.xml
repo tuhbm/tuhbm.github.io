@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2026-02-25T00:44:03.881Z</updated>
+  <updated>2026-02-25T23:41:23.884Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -17,11 +17,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>하이버프 투자일지 - 20260226</title>
+    <link href="https://tuhbm.github.io/2026/02/26/highBuff_260226/"/>
+    <id>https://tuhbm.github.io/2026/02/26/highBuff_260226/</id>
+    <published>2026-02-26T08:56:23.000Z</published>
+    <updated>2026-02-25T23:41:23.884Z</updated>
+    
+    <summary type="html">
+    
+      하이버프(HighBuff)는 목표와 위험 한도만 정하면 나머지를 자동으로 운용해 주는 투자 앱입니다. 핵심 기능, 장단점, 출금/체험 정책을 쉬운 언어로 정리했습니다.
+    
+    </summary>
+    
+      <category term="경제" scheme="https://tuhbm.github.io/categories/%EA%B2%BD%EC%A0%9C/"/>
+    
+      <category term="투자" scheme="https://tuhbm.github.io/categories/%EA%B2%BD%EC%A0%9C/%ED%88%AC%EC%9E%90/"/>
+    
+      <category term="하이버프 투자일지" scheme="https://tuhbm.github.io/categories/%EA%B2%BD%EC%A0%9C/%ED%88%AC%EC%9E%90/%ED%95%98%EC%9D%B4%EB%B2%84%ED%94%84-%ED%88%AC%EC%9E%90%EC%9D%BC%EC%A7%80/"/>
+    
+    
+      <category term="재테크" scheme="https://tuhbm.github.io/tags/%EC%9E%AC%ED%85%8C%ED%81%AC/"/>
+    
+      <category term="투자앱" scheme="https://tuhbm.github.io/tags/%ED%88%AC%EC%9E%90%EC%95%B1/"/>
+    
+      <category term="로보어드바이저" scheme="https://tuhbm.github.io/tags/%EB%A1%9C%EB%B3%B4%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80/"/>
+    
+      <category term="AI투자" scheme="https://tuhbm.github.io/tags/AI%ED%88%AC%EC%9E%90/"/>
+    
+      <category term="하이버프" scheme="https://tuhbm.github.io/tags/%ED%95%98%EC%9D%B4%EB%B2%84%ED%94%84/"/>
+    
+  </entry>
+  
+  <entry>
     <title>하이버프 투자일지 - 20260225</title>
     <link href="https://tuhbm.github.io/2026/02/25/highBuff_260225/"/>
     <id>https://tuhbm.github.io/2026/02/25/highBuff_260225/</id>
     <published>2026-02-25T08:56:23.000Z</published>
-    <updated>2026-02-25T00:44:03.881Z</updated>
+    <updated>2026-02-25T23:41:23.884Z</updated>
     
     <summary type="html">
     
@@ -87,7 +119,7 @@
     <link href="https://tuhbm.github.io/2025/11/19/loneStarGate/"/>
     <id>https://tuhbm.github.io/2025/11/19/loneStarGate/</id>
     <published>2025-11-19T09:00:00.000Z</published>
-    <updated>2026-02-25T00:44:03.882Z</updated>
+    <updated>2026-02-25T23:41:23.885Z</updated>
     
     <summary type="html">
     
@@ -118,7 +150,7 @@
     <link href="https://tuhbm.github.io/2025/11/10/teslaCompensation/"/>
     <id>https://tuhbm.github.io/2025/11/10/teslaCompensation/</id>
     <published>2025-11-10T19:00:00.000Z</published>
-    <updated>2026-02-25T00:44:03.884Z</updated>
+    <updated>2026-02-25T23:41:23.887Z</updated>
     
     <summary type="html">
     
@@ -148,7 +180,7 @@
     <link href="https://tuhbm.github.io/2025/10/31/nuclearSubmarine/"/>
     <id>https://tuhbm.github.io/2025/10/31/nuclearSubmarine/</id>
     <published>2025-10-31T01:00:00.000Z</published>
-    <updated>2026-02-25T00:44:03.882Z</updated>
+    <updated>2026-02-25T23:41:23.886Z</updated>
     
     <summary type="html">
     
@@ -178,7 +210,7 @@
     <link href="https://tuhbm.github.io/2025/10/30/usaAndKoreaMeeting/"/>
     <id>https://tuhbm.github.io/2025/10/30/usaAndKoreaMeeting/</id>
     <published>2025-10-30T03:00:00.000Z</published>
-    <updated>2026-02-25T00:44:03.884Z</updated>
+    <updated>2026-02-25T23:41:23.887Z</updated>
     
     <summary type="html">
     
@@ -212,7 +244,7 @@
     <link href="https://tuhbm.github.io/2025/10/28/sam_10/"/>
     <id>https://tuhbm.github.io/2025/10/28/sam_10/</id>
     <published>2025-10-28T17:23:15.000Z</published>
-    <updated>2026-02-25T00:44:03.883Z</updated>
+    <updated>2026-02-25T23:41:23.886Z</updated>
     
     <summary type="html">
     
@@ -242,7 +274,7 @@
     <link href="https://tuhbm.github.io/2025/10/27/buffett/"/>
     <id>https://tuhbm.github.io/2025/10/27/buffett/</id>
     <published>2025-10-27T11:00:00.000Z</published>
-    <updated>2026-02-25T00:44:03.880Z</updated>
+    <updated>2026-02-25T23:41:23.883Z</updated>
     
     <summary type="html">
     
@@ -276,7 +308,7 @@
     <link href="https://tuhbm.github.io/2025/10/26/2025_korea_baseball/"/>
     <id>https://tuhbm.github.io/2025/10/26/2025_korea_baseball/</id>
     <published>2025-10-26T12:15:30.000Z</published>
-    <updated>2026-02-25T00:44:03.879Z</updated>
+    <updated>2026-02-25T23:41:23.883Z</updated>
     
     <summary type="html">
     
@@ -308,7 +340,7 @@
     <link href="https://tuhbm.github.io/2025/10/25/10_15_realty/"/>
     <id>https://tuhbm.github.io/2025/10/25/10_15_realty/</id>
     <published>2025-10-25T15:23:10.000Z</published>
-    <updated>2026-02-25T00:44:03.879Z</updated>
+    <updated>2026-02-25T23:41:23.883Z</updated>
     
     <summary type="html">
     
@@ -340,7 +372,7 @@
     <link href="https://tuhbm.github.io/2025/10/24/etf/"/>
     <id>https://tuhbm.github.io/2025/10/24/etf/</id>
     <published>2025-10-24T12:24:20.000Z</published>
-    <updated>2026-02-25T00:44:03.881Z</updated>
+    <updated>2026-02-25T23:41:23.884Z</updated>
     
     <summary type="html">
     
@@ -372,7 +404,7 @@
     <link href="https://tuhbm.github.io/2025/10/23/highBUff/"/>
     <id>https://tuhbm.github.io/2025/10/23/highBUff/</id>
     <published>2025-10-23T15:20:23.000Z</published>
-    <updated>2026-02-25T00:44:03.881Z</updated>
+    <updated>2026-02-25T23:41:23.884Z</updated>
     
     <summary type="html">
     
@@ -402,7 +434,7 @@
     <link href="https://tuhbm.github.io/2025/10/22/lateNightSnack/"/>
     <id>https://tuhbm.github.io/2025/10/22/lateNightSnack/</id>
     <published>2025-10-22T11:20:00.000Z</published>
-    <updated>2026-02-25T00:44:03.882Z</updated>
+    <updated>2026-02-25T23:41:23.885Z</updated>
     
     <summary type="html">
     
@@ -438,7 +470,7 @@
     <link href="https://tuhbm.github.io/2025/10/21/aiComparison/"/>
     <id>https://tuhbm.github.io/2025/10/21/aiComparison/</id>
     <published>2025-10-21T22:50:00.000Z</published>
-    <updated>2026-02-25T00:44:03.879Z</updated>
+    <updated>2026-02-25T23:41:23.883Z</updated>
     
     <summary type="html">
     
@@ -472,7 +504,7 @@
     <link href="https://tuhbm.github.io/2021/10/21/first-class-citizen/"/>
     <id>https://tuhbm.github.io/2021/10/21/first-class-citizen/</id>
     <published>2021-10-21T21:37:30.000Z</published>
-    <updated>2026-02-25T00:44:03.881Z</updated>
+    <updated>2026-02-25T23:41:23.884Z</updated>
     
     <summary type="html">
     
@@ -506,7 +538,7 @@
     <link href="https://tuhbm.github.io/2021/09/21/arrayAlign/"/>
     <id>https://tuhbm.github.io/2021/09/21/arrayAlign/</id>
     <published>2021-09-21T21:37:30.000Z</published>
-    <updated>2026-02-25T00:44:03.880Z</updated>
+    <updated>2026-02-25T23:41:23.883Z</updated>
     
     <summary type="html">
     
@@ -538,7 +570,7 @@
     <link href="https://tuhbm.github.io/2021/08/11/importanceOfFirstAnnualSalary/"/>
     <id>https://tuhbm.github.io/2021/08/11/importanceOfFirstAnnualSalary/</id>
     <published>2021-08-11T22:35:06.000Z</published>
-    <updated>2026-02-25T00:44:03.881Z</updated>
+    <updated>2026-02-25T23:41:23.885Z</updated>
     
     <summary type="html">
     
@@ -564,7 +596,7 @@
     <link href="https://tuhbm.github.io/2021/03/17/copy/"/>
     <id>https://tuhbm.github.io/2021/03/17/copy/</id>
     <published>2021-03-17T21:45:01.000Z</published>
-    <updated>2026-02-25T00:44:03.880Z</updated>
+    <updated>2026-02-25T23:41:23.883Z</updated>
     
     <summary type="html">
     
@@ -595,7 +627,7 @@
     <link href="https://tuhbm.github.io/2021/03/16/api/"/>
     <id>https://tuhbm.github.io/2021/03/16/api/</id>
     <published>2021-03-16T21:45:01.000Z</published>
-    <updated>2026-02-25T00:44:03.880Z</updated>
+    <updated>2026-02-25T23:41:23.883Z</updated>
     
     <summary type="html">
     
@@ -624,45 +656,6 @@
       <category term="인터페이스" scheme="https://tuhbm.github.io/tags/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/"/>
     
       <category term="소프트웨어 상호작용" scheme="https://tuhbm.github.io/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%83%81%ED%98%B8%EC%9E%91%EC%9A%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>인터페이스(interface)</title>
-    <link href="https://tuhbm.github.io/2021/03/15/interface/"/>
-    <id>https://tuhbm.github.io/2021/03/15/interface/</id>
-    <published>2021-03-15T20:58:59.000Z</published>
-    <updated>2026-02-25T00:44:03.881Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;용어정리&quot;&gt;&lt;a href=&quot;#용어정리&quot; class=&quot;headerlink&quot; title=&quot;용어정리&quot;&gt;&lt;/a&gt;용어정리&lt;/h2&gt;&lt;p&gt;이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.&lt;br&gt;제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.&lt;br&gt;오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&quot;https://tuhbm.github.io/images/terms/interface_img1.png&quot; alt=&quot;인터페이스&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;사전적정의&quot;&gt;&lt;a href=&quot;#사전적정의&quot; class=&quot;headerlink&quot; title=&quot;사전적정의&quot;&gt;&lt;/a&gt;사전적정의&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;전기 신호의 변환(變換)으로 중앙 처리 장치와 그 주변 장치를 서로 잇는 부분. 또는, 그 접속 장치.&lt;/li&gt;
-&lt;li&gt;키보드나 디스플레이 등처럼 사람과 컴퓨터를 연결하는 장치.&lt;/li&gt;
-&lt;li&gt;소프트웨어끼리 접촉·공통되는 부분. 순화어는 `접속’.&lt;/li&gt;
-&lt;li&gt;사물과 사물 사이 또는 사물과 인간 사이의 경계에서, 상호 간의 소통을 위해 만들어진 물리적 매개체
-    
-    </summary>
-    
-      <category term="공부" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/"/>
-    
-      <category term="용어정리" scheme="https://tuhbm.github.io/categories/%EA%B3%B5%EB%B6%80/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/"/>
-    
-    
-      <category term="interface" scheme="https://tuhbm.github.io/tags/interface/"/>
-    
-      <category term="매개체" scheme="https://tuhbm.github.io/tags/%EB%A7%A4%EA%B0%9C%EC%B2%B4/"/>
-    
-      <category term="연결고리" scheme="https://tuhbm.github.io/tags/%EC%97%B0%EA%B2%B0%EA%B3%A0%EB%A6%AC/"/>
-    
-      <category term="접속" scheme="https://tuhbm.github.io/tags/%EC%A0%91%EC%86%8D/"/>
-    
-      <category term="접촉" scheme="https://tuhbm.github.io/tags/%EC%A0%91%EC%B4%89/"/>
-    
-      <category term="경계" scheme="https://tuhbm.github.io/tags/%EA%B2%BD%EA%B3%84/"/>
     
   </entry>
   
