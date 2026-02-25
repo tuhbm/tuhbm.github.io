@@ -19,7 +19,7 @@ hexo.extend.tag.register("fancybox", function (args) {
   var title = args.join(" ");
 
   return (
-    '<a class="fancybox" href="' +
+    '<a style="width:50%" class="fancybox" href="' +
     original +
     '" title="' +
     title +
