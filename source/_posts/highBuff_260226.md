@@ -50,7 +50,7 @@ keywords:
 
 **국내주식**
 
-![국내주식 오늘수익 한눈에 보기](../images/dailyInvest/260226/260226-1.png)
+![국내주식 오늘수익 한눈에 보기](https://tuhbm.github.io/images/dailyInvest/260226/260226-1.png)
 
 국내주식은 아무래도 투자시드가 적다보니 활발할 거래가 이루어지지않는다.(요즘은 국장이 호재인데....아쉽다.)
 다행히 월급 이후 추가 잉여금액이 있어 26만원을 추가 운용자금으로 투입하였다.(이부분은 내일거래부터 반영된다.)
@@ -60,20 +60,20 @@ keywords:
 거래내역 텝에 들어가서 AI리포트를 열어보면 많은 정보를 볼 수 있다.
 종목이 한개였기때문에 천천히 해당종목에 대한 AI리포트를 읽어보았다.
 
-![국내주식 투자종목 기업 인사이트](../images/dailyInvest/260226/260226-5.png)
+![국내주식 투자종목 기업 인사이트](https://tuhbm.github.io/images/dailyInvest/260226/260226-5.png)
 
-기업정보를 보면 스맥은 CNC선반등 블라블라.....어렵다. 
+기업정보를 보면 스맥은 CNC선반등 블라블라.....어렵다.
 인사이트를 살펴보면 PER과 PBR을 보았을때 **저평가** 되었다.
 
-![국내주식 투자종목 거래손익](../images/dailyInvest/260226/260226-2.png)
+![국내주식 투자종목 거래손익](https://tuhbm.github.io/images/dailyInvest/260226/260226-2.png)
 
 매수가와 매도가도 확인가능하고, 매수시점분석도 확인 가능하다
 
-![국내주식 투자종목 매수 분석](../images/dailyInvest/260226/260226-3.png)
+![국내주식 투자종목 매수 분석](https://tuhbm.github.io/images/dailyInvest/260226/260226-3.png)
 
 또한 매도 사유 및 매수, 매도 시점 차트도 확인가능하다.
 
-![국내주식 투자종목 매도 사유](../images/dailyInvest/260226/260226-4.png)
+![국내주식 투자종목 매도 사유](https://tuhbm.github.io/images/dailyInvest/260226/260226-4.png)
 
 매수결정분석에 보면 개선사항을 통해 AI가 자기 개선사항에 대해서도 반성을 한다.
 
@@ -81,19 +81,19 @@ keywords:
 
 **미국주식**
 
-![미국주식 오늘수익 한눈에 보기](../images/dailyInvest/260226/260226-6.png)
+![미국주식 오늘수익 한눈에 보기](https://tuhbm.github.io/images/dailyInvest/260226/260226-6.png)
 
 오늘은 **1.45$** 라는 결과를 얻었다. 한화로는 **2.070원**이다.
 오늘은 수익을 보았다.
 다만 거래종목이....2종목...
 오늘 개인투자한거봤을때 상승장이던데 아쉽다.
 
-![미국주식 오늘 투자종목 및 성적](../images/dailyInvest/260226/260226-7.png)
+![미국주식 오늘 투자종목 및 성적](https://tuhbm.github.io/images/dailyInvest/260226/260226-7.png)
 
 소심하다 소심해
 천만원투자했을니까 공격적으로 좀 해봐라!!
-<!-- ![미국주식 오늘 투자종목 및 성적](https://tuhbm.github.io/images/dailyInvest/260226/260226-7.png) -->
 
+<!-- ![미국주식 오늘 투자종목 및 성적](https://tuhbm.github.io/images/dailyInvest/260226/260226-7.png) -->
 
 ---
 
