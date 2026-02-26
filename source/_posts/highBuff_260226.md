@@ -97,8 +97,6 @@ keywords:
 소심하다 소심해
 천만원투자했을니까 공격적으로 좀 해봐라!!
 
-<!-- ![미국주식 오늘 투자종목 및 성적](https://tuhbm.github.io/images/dailyInvest/260226/260226-7.png) -->
-
 ---
 
 ## 오늘의 한줄평
