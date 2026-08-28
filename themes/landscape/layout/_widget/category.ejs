@@ -2,7 +2,35 @@
   <div class="widget-wrap">
     <h3 class="widget-title"><%= __('categories') %></h3>
     <div class="widget">
-      <%- list_categories({show_count: theme.show_count}) %>
+      <%
+        /* 최상위 카테고리는 코드 → 머니 → 브리핑 고정, 하위는 기존 이름순 유지 */
+        var TOP_ORDER = ['코드', '머니', '브리핑'];
+        var rank = function(name){ var i = TOP_ORDER.indexOf(name); return i === -1 ? 99 : i; };
+        var tops = site.categories.find({ parent: { $exists: false } }).toArray()
+          .filter(function(c){ return c.length; })
+          .sort(function(a, b){ return rank(a.name) - rank(b.name) || (a.name > b.name ? 1 : a.name < b.name ? -1 : 0); });
+      %>
+      <ul class="category-list">
+      <% tops.forEach(function(top){ %>
+        <li class="category-list-item">
+          <a class="category-list-link" href="<%- url_for(top.path) %>"><%= top.name %></a><% if (theme.show_count) { %><span class="category-list-count"><%= top.length %></span><% } %>
+          <%
+            var kids = site.categories.find({ parent: top._id }).toArray()
+              .filter(function(c){ return c.length; })
+              .sort(function(a, b){ return (a.name > b.name ? 1 : a.name < b.name ? -1 : 0); });
+          %>
+          <% if (kids.length) { %>
+          <ul class="category-list-child">
+            <% kids.forEach(function(kid){ %>
+            <li class="category-list-item">
+              <a class="category-list-link" href="<%- url_for(kid.path) %>"><%= kid.name %></a><% if (theme.show_count) { %><span class="category-list-count"><%= kid.length %></span><% } %>
+            </li>
+            <% }) %>
+          </ul>
+          <% } %>
+        </li>
+      <% }) %>
+      </ul>
     </div>
   </div>
 <% } %>
