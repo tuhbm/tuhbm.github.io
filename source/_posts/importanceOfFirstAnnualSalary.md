@@ -6,7 +6,8 @@ tags:
   - 월급
   - 격차
 categories:
-  - Column
+  - 코드
+  - 회고·에세이
 thumbnail: 'https://tuhbm.github.io/images/column/importanceOfFirstMoney.jpg'
 date: 2021-08-11 22:35:06
 ---

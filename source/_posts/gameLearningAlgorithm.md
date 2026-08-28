@@ -2,8 +2,8 @@
 title: 게임으로 익히는 코딩 알고리즘
 date: 2019-06-03 21:52:26
 categories:
-  - 공부
-  - book
+  - 코드
+  - 독서
 tags:
     - 코딩게임
     - codingame

@@ -2,8 +2,8 @@
 title: SMACSS
 date: 2019-08-21 21:32:20
 categories:
-  - 공부
-  - book
+  - 코드
+  - 독서
 tags:
     - smacss
     - theme

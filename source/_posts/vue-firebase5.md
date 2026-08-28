@@ -1,9 +1,8 @@
 ---
 title: 번역 - Vue 2 + Firebase 인증 시스템을 사용하여 15분 안에 Vue 앱을 만드는 방법 5편
 categories:
-  - 공부
-  - Javascript
-  - Vue
+  - 코드
+  - JavaScript
 tags:
   - vue
   - vue.js

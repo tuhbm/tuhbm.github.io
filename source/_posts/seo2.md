@@ -1,7 +1,7 @@
 ---
 title: SEO(Search Engine Optimization) 검색 엔진 최적화 2편
 categories:
-  - 공부
+  - 코드
   - SEO
 tags:
   - Search

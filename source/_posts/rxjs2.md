@@ -1,9 +1,8 @@
 ---
 title: RxJS 시작하기
-categories:  
-- 공부
-- Javascript
-- RxJS
+categories:
+  - 코드
+  - JavaScript
 tags:
   - RxJS
   - 스트림

@@ -17,8 +17,8 @@ tags:
   - 투자전략
   - 시장분석
 categories:
-  - 경제
-  - 투자  
+  - 머니
+  - 시장분석
 ---
 ![10만전자](https://tuhbm.github.io/images/normal/samsug_10.png)
 # 십만전자 시대 개막 — 삼성전자 10만원 돌파가 의미하는 것

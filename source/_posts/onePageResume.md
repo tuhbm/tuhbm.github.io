@@ -1,9 +1,9 @@
 ---
 title: 원페이지 HTML 이력서
 date: 2017-08-05 20:49:11
-categories:  
-- 공부
-- ETC
+categories:
+  - 코드
+  - 기타
 
 tags:
 - RESUME

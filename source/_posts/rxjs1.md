@@ -1,9 +1,8 @@
 ---
 title: Rxjs를 시작하기전에...
-categories:  
-- 공부
-- Javascript
-- RxJS
+categories:
+  - 코드
+  - JavaScript
 tags:
   - RxJS
   - 스트림

@@ -8,9 +8,8 @@ tags:
   - processors
   - 사스
 categories:
-  - 공부
-  - CSS
-  - SASS
+  - 코드
+  - HTML·CSS
 date: 2018-01-24 16:12:13
 thumbnail: https://tuhbm.github.io/images/bnr-css.jpg
 ---

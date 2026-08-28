@@ -2,7 +2,8 @@
 title: 2025년 10월, 진짜 잘하는 AI는 누구? GPT-5·Gemini 2.5·Claude 3.7·Grok 4·Cursor 실사용 비교
 date: 2025-10-21 22:50:00
 categories:
-  - 공부
+  - 코드
+  - 기타
 tags:
   - GPT-5
   - Gemini 2.5

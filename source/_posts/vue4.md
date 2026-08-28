@@ -1,9 +1,8 @@
 ---
 title: vue 알아보기 4편
 categories:
-  - 공부
-  - Javascript
-  - Vue
+  - 코드
+  - JavaScript
 tags:
   - vue
   - vue.js

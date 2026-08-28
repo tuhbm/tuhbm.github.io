@@ -8,9 +8,9 @@ tags:
 - 환헤지
 - 연금
 - 직장인
-categories: 
-- 경제
-- 투자
+categories:
+  - 머니
+  - 투자
 description: ETF가 처음이신가요? 초보자 관점에서 ETF 핵심 개념, 국내·해외 과세 차이, 환헤지 선택, 좋은 ETF 고르는 법, 많이 추천되는 대표 전략과 실제 티커 예시표(총보수·분배주기·헤지·유동성)까지 한 글에 담았습니다.
 ---
 ![ETF](https://tuhbm.github.io/images/normal/etf.png)

@@ -1,10 +1,10 @@
 ---
 title: Typescript - 접근 제한자
 categories:
-  - 공부
-  - Javascript
-  - Typescript
+  - 코드
+  - JavaScript
 tags:
+  - TypeScript
   - access
   - public
   - private

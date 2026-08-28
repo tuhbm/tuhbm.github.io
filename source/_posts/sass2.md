@@ -8,9 +8,8 @@ tags:
   - mixin
   - include
 categories:
-  - 공부
-  - CSS
-  - SASS
+  - 코드
+  - HTML·CSS
 date: 2018-01-24 20:01:13
 thumbnail: https://tuhbm.github.io/images/bnr-css.jpg
 ---

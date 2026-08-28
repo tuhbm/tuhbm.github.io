@@ -2,8 +2,8 @@
 title: Java 숫자와 문자
 date: 2018-06-13 20:29:10
 categories:
-  - 공부
-  - JAVA
+  - 코드
+  - Java
 tags:
     - java
     - oop

@@ -2,8 +2,8 @@
 title: java 유효범위(scope)
 date: 2018-06-24 21:08:55
 categories:
-  - 공부
-  - JAVA
+  - 코드
+  - Java
 tags:
     - java
     - oop

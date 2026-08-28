@@ -2,8 +2,8 @@
 title: 이것이 자바다
 date: 2018-04-12 21:51:20
 categories:
-  - 공부
-  - book
+  - 코드
+  - 독서
 tags:
     - java
     - programming

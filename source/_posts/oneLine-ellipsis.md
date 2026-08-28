@@ -1,9 +1,9 @@
 ---
 title: 한줄말줄임
 date: 2017-07-17 14:42:33
-categories:  
-- 공부
-- CSS
+categories:
+  - 코드
+  - HTML·CSS
 
 tags:
 - CSS

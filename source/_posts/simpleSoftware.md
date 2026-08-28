@@ -2,8 +2,8 @@
 title: 심플 소프트웨어
 date: 2019-11-14 20:28:20
 categories:
-  - 공부
-  - book
+  - 코드
+  - 독서
 tags:
     - 심플
     - programming

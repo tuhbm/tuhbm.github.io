@@ -1,10 +1,9 @@
 ---
 title: scout앱 사용하여 sass컴파일하기
 date: 2017-07-17 15:05:34
-categories: 
-- 공부
-- CSS
-- SASS
+categories:
+  - 코드
+  - HTML·CSS
 tags:
 - sass
 - SCOUT

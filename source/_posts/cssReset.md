@@ -2,8 +2,8 @@
 title: CSS - Resetting VS Normalize
 date: 2018-02-21 21:00:04
 categories:
-  - 공부
-  - CSS
+  - 코드
+  - HTML·CSS
 tags:
     - reset
     - normalize

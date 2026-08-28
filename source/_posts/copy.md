@@ -2,7 +2,7 @@
 title: 얕은복사(shallow copy)&깊은복사(deep copy)
 date: 2021-03-17 21:45:01
 categories:
-  - 공부
+  - 코드
   - 용어정리
 tags:
    - shallow copy
