@@ -8,7 +8,8 @@
 ## 공통: 저장소 구조
 
 - **gh-pages 브랜치** = Hexo 소스 브랜치 (작업 브랜치). `source/_posts/*.md`, `_config.yml`, `tools/` 포함. 커밋 메시지 관례: `update on YYYY/MM/DD HH:MM:SS`
-- **master 브랜치** = `hexo deploy`가 생성하는 배포 결과물. 직접 수정하지 않는다.
+- **master 브랜치** = 배포 결과물. 직접 수정하지 않는다. **gh-pages에 푸시하면 GitHub Actions(`.github/workflows/hexo.yml`)가 자동으로 빌드해 master에 배포**하므로, 로컬에서 `hexo deploy`를 돌릴 필요가 없다(돌려도 Actions가 곧 덮어쓴다). 배포 = gh-pages 푸시.
+- 사이트맵은 `hexo-generator-seo-friendly-sitemap` 하나만 사용한다(2026-08-30에 중복이던 `hexo-generator-sitemap` 제거). 한글 태그/카테고리 URL 이중 인코딩은 `scripts/fix-sitemap-double-encoding.js`가 보정한다.
 - `tools/genimage`, `tools/svg2png` = 글에 넣을 이미지 생성 도구
 - 이미지는 `source/images/<주제>/` 아래에 저장 (예: `source/images/dailyInvest/260227/`)
 
