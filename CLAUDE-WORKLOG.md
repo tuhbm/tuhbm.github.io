@@ -4,6 +4,14 @@
 
 ---
 
+## 2026-08-31 (Windows PC)
+
+- 한 일:
+  - git pull로 주말(맥북) 작업 수신·동기화. npm install로 의존성 정리(hexo-generator-sitemap 제거 반영).
+  - CLAUDE.md에 Windows 저장소 경로(`C:\project\tuhbm.github.io`)와 카테고리 체계(코드/머니/브리핑) 명시 — 맥 세션의 미결 항목 처리.
+  - Windows 쪽 daily-blog 스킬을 주말 변경사항과 정합: 0단계(pull+워크로그) 추가, svgcard 생성기 참조, 스포츠 분야 허용.
+- 다음에 할 일: 없음(동기화 완료). 다음 글 작성 시 어느 PC든 이 로그부터 읽고 시작.
+
 ## 2026-08-30 (MacBook Pro)
 
 - 한 일:
@@ -19,7 +27,10 @@
   - 대표 이미지 10장을 제미나이 없이 SVG 수제작(사용자 결정) → tools/svgcard/make.js 생성기 신규 제작, tools/svg2png로 변환, 전량 육안 검수 완료.
 - 다음에 할 일: hexo generate/deploy로 실제 배포(사용자 확인 필요). 다른 PC(Windows)의 로컬 경로를 CLAUDE.md에 기록.
 
-## 2026-08-28 (다른 PC)
+## 2026-08-28 (Windows PC — 8/31에 보완 기록)
 
-- 한 일: 새 글 10편 작성·배포 — baseRate3percent, busFareHike2026, covidDebtRelief, minKyunghoonBreak, moduAiProject, nepalFlood2026, samsungBioRights, scalpingPenalty, weathercasterRuling, xiUsVisit2026 (git 기록으로 확인)
-- 다음에 할 일: (기록 없음 — git 기록만으로 파악한 항목)
+- 한 일:
+  - 새 글 10편 작성·배포 — baseRate3percent, busFareHike2026, covidDebtRelief, minKyunghoonBreak, moduAiProject, nepalFlood2026, samsungBioRights, scalpingPenalty, weathercasterRuling, xiUsVisit2026. 이미지는 v4 포스터 템플릿(SVG 수제작)으로 확정, 사용자 승인.
+  - 카테고리 전면 재편(102편): 최상위 코드/머니/브리핑 3개로 통합, 사이드바 순서 코드→머니→브리핑 고정(`themes/landscape/layout/_widget/category.ejs` 커스텀).
+  - 블로그 제목 "코드머니 플레이북" → **"코드머니 브리핑"** 변경(사이트·이미지 푸터·Disqus 사이트명), 태그 클라우드 상위 200개 제한.
+- 다음에 할 일: (완료됨)
