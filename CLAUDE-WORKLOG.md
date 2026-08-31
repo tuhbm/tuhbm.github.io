@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-08-31 오전 2차 (Windows PC)
+
+- 한 일:
+  - 오늘의 이슈 10편 작성·배포: suneungEssayDebate(사회·수능 서논술형), seoulBirthRebound(사회·서울 출생 반등), julyIndustryOutput(경제·7월 산업동향), kiaPv7Teaser(경제·기아 PV7), pensionChunapDebate(경제·연금 추납), usIranLarak(국제·미-이란 충돌), lakeOntarioRename(국제·온타리오호 개명), romanTelescopeLaunch(IT과학·로먼 망원경), iphoneKakaoPhishing(IT과학·카톡 위장 피싱), odysseyTenMillion(연예·오디세이 886만).
+  - 이미지 10장: tools/svgcard/make.js + 수제 illust → svg2png, 전량 육안 검수(오디세이 돛단배 1회 수정). 볼드 아티팩트 1건(romanTelescope 따옴표 패턴) 수정 후 재빌드 0건 확인.
+- 다음에 할 일: 없음.
+
 ## 2026-08-31 (Windows PC)
 
 - 한 일:
