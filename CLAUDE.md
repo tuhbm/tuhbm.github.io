@@ -25,6 +25,8 @@
 5. **대표 이미지 제작 (필수)**: 글마다 대표 이미지 1장. **제미나이 등 외부 API를 쓰지 않고 클로드가 직접 SVG를 제작**한 뒤 `tools/svg2png`로 PNG 변환한다 (사용자 결정, 2026-08-29).
    - 템플릿(기존 이미지 스타일 유지): 1536×1024(3:2), 상단 중앙 카테고리 라벨(예: 국제 / WORLD BRIEFING) + 가는 구분선 → 골드/오렌지 알약 배지(핵심 키워드) → 큰 흰색 볼드 제목 → 부제 한 줄 → 중앙에 주제를 표현한 플랫 일러스트 → 하단 흰색 라운드 통계 카드 3개(아이콘 원 + 굵은 수치 + 설명) → 푸터 `코드머니 브리핑 · tuhbm.github.io`. 배경은 카테고리별 톤(국제=짙은 블루그레이, 문화=레드, 경제=네이비/그린 등)에 큰 원형 장식.
    - 생성기: `tools/svgcard/make.js`가 위 템플릿을 코드로 구현해둔 것. jobs.json([{slug, category, categoryEn, theme, badge, title, subtitle, cards[3], illust}])을 만들어 `node tools/svgcard/make.js <jobs.json> <svg출력폴더>` 실행. 테마 키: economy/world/society/culture/tech/sports/realty/science. illust는 중앙(y 420~700, 중심 x 768) 영역의 SVG 스니펫으로 주제별로 직접 그린다. 좌표 속성에 공백이 섞이면 렌더링이 깨지므로 주의.
+   - **히어로(illust) 품질 기준 — v5 (2026-08-31 사용자 확정, 필수)**: 플랫 단색 도형 나열 금지. ①입체 셰이딩(원통·구·상자는 2~4-stop 그라데이션, 동전·바퀴는 윗면 타원+옆면 엣지 분리) ②광택·하이라이트(금속 그라데이션, 유리 광택 사선, sheen) ③소프트 셰도(ellipse+feGaussianBlur) + 큰 오브젝트 드롭 셰도 ④실물 식별 부품 3개 이상(낚싯바늘=바늘귀·미늘·촉, 유모차=아치 캐노피·스포크·핸들 노브 등 — "그림만 보고 주제를 맞힐 수 있는가"로 검수) ⑤주제에 맞는 배경 앰비언스(별밭·성운·물결 등, 주조색 규율 내). 2026-08-31자 10편 이미지가 이 기준의 레퍼런스.
+   - SVG 함정: 선으로 쓰는 `<path>`에 `fill='none'` 필수(빠지면 검은 면), 아크(`A`)의 sweep 방향 확인(반원이 상하 반전됨), PNG 생성 후 전량 육안 검수.
    - 변환: `node tools/svg2png/convert.js <svg폴더>` → `source/images/normal/<slug>.png` 생성. 생성 후 반드시 PNG를 열어 육안 검수한다.
    - 글에서 참조: `![대체텍스트](https://tuhbm.github.io/images/normal/<slug>.png)` (front matter 바로 아래, `## 한눈에 요약` 위).
 6. **작업 후**: CLAUDE-WORKLOG.md 맨 위에 이번 세션 기록(날짜/PC/한 일/다음에 할 일)을 추가하고, gh-pages에 커밋한다. 푸시와 `hexo deploy`는 사용자 확인 후 진행.
