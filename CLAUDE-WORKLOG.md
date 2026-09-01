@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-09-01 (Windows PC)
+
+- 한 일:
+  - git pull 선행(변경 없음) 후 오늘의 이슈 10편 작성·배포: timCookFarewell(IT과학·팀 쿡 애플 CEO 은퇴), messiNationalRetire(스포츠·메시 대표팀 은퇴), augustExportRecord(경제·8월 수출 982억 달러), hyundaiWageDeal2026(경제·현대차 임단협 타결), tomorrowFuelPrice(경제·내일 기름값 사전공개), aiExposedJobs(사회·AI 고노출군 19.1%), insuranceFalseClaims(사회·건보 거짓청구 348억), xiPutinBishkek(국제·시진핑-푸틴 회담), koreanWarRemains(국제·6·25 유해 발굴 재개 추진), kiafFriezeSeoul(생활문화·키아프·프리즈 개막).
+  - 이미지 10장을 처음부터 v5 기준(셰이딩·광택·소프트 셰도·식별 부품)으로 제작, 전량 육안 검수. 1차 검수에서 5장 보완(메시 공 패치·등번호 대비, 주유기 노즐 재배치, 중러 국기 겹침 해소, 헬멧 리벳·인식표 정리, 액자 그림 수정) 후 재검수 통과.
+- 다음에 할 일: 없음.
+
 ## 2026-08-31 오후 (Windows PC)
 
 - 한 일:
