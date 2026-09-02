@@ -10,6 +10,7 @@
   - git pull 선행(변경 없음) 후 오늘의 이슈 10편 작성·배포: augustCpiRebound(경제·8월 물가 3.1%), isaReformScrapped(경제·ISA 개편 백지화), financeUnionStrike(경제·금융노조 총파업 예고), birthBudget2027(사회·저출생 예산 6.1조), employInsuranceReform(사회·고용보험료율 인상), hormuzTankerAttack(국제·한국 유조선 피격), germanyRussiaDrone(국제·독일-러 드론 공작 사태), kakaoMembership(IT과학·카카오 통합 멤버십), biff2026Lineup(생활문화·부산국제영화제 라인업), leeSedolShow(연예·백수 이세돌 확정).
   - 이미지 10장 v5 기준으로 제작, 전량 육안 검수. 보완 2장(돼지저금통 귀·다리 노출, 유조선 선체 외곽선). 빌드 검증에서 볼드 아티팩트 1건(따옴표 볼드) 수정 후 0건 확인.
   - 전날(9/1) 사용자 요청으로 timCookFarewell 이미지를 배턴터치→키노트 무대 콘셉트로 교체 배포한 건 반영됨.
+  - 사용자 피드백으로 birthBudget2027 돼지저금통 재수정: 코(주둥이)가 오른쪽·꼬리가 왼쪽에 뒤바뀌어 있던 것을 왼쪽 보는 방향으로 통일(코 왼쪽 앞 + 눈 + 꼬리 오른쪽 뒤) 후 재배포.
 - 다음에 할 일: 없음.
 
 ## 2026-09-01 (Windows PC)
