@@ -4,6 +4,14 @@
 
 ---
 
+## 2026-09-03 (Windows PC)
+
+- 한 일:
+  - git pull 선행(변경 없음) 후 오늘의 이슈 10편 작성·배포: wonDollarLow(경제·환율 1350원대 연저점), basicPensionDebate(경제·기초연금 개편 논란), sepMockExam(사회·9월 모평 체감난도), honamFloodFarms(사회·호남 폭우 농가 피해), saudiNuclearDeal(국제·사우디 원자력협정), congoEbolaOutbreak(국제·에볼라 3천명), googleAdxRuling(IT과학·구글 애드엑스 분할 기각), broadcomAiEarnings(IT과학·브로드컴 실적), yesanMarketProject(생활문화·백종원 예산시장), exoTicketCrackdown(연예·엑소 부정예매 조치).
+  - 이미지 10장 v5 기준 제작·전량 검수, 보완 2장(예산시장 그릇 위치·기초연금 텍스트 겹침). 빌드 검증 볼드 아티팩트 0건.
+  - 전날 birthBudget2027 돼지저금통이 사용자 피드백 5회로 레퍼런스 형태 전면 교체된 건 반영됨(규칙 5 신설 포함).
+- 다음에 할 일: 없음.
+
 ## 2026-09-02 (Windows PC)
 
 - 한 일:
