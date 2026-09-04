@@ -19,7 +19,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          # 로컬 개발 환경(npm 11)이 만든 package-lock.json을 npm ci로 읽으려면
+          # 같은 npm 메이저가 필요하다. Node 24 = npm 11. (Node 20 = npm 10에서는
+          # "Missing: chokidar@3.6.0 from lock file"로 npm ci 실패)
+          node-version: '24'
 
       - name: Install deps
         run: npm ci
