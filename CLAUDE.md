@@ -58,6 +58,7 @@
 
 ## 변경 이력 (규칙·기준 변경 시 여기에 추가하고 git에 푸시)
 
+- **2026-09-04 (Windows PC)**: **sitemap.txt 추가 생성**(`sitemap.path`에 배열로 지정, robots.txt에도 등록). 서치콘솔이 sitemap.xml을 재크롤하지 않아 옛 판정(유형 "Sitemap 색인", 발견 0)이 계속 표시되는 문제 우회용 — 콘솔이 본 적 없는 새 URL이라 새로 읽는다. 내용은 sitemap.xml과 동일(197 URL).
 - **2026-09-04 (Windows PC)**: **CI Node 20 → 24 상향**. 로컬 npm 11이 생성한 package-lock.json을 CI의 npm 10이 `npm ci`로 읽지 못해 배포 실패(`Missing: chokidar@3.6.0 from lock file`). 의존성을 건드린 뒤 CI가 Install deps에서 실패하면 이 원인을 먼저 의심할 것. 락파일은 로컬 npm 버전으로 생성되므로 CI와 npm 메이저를 맞춰 둔다.
 - **2026-09-04 (Windows PC)**: **사이트맵을 색인형 → 평면 단일 파일로 전환**. `hexo-generator-seo-friendly-sitemap`(sitemap.xml이 색인, 실제 URL은 post/page/category/tag 4개 하위 파일로 분리) 제거하고 `hexo-generator-sitemap@^3` 채택. 서치콘솔에서 "발견된 페이지 0"으로 보이던 원인이 색인형 구조였기 때문. `_config.yml`에 `sitemap.tags: false`(태그 아카이브 762개는 얇은 페이지라 크롤 예산 분산 방지), `categories: true` 설정. 결과 sitemap.xml = 197 URL(글 172 + 카테고리 23 + 홈·about).
 - **2026-08-31 (Windows PC)**: ①"핵심 규칙" 4개 신설(작성 전 git pull, 이미지 85~90점 유지, 규칙·변경사항은 CLAUDE.md에 기록 후 푸시). ②이미지 히어로 품질 기준 v5 확정 — 오늘자 10편 이미지 전량을 v5로 재제작(레퍼런스), 플랫 단색 금지. ③오늘의 이슈 10편 발행(수능 서논술형, 서울 출생 반등, 7월 산업동향, 기아 PV7, 연금 추납, 미-이란 충돌, 온타리오호 개명, 로먼 망원경, 카톡 위장 피싱, 오디세이 886만). 세션 상세는 CLAUDE-WORKLOG.md 참조.

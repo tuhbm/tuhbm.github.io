@@ -88,7 +88,11 @@ nofollow:
 # sitemap auto generator (hexo-generator-sitemap, 평면 단일 파일)
 # tags: 태그 아카이브 762개는 내용이 얇아 크롤 예산 분산을 막기 위해 제외
 sitemap:
-  path: sitemap.xml
+  # sitemap.txt는 서치콘솔이 한 번도 본 적 없는 새 URL이라, 캐시된 옛 판정("Sitemap 색인")
+  # 없이 새로 읽게 만드는 용도. 내용은 sitemap.xml과 동일한 URL 목록.
+  path:
+    - sitemap.xml
+    - sitemap.txt
   tags: false
   categories: true
 
