@@ -4,6 +4,14 @@
 
 ---
 
+## 2026-09-04 (Windows PC)
+
+- 한 일:
+  - git pull 선행(변경 없음) 후 오늘의 이슈 10편 작성·배포: lhSplitPlan(경제·LH 조직 분리), stablecoinBanks(경제·글로벌 은행 스테이블코인, 한국 제외), seoulBusStrike(사회·서울 시내버스 9/16 총파업 예고), sejongMinistryMove(사회·법무부·성평등부 세종 이전), europeGasStorage(국제·EU 가스 저장 65%), koreaAgingForecast(국제·2060년 한국 최고령국), aiOutageGlobal(IT과학·챗GPT·클로드·그록 동시 장애), teslaCybercab(IT과학·사이버캡 출시), youthArtPass(생활문화·청년문화예술패스 쏠림), morenoKoreaCoach(스포츠·모레노 대표팀 감독 선임).
+  - 이미지 10장 v5 기준 제작·전량 검수, 보완 5장(LH 분리선 화살표 오독→점선, 버스 피켓 겹침, 유럽 히터→라디에이터, 고령화 삼각형 부제 침범, 청년패스 중복 칩 제거). 빌드 볼드 아티팩트 0건.
+  - 연예 대신 스포츠 채택(모레노 선임). 오디세이·BIFF는 7일 내 중복이라 제외.
+- 다음에 할 일: 없음.
+
 ## 2026-09-03 (Windows PC)
 
 - 한 일:
