@@ -10,7 +10,9 @@
   - git pull 선행(변경 없음) 후 오늘의 이슈 10편 작성·배포: lhSplitPlan(경제·LH 조직 분리), stablecoinBanks(경제·글로벌 은행 스테이블코인, 한국 제외), seoulBusStrike(사회·서울 시내버스 9/16 총파업 예고), sejongMinistryMove(사회·법무부·성평등부 세종 이전), europeGasStorage(국제·EU 가스 저장 65%), koreaAgingForecast(국제·2060년 한국 최고령국), aiOutageGlobal(IT과학·챗GPT·클로드·그록 동시 장애), teslaCybercab(IT과학·사이버캡 출시), youthArtPass(생활문화·청년문화예술패스 쏠림), morenoKoreaCoach(스포츠·모레노 대표팀 감독 선임).
   - 이미지 10장 v5 기준 제작·전량 검수, 보완 5장(LH 분리선 화살표 오독→점선, 버스 피켓 겹침, 유럽 히터→라디에이터, 고령화 삼각형 부제 침범, 청년패스 중복 칩 제거). 빌드 볼드 아티팩트 0건.
   - 연예 대신 스포츠 채택(모레노 선임). 오디세이·BIFF는 7일 내 중복이라 제외.
-- 다음에 할 일: 없음.
+  - **사이트맵 구조 전환(사용자 요청)**: 서치콘솔에서 sitemap.xml이 "발견된 페이지 0"으로 보이는 원인을 조사 → 2026-08-30 플러그인 중복 정리 때 평면(113 URL)에서 색인형으로 바뀐 것이 원인이었음(색인 파일 자체에는 URL이 0개, 실제 URL은 하위 4개 파일). `hexo-generator-seo-friendly-sitemap` 제거 → `hexo-generator-sitemap@^3` 설치, `_config.yml`에 tags:false·categories:true 지정. 최종 sitemap.xml 197 URL 단일 파일. CI가 `npm ci`를 쓰므로 package-lock.json 함께 커밋 필요.
+  - 참고: 서치콘솔 "마지막으로 읽은 날짜 2024-10-21"은 2022~2024년 배포 0건(방치)으로 크롤 우선순위가 떨어진 탓 + 오늘 재제출분을 아직 안 읽은 상태.
+- 다음에 할 일: 며칠 뒤 서치콘솔에서 sitemap.xml 재읽기 여부와 "발견된 페이지" 수치 확인.
 
 ## 2026-09-03 (Windows PC)
 

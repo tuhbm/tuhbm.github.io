@@ -58,6 +58,7 @@
 
 ## 변경 이력 (규칙·기준 변경 시 여기에 추가하고 git에 푸시)
 
+- **2026-09-04 (Windows PC)**: **사이트맵을 색인형 → 평면 단일 파일로 전환**. `hexo-generator-seo-friendly-sitemap`(sitemap.xml이 색인, 실제 URL은 post/page/category/tag 4개 하위 파일로 분리) 제거하고 `hexo-generator-sitemap@^3` 채택. 서치콘솔에서 "발견된 페이지 0"으로 보이던 원인이 색인형 구조였기 때문. `_config.yml`에 `sitemap.tags: false`(태그 아카이브 762개는 얇은 페이지라 크롤 예산 분산 방지), `categories: true` 설정. 결과 sitemap.xml = 197 URL(글 172 + 카테고리 23 + 홈·about).
 - **2026-08-31 (Windows PC)**: ①"핵심 규칙" 4개 신설(작성 전 git pull, 이미지 85~90점 유지, 규칙·변경사항은 CLAUDE.md에 기록 후 푸시). ②이미지 히어로 품질 기준 v5 확정 — 오늘자 10편 이미지 전량을 v5로 재제작(레퍼런스), 플랫 단색 금지. ③오늘의 이슈 10편 발행(수능 서논술형, 서울 출생 반등, 7월 산업동향, 기아 PV7, 연금 추납, 미-이란 충돌, 온타리오호 개명, 로먼 망원경, 카톡 위장 피싱, 오디세이 886만). 세션 상세는 CLAUDE-WORKLOG.md 참조.
 - **2026-08-31 (Windows PC)**: Windows 저장소 경로 기록, 카테고리 체계(코드/머니/브리핑) 및 사이드바 고정 순서 명문화.
 - **2026-08-29 (MacBook Pro)**: CLAUDE.md·CLAUDE-WORKLOG.md 공유 체계 신설, svgcard 이미지 생성기 제작.

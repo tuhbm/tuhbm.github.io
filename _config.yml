@@ -85,9 +85,12 @@ nofollow:
 	exclude:
     - exclude1.com
     - exclude2.com
-# sitemap auto generator
+# sitemap auto generator (hexo-generator-sitemap, 평면 단일 파일)
+# tags: 태그 아카이브 762개는 내용이 얇아 크롤 예산 분산을 막기 위해 제외
 sitemap:
-    path: sitemap.xml
+  path: sitemap.xml
+  tags: false
+  categories: true
 
 # rss feed auto generator
 feed:
