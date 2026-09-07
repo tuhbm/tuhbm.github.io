@@ -4,6 +4,14 @@
 
 ---
 
+## 2026-09-07 (Windows PC)
+
+- 한 일:
+  - git pull 선행(변경 없음) 후 오늘의 이슈 10편 작성·배포: bundangPriceSurge(경제·분당 29.5% 급등), bankHiringFreeze(경제·은행 신입채용 18.5% 감소), genderPayGap(사회·성별 임금격차 첫 10%대), factCheckShortage(사회·팩트체크 인증기관 2곳), germanyAfdWin(국제·독일 AfD 44.6% 압승), hormuzKoreaPressure(국제·호르무즈 기여 압박), nuriho5thLaunch(IT과학·누리호 5차 D-30), ifa2026Energy(IT과학·IFA 에너지효율 경쟁), leeChangdongVenice(생활문화·이창동 신작 베네치아), iuComeback(연예·아이유 신곡).
+  - 이미지 10장 v5 기준 제작·전량 검수. 보완 2장(베네치아 사자 트로피가 동물로 오독→황금 필름 릴로 교체, LP가 구체로 보임→납작한 레코드판 재설계).
+  - **구글 애널리틱스 GA4 연결(사용자 요청)**: landscape 테마의 google-analytics.ejs가 서비스 종료된 Universal Analytics(analytics.js) 코드여서 GA4 측정 ID로는 동작 불가 → gtag.js 스니펫으로 교체하고 themes/landscape/_config.yml에 측정 ID 설정. 빌드 결과 전 페이지 head에 삽입 확인, 구 UA 코드 잔존 0건.
+- 다음에 할 일: 없음.
+
 ## 2026-09-04 (Windows PC)
 
 - 한 일:

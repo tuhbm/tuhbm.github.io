@@ -17,7 +17,7 @@
 
 - **gh-pages 브랜치** = Hexo 소스 브랜치 (작업 브랜치). `source/_posts/*.md`, `_config.yml`, `tools/` 포함. 커밋 메시지 관례: `update on YYYY/MM/DD HH:MM:SS`
 - **master 브랜치** = 배포 결과물. 직접 수정하지 않는다. **gh-pages에 푸시하면 GitHub Actions(`.github/workflows/hexo.yml`)가 자동으로 빌드해 master에 배포**하므로, 로컬에서 `hexo deploy`를 돌릴 필요가 없다(돌려도 Actions가 곧 덮어쓴다). 배포 = gh-pages 푸시.
-- 사이트맵은 `hexo-generator-seo-friendly-sitemap` 하나만 사용한다(2026-08-30에 중복이던 `hexo-generator-sitemap` 제거). 한글 태그/카테고리 URL 이중 인코딩은 `scripts/fix-sitemap-double-encoding.js`가 보정한다.
+- 사이트맵은 `hexo-generator-sitemap@^3` 하나만 사용한다(2026-09-04에 색인형 `hexo-generator-seo-friendly-sitemap` 제거). `sitemap.xml`(평면 단일 파일)과 `sitemap.txt`를 함께 생성하며 태그 아카이브는 제외(`tags: false`)한다.
 - `tools/genimage`, `tools/svg2png` = 글에 넣을 이미지 생성 도구
 - 이미지는 `source/images/<주제>/` 아래에 저장 (예: `source/images/dailyInvest/260227/`)
 
@@ -58,6 +58,7 @@
 
 ## 변경 이력 (규칙·기준 변경 시 여기에 추가하고 git에 푸시)
 
+- **2026-09-07 (Windows PC)**: **구글 애널리틱스 GA4 연결**. landscape 테마의 `google-analytics.ejs`가 서비스 종료된 Universal Analytics(analytics.js) 코드여서 GA4 측정 ID(G-로 시작)로는 수집이 안 됐다. gtag.js 스니펫으로 교체하고 `themes/landscape/_config.yml`의 `google_analytics`에 측정 ID를 지정했다. 측정 ID를 바꾸려면 이 값만 수정하면 되고, 파셜은 head.ejs에서 이미 include 중이다.
 - **2026-09-04 (Windows PC)**: **sitemap.txt 추가 생성**(`sitemap.path`에 배열로 지정, robots.txt에도 등록). 서치콘솔이 sitemap.xml을 재크롤하지 않아 옛 판정(유형 "Sitemap 색인", 발견 0)이 계속 표시되는 문제 우회용 — 콘솔이 본 적 없는 새 URL이라 새로 읽는다. 내용은 sitemap.xml과 동일(197 URL).
 - **2026-09-04 (Windows PC)**: **CI Node 20 → 24 상향**. 로컬 npm 11이 생성한 package-lock.json을 CI의 npm 10이 `npm ci`로 읽지 못해 배포 실패(`Missing: chokidar@3.6.0 from lock file`). 의존성을 건드린 뒤 CI가 Install deps에서 실패하면 이 원인을 먼저 의심할 것. 락파일은 로컬 npm 버전으로 생성되므로 CI와 npm 메이저를 맞춰 둔다.
 - **2026-09-04 (Windows PC)**: **사이트맵을 색인형 → 평면 단일 파일로 전환**. `hexo-generator-seo-friendly-sitemap`(sitemap.xml이 색인, 실제 URL은 post/page/category/tag 4개 하위 파일로 분리) 제거하고 `hexo-generator-sitemap@^3` 채택. 서치콘솔에서 "발견된 페이지 0"으로 보이던 원인이 색인형 구조였기 때문. `_config.yml`에 `sitemap.tags: false`(태그 아카이브 762개는 얇은 페이지라 크롤 예산 분산 방지), `categories: true` 설정. 결과 sitemap.xml = 197 URL(글 172 + 카테고리 23 + 홈·about).
