@@ -58,6 +58,7 @@
 
 ## 변경 이력 (규칙·기준 변경 시 여기에 추가하고 git에 푸시)
 
+- **2026-09-08 (Windows PC)**: **resvg 한글 렌더 주의사항 추가**. 부제(36px)에서 일부 음절(예: "기록"의 `록`)이 종성 없이 깨져 렌더되는 사례 확인. PNG 검수에서 글자가 깨져 보이면 폰트 문제이므로 문구를 다른 표현으로 교체해 우회한다.
 - **2026-09-07 (Windows PC)**: **구글 애널리틱스 GA4 연결**. landscape 테마의 `google-analytics.ejs`가 서비스 종료된 Universal Analytics(analytics.js) 코드여서 GA4 측정 ID(G-로 시작)로는 수집이 안 됐다. gtag.js 스니펫으로 교체하고 `themes/landscape/_config.yml`의 `google_analytics`에 측정 ID를 지정했다. 측정 ID를 바꾸려면 이 값만 수정하면 되고, 파셜은 head.ejs에서 이미 include 중이다.
 - **2026-09-04 (Windows PC)**: **sitemap.txt 추가 생성**(`sitemap.path`에 배열로 지정, robots.txt에도 등록). 서치콘솔이 sitemap.xml을 재크롤하지 않아 옛 판정(유형 "Sitemap 색인", 발견 0)이 계속 표시되는 문제 우회용 — 콘솔이 본 적 없는 새 URL이라 새로 읽는다. 내용은 sitemap.xml과 동일(197 URL).
 - **2026-09-04 (Windows PC)**: **CI Node 20 → 24 상향**. 로컬 npm 11이 생성한 package-lock.json을 CI의 npm 10이 `npm ci`로 읽지 못해 배포 실패(`Missing: chokidar@3.6.0 from lock file`). 의존성을 건드린 뒤 CI가 Install deps에서 실패하면 이 원인을 먼저 의심할 것. 락파일은 로컬 npm 버전으로 생성되므로 CI와 npm 메이저를 맞춰 둔다.

@@ -4,6 +4,14 @@
 
 ---
 
+## 2026-09-08 (Windows PC)
+
+- 한 일:
+  - git pull 선행(변경 없음) 후 오늘의 이슈 10편 작성·배포: tvingDataLeak(경제·티빙 3954만 계정 유출 보상), mortgageDelinquency(경제·주담대 연체 120% 급증), npsSinStocks(사회·국민연금 죄악주 8조), manufacturingJobs(사회·제조업 고용 15개월 만 반등), chinaJapanChip(국제·中 日반도체 소재 반덤핑 99%), usGasPrice(국제·미 기름값 역대 최고), appleWatch12(IT과학·애플워치12 유출), solarStormToyosat(IT과학·태양폭풍 도요샛 300m 하강), minumsaBread(생활문화·민음사빵 품절 대란), fourHandsDrama(연예·tvN 포핸즈 6.2%).
+  - 이미지 10장 v5 기준 제작·전량 검수. 보완 4장(주담대 +120% 라벨 부제 겹침, 중일편 99% 배지가 국기 가림, 미유가 화살표 부제 침범, 애플워치 밴드 잘림).
+  - **resvg 한글 렌더 이슈**: 부제에 쓴 "기록"의 종성이 깨져 렌더됨. 문구를 바꿔 회피했다. 부제에서 특정 음절이 깨지면 문구 교체로 우회할 것.
+- 다음에 할 일: 없음.
+
 ## 2026-09-07 (Windows PC)
 
 - 한 일:
