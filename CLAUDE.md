@@ -58,6 +58,7 @@
 
 ## 변경 이력 (규칙·기준 변경 시 여기에 추가하고 git에 푸시)
 
+- **2026-09-09 (Windows PC)**: **"요즘 트렌드" 글 요청 대응 기준**. 사용자가 트렌드 글을 요청하면 감이 아니라 통계 기반 기사를 찾는다 — 카드사 빅데이터(NH트렌드+, KB국민카드), 공연예술통합전산망(KOPIS), 관세청·통계청 국회 제출자료 등이 수치가 명확해 "숫자로 보는" 표를 만들기 좋다. 트렌드 글은 하루 10편 중 2~3편까지가 적정(나머지는 당일 속보성 이슈로 채운다).
 - **2026-09-08 (Windows PC)**: **resvg 한글 렌더 주의사항 추가**. 부제(36px)에서 일부 음절(예: "기록"의 `록`)이 종성 없이 깨져 렌더되는 사례 확인. PNG 검수에서 글자가 깨져 보이면 폰트 문제이므로 문구를 다른 표현으로 교체해 우회한다.
 - **2026-09-07 (Windows PC)**: **구글 애널리틱스 GA4 연결**. landscape 테마의 `google-analytics.ejs`가 서비스 종료된 Universal Analytics(analytics.js) 코드여서 GA4 측정 ID(G-로 시작)로는 수집이 안 됐다. gtag.js 스니펫으로 교체하고 `themes/landscape/_config.yml`의 `google_analytics`에 측정 ID를 지정했다. 측정 ID를 바꾸려면 이 값만 수정하면 되고, 파셜은 head.ejs에서 이미 include 중이다.
 - **2026-09-04 (Windows PC)**: **sitemap.txt 추가 생성**(`sitemap.path`에 배열로 지정, robots.txt에도 등록). 서치콘솔이 sitemap.xml을 재크롤하지 않아 옛 판정(유형 "Sitemap 색인", 발견 0)이 계속 표시되는 문제 우회용 — 콘솔이 본 적 없는 새 URL이라 새로 읽는다. 내용은 sitemap.xml과 동일(197 URL).
