@@ -58,6 +58,7 @@
 
 ## 변경 이력 (규칙·기준 변경 시 여기에 추가하고 git에 푸시)
 
+- **2026-09-10 (Windows PC)**: **canonical 태그 추가 + 사이트 description 교체**. ①landscape 테마 `head.ejs`에 `rel="canonical"`이 없었다 — `page.path`에서 끝 `index.html`을 떼고 `full_url_for()`로 출력하도록 추가(전 페이지 적용 확인). ②`_config.yml`의 description이 옛 개발블로그 문구였다. 이 값은 open_graph 헬퍼의 최종 폴백이라 홈·아카이브·카테고리에 그대로 노출된다(글 페이지는 front-matter의 description이 우선). **서치콘솔 사이트맵 주의**: 이미 등록된 사이트맵 URL을 다시 제출해도 새 가져오기 요청이 되지 않는다. 반드시 삭제 후 재등록해야 다시 읽는다. 가져오기에 실패한 사이트맵은 며칠 재시도 후 구글이 중단하므로 그대로 두면 영원히 "가져올 수 없음"으로 남는다.
 - **2026-09-09 (Windows PC)**: **"요즘 트렌드" 글 요청 대응 기준**. 사용자가 트렌드 글을 요청하면 감이 아니라 통계 기반 기사를 찾는다 — 카드사 빅데이터(NH트렌드+, KB국민카드), 공연예술통합전산망(KOPIS), 관세청·통계청 국회 제출자료 등이 수치가 명확해 "숫자로 보는" 표를 만들기 좋다. 트렌드 글은 하루 10편 중 2~3편까지가 적정(나머지는 당일 속보성 이슈로 채운다).
 - **2026-09-08 (Windows PC)**: **resvg 한글 렌더 주의사항 추가**. 부제(36px)에서 일부 음절(예: "기록"의 `록`)이 종성 없이 깨져 렌더되는 사례 확인. PNG 검수에서 글자가 깨져 보이면 폰트 문제이므로 문구를 다른 표현으로 교체해 우회한다.
 - **2026-09-07 (Windows PC)**: **구글 애널리틱스 GA4 연결**. landscape 테마의 `google-analytics.ejs`가 서비스 종료된 Universal Analytics(analytics.js) 코드여서 GA4 측정 ID(G-로 시작)로는 수집이 안 됐다. gtag.js 스니펫으로 교체하고 `themes/landscape/_config.yml`의 `google_analytics`에 측정 ID를 지정했다. 측정 ID를 바꾸려면 이 값만 수정하면 되고, 파셜은 head.ejs에서 이미 include 중이다.

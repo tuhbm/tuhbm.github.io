@@ -23,6 +23,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
+    <%# 대표 URL(canonical). page.path의 끝 index.html을 떼어 디렉터리 형태로 맞춘다. %>
+    <% var canonicalPath = (page.path || '').replace(/index\.html$/, ''); %>
+    <link rel="canonical" href="<%= full_url_for(canonicalPath) %>" />
     <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus,
     fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %> <% if
     (theme.rss){ %>
