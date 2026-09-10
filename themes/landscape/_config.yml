@@ -9,13 +9,14 @@ excerpt_link: Read More
 fancybox: true
 
 # Sidebar
+# tag/tagcloud 위젯 제거(2026-09-10): 페이지마다 태그 링크 960개가 붙어
+# 크롤 예산이 글 대신 얇은 태그 아카이브(931개)로 새고 있었다.
+# 색인 보고서의 "크롤링됨 - 현재 색인이 생성되지 않음" 대응.
 sidebar: right
 widgets:
   - category
   - recent_posts
   - archive
-  - tag
-  - tagcloud
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
