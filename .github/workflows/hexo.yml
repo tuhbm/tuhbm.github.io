@@ -3,6 +3,17 @@ name: Build & Deploy Hexo (master root)
 on:
   push:
     branches: [ gh-pages ]   # 소스가 gh-pages에 커밋될 때마다 동작
+  schedule:
+    # 예약 발행: _config.yml의 future: false로 미래 날짜 글은 빌드에서 빠지므로,
+    # 매일 09:05~14:05(KST) 매시 재빌드해 날짜가 된 글을 공개한다(글 시각 09:00~13:30 대응).
+    # cron은 UTC 기준이며 GitHub 부하에 따라 수 분~수십 분 늦게 실행될 수 있다.
+    - cron: '5 0-5 * * *'
+  workflow_dispatch:         # Actions 탭에서 수동 재빌드
+
+# push 빌드와 예약 빌드가 겹쳐 master 푸시가 충돌하지 않도록 순차 실행
+concurrency:
+  group: deploy-master
+  cancel-in-progress: false
 
 permissions:
   contents: write            # GITHUB_TOKEN으로 커밋/푸시 허용
@@ -28,6 +39,11 @@ jobs:
         run: npm ci
 
       - name: Build Hexo
+        env:
+          # 글 date를 KST로 해석한다. timezone 설정 대신 TZ를 쓰는 이유: timezone: Asia/Seoul로 두면
+          # 러너(UTC)에서 00~09시 글 9편의 퍼머링크 날짜가 하루 앞당겨져 기존 URL이 깨진다.
+          # TZ=Asia/Seoul은 해석·퍼머링크 모두 KST라 기존 URL이 그대로다(로컬 Windows 빌드와 동일).
+          TZ: Asia/Seoul
         run: |
           npx hexo clean
           npx hexo generate     # ./public 생성
