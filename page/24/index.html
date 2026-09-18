@@ -81,6 +81,60 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-vue-firebase2" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/10/20/vue-firebase2/" class="article-date">
+  <time datetime="2018-10-20T05:20:24.000Z" itemprop="datePublished">2018-10-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/10/20/vue-firebase2/">번역 - Vue 2 + Firebase 인증 시스템을 사용하여 15분 안에 Vue 앱을 만드는 방법 2편</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="코드-작성하기"><a href="#코드-작성하기" class="headerlink" title="코드 작성하기!"></a>코드 작성하기!</h2><p><a href="https://tuhbm.github.io/2018/10/20/vue-firebase1/">지난 포스팅</a>에서 우리는 vue에 대해 알아보고 실습을 위한 이론 및 프로젝트를 생성해 보았습니다.<br>이번시간에는 코드를 작성하면서 vue-router 실습을 진행해 보겠습니다.</p>
+<h4 id="우리의-미래-App-아키텍처"><a href="#우리의-미래-App-아키텍처" class="headerlink" title="우리의 미래 App 아키텍처"></a>우리의 미래 App 아키텍처</h4><p>우리의 APP은 인증없이 접근 할 수 있는 2개의 View(로그인보기 및 가입보기)와 인증을 통해서만 접근 할 수 있는 1개의 뷰 View (Hello보기)로 총 3개의 View로 구성됩니다.<br><img src="https://tuhbm.github.io/images/vue-firebase/vue-firebase7.png" alt="APP의 View구성"></p>
+<p>로그인이 성공적으로 완료되거나 새 계정을 만든 후에는 앱의 인증 된 부분 Hello의 View로 리다이렉션됩니다.</p>
+<h2 id="스텝1-로그인과-회원가입"><a href="#스텝1-로그인과-회원가입" class="headerlink" title="스텝1. 로그인과 회원가입"></a>스텝1. 로그인과 회원가입</h2><h3 id="1-1-로그인-View"><a href="#1-1-로그인-View" class="headerlink" title="1-1 로그인 View"></a>1-1 로그인 View</h3><p>Login 컴포넌트를 만들어봅시다. src / components 아래에 Login이라는 새로운 Vue 구성 요소를 만듭니다.</p>
+<p>일단 컴포넌트는 단순히 제목, 두 개의 input 필드, 버튼 그리고 간단한 문장으로 구성됩니다.<br><img src="https://tuhbm.github.io/images/vue-firebase/vue-firebase8.png" alt="Login 컴포넌트"></p>
+<p>이제 컴포넌트가 생성되었습니다! 하지만이 새로운 컴포넌트를 우리 앱에 어떻게 보여 줄 수 있을까요?<br>음… 우리는 vue-router를 사용할것입니다. 기억하시나요? 우리는 Vue-cli로 앱을 초기 구성할때 이미 vue-router를 설치했습니다.</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/10/20/vue-firebase2/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase2/" data-id="cmu6jrtqp00n6ti422w773cdy" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/10/20/vue-firebase2/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/compontent/" rel="tag">compontent</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/history-mode/" rel="tag">history mode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/to/" rel="tag">to</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tutorial/" rel="tag">tutorial</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue/" rel="tag">vue</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-router/" rel="tag">vue-router</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-js/" rel="tag">vue.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/" rel="tag">컴포넌트</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-vue-firebase1" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/10/20/vue-firebase1/" class="article-date">
@@ -119,7 +173,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase1/" data-id="cmu6fvm2600kxz542cqrwcax3" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase1/" data-id="cmu6jrtqo00n4ti421zund1ij" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/20/vue-firebase1/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -169,7 +223,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/09/29/seo1/" data-id="cmu6fvm1d00hbz5428jfihwlm" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/09/29/seo1/" data-id="cmu6jrtpx00j7ti421vux97t4" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/09/29/seo1/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -221,7 +275,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/08/20/algorithm/" data-id="cmu6fvlxw000pz5426hnt02po" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/08/20/algorithm/" data-id="cmu6jrtmd000pti42h0fw75td" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/08/20/algorithm/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -274,7 +328,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/24/javaScope/" data-id="cmu6fvm0200afz542dkt97fra" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/06/24/javaScope/" data-id="cmu6jrtos00c2ti42eo6bfpbw" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/06/24/javaScope/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -327,7 +381,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/21/javaObjectOriented/" data-id="cmu6fvm0300aiz542b6np71b0" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/06/21/javaObjectOriented/" data-id="cmu6jrtos00bzti428ua09xeu" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/06/21/javaObjectOriented/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -378,7 +432,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/14/javaDataType/" data-id="cmu6fvm0100a8z542efbx41xg" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/06/14/javaDataType/" data-id="cmu6jrtoq00bpti4242axdn72" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/06/14/javaDataType/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -430,7 +484,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/13/javaNumberText/" data-id="cmu6fvm0200acz5425d9oerp0" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/06/13/javaNumberText/" data-id="cmu6jrtor00btti424cslcbbz" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/06/13/javaNumberText/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -482,7 +536,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/11/startJava/" data-id="cmu6fvm1q00ivz542b4cihtde" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/06/11/startJava/" data-id="cmu6jrtq700koti42etgw9aq8" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/06/11/startJava/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -534,63 +588,12 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/04/12/javaBook/" data-id="cmu6fvm0100a5z542ghr30r33" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/04/12/javaBook/" data-id="cmu6jrtor00bwti42g9ar5gl4" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/04/12/javaBook/#disqus_thread" class="article-comment-link">댓글</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/book-review/" rel="tag">book-review</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/major/" rel="tag">major</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/programming/" rel="tag">programming</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/start/" rel="tag">start</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B6%81%EB%A6%AC%EB%B7%B0/" rel="tag">북리뷰</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90/" rel="tag">비전공자</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8/" rel="tag">프로그래머</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-superClassAndSubClass" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/03/11/superClassAndSubClass/" class="article-date">
-  <time datetime="2018-03-11T04:30:13.000Z" itemprop="datePublished">2018-03-11</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/11/superClassAndSubClass/">슈퍼클래스 와 서브클래스</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="용어정리"><a href="#용어정리" class="headerlink" title="용어정리"></a>용어정리</h2><p>이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.<br>제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.<br>오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.</p>
-<hr>
-<h1 id="슈퍼클래스-superClass-와-서브클래스-subClass"><a href="#슈퍼클래스-superClass-와-서브클래스-subClass" class="headerlink" title="슈퍼클래스(superClass)와 서브클래스(subClass)"></a>슈퍼클래스(superClass)와 서브클래스(subClass)</h1><p>슈퍼클래스와 서브클래스는 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://ko.wikipedia.org/wiki/%EC%83%81%EC%86%8D_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D">상속</a>에서 나오는 개념입니다.<br>원래 상속에 대한 개념은 고급언어 Java의 개념입니다.<br>자바스크립트에서는 상속의 대한 개념이 적용이 되지 않고, 상속 비슷하게 만드는 개념인 <code>prototype</code>이 있습니다.</p>
-        
-          <p class="article-more-link">
-            <a href="/2018/03/11/superClassAndSubClass/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/03/11/superClassAndSubClass/" data-id="cmu6fvm1t00j5z5425m9b9nuz" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2018/03/11/superClassAndSubClass/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/inherit/" rel="tag">inherit</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/prototype/" rel="tag">prototype</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/subClass/" rel="tag">subClass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/superClass/" rel="tag">superClass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EA%B0%9D%EC%B2%B4/" rel="tag">객체</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%83%81%EC%86%8D/" rel="tag">상속</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%84%9C%EB%B8%8C%ED%81%B4%EB%9E%98%EC%8A%A4/" rel="tag">서브클래스</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%8A%88%ED%8D%BC%ED%81%B4%EB%9E%98%EC%8A%A4/" rel="tag">슈퍼클래스</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%81%B4%EB%9E%98%EC%8A%A4/" rel="tag">클래스</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85/" rel="tag">프로토타입</a></li></ul>
 
     </footer>
   </div>
@@ -740,6 +743,10 @@
       <ul>
         
           <li>
+            <a href="/2026/09/18/paradiseLostFilm/">어머니가 연습장에 쓴 세 페이지가 영화가 됐다 — 연상호 감독 신작 실낙원, 10월 21일 개봉</a>
+          </li>
+        
+          <li>
             <a href="/2026/09/18/olympicArchive8688/">유치 가능성 희박이라던 보고서에서 52대27 역전까지 — 86·88 기록 2만8천 건이 공개된다</a>
           </li>
         
@@ -753,10 +760,6 @@
         
           <li>
             <a href="/2026/09/18/tilcayoWildCat/">표범 무늬에 몸무게 1.4kg — 100여 년 만에 새로 확인된 고양잇과 동물 틸카요</a>
-          </li>
-        
-          <li>
-            <a href="/2026/09/18/iphone18OnlineOnly/">새벽부터 줄 섰는데 살 수 없었다 — 아이폰18 프로 출시 첫날, 매장 현장 판매가 사라졌다</a>
           </li>
         
       </ul>
