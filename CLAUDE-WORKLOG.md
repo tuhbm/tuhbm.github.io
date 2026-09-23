@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-09-23 (Windows PC) — 오늘 10편 + 추석 연휴 예약 20편
+
+- 한 일:
+  - 9/22 글 10편이 예약 빌드로 모두 정상 공개된 것을 확인(사이트맵 10건).
+  - 오늘 10편 작성·배포: chuseokFoodCheck(경제·추석 성수식품 8242곳 점검 150곳 적발), resourceSecurity2035(경제·제1차 자원안보 기본계획), sickLeaveSurvey(사회·아파도 출근 8.7일), dropoutResetRisk(사회·2028 정시 학생부 반영), congoEbolaSurge(국제·민주콩고 에볼라), usaBlackBears(국제·미국 흑곰 충돌 급증), batteryRule2080(IT과학·배터리 20~80% 관리), fireAmoeba63(IT과학·63도 불 아메바), mockingbirdFirstEd(생활문화·앵무새 죽이기 초판본), silmidoSubtitle(연예·실미도 자막 23년 만에 수정).
+  - 사용자 요청으로 추석 연휴(9/24~27) 예약 글 20편 작성. 분량은 사용자가 하루 5편(09:00~11:00, 30분 간격)을 선택. 9/24 chuseokArtMuseums·aiChuseokGift·pharmacyDeserts·sriLankaGradJobless·underwaterSolar, 9/25 separatedFamiliesDay·seoulBubbleRank·sansaConcert·slowGrowthWorld·billboardRecord23, 9/26 hipBuddhismNext·retirementPensionGap·disabledLibraryGap·hungaryKoreanFilm·brainCancerTarget, 9/27 busanSharkEffect·railway600Plan·seriousAccident704·ultraProcessedRisk·spiderManSonyDeal.
+  - 예약 글 선정 기준: 발행일에도 유효한 주제(연휴 운영 안내, 통계·보고서, 연구 결과, 기간 중 진행되는 행사)만 고르고 속보성 결과 대기 주제는 제외. 상대 날짜 표현 없이 절대 날짜로 작성. 헝가리 한국영화제(9/25~10/2)와 부산 북항 상어(연휴 이후 외해 유도 검토)는 연휴 기간에 유효한 소재라 각각 9/26·9/27에 배치.
+  - 사실 처리: 자살 사망원인 통계 기사는 보도 권고 부담이 커 제외. 이산가족 글은 기고(칼럼)라서 제안 부분을 기고자의 주장으로 명시. 초가공식품·퇴직연금 글은 각각 인과관계 단정 금지와 투자 권유 금지를 본문에 명시. 무약촌 글은 편의점 상비약 확대에 대한 정부안과 약사단체 반대를 모두 실음. 앵무새 죽이기 명문장은 저작권 고려로 인용 대신 취지만 서술.
+  - 태그: 오늘 10편은 새 태그 3개(식품안전·감염병·생태), 연휴 20편은 새 태그 0개(전부 기존 태그 재사용).
+  - 이미지 30장 v5 제작·전량 검수. 보완 8장: 에볼라(라벨이 바이러스와 겹침 → 제거), 흑곰(쓰레기통 각도), 실미도(스크린 확대·라벨 위치), 유급병가(체온계 확대), 스리랑카(어두운 배경에 학사모가 묻힘 → 흰 외곽선), 이산가족(수저가 공중에 뜸 → 그릇 위로), 서울 버블(집 확대), 빌보드·퇴직연금·철도·중대재해·영화(골드 배지가 히어로를 가림 → 왼쪽으로 이동).
+  - 빌드 검증: 에러 0, preview-future 빌드에서 9/23 10편과 9/24~27 각 5편 생성 확인, 볼드 아티팩트 0, 이미지 누락 0, 본문 2037~2948자.
+- 다음에 할 일: 연휴 기간 예약 빌드가 정상 동작하는지 하루 한 번 확인(9/24 오전 첫 글 공개 여부). 연휴 복귀 후 9/28부터 평일 10편 체제로 복귀.
 ## 2026-09-22 (Windows PC)
 
 - 한 일:
