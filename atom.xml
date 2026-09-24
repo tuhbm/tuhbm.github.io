@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2026-09-23T09:33:50.613Z</updated>
+  <updated>2026-09-24T04:49:00.527Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -17,11 +17,141 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>빛이 닿지 않는 수심 10m에서 전기를 만들었다 — 바닷속 태양광이 배터리를 충전했다</title>
+    <link href="https://tuhbm.github.io/2026/09/24/underwaterSolar/"/>
+    <id>https://tuhbm.github.io/2026/09/24/underwaterSolar/</id>
+    <published>2026-09-24T02:00:00.000Z</published>
+    <updated>2026-09-24T04:49:00.527Z</updated>
+    
+    <summary type="html">
+    
+      중국 연구진이 수심 10m 바닷속에 페로브스카이트 태양전지를 설치해 실제 전력을 생산했습니다. 남중국해 현장 실험에서 2시간 빛을 쬐어 리튬이온 배터리를 충전했고, 모의 해수 침수 1000시간 뒤에도 초기 효율의 99.58%를 유지했습니다.
+    
+    </summary>
+    
+      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
+    
+      <category term="IT과학" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/"/>
+    
+    
+      <category term="연구개발" scheme="https://tuhbm.github.io/tags/%EC%97%B0%EA%B5%AC%EA%B0%9C%EB%B0%9C/"/>
+    
+      <category term="중국" scheme="https://tuhbm.github.io/tags/%EC%A4%91%EA%B5%AD/"/>
+    
+      <category term="에너지" scheme="https://tuhbm.github.io/tags/%EC%97%90%EB%84%88%EC%A7%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>대학을 나와도 열에 넷이 백수 — 스리랑카 고학력 청년 실업률 43%, 아시아 최고</title>
+    <link href="https://tuhbm.github.io/2026/09/24/sriLankaGradJobless/"/>
+    <id>https://tuhbm.github.io/2026/09/24/sriLankaGradJobless/</id>
+    <published>2026-09-24T01:30:00.000Z</published>
+    <updated>2026-09-24T04:49:00.525Z</updated>
+    
+    <summary type="html">
+    
+      IMF 분석에서 스리랑카의 대졸 이상 청년 실업률이 약 43%로 아시아 조사 대상국 중 가장 높게 나타났습니다. 인도 42%, 방글라데시 36%가 뒤를 이었고 일본은 4%였습니다. 교육과 현장 기술의 격차가 원인으로 지목됐습니다.
+    
+    </summary>
+    
+      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
+    
+      <category term="국제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B5%AD%EC%A0%9C/"/>
+    
+    
+      <category term="일자리" scheme="https://tuhbm.github.io/tags/%EC%9D%BC%EC%9E%90%EB%A6%AC/"/>
+    
+      <category term="취업" scheme="https://tuhbm.github.io/tags/%EC%B7%A8%EC%97%85/"/>
+    
+      <category term="청년" scheme="https://tuhbm.github.io/tags/%EC%B2%AD%EB%85%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>약 사려면 차로 20분 — 전국 읍면동 10곳 중 3곳에는 약국도 상비약 편의점도 없다</title>
+    <link href="https://tuhbm.github.io/2026/09/24/pharmacyDeserts/"/>
+    <id>https://tuhbm.github.io/2026/09/24/pharmacyDeserts/</id>
+    <published>2026-09-24T01:00:00.000Z</published>
+    <updated>2026-09-24T04:49:00.521Z</updated>
+    
+    <summary type="html">
+    
+      올해 7월 기준 약국이나 상비약 판매 편의점이 없는 읍면동이 전국 5067곳 중 1453곳이었습니다. 전북은 43.9%로 가장 높았고 서울은 7.7%였습니다. 정부는 편의점 상비약 확대를 추진하지만 약사단체가 반대하고 있습니다.
+    
+    </summary>
+    
+      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
+    
+      <category term="사회" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%82%AC%ED%9A%8C/"/>
+    
+    
+      <category term="의약품" scheme="https://tuhbm.github.io/tags/%EC%9D%98%EC%95%BD%ED%92%88/"/>
+    
+      <category term="보건복지부" scheme="https://tuhbm.github.io/tags/%EB%B3%B4%EA%B1%B4%EB%B3%B5%EC%A7%80%EB%B6%80/"/>
+    
+      <category term="지역소멸" scheme="https://tuhbm.github.io/tags/%EC%A7%80%EC%97%AD%EC%86%8C%EB%A9%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI 4종에게 추석 선물을 물었더니 1위는 스팸이었다 — 답변 3건 중 1건엔 브랜드가 없었다</title>
+    <link href="https://tuhbm.github.io/2026/09/24/aiChuseokGift/"/>
+    <id>https://tuhbm.github.io/2026/09/24/aiChuseokGift/</id>
+    <published>2026-09-24T00:30:00.000Z</published>
+    <updated>2026-09-24T04:49:00.506Z</updated>
+    
+    <summary type="html">
+    
+      생성형 AI 4종의 추석 선물 추천 답변을 분석했더니 스팸이 30.7점으로 1위, 정관장이 20.9점으로 2위였습니다. 전체 답변의 34.7%에서는 브랜드명이 아예 등장하지 않았습니다. 실제 매대 경쟁도 함께 정리했습니다.
+    
+    </summary>
+    
+      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
+    
+      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
+    
+    
+      <category term="추석" scheme="https://tuhbm.github.io/tags/%EC%B6%94%EC%84%9D/"/>
+    
+      <category term="소비트렌드" scheme="https://tuhbm.github.io/tags/%EC%86%8C%EB%B9%84%ED%8A%B8%EB%A0%8C%EB%93%9C/"/>
+    
+      <category term="AI" scheme="https://tuhbm.github.io/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>연휴에 미술관이 문을 연다 — 국립현대미술관 4개 관 무료, 서울시립 7개 관은 나흘 내내</title>
+    <link href="https://tuhbm.github.io/2026/09/24/chuseokArtMuseums/"/>
+    <id>https://tuhbm.github.io/2026/09/24/chuseokArtMuseums/</id>
+    <published>2026-09-24T00:00:00.000Z</published>
+    <updated>2026-09-24T04:49:00.509Z</updated>
+    
+    <summary type="html">
+    
+      추석 연휴 9월 24일부터 27일까지 국립현대미술관 4개 관이 무료 개방됩니다. 서울시립미술관 7개 관은 나흘 모두 정상 운영하고 관람료도 무료입니다. 휴관일과 예약 방법, 주요 전시를 정리했습니다.
+    
+    </summary>
+    
+      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
+    
+      <category term="생활문화" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%83%9D%ED%99%9C%EB%AC%B8%ED%99%94/"/>
+    
+    
+      <category term="추석" scheme="https://tuhbm.github.io/tags/%EC%B6%94%EC%84%9D/"/>
+    
+      <category term="전시" scheme="https://tuhbm.github.io/tags/%EC%A0%84%EC%8B%9C/"/>
+    
+      <category term="미술" scheme="https://tuhbm.github.io/tags/%EB%AF%B8%EC%88%A0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>23년 만에 바뀐 영화 자막 — 실미도 공작원은 사형수가 아니라 민간인이었다</title>
     <link href="https://tuhbm.github.io/2026/09/23/silmidoSubtitle/"/>
     <id>https://tuhbm.github.io/2026/09/23/silmidoSubtitle/</id>
     <published>2026-09-23T04:30:00.000Z</published>
-    <updated>2026-09-23T09:33:50.613Z</updated>
+    <updated>2026-09-24T04:49:00.524Z</updated>
     
     <summary type="html">
     
@@ -47,7 +177,7 @@
     <link href="https://tuhbm.github.io/2026/09/23/mockingbirdFirstEd/"/>
     <id>https://tuhbm.github.io/2026/09/23/mockingbirdFirstEd/</id>
     <published>2026-09-23T04:00:00.000Z</published>
-    <updated>2026-09-23T09:33:50.608Z</updated>
+    <updated>2026-09-24T04:49:00.519Z</updated>
     
     <summary type="html">
     
@@ -73,7 +203,7 @@
     <link href="https://tuhbm.github.io/2026/09/23/fireAmoeba63/"/>
     <id>https://tuhbm.github.io/2026/09/23/fireAmoeba63/</id>
     <published>2026-09-23T03:30:00.000Z</published>
-    <updated>2026-09-23T09:33:50.601Z</updated>
+    <updated>2026-09-24T04:49:00.512Z</updated>
     
     <summary type="html">
     
@@ -99,7 +229,7 @@
     <link href="https://tuhbm.github.io/2026/09/23/batteryRule2080/"/>
     <id>https://tuhbm.github.io/2026/09/23/batteryRule2080/</id>
     <published>2026-09-23T03:00:00.000Z</published>
-    <updated>2026-09-23T09:33:50.597Z</updated>
+    <updated>2026-09-24T04:49:00.507Z</updated>
     
     <summary type="html">
     
@@ -125,7 +255,7 @@
     <link href="https://tuhbm.github.io/2026/09/23/usaBlackBears/"/>
     <id>https://tuhbm.github.io/2026/09/23/usaBlackBears/</id>
     <published>2026-09-23T02:30:00.000Z</published>
-    <updated>2026-09-23T09:33:50.616Z</updated>
+    <updated>2026-09-24T04:49:00.527Z</updated>
     
     <summary type="html">
     
@@ -151,7 +281,7 @@
     <link href="https://tuhbm.github.io/2026/09/23/congoEbolaSurge/"/>
     <id>https://tuhbm.github.io/2026/09/23/congoEbolaSurge/</id>
     <published>2026-09-23T02:00:00.000Z</published>
-    <updated>2026-09-23T09:33:50.599Z</updated>
+    <updated>2026-09-24T04:49:00.510Z</updated>
     
     <summary type="html">
     
@@ -166,9 +296,9 @@
     
       <category term="에볼라" scheme="https://tuhbm.github.io/tags/%EC%97%90%EB%B3%BC%EB%9D%BC/"/>
     
-      <category term="감염병" scheme="https://tuhbm.github.io/tags/%EA%B0%90%EC%97%BC%EB%B3%91/"/>
-    
       <category term="아프리카" scheme="https://tuhbm.github.io/tags/%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4/"/>
+    
+      <category term="감염병" scheme="https://tuhbm.github.io/tags/%EA%B0%90%EC%97%BC%EB%B3%91/"/>
     
   </entry>
   
@@ -177,7 +307,7 @@
     <link href="https://tuhbm.github.io/2026/09/23/dropoutResetRisk/"/>
     <id>https://tuhbm.github.io/2026/09/23/dropoutResetRisk/</id>
     <published>2026-09-23T01:30:00.000Z</published>
-    <updated>2026-09-23T09:33:50.600Z</updated>
+    <updated>2026-09-24T04:49:00.511Z</updated>
     
     <summary type="html">
     
@@ -203,7 +333,7 @@
     <link href="https://tuhbm.github.io/2026/09/23/sickLeaveSurvey/"/>
     <id>https://tuhbm.github.io/2026/09/23/sickLeaveSurvey/</id>
     <published>2026-09-23T01:00:00.000Z</published>
-    <updated>2026-09-23T09:33:50.613Z</updated>
+    <updated>2026-09-24T04:49:00.524Z</updated>
     
     <summary type="html">
     
@@ -229,7 +359,7 @@
     <link href="https://tuhbm.github.io/2026/09/23/resourceSecurity2035/"/>
     <id>https://tuhbm.github.io/2026/09/23/resourceSecurity2035/</id>
     <published>2026-09-23T00:30:00.000Z</published>
-    <updated>2026-09-23T09:33:50.611Z</updated>
+    <updated>2026-09-24T04:49:00.522Z</updated>
     
     <summary type="html">
     
@@ -255,7 +385,7 @@
     <link href="https://tuhbm.github.io/2026/09/23/chuseokFoodCheck/"/>
     <id>https://tuhbm.github.io/2026/09/23/chuseokFoodCheck/</id>
     <published>2026-09-23T00:00:00.000Z</published>
-    <updated>2026-09-23T09:33:50.599Z</updated>
+    <updated>2026-09-24T04:49:00.509Z</updated>
     
     <summary type="html">
     
@@ -281,7 +411,7 @@
     <link href="https://tuhbm.github.io/2026/09/22/leeSeungChul40/"/>
     <id>https://tuhbm.github.io/2026/09/22/leeSeungChul40/</id>
     <published>2026-09-22T04:30:00.000Z</published>
-    <updated>2026-09-23T09:33:50.606Z</updated>
+    <updated>2026-09-24T04:49:00.517Z</updated>
     
     <summary type="html">
     
@@ -307,7 +437,7 @@
     <link href="https://tuhbm.github.io/2026/09/22/museumGoldTheft/"/>
     <id>https://tuhbm.github.io/2026/09/22/museumGoldTheft/</id>
     <published>2026-09-22T04:00:00.000Z</published>
-    <updated>2026-09-23T09:33:50.608Z</updated>
+    <updated>2026-09-24T04:49:00.519Z</updated>
     
     <summary type="html">
     
@@ -333,7 +463,7 @@
     <link href="https://tuhbm.github.io/2026/09/22/dinosaurAgeShift/"/>
     <id>https://tuhbm.github.io/2026/09/22/dinosaurAgeShift/</id>
     <published>2026-09-22T03:30:00.000Z</published>
-    <updated>2026-09-23T09:33:50.600Z</updated>
+    <updated>2026-09-24T04:49:00.511Z</updated>
     
     <summary type="html">
     
@@ -359,7 +489,7 @@
     <link href="https://tuhbm.github.io/2026/09/22/pubgStreamSniping/"/>
     <id>https://tuhbm.github.io/2026/09/22/pubgStreamSniping/</id>
     <published>2026-09-22T03:00:00.000Z</published>
-    <updated>2026-09-23T09:33:50.610Z</updated>
+    <updated>2026-09-24T04:49:00.521Z</updated>
     
     <summary type="html">
     
@@ -385,7 +515,7 @@
     <link href="https://tuhbm.github.io/2026/09/22/japanSentoDecline/"/>
     <id>https://tuhbm.github.io/2026/09/22/japanSentoDecline/</id>
     <published>2026-09-22T02:30:00.000Z</published>
-    <updated>2026-09-23T09:33:50.604Z</updated>
+    <updated>2026-09-24T04:49:00.516Z</updated>
     
     <summary type="html">
     
@@ -403,136 +533,6 @@
       <category term="생활경제" scheme="https://tuhbm.github.io/tags/%EC%83%9D%ED%99%9C%EA%B2%BD%EC%A0%9C/"/>
     
       <category term="고령화" scheme="https://tuhbm.github.io/tags/%EA%B3%A0%EB%A0%B9%ED%99%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>금·토·일 다 쉬고 월급은 그대로 — 주 26시간만 일하는 중국 회사가 등장했다</title>
-    <link href="https://tuhbm.github.io/2026/09/22/china35DayWeek/"/>
-    <id>https://tuhbm.github.io/2026/09/22/china35DayWeek/</id>
-    <published>2026-09-22T02:00:00.000Z</published>
-    <updated>2026-09-23T09:33:50.598Z</updated>
-    
-    <summary type="html">
-    
-      중국 후난성 창사의 한 콘텐츠 기업이 임금 삭감 없이 주 3.5일만 일하는 제도를 도입했습니다. 주당 실제 근무시간은 26시간이고 업무량과 성과평가 기준도 함께 낮췄습니다. 다만 신생 기업이라 지속 가능성은 지켜봐야 한다는 지적도 나옵니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="국제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B5%AD%EC%A0%9C/"/>
-    
-    
-      <category term="중국" scheme="https://tuhbm.github.io/tags/%EC%A4%91%EA%B5%AD/"/>
-    
-      <category term="직장인" scheme="https://tuhbm.github.io/tags/%EC%A7%81%EC%9E%A5%EC%9D%B8/"/>
-    
-      <category term="주4.5일제" scheme="https://tuhbm.github.io/tags/%EC%A3%BC4-5%EC%9D%BC%EC%A0%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>문 닫은 가게가 남긴 월급 1530억원 — 휴·폐업 임금체불이 3년 새 2.6배로</title>
-    <link href="https://tuhbm.github.io/2026/09/22/wageArrearsClosure/"/>
-    <id>https://tuhbm.github.io/2026/09/22/wageArrearsClosure/</id>
-    <published>2026-09-22T01:30:00.000Z</published>
-    <updated>2026-09-23T09:33:50.617Z</updated>
-    
-    <summary type="html">
-    
-      올해 상반기 임금체불 총액은 9247억원이고 이 가운데 30인 미만 사업장이 74.2%를 차지했습니다. 사업주가 문을 닫으며 생긴 체불액은 1530억원으로 3년 만에 2.6배가 됐습니다. 받을 곳이 사라진 임금은 어떻게 되는지 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="사회" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%82%AC%ED%9A%8C/"/>
-    
-    
-      <category term="자영업자" scheme="https://tuhbm.github.io/tags/%EC%9E%90%EC%98%81%EC%97%85%EC%9E%90/"/>
-    
-      <category term="고용노동부" scheme="https://tuhbm.github.io/tags/%EA%B3%A0%EC%9A%A9%EB%85%B8%EB%8F%99%EB%B6%80/"/>
-    
-      <category term="임금체불" scheme="https://tuhbm.github.io/tags/%EC%9E%84%EA%B8%88%EC%B2%B4%EB%B6%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>편의점 상비약 8172건 점검해 104건 적발 — 적발률 1.3%, 6년 만에 가장 높았다</title>
-    <link href="https://tuhbm.github.io/2026/09/22/otcDrugStores/"/>
-    <id>https://tuhbm.github.io/2026/09/22/otcDrugStores/</id>
-    <published>2026-09-22T01:00:00.000Z</published>
-    <updated>2026-09-23T09:33:50.609Z</updated>
-    
-    <summary type="html">
-    
-      올해 1~7월 안전상비의약품 판매업소 지도·점검 적발률이 1.3%로 2021년 이후 가장 높았습니다. 유효기간이 지난 약을 진열하거나 등록 없이 판매한 사례도 나왔습니다. 전국 판매업소는 4만1428곳입니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="사회" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%82%AC%ED%9A%8C/"/>
-    
-    
-      <category term="의약품" scheme="https://tuhbm.github.io/tags/%EC%9D%98%EC%95%BD%ED%92%88/"/>
-    
-      <category term="건강" scheme="https://tuhbm.github.io/tags/%EA%B1%B4%EA%B0%95/"/>
-    
-      <category term="편의점" scheme="https://tuhbm.github.io/tags/%ED%8E%B8%EC%9D%98%EC%A0%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>가장 궁금한데 가장 안 보인다 — 연봉 몰라 지원을 포기한 구직자가 절반</title>
-    <link href="https://tuhbm.github.io/2026/09/22/salaryDisclosure/"/>
-    <id>https://tuhbm.github.io/2026/09/22/salaryDisclosure/</id>
-    <published>2026-09-22T00:30:00.000Z</published>
-    <updated>2026-09-23T09:33:50.611Z</updated>
-    
-    <summary type="html">
-    
-      진학사 캐치가 구직자 1180명에게 물었더니 지원 기업을 고를 때 가장 중요한 정보로 연봉을 꼽은 사람이 53%였습니다. 그런데 채용공고에서 가장 찾기 어려운 정보도 연봉이었습니다. 연봉을 몰라 지원을 포기한 경험이 있는 사람은 절반에 달했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
-    
-    
-      <category term="일자리" scheme="https://tuhbm.github.io/tags/%EC%9D%BC%EC%9E%90%EB%A6%AC/"/>
-    
-      <category term="취업" scheme="https://tuhbm.github.io/tags/%EC%B7%A8%EC%97%85/"/>
-    
-      <category term="직장인" scheme="https://tuhbm.github.io/tags/%EC%A7%81%EC%9E%A5%EC%9D%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>공공임대에 34평이 나온다 — 2030년까지 119만 가구, 중산층도 최대 20년 거주</title>
-    <link href="https://tuhbm.github.io/2026/09/22/housingPlan119/"/>
-    <id>https://tuhbm.github.io/2026/09/22/housingPlan119/</id>
-    <published>2026-09-22T00:00:00.000Z</published>
-    <updated>2026-09-23T09:33:50.603Z</updated>
-    
-    <summary type="html">
-    
-      국토교통부가 9월 21일 주거안정플랜을 발표했습니다. 2030년까지 공적주택 118만8000가구를 공급하고, 취약계층 중심이던 공공임대를 중산층까지 넓히는 보편형 공공임대 19만 가구를 새로 만듭니다. 평형과 입지, 거주 기간, 청년 지원이 어떻게 달라지는지 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
-    
-    
-      <category term="부동산" scheme="https://tuhbm.github.io/tags/%EB%B6%80%EB%8F%99%EC%82%B0/"/>
-    
-      <category term="주택공급" scheme="https://tuhbm.github.io/tags/%EC%A3%BC%ED%83%9D%EA%B3%B5%EA%B8%89/"/>
-    
-      <category term="임대주택" scheme="https://tuhbm.github.io/tags/%EC%9E%84%EB%8C%80%EC%A3%BC%ED%83%9D/"/>
     
   </entry>
   
