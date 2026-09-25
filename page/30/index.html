@@ -81,6 +81,267 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-vue-firebase2" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/10/20/vue-firebase2/" class="article-date">
+  <time datetime="2018-10-20T05:20:24.000Z" itemprop="datePublished">2018-10-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/10/20/vue-firebase2/">번역 - Vue 2 + Firebase 인증 시스템을 사용하여 15분 안에 Vue 앱을 만드는 방법 2편</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="코드-작성하기"><a href="#코드-작성하기" class="headerlink" title="코드 작성하기!"></a>코드 작성하기!</h2><p><a href="https://tuhbm.github.io/2018/10/20/vue-firebase1/">지난 포스팅</a>에서 우리는 vue에 대해 알아보고 실습을 위한 이론 및 프로젝트를 생성해 보았습니다.<br>이번시간에는 코드를 작성하면서 vue-router 실습을 진행해 보겠습니다.</p>
+<h4 id="우리의-미래-App-아키텍처"><a href="#우리의-미래-App-아키텍처" class="headerlink" title="우리의 미래 App 아키텍처"></a>우리의 미래 App 아키텍처</h4><p>우리의 APP은 인증없이 접근 할 수 있는 2개의 View(로그인보기 및 가입보기)와 인증을 통해서만 접근 할 수 있는 1개의 뷰 View (Hello보기)로 총 3개의 View로 구성됩니다.<br><img src="https://tuhbm.github.io/images/vue-firebase/vue-firebase7.png" alt="APP의 View구성"></p>
+<p>로그인이 성공적으로 완료되거나 새 계정을 만든 후에는 앱의 인증 된 부분 Hello의 View로 리다이렉션됩니다.</p>
+<h2 id="스텝1-로그인과-회원가입"><a href="#스텝1-로그인과-회원가입" class="headerlink" title="스텝1. 로그인과 회원가입"></a>스텝1. 로그인과 회원가입</h2><h3 id="1-1-로그인-View"><a href="#1-1-로그인-View" class="headerlink" title="1-1 로그인 View"></a>1-1 로그인 View</h3><p>Login 컴포넌트를 만들어봅시다. src / components 아래에 Login이라는 새로운 Vue 구성 요소를 만듭니다.</p>
+<p>일단 컴포넌트는 단순히 제목, 두 개의 input 필드, 버튼 그리고 간단한 문장으로 구성됩니다.<br><img src="https://tuhbm.github.io/images/vue-firebase/vue-firebase8.png" alt="Login 컴포넌트"></p>
+<p>이제 컴포넌트가 생성되었습니다! 하지만이 새로운 컴포넌트를 우리 앱에 어떻게 보여 줄 수 있을까요?<br>음… 우리는 vue-router를 사용할것입니다. 기억하시나요? 우리는 Vue-cli로 앱을 초기 구성할때 이미 vue-router를 설치했습니다.</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/10/20/vue-firebase2/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase2/" data-id="cmughnup200r4pd2g3ebvciwg" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/10/20/vue-firebase2/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/compontent/" rel="tag">compontent</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/history-mode/" rel="tag">history mode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/to/" rel="tag">to</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tutorial/" rel="tag">tutorial</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue/" rel="tag">vue</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-router/" rel="tag">vue-router</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-js/" rel="tag">vue.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/" rel="tag">컴포넌트</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-vue-firebase1" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/10/20/vue-firebase1/" class="article-date">
+  <time datetime="2018-10-20T03:56:34.000Z" itemprop="datePublished">2018-10-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/10/20/vue-firebase1/">번역 - Vue 2 + Firebase 인증 시스템을 사용하여 15분 안에 Vue 앱을 만드는 방법 1편</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Vue-2-Firebase-Firebase-인증-시스템을-사용하여-15분-안에-Vue-앱을-만드는-방법-2편"><a href="#Vue-2-Firebase-Firebase-인증-시스템을-사용하여-15분-안에-Vue-앱을-만드는-방법-2편" class="headerlink" title="Vue 2 + Firebase: Firebase 인증 시스템을 사용하여 15분 안에 Vue 앱을 만드는 방법 2편"></a>Vue 2 + Firebase: Firebase 인증 시스템을 사용하여 15분 안에 Vue 앱을 만드는 방법 2편</h1><p><img src="https://tuhbm.github.io/images/vue-firebase/vue-firebase1.png" alt="Vue &amp; Firebase"></p>
+<p>이 튜토리얼에서는 Vue 2, vue-router 사용 그리고 Firebase의 인증 시스템을 사용하여,<br>웹 어플리케이션을 신속하게 구축하는 방법을 알아봅니다.</p>
+<h2 id="Vue-js란-무엇인가"><a href="#Vue-js란-무엇인가" class="headerlink" title="Vue.js란 무엇인가?"></a>Vue.js란 무엇인가?</h2><p>다음은 놀랍고 가벼운 Javascript 프레임워크인 Vue.js의 개요입니다.</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Vue는 사용자 인터페이스 구축을 위한 진보적인 프레임워크입니다. Vue는 타 다른 프레임 워크와 다르게 점진적으로 채택 가능하도록 설계되었습니다. 핵심 라이브러리는 &#x27;View&#x27; 단에만 초점을 맞추고 있으며, 다른 라이브러리 또는 기존 프로젝트와 통합하기가 매우 쉽습니다.</span><br><span class="line"></span><br><span class="line">vuejs 공식 문서: &lt;https://vuejs.org/v2/guide&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+        
+          <p class="article-more-link">
+            <a href="/2018/10/20/vue-firebase1/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase1/" data-id="cmughnup100qupd2g39yd5gsw" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/10/20/vue-firebase1/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Vue-component/" rel="tag">Vue.component</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/npm-install/" rel="tag">npm install</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/npm-run-dev/" rel="tag">npm run dev</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tutorial/" rel="tag">tutorial</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue/" rel="tag">vue</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-create/" rel="tag">vue create</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-init/" rel="tag">vue init</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-cli/" rel="tag">vue-cli</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-cli-3-0/" rel="tag">vue-cli 3.0</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-js/" rel="tag">vue.js</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-seo1" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/09/29/seo1/" class="article-date">
+  <time datetime="2018-09-29T09:32:59.000Z" itemprop="datePublished">2018-09-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/SEO/">SEO</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/09/29/seo1/">SEO(Search Engine Optimization) 검색 엔진 최적화 1편</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="https://tuhbm.github.io/images/seo.jpg" alt="SEO"></p>
+<h1 id="SEO의-중요성"><a href="#SEO의-중요성" class="headerlink" title="SEO의 중요성"></a>SEO의 중요성</h1><p>비지니스 측면에 있어서 검색순위 상위권에 노출되는 것은 매우 중요한 부분입니다.<br>검색시 페이지 이동을 해야 검색이 된다면, 그만큼 유저들이 이전페이지들에서 원하는 결과를 얻어 해당 웹사이트에 접속할 확률이 낮습니다.<br>물론 입소문이 타서 자연스럽게 해당 검색어를 정확하게 입력한다면 유저의 유입확률이 높을 것이지만, 그렇지 못한 경우가 많습니다.<br>노출의 효과는 광고를 보면 알 수 있습니다. 자주 보는 광고를 통해 유저에게 특정 비지니스 상품을 홍보하고 그로인해 수익이 됩니다.<br>검색 엔진 최적화도 마찬가지의 효과입니다.<br>그러므로 비지니스 측면에서 검색 엔진 최적화는 매우 중요합니다.<br>스타트업 또는 신제품의 경우 더더욱 중요합니다.</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/09/29/seo1/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/09/29/seo1/" data-id="cmughnuob00m0pd2gbwaygmo3" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/09/29/seo1/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/canonical/" rel="tag">canonical</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/engine/" rel="tag">engine</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html/" rel="tag">html</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/noindex/" rel="tag">noindex</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/optimization/" rel="tag">optimization</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/search/" rel="tag">search</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/seo/" rel="tag">seo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EA%B2%80%EC%83%89%EC%B5%9C%EC%A0%81%ED%99%94/" rel="tag">검색최적화</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-algorithm" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/08/20/algorithm/" class="article-date">
+  <time datetime="2018-08-20T13:47:40.000Z" itemprop="datePublished">2018-08-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/08/20/algorithm/">알고리즘</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="용어정리"><a href="#용어정리" class="headerlink" title="용어정리"></a>용어정리</h2><p>이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.<br>제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.<br>오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.</p>
+<hr>
+<p><img src="https://tuhbm.github.io/images/terms/algorithm1.png" alt="알고리즘"></p>
+<h1 id="알고리즘"><a href="#알고리즘" class="headerlink" title="알고리즘"></a>알고리즘</h1><h2 id="알고리즘이란"><a href="#알고리즘이란" class="headerlink" title="알고리즘이란?"></a>알고리즘이란?</h2><p>명령어들의 순서상 <strong>처리과정</strong>을 말합니다.<br>예를들어 우리가 학교에 등교할때도 잠에서 깨고, 아침을 먹고, 양치를 하고, 씻고, 교복을 입고, 학교에 도착하기까지의 순서상 처리하는 과정이 있습니다.<br>이들을 순서상 나열해놓은 것을 알고리즘이라고 합니다.</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/08/20/algorithm/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/08/20/algorithm/" data-id="cmughnul4000rpd2gf2gdavfv" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/08/20/algorithm/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/algorithm/" rel="tag">algorithm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EA%B0%9C%EB%B0%9C/" rel="tag">개발</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/" rel="tag">알고리즘</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%9A%A8%EC%9C%A8%EC%84%B1/" rel="tag">효율성</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-javaScope" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/06/24/javaScope/" class="article-date">
+  <time datetime="2018-06-24T12:08:55.000Z" itemprop="datePublished">2018-06-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/Java/">Java</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/06/24/javaScope/">java 유효범위(scope)</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="JAVA"><a href="#JAVA" class="headerlink" title="JAVA"></a>JAVA</h2><p>이 카테고리는 자바를 공부 하며, 익힌 내용을 기록합니다.<br>책을 보며, 또는 독학을 하므로 <code>잘못된 내용이 있으면 댓글 또는 메일주시면 신속히 오류처리하겠습니다.</code></p>
+<hr>
+<h1 id="유효범위-scope"><a href="#유효범위-scope" class="headerlink" title="유효범위(scope)"></a>유효범위(scope)</h1><p><img src="https://tuhbm.github.io/images/java/img_scope.jpg" alt="Scope"></p>
+<h2 id="이론"><a href="#이론" class="headerlink" title="이론"></a>이론</h2><p>우리는 보통 여러명의 개발자들과 협업을 하며 개발을 진행합니다.<br>그렇기에 어떠한 것을 명명할때, 같은 이름으로 충돌이 발생 할 수 있습니다.<br>예를들어,</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> left;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">left</span><span class="params">()</span> </span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+        
+          <p class="article-more-link">
+            <a href="/2018/06/24/javaScope/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/06/24/javaScope/" data-id="cmughnun600dfpd2g1oua429c" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/06/24/javaScope/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/oop/" rel="tag">oop</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/scope/" rel="tag">scope</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/this/" rel="tag">this</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5/" rel="tag">객체지향</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A9%94%EC%86%8C%EB%93%9C/" rel="tag">메소드</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A9%A4%EB%B2%84%EB%B3%80%EC%88%98/" rel="tag">멤버변수</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%8A%A4%EC%BD%94%ED%94%84/" rel="tag">스코프</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%9C%A0%ED%9A%A8%EB%B2%94%EC%9C%84/" rel="tag">유효범위</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%81%B4%EB%9E%98%EC%8A%A4/" rel="tag">클래스</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-javaObjectOriented" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/06/21/javaObjectOriented/" class="article-date">
@@ -120,7 +381,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/21/javaObjectOriented/" data-id="cmufd29tr00deq52g3ggu7ve7" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/06/21/javaObjectOriented/" data-id="cmughnun600dcpd2gdnt9c0zj" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/06/21/javaObjectOriented/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -171,7 +432,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/14/javaDataType/" data-id="cmufd29tq00d9q52g1qy390uc" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/06/14/javaDataType/" data-id="cmughnun500d7pd2g94tuc1gn" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/06/14/javaDataType/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -223,7 +484,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/13/javaNumberText/" data-id="cmufd29tq00dcq52g633b7e4d" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/06/13/javaNumberText/" data-id="cmughnun600dapd2gbkyfdr0w" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/06/13/javaNumberText/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -275,7 +536,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/11/startJava/" data-id="cmufd29vb00ogq52gb2x82kj1" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/06/11/startJava/" data-id="cmughnuom00odpd2g8qjz5765" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/06/11/startJava/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -327,7 +588,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/04/12/javaBook/" data-id="cmufd29tp00d7q52g20de2k02" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/04/12/javaBook/" data-id="cmughnun500d5pd2gefaw33h3" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/04/12/javaBook/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -341,267 +602,11 @@
 
 
   
-    <article id="post-superClassAndSubClass" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/03/11/superClassAndSubClass/" class="article-date">
-  <time datetime="2018-03-11T04:30:13.000Z" itemprop="datePublished">2018-03-11</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/11/superClassAndSubClass/">슈퍼클래스 와 서브클래스</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="용어정리"><a href="#용어정리" class="headerlink" title="용어정리"></a>용어정리</h2><p>이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.<br>제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.<br>오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.</p>
-<hr>
-<h1 id="슈퍼클래스-superClass-와-서브클래스-subClass"><a href="#슈퍼클래스-superClass-와-서브클래스-subClass" class="headerlink" title="슈퍼클래스(superClass)와 서브클래스(subClass)"></a>슈퍼클래스(superClass)와 서브클래스(subClass)</h1><p>슈퍼클래스와 서브클래스는 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://ko.wikipedia.org/wiki/%EC%83%81%EC%86%8D_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D">상속</a>에서 나오는 개념입니다.<br>원래 상속에 대한 개념은 고급언어 Java의 개념입니다.<br>자바스크립트에서는 상속의 대한 개념이 적용이 되지 않고, 상속 비슷하게 만드는 개념인 <code>prototype</code>이 있습니다.</p>
-        
-          <p class="article-more-link">
-            <a href="/2018/03/11/superClassAndSubClass/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/03/11/superClassAndSubClass/" data-id="cmufd29vd00ooq52gf3794hl2" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2018/03/11/superClassAndSubClass/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/inherit/" rel="tag">inherit</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/prototype/" rel="tag">prototype</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/subClass/" rel="tag">subClass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/superClass/" rel="tag">superClass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EA%B0%9D%EC%B2%B4/" rel="tag">객체</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%83%81%EC%86%8D/" rel="tag">상속</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%84%9C%EB%B8%8C%ED%81%B4%EB%9E%98%EC%8A%A4/" rel="tag">서브클래스</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%8A%88%ED%8D%BC%ED%81%B4%EB%9E%98%EC%8A%A4/" rel="tag">슈퍼클래스</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%81%B4%EB%9E%98%EC%8A%A4/" rel="tag">클래스</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85/" rel="tag">프로토타입</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-letAndConst" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/03/05/letAndConst/" class="article-date">
-  <time datetime="2018-03-05T13:32:46.000Z" itemprop="datePublished">2018-03-05</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/05/letAndConst/">let 과 const</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="let과-const"><a href="#let과-const" class="headerlink" title="let과 const"></a>let과 const</h1><p>과거 ES5이하에서는 변수를 선언할때 아래와 같은 방식을 사용하였다.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">var</span> b = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">var</span> c = a + b;</span><br></pre></td></tr></table></figure>
-<p>이러한 선언 방식은 javascript에게 유연함을 선물해 준 대신, 타언어를 공부한 많은 개발자들에게 혼란을 초래 했다.<br>2015년 ECMAscript2015 또는 ES6로 자바스크립트가 변화하면서, 많은 혼란을 조금을 달래줄 수 있었다.</p>
-<p>오늘은 ES6의 변수 선언방식인 <code>let</code>과 <code>const</code>에 대해 알아보겠다.<br>과거 javascript의 변수를 <code>var</code>로 선언하였을때 함수스코프, 호이스팅 등 많은 자유로움으로 인해 작은 문제가 큰문제로 발생하는 경우가 많았다.</p>
-<p>ES6의 변수 선언방식인 <code>let</code>과 <code>const</code>는 <em>block-scope</em>로 스코프범위를 일반적인 다른 언어들과 맞추었다.<br>예를 들어보자.</p>
-        
-          <p class="article-more-link">
-            <a href="/2018/03/05/letAndConst/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/03/05/letAndConst/" data-id="cmufd29u000fcq52g7hqvcw3c" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2018/03/05/letAndConst/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ES6/" rel="tag">ES6</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/const/" rel="tag">const</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/let/" rel="tag">let</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/scope/" rel="tag">scope</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/var/" rel="tag">var</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-reflowAndRepaint" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/02/22/reflowAndRepaint/" class="article-date">
-  <time datetime="2018-02-22T13:56:50.000Z" itemprop="datePublished">2018-02-22</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/22/reflowAndRepaint/">Reflow와 Repaint</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.<br>제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.<br>오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.</p>
-<hr>
-<h1 id="Reflow와-Repaint"><a href="#Reflow와-Repaint" class="headerlink" title="Reflow와 Repaint"></a>Reflow와 Repaint</h1><p><strong>지금 이후 편하게 한국어로 <code>리플로우 &amp; 리페인트</code> 로 표현하도록 하겠습니다.</strong></p>
-        
-          <p class="article-more-link">
-            <a href="/2018/02/22/reflowAndRepaint/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/02/22/reflowAndRepaint/" data-id="cmufd29um00k5q52gd7gh3dmj" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2018/02/22/reflowAndRepaint/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/" rel="tag">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reflow/" rel="tag">reflow</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/rendering/" rel="tag">rendering</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/repaint/" rel="tag">repaint</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A0%8C%EB%8D%94%EB%A7%81/" rel="tag">렌더링</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A0%8C%ED%84%B0%ED%8A%B8%EB%A6%AC/" rel="tag">렌터트리</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A6%AC%ED%8E%98%EC%9D%B8%ED%8C%85/" rel="tag">리페인팅</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A6%AC%ED%94%8C%EB%A1%9C%EC%9A%B0/" rel="tag">리플로우</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-firstProgramming" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/02/21/firstProgramming/" class="article-date">
-  <time datetime="2018-02-21T12:51:20.000Z" itemprop="datePublished">2018-02-21</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EB%8F%85%EC%84%9C/">독서</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/21/firstProgramming/">프로그래머 첫걸음</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>이 카테고리는 책을 읽고, 느낀점에 대해 리뷰를 남기는 카테고리입니다.</p>
-<hr>
-<h1 id="프로그래머-첫걸음"><a href="#프로그래머-첫걸음" class="headerlink" title="프로그래머 첫걸음"></a>프로그래머 첫걸음</h1><p><img src="https://tuhbm.github.io/images/books/img_firstProgramming.png" alt="firstProgramming"></p>
-<h2 id="한줄평-리뷰"><a href="#한줄평-리뷰" class="headerlink" title="한줄평 리뷰"></a>한줄평 리뷰</h2><p>책 제목처럼 비전공자가 처음 프로그래밍을 배울때 보면 좋은도서다.</p>
-        
-          <p class="article-more-link">
-            <a href="/2018/02/21/firstProgramming/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/02/21/firstProgramming/" data-id="cmufd29t00098q52g9tzxfbww" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2018/02/21/firstProgramming/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/book-review/" rel="tag">book-review</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/first-programming/" rel="tag">first-programming</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/non-major/" rel="tag">non-major</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/programming/" rel="tag">programming</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/" rel="tag">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/start/" rel="tag">start</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B6%81%EB%A6%AC%EB%B7%B0/" rel="tag">북리뷰</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90/" rel="tag">비전공자</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/" rel="tag">파이썬</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8/" rel="tag">프로그래머</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-cssReset" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/02/21/cssReset/" class="article-date">
-  <time datetime="2018-02-21T12:00:04.000Z" itemprop="datePublished">2018-02-21</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/21/cssReset/">CSS - Resetting VS Normalize</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="Resetting과-Normalize"><a href="#Resetting과-Normalize" class="headerlink" title="Resetting과 Normalize"></a><code>Resetting</code>과 <code>Normalize</code></h1><p>최근 외국의 한 블로거를 통해 작업 전 기본적으로 브라우저별 태그에 대한 기본 스타일링을 제어하는 두가지 방법을 비교한 글을 본적 있다.<br>하지만 국내에서는 대부분 <code>front-end개발</code>의 아버지로 칭하는 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://en.wikipedia.org/wiki/Eric_A._Meyer">Eric Meyer</a>의 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://meyerweb.com/eric/tools/css/reset/">Reset.css</a>를 사용하거나,<br>yahoo가 내놓은 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://yuilibrary.com/yui/docs/cssreset/">Reset.css</a>를 사용 또는 국내 IT대기업인 네이버나 다음의 reset.css를 사용한다.<br>그리고 본인의 입맛에 맞춰 커스터마이징하여 사용한다. 필자는 다음의 <em>reset.css</em>를 커스터마이징해서 사용한다.<br>이처럼 국내에서는 아직 Normalize보다는 Resetting을 하는 추세이다.<br>일단 Resetting은 대충 사용해보았기때문에 알 것 같은데 Normalize는 무엇인가를 정확히 설명 할 수 없을 것이다.<br>그럼 Resetting과 Normalize에 대해 알아보자</p>
-        
-          <p class="article-more-link">
-            <a href="/2018/02/21/cssReset/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/02/21/cssReset/" data-id="cmufd29sn006yq52g6lc96vcp" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2018/02/21/cssReset/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/chrome/" rel="tag">chrome</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/firefox/" rel="tag">firefox</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ie/" rel="tag">ie</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/normalize/" rel="tag">normalize</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/reset/" rel="tag">reset</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/safari/" rel="tag">safari</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 
   <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/29/">&lt; 이전</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/28/">28</a><a class="page-number" href="/page/29/">29</a><span class="page-number current">30</span><a class="page-number" href="/page/31/">31</a><a class="page-number" href="/page/32/">32</a><a class="page-number" href="/page/33/">33</a><a class="extend next" rel="next" href="/page/31/">다음 &gt;</a>
+    <a class="extend prev" rel="prev" href="/page/29/">&lt; 이전</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/28/">28</a><a class="page-number" href="/page/29/">29</a><span class="page-number current">30</span><a class="page-number" href="/page/31/">31</a><a class="page-number" href="/page/32/">32</a><span class="space">&hellip;</span><a class="page-number" href="/page/34/">34</a><a class="extend next" rel="next" href="/page/31/">다음 &gt;</a>
   </nav>
 
 </section>
@@ -738,23 +743,23 @@
       <ul>
         
           <li>
-            <a href="/2026/09/24/underwaterSolar/">빛이 닿지 않는 수심 10m에서 전기를 만들었다 — 바닷속 태양광이 배터리를 충전했다</a>
+            <a href="/2026/09/25/billboardRecord23/">68년 만에 깨진 기록 — 컨트리 한 곡이 빌보드 핫100에서 통산 23주 1위를 했다</a>
           </li>
         
           <li>
-            <a href="/2026/09/24/sriLankaGradJobless/">대학을 나와도 열에 넷이 백수 — 스리랑카 고학력 청년 실업률 43%, 아시아 최고</a>
+            <a href="/2026/09/25/slowGrowthWorld/">세계 인구 5명 중 2명이 성장이 반토막 난 곳에 산다 — 33억 명으로 늘어난 저성장 지대</a>
           </li>
         
           <li>
-            <a href="/2026/09/24/pharmacyDeserts/">약 사려면 차로 20분 — 전국 읍면동 10곳 중 3곳에는 약국도 상비약 편의점도 없다</a>
+            <a href="/2026/09/25/sansaConcert/">절 마당에서 신부가 오르간을 치고 목사가 기도했다 — 15년 이어온 산사 음악회</a>
           </li>
         
           <li>
-            <a href="/2026/09/24/aiChuseokGift/">AI 4종에게 추석 선물을 물었더니 1위는 스팸이었다 — 답변 3건 중 1건엔 브랜드가 없었다</a>
+            <a href="/2026/09/25/seoulBubbleRank/">서울 집값 거품 위험 세계 5위 — 첫 조사 대상에 오르자마자 위험군으로 분류됐다</a>
           </li>
         
           <li>
-            <a href="/2026/09/24/chuseokArtMuseums/">연휴에 미술관이 문을 연다 — 국립현대미술관 4개 관 무료, 서울시립 7개 관은 나흘 내내</a>
+            <a href="/2026/09/25/separatedFamiliesDay/">생존자 3만3천 명 중 3명에 2명이 80대 — 추석 상에 놓인 빈 수저의 숫자</a>
           </li>
         
       </ul>

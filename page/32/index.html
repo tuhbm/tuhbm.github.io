@@ -81,6 +81,259 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-sass2" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/01/24/sass2/" class="article-date">
+  <time datetime="2018-01-24T11:01:13.000Z" itemprop="datePublished">2018-01-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/01/24/sass2/">SASS에 대해 알아보자2</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="SASS"><a href="#SASS" class="headerlink" title="SASS"></a>SASS</h1><p><code>SASS를 통칭 사스 라고 표기하겠습니다.</code><br><a href="https://tuhbm.github.io/2018/01/24/sass1/">지난 포스팅</a>을 통해 SASS의 확장자가 최종적으로 <code>.scss</code>로 확정되었다고 말씀드렸습니다.<br>이번 포스팅부터는 사스의 문법에 대해 알아보겠습니다.</p>
+<h2 id="변수사용"><a href="#변수사용" class="headerlink" title="변수사용"></a>변수사용</h2><p>변수를 사용하므로써, 한번의 변경으로 사용한 모든 변수의 값을 바꿀 수 있는 효율적인 방법이라고 말씀드렸었습니다.<br>변수를 <code>키</code>와<code>값</code>으로 표현해 보겠습니다.</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$normalFontSize</span>: <span class="number">14px</span>;</span><br></pre></td></tr></table></figure>
+        
+          <p class="article-more-link">
+            <a href="/2018/01/24/sass2/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/01/24/sass2/" data-id="cmughnuo600l6pd2gaq4s73df" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/01/24/sass2/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/include/" rel="tag">include</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mixin/" rel="tag">mixin</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sass/" rel="tag">sass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/scss/" rel="tag">scss</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B3%80%EC%88%98/" rel="tag">변수</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%82%AC%EC%8A%A4/" rel="tag">사스</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-sass1" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/01/24/sass1/" class="article-date">
+  <time datetime="2018-01-24T07:12:13.000Z" itemprop="datePublished">2018-01-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/01/24/sass1/">SASS에 대해 알아보자1</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="SASS"><a href="#SASS" class="headerlink" title="SASS"></a>SASS</h1><p><code>SASS를 통칭 사스 라고 표기하겠습니다.</code><br>금일은 사스에 대해 알아보겠습니다.<br>우선 컴파일 하는 방법에 대해 지난번 포스팅한 것이 있는데요.</p>
+<blockquote>
+<p><strong>1. <a href="https://tuhbm.github.io/2017/07/17/sass-compile/">scout앱 사용하여 컴파일하기</a> (지난번 포스팅내용입니다.)</strong><br><strong>2. <a target="_blank" rel="external nofollow noopener noreferrer" href="https://velopert.com/1712">Ruby를 설치해 Cli를 통해 컴파일하기</a></strong><br><strong>3. <a target="_blank" rel="external nofollow noopener noreferrer" href="http://webclub.tistory.com/470">gulp등 Task runner(또는 webpack같은 빌드도구)이용하여 컴파일하기</a></strong><br><strong>4. <a target="_blank" rel="external nofollow noopener noreferrer" href="https://prepros.io/">prepros</a> 또는 <a target="_blank" rel="external nofollow noopener noreferrer" href="http://koala-app.com/">kolal</a>등의 앱사용하기</strong></p>
+</blockquote>
+<p>사스는 이렇게 컴파일 하시면 되겠구요.</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/01/24/sass1/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/01/24/sass1/" data-id="cmughnuo500l3pd2g7rbx7f6p" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/01/24/sass1/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/compile/" rel="tag">compile</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/processors/" rel="tag">processors</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sass/" rel="tag">sass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/scss/" rel="tag">scss</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%82%AC%EC%8A%A4/" rel="tag">사스</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%A0%84%EC%B2%98%EB%A6%AC%EA%B8%B0/" rel="tag">전처리기</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-sideEffect" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/01/22/sideEffect/" class="article-date">
+  <time datetime="2018-01-22T13:40:55.000Z" itemprop="datePublished">2018-01-22</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/01/22/sideEffect/">부수효과</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="용어정리"><a href="#용어정리" class="headerlink" title="용어정리"></a>용어정리</h2><p>이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.<br>제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.<br>오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.</p>
+<hr>
+<h1 id="부수효과-side-effect"><a href="#부수효과-side-effect" class="headerlink" title="부수효과(side effect)"></a>부수효과(side effect)</h1><p><code>부수효과를 좀 있어보이게 사이드이팩트라 쓰겠습니다</code><br>사이드이팩트란 무엇인가 알아보았다.<br>위키에서의 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://ko.wikipedia.org/wiki/%EB%B6%80%EA%B0%80%EC%9E%91%EC%9A%A9">부수효과(부가작용)</a> 이렇게 정의하고 있습니다.<br>이처럼 <code>원래의 목적과 다르게 다른 효과 또는 부작용이 나는 상태</code>를 지칭합니다.</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/01/22/sideEffect/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/01/22/sideEffect/" data-id="cmughnuof00mzpd2gf9ay0opj" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/01/22/sideEffect/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/functional-programming/" rel="tag">functional programming</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/side-effect/" rel="tag">side effect</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B6%80%EC%88%98%ED%9A%A8%EA%B3%BC/" rel="tag">부수효과</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-vanillaJS" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/01/21/vanillaJS/" class="article-date">
+  <time datetime="2018-01-21T14:42:22.000Z" itemprop="datePublished">2018-01-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/01/21/vanillaJS/">VanillaJS</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Vanilla-JS"><a href="#Vanilla-JS" class="headerlink" title="Vanilla JS"></a>Vanilla JS</h1><p><strong>지금부터는 Vanilla JS를 편하게 바닐라JS라고 기재하겠다.</strong><br><code>Javascript</code>를 사용하는 개발자로써, 많은 사람들이 들어 보았을 것이다.<br>필자는 과거 면접에서 이러한 질문을 받은 적이 있다.<br>‘바닐라 JS에 대해 아시나요?’라는 질문을 받았다. 좀 당황스러운 질문이었다.<br>평소 <code>바닐라JS === Javascript</code>라고 생각해 온 상황이서 그런지 더욱 당황스러웠지만…답을했다.<br>‘일반적으로 우리가 사용하고 있는 Javascript라고 합니다.’<br>‘그럼 왜 자바스크립트가 바닐라JS라고 불리는지 아시나요?’ 또 당황스러웠다.(이것이 면접에서 말리는 시초였다.)</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/01/21/vanillaJS/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/01/21/vanillaJS/" data-id="cmughnup100qrpd2gb43ad65e" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/01/21/vanillaJS/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pure-Javascript/" rel="tag">Pure Javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/VanillaJS/" rel="tag">VanillaJS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jQuery/" rel="tag">jQuery</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/" rel="tag">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B0%94%EB%8B%90%EB%9D%BC-JS/" rel="tag">바닐라 JS</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-bye2017" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/01/17/bye2017/" class="article-date">
+  <time datetime="2018-01-17T12:31:12.000Z" itemprop="datePublished">2018-01-17</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%ED%9A%8C%EA%B3%A0%C2%B7%EC%97%90%EC%84%B8%EC%9D%B4/">회고·에세이</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/01/17/bye2017/">늦은 2017 회고</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="2017년-회고"><a href="#2017년-회고" class="headerlink" title="2017년 회고"></a>2017년 회고</h1><p>2017년이 가고 2018년 1월이 반쯤 보낸 후, 다시 한번 나를 채찍질 하게 만든 사건을 통해 마음을 다잡고 공부와 블로그 운영을 다짐하며,<br>첫 회고를 쓴다.<br>올해는 유난히 ‘첫, 처음’이란 단어가 어울렸던 한해였다.<br>첫 블로그, 첫 커플해외여행, 첫 에이전시, 첫 기술들등……<br>항상 개발을 하며 느끼는 점은 ‘처음’ 그리고 ‘낯선’ 기술등에 대한 어려움이나 반감이었다.<br>올해 기술들에 대한 반감으로 새로운 기술을 도입하려고 팀원들의 반대로 했으나 실패했었다.<br>필자는 개발자라면, 당연히 더 좋은 기술, 더 좋은 방법이 있다면 그것에 대해 지금 당장 사용을 하지 못하더라도 알아두는것 정도는 해야한다고 생각한다.<br>서론이 길었다. 처음 쓰는 회고라 다른 분들의 회고를 보니 주제를 나눠 이야기 하는 것을 보았다. 나도 그방법을 선택하도록 하겠다.</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/01/17/bye2017/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/01/17/bye2017/" data-id="cmughnulq0042pd2g9nnp3bf4" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/01/17/bye2017/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UI-developer/" rel="tag">UI-developer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UI%EA%B0%9C%EB%B0%9C/" rel="tag">UI개발</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/front-end-developer/" rel="tag">front-end-developer</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gulp/" rel="tag">gulp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/" rel="tag">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/task-runner/" rel="tag">task runner</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%9B%B9%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%85%94/" rel="tag">웹퍼블리셔</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EA%B0%9C%EB%B0%9C/" rel="tag">프론트엔드개발</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-vue4" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/09/20/vue4/" class="article-date">
@@ -118,7 +371,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/20/vue4/" data-id="cmufd29vx00rnq52gg5cp4yus" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2017/09/20/vue4/" data-id="cmughnup500rkpd2gflwobpff" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2017/09/20/vue4/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -170,7 +423,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/19/vue3/" data-id="cmufd29vx00rlq52gh7236a2a" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2017/09/19/vue3/" data-id="cmughnup500ripd2g1a8j1cir" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2017/09/19/vue3/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -222,7 +475,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/18/vue2/" data-id="cmufd29vw00riq52g2k7eg5jj" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2017/09/18/vue2/" data-id="cmughnup400rfpd2ghhwg0c7y" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2017/09/18/vue2/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -274,7 +527,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/15/vue1/" data-id="cmufd29vw00rgq52ggwnrgdxe" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2017/09/15/vue1/" data-id="cmughnup400rdpd2g6fi8avar" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2017/09/15/vue1/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -325,7 +578,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/08/OSI7/" data-id="cmufd29rg0005q52gffl15ezh" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2017/09/08/OSI7/" data-id="cmughnukx0005pd2g8ka198vp" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2017/09/08/OSI7/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -339,262 +592,11 @@
 
 
   
-    <article id="post-component" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/09/06/component/" class="article-date">
-  <time datetime="2017-09-06T09:04:01.000Z" itemprop="datePublished">2017-09-06</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/06/component/">Component</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="용어정리"><a href="#용어정리" class="headerlink" title="용어정리"></a>용어정리</h2><p>이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.<br>제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.<br>오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.</p>
-<hr>
-<p>컴포넌트란 무엇인가?<br>쉬운듯 하나 어려운 IT언어…<br>금일은 컴포넌트단위.. 컴포넌트수정..등 컴포넌트에 대해 알아보겠습니다.</p>
-        
-          <p class="article-more-link">
-            <a href="/2017/09/06/component/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/06/component/" data-id="cmufd29sh005rq52g8tk5787d" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2017/09/06/component/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Component/" rel="tag">Component</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/" rel="tag">컴포넌트</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-doctype" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/08/21/doctype/" class="article-date">
-  <time datetime="2017-08-21T08:03:11.000Z" itemprop="datePublished">2017-08-21</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/21/doctype/">doctype이란 무엇인가?</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="doctype이란-무엇인가"><a href="#doctype이란-무엇인가" class="headerlink" title="doctype이란 무엇인가?"></a>doctype이란 무엇인가?</h1><p>DOCTYPE이란 무엇인가. 흔히들 줄여말해 DTD라고 불리운다.<br>DTD는 Document Type Definition의 약자이다. 즉, 문서형식을 정의해주는 것이다.<br>HTML이 어떤 버전으로 작성되었는지 미리 선언해,웹브라우저가 내용을 올바로 표시할 수 있도록 해주는 것이 DTD입니다.</p>
-        
-          <p class="article-more-link">
-            <a href="/2017/08/21/doctype/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/08/21/doctype/" data-id="cmufd29sr007lq52g7ymo2rhu" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2017/08/21/doctype/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/DTD/" rel="tag">DTD</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/doc/" rel="tag">doc</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html/" rel="tag">html</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html-doctype/" rel="tag">html doctype</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-function1" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/08/17/function1/" class="article-date">
-  <time datetime="2017-08-17T12:50:26.000Z" itemprop="datePublished">2017-08-17</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/17/function1/">자바스트립트 함수 정리 1편</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="함수정리"><a href="#함수정리" class="headerlink" title="함수정리"></a>함수정리</h1><h2 id="gt-사용법편"><a href="#gt-사용법편" class="headerlink" title="&gt; 사용법편"></a>&gt; 사용법편</h2><p>함수란 무엇일까요?<br>우리는 중학교를 나왔다면, 이미 들어봤을것입니다.<br>간단한 함수를 보며 살펴 보겠습니다.</p>
-<p> y = f(x)</p>
-        
-          <p class="article-more-link">
-            <a href="/2017/08/17/function1/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/08/17/function1/" data-id="cmufd29t1009hq52g7gjca6ue" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2017/08/17/function1/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/function/" rel="tag">function</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/" rel="tag">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript-function/" rel="tag">javascript function</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/new/" rel="tag">new</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%83%9D%EC%84%B1%EC%9E%90%ED%95%A8%EC%88%98/" rel="tag">생성자함수</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%95%A8%EC%88%98/" rel="tag">함수</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%95%A8%EC%88%98%EC%84%A0%EC%96%B8%EB%AC%B8/" rel="tag">함수선언문</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%95%A8%EC%88%98%ED%91%9C%ED%98%84%EC%8B%9D/" rel="tag">함수표현식</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-image-compressor" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/08/16/image-compressor/" class="article-date">
-  <time datetime="2017-08-16T07:17:26.000Z" itemprop="datePublished">2017-08-16</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/16/image-compressor/">Image Compressor</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="이미지-압축"><a href="#이미지-압축" class="headerlink" title="이미지 압축"></a>이미지 압축</h1><p>지난번 랜더링 포스팅에 있어 <strong>클라이언트가 서버에 요청을 줄이는 것이 가장 효율적인 렌더링을 하는 방법</strong>이라는 것을 포스팅했습니다.<br><a href="https://tuhbm.github.io/2017/08/10/rendering1/">지난포스팅 1편 다시보기</a><br><a href="https://tuhbm.github.io/2017/08/14/rendering2/">지난포스팅 2편 다시보기</a></p>
-<p>랜더링에 있어 요청을 줄이는 것 만큼 중요한것이 있다.<br>바로 </p>
-<h4 id="이미지"><a href="#이미지" class="headerlink" title="이미지"></a>이미지</h4>
-        
-          <p class="article-more-link">
-            <a href="/2017/08/16/image-compressor/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/08/16/image-compressor/" data-id="cmufd29th00buq52g3p7g8gkj" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2017/08/16/image-compressor/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/compressor/" rel="tag">compressor</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/image/" rel="tag">image</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/image-compressor/" rel="tag">image compressor</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/image-optimization/" rel="tag">image optimization</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/rendering/" rel="tag">rendering</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-rendering2" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/08/14/rendering2/" class="article-date">
-  <time datetime="2017-08-14T07:00:37.000Z" itemprop="datePublished">2017-08-14</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/14/rendering2/">rendering 2편</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="브라우저-렌더링에-영향을-주는-build-도구란-무엇인가"><a href="#브라우저-렌더링에-영향을-주는-build-도구란-무엇인가" class="headerlink" title="브라우저 렌더링에 영향을 주는 build 도구란 무엇인가?"></a>브라우저 렌더링에 영향을 주는 build 도구란 무엇인가?</h1><p>보통 많이 들 사용하는 대표적인 빌드도구는 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://gulpjs.com/">gulp</a>, <a target="_blank" rel="external nofollow noopener noreferrer" href="https://gruntjs.com/">grunt</a>, <a target="_blank" rel="external nofollow noopener noreferrer" href="https://webpack.js.org/">webpack</a>등이 있다.<br>이러한 빌드도구는 업무의 효율성에서도 탁월하게 도움을 준다.</p>
-<p>본인은 gulp와 webpack를 모두 조금씩 사용해보고, gulp를 더 자주 사용하고 있다.<br>이유는 webpack은 webpack2를 넘어 webpack3까지나면서 문법을 사용하는 방식도 달라지도 있기때문에,<br>설정을 하는데 조금 어려움이 있다.<br>그러한이유로 gulp를 사용하는것이 더 편하다고 느껴 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://gulpjs.com/">gulp</a>를 사용하고있다.</p>
-        
-          <p class="article-more-link">
-            <a href="/2017/08/14/rendering2/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/08/14/rendering2/" data-id="cmufd29un00kbq52g5ukqgsdc" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2017/08/14/rendering2/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/build-tool/" rel="tag">build tool</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/grunt/" rel="tag">grunt</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gulp/" rel="tag">gulp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html/" rel="tag">html</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/rendering/" rel="tag">rendering</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/webpack/" rel="tag">webpack</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%9E%9C%EB%8D%94%EB%A7%81/" rel="tag">랜더링</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80/" rel="tag">브라우저</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 
   <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/31/">&lt; 이전</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/30/">30</a><a class="page-number" href="/page/31/">31</a><span class="page-number current">32</span><a class="page-number" href="/page/33/">33</a><a class="extend next" rel="next" href="/page/33/">다음 &gt;</a>
+    <a class="extend prev" rel="prev" href="/page/31/">&lt; 이전</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/30/">30</a><a class="page-number" href="/page/31/">31</a><span class="page-number current">32</span><a class="page-number" href="/page/33/">33</a><a class="page-number" href="/page/34/">34</a><a class="extend next" rel="next" href="/page/33/">다음 &gt;</a>
   </nav>
 
 </section>
@@ -731,23 +733,23 @@
       <ul>
         
           <li>
-            <a href="/2026/09/24/underwaterSolar/">빛이 닿지 않는 수심 10m에서 전기를 만들었다 — 바닷속 태양광이 배터리를 충전했다</a>
+            <a href="/2026/09/25/billboardRecord23/">68년 만에 깨진 기록 — 컨트리 한 곡이 빌보드 핫100에서 통산 23주 1위를 했다</a>
           </li>
         
           <li>
-            <a href="/2026/09/24/sriLankaGradJobless/">대학을 나와도 열에 넷이 백수 — 스리랑카 고학력 청년 실업률 43%, 아시아 최고</a>
+            <a href="/2026/09/25/slowGrowthWorld/">세계 인구 5명 중 2명이 성장이 반토막 난 곳에 산다 — 33억 명으로 늘어난 저성장 지대</a>
           </li>
         
           <li>
-            <a href="/2026/09/24/pharmacyDeserts/">약 사려면 차로 20분 — 전국 읍면동 10곳 중 3곳에는 약국도 상비약 편의점도 없다</a>
+            <a href="/2026/09/25/sansaConcert/">절 마당에서 신부가 오르간을 치고 목사가 기도했다 — 15년 이어온 산사 음악회</a>
           </li>
         
           <li>
-            <a href="/2026/09/24/aiChuseokGift/">AI 4종에게 추석 선물을 물었더니 1위는 스팸이었다 — 답변 3건 중 1건엔 브랜드가 없었다</a>
+            <a href="/2026/09/25/seoulBubbleRank/">서울 집값 거품 위험 세계 5위 — 첫 조사 대상에 오르자마자 위험군으로 분류됐다</a>
           </li>
         
           <li>
-            <a href="/2026/09/24/chuseokArtMuseums/">연휴에 미술관이 문을 연다 — 국립현대미술관 4개 관 무료, 서울시립 7개 관은 나흘 내내</a>
+            <a href="/2026/09/25/separatedFamiliesDay/">생존자 3만3천 명 중 3명에 2명이 80대 — 추석 상에 놓인 빈 수저의 숫자</a>
           </li>
         
       </ul>
