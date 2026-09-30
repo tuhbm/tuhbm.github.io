@@ -81,6 +81,60 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-javascript30secDate" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/02/17/javascript30secDate/" class="article-date">
+  <time datetime="2019-02-16T16:38:48.000Z" itemprop="datePublished">2019-02-17</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/02/17/javascript30secDate/">번역 - 자바스크립트 코드 30초 시리즈&lt;Date&gt; 1편</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Date-코드-30초-시리즈"><a href="#Date-코드-30초-시리즈" class="headerlink" title="[Date]코드 30초 시리즈"></a>[Date]코드 30초 시리즈</h1><p><img src="https://tuhbm.github.io/images/javascript/img-javascript30.png" alt="Javascript 30 seconds"></p>
+<h3 id="개요"><a href="#개요" class="headerlink" title="개요"></a>개요</h3><p>기능을 직접 한땀 한땀 개발하는 것은 개발자로써 매우 중요한 업무입니다.<br>하지만 모든 기능을 미리 만들어 놓고 util함수 처럼 사용한다고 하면 어떨까요?<br>코드 30초만 있다면 빠르게 필요한 기능을 찾아 개발 할 수 있습니다.<br>어떠한 라이브러리도 사용하지않고 오로지 ES6로만 작성되어 있습니다.<br>이제 필요한 코드 찾아 사용하세요.<br>코드 30초 시리즈는 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://30secondsofcode.org/index">https://30secondsofcode.org/index</a>를 기반으로 번역 &amp; 정리하였습니다.</p>
+<h2 id="Date편"><a href="#Date편" class="headerlink" title="Date편"></a>Date편</h2><hr>
+<p>###dayOfYear<br><code>Date</code>객체에서 새해로부터 몇번째 날인지 가져옵니다.<br><code>new Date()</code>를 하고 <code>Date.prototype.getFullYear()</code>를 사용하여, 해당 연도의 첫날의 <code>Date</code>객체에서 인자로 받은 <code>date</code>를 뺀 값을 milliseconds로 나누워 결과를 얻습니다.<br><code>Math.floor()</code>으로 결과를 정수로 적절하게 반올림하여 사용하세요.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> dayOfYear = <span class="function"><span class="params">date</span> =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">Math</span>.floor((date - <span class="keyword">new</span> <span class="built_in">Date</span>(date.getFullYear(), <span class="number">0</span>, <span class="number">0</span>)) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>); </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// EXAMPLES</span></span><br><span class="line">dayOfYear(<span class="keyword">new</span> <span class="built_in">Date</span>()); <span class="comment">// 272</span></span><br></pre></td></tr></table></figure>
+<hr>
+        
+          <p class="article-more-link">
+            <a href="/2019/02/17/javascript30secDate/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2019/02/17/javascript30secDate/" data-id="cmuncmidz00ehyx1o2ke155l8" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2019/02/17/javascript30secDate/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/30sec/" rel="tag">30sec</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/date/" rel="tag">date</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/" rel="tag">js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/transform/" rel="tag">transform</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-javascript30secArray1" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/02/10/javascript30secArray1/" class="article-date">
@@ -121,7 +175,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2019/02/10/javascript30secArray1/" data-id="cmumlnsji00egtq2ge1h760js" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2019/02/10/javascript30secArray1/" data-id="cmuncmidy00edyx1o4n6t3u7v" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2019/02/10/javascript30secArray1/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -174,7 +228,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/12/09/cssArchitecture/" data-id="cmumlnsi60073tq2g54ky9sc5" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/12/09/cssArchitecture/" data-id="cmuncmicp007eyx1oequ04ql9" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/12/09/cssArchitecture/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -226,7 +280,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/12/01/javascriptDestructuring/" data-id="cmumlnsjk00emtq2g21gf9n8y" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/12/01/javascriptDestructuring/" data-id="cmuncmie000eoyx1o3iodal5v" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/12/01/javascriptDestructuring/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -277,7 +331,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/11/24/async03/" data-id="cmumlnsh0001ptq2g48zw9gp8" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/11/24/async03/" data-id="cmuncmibg001tyx1o2pzb4pp6" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/11/24/async03/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -333,7 +387,7 @@
       
     </li></ul></div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/11/14/async02/" data-id="cmumlnsgz001mtq2g2h1t3vkj" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/11/14/async02/" data-id="cmuncmibg001ryx1o0dca2xv3" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/11/14/async02/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -391,7 +445,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/11/05/async01/" data-id="cmumlnsgy001ktq2g4hwq6u4m" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/11/05/async01/" data-id="cmuncmibi001zyx1o3rer8jm9" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/11/05/async01/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -444,7 +498,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/31/cssAlignCenter/" data-id="cmumlnsi5006ytq2g8nja9j3z" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/31/cssAlignCenter/" data-id="cmuncmicp007ayx1ogsb0hgor" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/31/cssAlignCenter/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -499,7 +553,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/30/vue-firebase5/" data-id="cmumlnsms00t3tq2gdgvxga1v" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/30/vue-firebase5/" data-id="cmuncmih800tdyx1o044hd2z2" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/30/vue-firebase5/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -553,64 +607,12 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/22/vue-firebase4/" data-id="cmumlnsmr00t1tq2ge0tz7qkn" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/22/vue-firebase4/" data-id="cmuncmiha00tryx1o11ledkfb" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/22/vue-firebase4/#disqus_thread" class="article-comment-link">댓글</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/router-link/" rel="tag">router-link</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tutorial/" rel="tag">tutorial</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue/" rel="tag">vue</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-router/" rel="tag">vue-router</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-js/" rel="tag">vue.js</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-vue-firebase3" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/10/20/vue-firebase3/" class="article-date">
-  <time datetime="2018-10-20T05:20:32.000Z" itemprop="datePublished">2018-10-20</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/10/20/vue-firebase3/">번역 - Vue 2 + Firebase 인증 시스템을 사용하여 15분 안에 Vue 앱을 만드는 방법 3편</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>지난 앞선 포스팅에서 <a href="https://tuhbm.github.io/2018/10/20/vue-firebase1/">1편</a>에서는 기본 이론을 알고,<br><a href="https://tuhbm.github.io/2018/10/20/vue-firebase2/">2편</a>에선 컴포넌트를 각각 구성해보고, vue-router에 대한 이론을 알아보았습니다.<br>이제 vue-router를 사용해 컴포넌트간 이동을 진행해보도록 하겠습니다. </p>
-<h2 id="스텝2-컴포넌트에서-컴포넌트의-이동"><a href="#스텝2-컴포넌트에서-컴포넌트의-이동" class="headerlink" title="스텝2 컴포넌트에서 컴포넌트의 이동"></a>스텝2 컴포넌트에서 컴포넌트의 이동</h2><p>우리가 정의한 앱 구조를 살펴보면 Login 컴포넌트에서 SignUp컴포넌트로 이동하고 두 컴포넌트에서 Hello 컴포넌트로 이동할 수 있습니다.<br>어떻게 해야할까요?</p>
-<p>우리는 <em>router-link</em>라는 <em>vue-router</em> 구성 요소를 사용할 것입니다.</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;router-link&gt;는 라우터를 사용하는 앱에서 사용자가 이동하기 위한 구성 요소입니다. 목표 위치는 to라는 prop으로 지정됩니다.</span><br><span class="line">기본적으로 올바른 href로 &lt;a&gt; 태그로 렌더링되지만 tag의 prop으로 구성할 수 있습니다.</span><br><span class="line"></span><br><span class="line">&lt;router-link tag=&quot;li&quot; to=&quot;/foo&quot;&gt;</span><br><span class="line">   &lt;a&gt;/foo&lt;/a&gt;</span><br><span class="line">&lt;/router-link&gt;</span><br><span class="line"></span><br><span class="line">또한 대상 경로가 활성화되어 있으면 링크가 자동으로 활성화된 CSS 클래스를 가져옵니다.</span><br><span class="line"></span><br><span class="line">vue-router 설명서&lt;https://router.vuejs.org/en/api/router-link.html&gt;</span><br></pre></td></tr></table></figure>
-        
-          <p class="article-more-link">
-            <a href="/2018/10/20/vue-firebase3/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase3/" data-id="cmumlnsmr00sytq2gh0abdohd" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2018/10/20/vue-firebase3/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/compontent/" rel="tag">compontent</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/router-link/" rel="tag">router-link</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/to/" rel="tag">to</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tutorial/" rel="tag">tutorial</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue/" rel="tag">vue</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-router/" rel="tag">vue-router</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue-js/" rel="tag">vue.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/" rel="tag">컴포넌트</a></li></ul>
 
     </footer>
   </div>
@@ -760,6 +762,10 @@
       <ul>
         
           <li>
+            <a href="/2026/09/30/augustTriple/">생산·소비·투자가 한꺼번에 꺾였다 — 8월 트리플 감소, 자동차가 24.8% 무너졌다</a>
+          </li>
+        
+          <li>
             <a href="/2026/09/29/taeminVisa/">첫 공연 2주 전에 멈춰 선 북미 투어 — 태민 6개 도시 일정이 미뤄진 이유</a>
           </li>
         
@@ -773,10 +779,6 @@
         
           <li>
             <a href="/2026/09/29/usFuelEconomyRollback/">미국이 자동차 연비 기준을 30% 낮췄다 — 리터당 21.4km에서 14.7km로</a>
-          </li>
-        
-          <li>
-            <a href="/2026/09/29/usChinaTariffCut/">미국과 중국이 81조원어치 관세를 낮췄다 — 그런데 대두와 반도체는 빠졌다</a>
           </li>
         
       </ul>
