@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2026-10-05T12:39:47.989Z</updated>
+  <updated>2026-10-06T00:07:07.748Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>7개사에서 정보가 샜고 은행은 전액 보상을 약속했다 — 그런데 피해는 누가 입증하나</title>
+    <link href="https://tuhbm.github.io/2026/10/06/bankHackProof/"/>
+    <id>https://tuhbm.github.io/2026/10/06/bankHackProof/</id>
+    <published>2026-10-06T00:00:00.000Z</published>
+    <updated>2026-10-06T00:07:07.748Z</updated>
+    
+    <summary type="html">
+    
+      신한·KB국민·하나·BNK부산은행과 현대캐피탈, 예가람·웰컴저축은행 등 7개사에서 정보 유출이 확인됐습니다. 경찰은 정식 수사로 전환했고, 은행들은 전액 보상을 약속했지만 보상 범위와 인과관계 입증이 쟁점입니다.
+    
+    </summary>
+    
+      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
+    
+      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
+    
+    
+      <category term="개인정보유출" scheme="https://tuhbm.github.io/tags/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EC%9C%A0%EC%B6%9C/"/>
+    
+      <category term="은행" scheme="https://tuhbm.github.io/tags/%EC%9D%80%ED%96%89/"/>
+    
+      <category term="금융감독원" scheme="https://tuhbm.github.io/tags/%EA%B8%88%EC%9C%B5%EA%B0%90%EB%8F%85%EC%9B%90/"/>
+    
+      <category term="사이버보안" scheme="https://tuhbm.github.io/tags/%EC%82%AC%EC%9D%B4%EB%B2%84%EB%B3%B4%EC%95%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>뮤직비디오 상대역이 실제 연인이 됐다 — 탑·나나, 양측 소속사가 열애 인정</title>
     <link href="https://tuhbm.github.io/2026/10/02/topNanaCouple/"/>
     <id>https://tuhbm.github.io/2026/10/02/topNanaCouple/</id>
     <published>2026-10-02T04:30:00.000Z</published>
-    <updated>2026-10-05T12:39:47.989Z</updated>
+    <updated>2026-10-06T00:07:07.771Z</updated>
     
     <summary type="html">
     
@@ -49,7 +77,7 @@
     <link href="https://tuhbm.github.io/2026/10/02/haJiminGold4/"/>
     <id>https://tuhbm.github.io/2026/10/02/haJiminGold4/</id>
     <published>2026-10-02T04:00:00.000Z</published>
-    <updated>2026-10-05T12:39:47.974Z</updated>
+    <updated>2026-10-06T00:07:07.755Z</updated>
     
     <summary type="html">
     
@@ -77,7 +105,7 @@
     <link href="https://tuhbm.github.io/2026/10/02/aiSpeakHabit/"/>
     <id>https://tuhbm.github.io/2026/10/02/aiSpeakHabit/</id>
     <published>2026-10-02T03:30:00.000Z</published>
-    <updated>2026-10-05T12:39:47.966Z</updated>
+    <updated>2026-10-06T00:07:07.746Z</updated>
     
     <summary type="html">
     
@@ -105,7 +133,7 @@
     <link href="https://tuhbm.github.io/2026/10/02/googleSpaceTpu/"/>
     <id>https://tuhbm.github.io/2026/10/02/googleSpaceTpu/</id>
     <published>2026-10-02T03:00:00.000Z</published>
-    <updated>2026-10-05T12:39:47.974Z</updated>
+    <updated>2026-10-06T00:07:07.755Z</updated>
     
     <summary type="html">
     
@@ -133,7 +161,7 @@
     <link href="https://tuhbm.github.io/2026/10/02/nikeChina26/"/>
     <id>https://tuhbm.github.io/2026/10/02/nikeChina26/</id>
     <published>2026-10-02T02:30:00.000Z</published>
-    <updated>2026-10-05T12:39:47.981Z</updated>
+    <updated>2026-10-06T00:07:07.763Z</updated>
     
     <summary type="html">
     
@@ -161,7 +189,7 @@
     <link href="https://tuhbm.github.io/2026/10/02/japanNaitei856/"/>
     <id>https://tuhbm.github.io/2026/10/02/japanNaitei856/</id>
     <published>2026-10-02T02:00:00.000Z</published>
-    <updated>2026-10-05T12:39:47.976Z</updated>
+    <updated>2026-10-06T00:07:07.757Z</updated>
     
     <summary type="html">
     
@@ -189,7 +217,7 @@
     <link href="https://tuhbm.github.io/2026/10/02/squishyToyRisk/"/>
     <id>https://tuhbm.github.io/2026/10/02/squishyToyRisk/</id>
     <published>2026-10-02T01:30:00.000Z</published>
-    <updated>2026-10-05T12:39:47.987Z</updated>
+    <updated>2026-10-06T00:07:07.769Z</updated>
     
     <summary type="html">
     
@@ -217,7 +245,7 @@
     <link href="https://tuhbm.github.io/2026/10/02/prosecutionDay1/"/>
     <id>https://tuhbm.github.io/2026/10/02/prosecutionDay1/</id>
     <published>2026-10-02T01:00:00.000Z</published>
-    <updated>2026-10-05T12:39:47.983Z</updated>
+    <updated>2026-10-06T00:07:07.765Z</updated>
     
     <summary type="html">
     
@@ -243,7 +271,7 @@
     <link href="https://tuhbm.github.io/2026/10/02/bankLeakTwo/"/>
     <id>https://tuhbm.github.io/2026/10/02/bankLeakTwo/</id>
     <published>2026-10-02T00:30:00.000Z</published>
-    <updated>2026-10-05T12:39:47.967Z</updated>
+    <updated>2026-10-06T00:07:07.748Z</updated>
     
     <summary type="html">
     
@@ -271,7 +299,7 @@
     <link href="https://tuhbm.github.io/2026/10/02/cpiSept29/"/>
     <id>https://tuhbm.github.io/2026/10/02/cpiSept29/</id>
     <published>2026-10-02T00:00:00.000Z</published>
-    <updated>2026-10-05T12:39:47.971Z</updated>
+    <updated>2026-10-06T00:07:07.751Z</updated>
     
     <summary type="html">
     
@@ -299,7 +327,7 @@
     <link href="https://tuhbm.github.io/2026/10/01/kimBujangTV/"/>
     <id>https://tuhbm.github.io/2026/10/01/kimBujangTV/</id>
     <published>2026-10-01T04:30:00.000Z</published>
-    <updated>2026-10-05T12:39:47.978Z</updated>
+    <updated>2026-10-06T00:07:07.759Z</updated>
     
     <summary type="html">
     
@@ -327,7 +355,7 @@
     <link href="https://tuhbm.github.io/2026/10/01/kooLeeMarried/"/>
     <id>https://tuhbm.github.io/2026/10/01/kooLeeMarried/</id>
     <published>2026-10-01T04:00:00.000Z</published>
-    <updated>2026-10-05T12:39:47.978Z</updated>
+    <updated>2026-10-06T00:07:07.759Z</updated>
     
     <summary type="html">
     
@@ -353,7 +381,7 @@
     <link href="https://tuhbm.github.io/2026/10/01/wilkesBasin/"/>
     <id>https://tuhbm.github.io/2026/10/01/wilkesBasin/</id>
     <published>2026-10-01T03:30:00.000Z</published>
-    <updated>2026-10-05T12:39:47.991Z</updated>
+    <updated>2026-10-06T00:07:07.773Z</updated>
     
     <summary type="html">
     
@@ -381,7 +409,7 @@
     <link href="https://tuhbm.github.io/2026/10/01/galaxyTabS12/"/>
     <id>https://tuhbm.github.io/2026/10/01/galaxyTabS12/</id>
     <published>2026-10-01T03:00:00.000Z</published>
-    <updated>2026-10-05T12:39:47.973Z</updated>
+    <updated>2026-10-06T00:07:07.754Z</updated>
     
     <summary type="html">
     
@@ -394,9 +422,9 @@
       <category term="IT과학" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/"/>
     
     
-      <category term="AI" scheme="https://tuhbm.github.io/tags/AI/"/>
-    
       <category term="소비트렌드" scheme="https://tuhbm.github.io/tags/%EC%86%8C%EB%B9%84%ED%8A%B8%EB%A0%8C%EB%93%9C/"/>
+    
+      <category term="AI" scheme="https://tuhbm.github.io/tags/AI/"/>
     
       <category term="스마트폰" scheme="https://tuhbm.github.io/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0/"/>
     
@@ -409,7 +437,7 @@
     <link href="https://tuhbm.github.io/2026/10/01/flydubaiCockpit/"/>
     <id>https://tuhbm.github.io/2026/10/01/flydubaiCockpit/</id>
     <published>2026-10-01T02:30:00.000Z</published>
-    <updated>2026-10-05T12:39:47.973Z</updated>
+    <updated>2026-10-06T00:07:07.754Z</updated>
     
     <summary type="html">
     
@@ -437,7 +465,7 @@
     <link href="https://tuhbm.github.io/2026/10/01/alaskaLngGap/"/>
     <id>https://tuhbm.github.io/2026/10/01/alaskaLngGap/</id>
     <published>2026-10-01T02:00:00.000Z</published>
-    <updated>2026-10-05T12:39:47.966Z</updated>
+    <updated>2026-10-06T00:07:07.746Z</updated>
     
     <summary type="html">
     
@@ -465,7 +493,7 @@
     <link href="https://tuhbm.github.io/2026/10/01/snuSeoulBias/"/>
     <id>https://tuhbm.github.io/2026/10/01/snuSeoulBias/</id>
     <published>2026-10-01T01:30:00.000Z</published>
-    <updated>2026-10-05T12:39:47.987Z</updated>
+    <updated>2026-10-06T00:07:07.769Z</updated>
     
     <summary type="html">
     
@@ -493,7 +521,7 @@
     <link href="https://tuhbm.github.io/2026/10/01/incheonAngelCut/"/>
     <id>https://tuhbm.github.io/2026/10/01/incheonAngelCut/</id>
     <published>2026-10-01T01:00:00.000Z</published>
-    <updated>2026-10-05T12:39:47.975Z</updated>
+    <updated>2026-10-06T00:07:07.756Z</updated>
     
     <summary type="html">
     
@@ -521,7 +549,7 @@
     <link href="https://tuhbm.github.io/2026/10/01/surplusTax63/"/>
     <id>https://tuhbm.github.io/2026/10/01/surplusTax63/</id>
     <published>2026-10-01T00:30:00.000Z</published>
-    <updated>2026-10-05T12:39:47.988Z</updated>
+    <updated>2026-10-06T00:07:07.770Z</updated>
     
     <summary type="html">
     
@@ -541,34 +569,6 @@
       <category term="경제" scheme="https://tuhbm.github.io/tags/%EA%B2%BD%EC%A0%9C/"/>
     
       <category term="재정" scheme="https://tuhbm.github.io/tags/%EC%9E%AC%EC%A0%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>약국 한 곳에서 260억원이 결제됐다 — 온누리상품권 18년 만의 개편, 전통시장은 10%, 마트는 0</title>
-    <link href="https://tuhbm.github.io/2026/10/01/onnuriReform/"/>
-    <id>https://tuhbm.github.io/2026/10/01/onnuriReform/</id>
-    <published>2026-10-01T00:00:00.000Z</published>
-    <updated>2026-10-05T12:39:47.982Z</updated>
-    
-    <summary type="html">
-    
-      정부가 온누리상품권을 2009년 도입 이후 처음으로 전면 개편합니다. 전통시장에서 쓰면 할인 5%에 환급 5%를 더해 10%, 비수도권 골목상권은 8%입니다. 상반기 결제액 1위가 비만치료제 약국이었던 것이 배경입니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
-    
-    
-      <category term="생활경제" scheme="https://tuhbm.github.io/tags/%EC%83%9D%ED%99%9C%EA%B2%BD%EC%A0%9C/"/>
-    
-      <category term="관광" scheme="https://tuhbm.github.io/tags/%EA%B4%80%EA%B4%91/"/>
-    
-      <category term="소상공인" scheme="https://tuhbm.github.io/tags/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8/"/>
-    
-      <category term="전통시장" scheme="https://tuhbm.github.io/tags/%EC%A0%84%ED%86%B5%EC%8B%9C%EC%9E%A5/"/>
     
   </entry>
   
