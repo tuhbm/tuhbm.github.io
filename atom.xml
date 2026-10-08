@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2026-10-08T00:17:23.681Z</updated>
+  <updated>2026-10-08T00:22:32.318Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>13F 공시 읽는 법 — 버핏·애크먼의 장바구니가 분기마다 공개되는 이유</title>
+    <link href="https://tuhbm.github.io/2026/10/08/sec13fGuide/"/>
+    <id>https://tuhbm.github.io/2026/10/08/sec13fGuide/</id>
+    <published>2026-10-08T00:22:16.000Z</published>
+    <updated>2026-10-08T00:22:32.318Z</updated>
+    
+    <summary type="html">
+    
+      미국 SEC에 제출되는 13F 보고서는 1억 달러 이상 미국 주식을 굴리는 기관투자자의 보유 종목을 분기마다 공개하는 제도입니다. 누가 왜 내는지, 어디서 보는지, 45일 시차와 롱 포지션만 보인다는 한계까지 2026년 2분기 실제 공시 사례와 함께 정리했습니다.
+    
+    </summary>
+    
+      <category term="머니" scheme="https://tuhbm.github.io/categories/%EB%A8%B8%EB%8B%88/"/>
+    
+      <category term="투자" scheme="https://tuhbm.github.io/categories/%EB%A8%B8%EB%8B%88/%ED%88%AC%EC%9E%90/"/>
+    
+    
+      <category term="주식" scheme="https://tuhbm.github.io/tags/%EC%A3%BC%EC%8B%9D/"/>
+    
+      <category term="투자" scheme="https://tuhbm.github.io/tags/%ED%88%AC%EC%9E%90/"/>
+    
+      <category term="미국" scheme="https://tuhbm.github.io/tags/%EB%AF%B8%EA%B5%AD/"/>
+    
+      <category term="재테크" scheme="https://tuhbm.github.io/tags/%EC%9E%AC%ED%85%8C%ED%81%AC/"/>
+    
+  </entry>
+  
+  <entry>
     <title>미국 10년물 금리 5.36%, 24년 만의 숫자 — 증시도 코인도 흔들린 밤, 연준은 연내 한 번 더 올린다</title>
     <link href="https://tuhbm.github.io/2026/10/08/usTreasury536/"/>
     <id>https://tuhbm.github.io/2026/10/08/usTreasury536/</id>
     <published>2026-10-08T00:00:00.000Z</published>
-    <updated>2026-10-08T00:17:23.681Z</updated>
+    <updated>2026-10-08T00:22:32.322Z</updated>
     
     <summary type="html">
     
@@ -49,7 +77,7 @@
     <link href="https://tuhbm.github.io/2026/10/07/nuriho5Success/"/>
     <id>https://tuhbm.github.io/2026/10/07/nuriho5Success/</id>
     <published>2026-10-07T04:30:00.000Z</published>
-    <updated>2026-10-08T00:17:23.673Z</updated>
+    <updated>2026-10-08T00:22:32.315Z</updated>
     
     <summary type="html">
     
@@ -75,7 +103,7 @@
     <link href="https://tuhbm.github.io/2026/10/07/messiFarewell/"/>
     <id>https://tuhbm.github.io/2026/10/07/messiFarewell/</id>
     <published>2026-10-07T04:00:00.000Z</published>
-    <updated>2026-10-08T00:17:23.671Z</updated>
+    <updated>2026-10-08T00:22:32.313Z</updated>
     
     <summary type="html">
     
@@ -101,7 +129,7 @@
     <link href="https://tuhbm.github.io/2026/10/07/leeYujinChaKyungeun/"/>
     <id>https://tuhbm.github.io/2026/10/07/leeYujinChaKyungeun/</id>
     <published>2026-10-07T03:30:00.000Z</published>
-    <updated>2026-10-08T00:17:23.671Z</updated>
+    <updated>2026-10-08T00:22:32.313Z</updated>
     
     <summary type="html">
     
@@ -127,7 +155,7 @@
     <link href="https://tuhbm.github.io/2026/10/07/franceLyceeAnger/"/>
     <id>https://tuhbm.github.io/2026/10/07/franceLyceeAnger/</id>
     <published>2026-10-07T03:00:00.000Z</published>
-    <updated>2026-10-08T00:17:23.666Z</updated>
+    <updated>2026-10-08T00:22:32.308Z</updated>
     
     <summary type="html">
     
@@ -153,7 +181,7 @@
     <link href="https://tuhbm.github.io/2026/10/07/bukangiBlacktip/"/>
     <id>https://tuhbm.github.io/2026/10/07/bukangiBlacktip/</id>
     <published>2026-10-07T02:30:00.000Z</published>
-    <updated>2026-10-08T00:17:23.662Z</updated>
+    <updated>2026-10-08T00:22:32.304Z</updated>
     
     <summary type="html">
     
@@ -179,7 +207,7 @@
     <link href="https://tuhbm.github.io/2026/10/07/snackTrial2500/"/>
     <id>https://tuhbm.github.io/2026/10/07/snackTrial2500/</id>
     <published>2026-10-07T02:00:00.000Z</published>
-    <updated>2026-10-08T00:17:23.678Z</updated>
+    <updated>2026-10-08T00:22:32.320Z</updated>
     
     <summary type="html">
     
@@ -205,7 +233,7 @@
     <link href="https://tuhbm.github.io/2026/10/07/trumpTariffPrice/"/>
     <id>https://tuhbm.github.io/2026/10/07/trumpTariffPrice/</id>
     <published>2026-10-07T01:30:00.000Z</published>
-    <updated>2026-10-08T00:17:23.680Z</updated>
+    <updated>2026-10-08T00:22:32.322Z</updated>
     
     <summary type="html">
     
@@ -233,7 +261,7 @@
     <link href="https://tuhbm.github.io/2026/10/07/youthSavings2nd/"/>
     <id>https://tuhbm.github.io/2026/10/07/youthSavings2nd/</id>
     <published>2026-10-07T01:00:00.000Z</published>
-    <updated>2026-10-08T00:17:23.683Z</updated>
+    <updated>2026-10-08T00:22:32.324Z</updated>
     
     <summary type="html">
     
@@ -259,7 +287,7 @@
     <link href="https://tuhbm.github.io/2026/10/07/ktTitle3rdRace/"/>
     <id>https://tuhbm.github.io/2026/10/07/ktTitle3rdRace/</id>
     <published>2026-10-07T00:30:00.000Z</published>
-    <updated>2026-10-08T00:17:23.670Z</updated>
+    <updated>2026-10-08T00:22:32.312Z</updated>
     
     <summary type="html">
     
@@ -285,7 +313,7 @@
     <link href="https://tuhbm.github.io/2026/10/07/sonCha59/"/>
     <id>https://tuhbm.github.io/2026/10/07/sonCha59/</id>
     <published>2026-10-07T00:00:00.000Z</published>
-    <updated>2026-10-08T00:17:23.678Z</updated>
+    <updated>2026-10-08T00:22:32.320Z</updated>
     
     <summary type="html">
     
@@ -311,7 +339,7 @@
     <link href="https://tuhbm.github.io/2026/10/06/kimJongminBaby/"/>
     <id>https://tuhbm.github.io/2026/10/06/kimJongminBaby/</id>
     <published>2026-10-06T04:30:00.000Z</published>
-    <updated>2026-10-08T00:17:23.670Z</updated>
+    <updated>2026-10-08T00:22:32.312Z</updated>
     
     <summary type="html">
     
@@ -337,7 +365,7 @@
     <link href="https://tuhbm.github.io/2026/10/06/biff31/"/>
     <id>https://tuhbm.github.io/2026/10/06/biff31/</id>
     <published>2026-10-06T04:00:00.000Z</published>
-    <updated>2026-10-08T00:17:23.661Z</updated>
+    <updated>2026-10-08T00:22:32.303Z</updated>
     
     <summary type="html">
     
@@ -365,7 +393,7 @@
     <link href="https://tuhbm.github.io/2026/10/06/nobelOptogenetics/"/>
     <id>https://tuhbm.github.io/2026/10/06/nobelOptogenetics/</id>
     <published>2026-10-06T03:30:00.000Z</published>
-    <updated>2026-10-08T00:17:23.673Z</updated>
+    <updated>2026-10-08T00:22:32.315Z</updated>
     
     <summary type="html">
     
@@ -393,7 +421,7 @@
     <link href="https://tuhbm.github.io/2026/10/06/nurihoD1/"/>
     <id>https://tuhbm.github.io/2026/10/06/nurihoD1/</id>
     <published>2026-10-06T03:00:00.000Z</published>
-    <updated>2026-10-08T00:17:23.674Z</updated>
+    <updated>2026-10-08T00:22:32.315Z</updated>
     
     <summary type="html">
     
@@ -421,7 +449,7 @@
     <link href="https://tuhbm.github.io/2026/10/06/chinaStandIn/"/>
     <id>https://tuhbm.github.io/2026/10/06/chinaStandIn/</id>
     <published>2026-10-06T02:30:00.000Z</published>
-    <updated>2026-10-08T00:17:23.663Z</updated>
+    <updated>2026-10-08T00:22:32.305Z</updated>
     
     <summary type="html">
     
@@ -449,7 +477,7 @@
     <link href="https://tuhbm.github.io/2026/10/06/japanStayFee/"/>
     <id>https://tuhbm.github.io/2026/10/06/japanStayFee/</id>
     <published>2026-10-06T02:00:00.000Z</published>
-    <updated>2026-10-08T00:17:23.669Z</updated>
+    <updated>2026-10-08T00:22:32.311Z</updated>
     
     <summary type="html">
     
@@ -477,7 +505,7 @@
     <link href="https://tuhbm.github.io/2026/10/06/seoulBirthRise/"/>
     <id>https://tuhbm.github.io/2026/10/06/seoulBirthRise/</id>
     <published>2026-10-06T01:30:00.000Z</published>
-    <updated>2026-10-08T00:17:23.677Z</updated>
+    <updated>2026-10-08T00:22:32.319Z</updated>
     
     <summary type="html">
     
@@ -505,7 +533,7 @@
     <link href="https://tuhbm.github.io/2026/10/06/militaryExemption/"/>
     <id>https://tuhbm.github.io/2026/10/06/militaryExemption/</id>
     <published>2026-10-06T01:00:00.000Z</published>
-    <updated>2026-10-08T00:17:23.672Z</updated>
+    <updated>2026-10-08T00:22:32.314Z</updated>
     
     <summary type="html">
     
@@ -525,34 +553,6 @@
       <category term="아시안게임" scheme="https://tuhbm.github.io/tags/%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84/"/>
     
       <category term="축구" scheme="https://tuhbm.github.io/tags/%EC%B6%95%EA%B5%AC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>분양 물량은 34% 늘었는데 경쟁률은 반토막 — 서초 1099대 1, 전국 평균 5.6대 1</title>
-    <link href="https://tuhbm.github.io/2026/10/06/subscriptionHalf/"/>
-    <id>https://tuhbm.github.io/2026/10/06/subscriptionHalf/</id>
-    <published>2026-10-06T00:30:00.000Z</published>
-    <updated>2026-10-08T00:17:23.679Z</updated>
-    
-    <summary type="html">
-    
-      직방 분석 결과 올해 전국 1순위 평균 청약경쟁률은 5.6대 1로 지난해 10.2대 1에서 크게 낮아졌습니다. 공급은 8만5321가구로 34% 늘었지만 접수는 26.6% 줄었고, 수요는 서울과 3기 신도시로 쏠렸습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
-    
-    
-      <category term="부동산" scheme="https://tuhbm.github.io/tags/%EB%B6%80%EB%8F%99%EC%82%B0/"/>
-    
-      <category term="주택공급" scheme="https://tuhbm.github.io/tags/%EC%A3%BC%ED%83%9D%EA%B3%B5%EA%B8%89/"/>
-    
-      <category term="분양가" scheme="https://tuhbm.github.io/tags/%EB%B6%84%EC%96%91%EA%B0%80/"/>
-    
-      <category term="아파트" scheme="https://tuhbm.github.io/tags/%EC%95%84%ED%8C%8C%ED%8A%B8/"/>
     
   </entry>
   
