@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tuhbm.github.io/2026/10/07/youthSavings2nd/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/about/index.html</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2017/09/18/vue2/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2017/09/19/vue3/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tuhbm.github.io/2017/09/20/vue4/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -101,15 +137,6 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/04/youthArtPass/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2026/09/14/youngFarmerDecline/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -119,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/09/youthDrinkShift/</loc>
+    <loc>https://tuhbm.github.io/2026/09/04/youthArtPass/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -137,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/10/07/youthSavings2nd/</loc>
+    <loc>https://tuhbm.github.io/2026/09/09/youthDrinkShift/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -146,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/about/index.html</loc>
+    <loc>https://tuhbm.github.io/2026/09/11/univMergerVote/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -155,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/29/usFuelEconomyRollback/</loc>
+    <loc>https://tuhbm.github.io/2026/09/29/usChinaTariffCut/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -165,6 +192,15 @@
   
   <url>
     <loc>https://tuhbm.github.io/2026/09/08/usGasPrice/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/29/usFuelEconomyRollback/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -200,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/23/usaBlackBears/</loc>
+    <loc>https://tuhbm.github.io/2026/09/28/vacantShops1336/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -209,7 +245,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/28/vacantShops1336/</loc>
+    <loc>https://tuhbm.github.io/2026/09/23/usaBlackBears/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -245,15 +281,6 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2018/10/20/vue-firebase2/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2018/10/20/vue-firebase1/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -263,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2018/10/22/vue-firebase4/</loc>
+    <loc>https://tuhbm.github.io/2018/10/20/vue-firebase2/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -281,6 +308,15 @@
   </url>
   
   <url>
+    <loc>https://tuhbm.github.io/2018/10/22/vue-firebase4/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tuhbm.github.io/2018/10/30/vue-firebase5/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -290,25 +326,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2017/09/19/vue3/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2017/09/15/vue1/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2017/09/18/vue2/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -344,15 +362,6 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/15/tokyoBreakfastWar/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2026/09/01/tomorrowFuelPrice/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -371,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/10/07/trumpTariffPrice/</loc>
+    <loc>https://tuhbm.github.io/2026/09/15/tokyoBreakfastWar/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -381,6 +390,15 @@
   
   <url>
     <loc>https://tuhbm.github.io/2026/09/11/trumpDividend/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/10/07/trumpTariffPrice/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -416,7 +434,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/27/ultraProcessedRisk/</loc>
+    <loc>https://tuhbm.github.io/2026/09/09/ukAtcOutage/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -425,7 +443,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/09/ukAtcOutage/</loc>
+    <loc>https://tuhbm.github.io/2026/09/27/ultraProcessedRisk/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -444,33 +462,6 @@
   
   <url>
     <loc>https://tuhbm.github.io/2026/09/24/underwaterSolar/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/11/univMergerVote/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/29/usChinaTariffCut/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/24/sriLankaGradJobless/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -533,15 +524,6 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2018/03/11/superClassAndSubClass/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2026/09/20/superbubbleN44/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -552,6 +534,15 @@
   
   <url>
     <loc>https://tuhbm.github.io/2026/10/01/surplusTax63/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2018/03/11/superClassAndSubClass/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -578,7 +569,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/08/29/tancheonHousing2026/</loc>
+    <loc>https://tuhbm.github.io/2025/11/10/teslaCompensation/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -587,7 +578,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2025/11/10/teslaCompensation/</loc>
+    <loc>https://tuhbm.github.io/2026/08/29/tancheonHousing2026/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -605,7 +596,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2018/01/26/thirdParty/</loc>
+    <loc>https://tuhbm.github.io/2026/09/04/teslaCybercab/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -614,7 +605,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/04/teslaCybercab/</loc>
+    <loc>https://tuhbm.github.io/2018/01/26/thirdParty/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -633,15 +624,6 @@
   
   <url>
     <loc>https://tuhbm.github.io/2026/09/18/threePmDismissal/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/23/silmidoSubtitle/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -794,7 +776,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/08/28/scalpingPenalty/</loc>
+    <loc>https://tuhbm.github.io/2026/09/24/sriLankaGradJobless/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -830,7 +812,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2018/09/29/seo1/</loc>
+    <loc>https://tuhbm.github.io/2019/03/04/seo2/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -839,7 +821,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2019/03/04/seo2/</loc>
+    <loc>https://tuhbm.github.io/2018/09/29/seo1/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -884,7 +866,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/04/seoulBusStrike/</loc>
+    <loc>https://tuhbm.github.io/2026/08/29/seoulHousingShift2026/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -893,7 +875,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/08/29/seoulHousingShift2026/</loc>
+    <loc>https://tuhbm.github.io/2026/09/04/seoulBusStrike/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -956,43 +938,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2017/08/10/rendering1/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2017/08/14/rendering2/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/23/resourceSecurity2035/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/26/retirementPensionGap/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/08/31/romanTelescopeLaunch/</loc>
+    <loc>https://tuhbm.github.io/2026/09/23/silmidoSubtitle/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1010,7 +956,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/22/salaryDisclosure/</loc>
+    <loc>https://tuhbm.github.io/2019/07/14/rxjs2/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1019,7 +965,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2019/07/14/rxjs2/</loc>
+    <loc>https://tuhbm.github.io/2026/09/22/salaryDisclosure/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1055,6 +1001,15 @@
   </url>
   
   <url>
+    <loc>https://tuhbm.github.io/2026/09/25/sansaConcert/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tuhbm.github.io/2017/07/17/sass-compile/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -1065,15 +1020,6 @@
   
   <url>
     <loc>https://tuhbm.github.io/2018/01/24/sass1/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/25/sansaConcert/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1118,34 +1064,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/21/paperPackRecycle/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/18/paradiseLostFilm/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/29/pediatricResidents/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/08/31/pensionChunapDebate/</loc>
+    <loc>https://tuhbm.github.io/2026/08/28/scalpingPenalty/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1181,7 +1100,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/30/popeVsHuang/</loc>
+    <loc>https://tuhbm.github.io/2026/09/29/poopConcrete/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1190,7 +1109,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/29/poopConcrete/</loc>
+    <loc>https://tuhbm.github.io/2026/09/30/popeVsHuang/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1262,7 +1181,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2025/10/31/nuclearSubmarine/</loc>
+    <loc>https://tuhbm.github.io/2017/08/10/rendering1/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1271,7 +1190,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/17/nuriClusterLaunch/</loc>
+    <loc>https://tuhbm.github.io/2017/08/14/rendering2/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1280,7 +1199,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/28/nuriho5Launch/</loc>
+    <loc>https://tuhbm.github.io/2026/09/23/resourceSecurity2035/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1289,7 +1208,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/10/07/nuriho5Success/</loc>
+    <loc>https://tuhbm.github.io/2026/09/26/retirementPensionGap/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1298,7 +1217,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/07/nuriho5thLaunch/</loc>
+    <loc>https://tuhbm.github.io/2026/08/31/romanTelescopeLaunch/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1325,7 +1244,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/08/31/odysseyTenMillion/</loc>
+    <loc>https://tuhbm.github.io/2026/09/21/oldestGunpowder/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1334,7 +1253,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/21/oldestGunpowder/</loc>
+    <loc>https://tuhbm.github.io/2026/08/31/odysseyTenMillion/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1379,6 +1298,15 @@
   </url>
   
   <url>
+    <loc>https://tuhbm.github.io/2026/09/09/openaiNavierStokes/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tuhbm.github.io/2026/09/22/otcDrugStores/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -1389,15 +1317,6 @@
   
   <url>
     <loc>https://tuhbm.github.io/2026/09/14/overdraftDebtInvest/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/09/openaiNavierStokes/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1424,7 +1343,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/04/morenoKoreaCoach/</loc>
+    <loc>https://tuhbm.github.io/2026/09/21/paperPackRecycle/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1433,7 +1352,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/08/mortgageDelinquency/</loc>
+    <loc>https://tuhbm.github.io/2026/09/29/pediatricResidents/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1442,7 +1361,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/19/moonNewCrater/</loc>
+    <loc>https://tuhbm.github.io/2026/08/31/pensionChunapDebate/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1451,25 +1370,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/14/munhakdongneSale/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/22/museumGoldTheft/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/19/museumRecord525/</loc>
+    <loc>https://tuhbm.github.io/2026/09/18/paradiseLostFilm/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1550,25 +1451,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/10/06/nobelOptogenetics/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2026/09/10/nonCoveredCare/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/08/npsSinStocks/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1586,7 +1469,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/30/mancityCharges/</loc>
+    <loc>https://tuhbm.github.io/2026/09/08/npsSinStocks/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1595,7 +1478,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/08/manufacturingJobs/</loc>
+    <loc>https://tuhbm.github.io/2026/10/06/nobelOptogenetics/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1604,7 +1487,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/16/maradoRatCull/</loc>
+    <loc>https://tuhbm.github.io/2025/10/31/nuclearSubmarine/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1613,7 +1496,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/08/29/marsCityDebate2026/</loc>
+    <loc>https://tuhbm.github.io/2026/09/17/nuriClusterLaunch/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1622,7 +1505,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/10/07/messiFarewell/</loc>
+    <loc>https://tuhbm.github.io/2026/09/28/nuriho5Launch/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1631,7 +1514,16 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/01/messiNationalRetire/</loc>
+    <loc>https://tuhbm.github.io/2026/10/07/nuriho5Success/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/07/nuriho5thLaunch/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1739,7 +1631,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/01/koreanWarRemains/</loc>
+    <loc>https://tuhbm.github.io/2026/09/19/moonNewCrater/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1748,7 +1640,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/10/kpopCarbonNeutral/</loc>
+    <loc>https://tuhbm.github.io/2026/09/04/morenoKoreaCoach/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1757,7 +1649,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/10/07/ktTitle3rdRace/</loc>
+    <loc>https://tuhbm.github.io/2026/09/14/munhakdongneSale/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1766,7 +1658,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/08/31/lakeOntarioRename/</loc>
+    <loc>https://tuhbm.github.io/2026/09/08/mortgageDelinquency/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1775,7 +1667,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2025/10/22/lateNightSnack/</loc>
+    <loc>https://tuhbm.github.io/2026/09/22/museumGoldTheft/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1784,7 +1676,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/07/leeChangdongVenice/</loc>
+    <loc>https://tuhbm.github.io/2026/09/19/museumRecord525/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1802,25 +1694,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/17/leeKangInMvp/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2026/09/22/leeSeungChul40/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2018/03/05/letAndConst/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1838,7 +1712,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/08/30/lionsTakeLead2026/</loc>
+    <loc>https://tuhbm.github.io/2018/03/05/letAndConst/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1856,25 +1730,16 @@
   </url>
   
   <url>
+    <loc>https://tuhbm.github.io/2026/08/30/lionsTakeLead2026/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tuhbm.github.io/2018/01/26/literal/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/10/localLaborInspection/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/21/lottoDramaReal/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1892,6 +1757,15 @@
   </url>
   
   <url>
+    <loc>https://tuhbm.github.io/2026/09/21/lottoDramaReal/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tuhbm.github.io/2026/09/30/maleObesity30/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -1901,7 +1775,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2018/06/21/javaObjectOriented/</loc>
+    <loc>https://tuhbm.github.io/2026/09/10/localLaborInspection/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1910,7 +1784,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2018/06/24/javaScope/</loc>
+    <loc>https://tuhbm.github.io/2026/09/30/mancityCharges/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1919,7 +1793,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2019/02/17/javascript30secDate/</loc>
+    <loc>https://tuhbm.github.io/2026/09/08/manufacturingJobs/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1928,7 +1802,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2019/02/10/javascript30secArray1/</loc>
+    <loc>https://tuhbm.github.io/2026/08/29/marsCityDebate2026/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1937,7 +1811,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2019/02/22/javascript30secUtiltity/</loc>
+    <loc>https://tuhbm.github.io/2026/09/16/maradoRatCull/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1946,7 +1820,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2018/12/01/javascriptDestructuring/</loc>
+    <loc>https://tuhbm.github.io/2026/10/07/messiFarewell/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1955,7 +1829,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/08/29/jejuMissingCase2026/</loc>
+    <loc>https://tuhbm.github.io/2026/09/01/messiNationalRetire/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1964,7 +1838,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/20/jejuRaccoonGrapes/</loc>
+    <loc>https://tuhbm.github.io/2026/09/02/kakaoMembership/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -1983,15 +1857,6 @@
   
   <url>
     <loc>https://tuhbm.github.io/2026/08/29/kboPennantRace2026/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/02/kakaoMembership/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2063,7 +1928,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/18/iphone18OnlineOnly/</loc>
+    <loc>https://tuhbm.github.io/2026/09/01/koreanWarRemains/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2072,7 +1937,277 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/08/29/iranBlockade2026/</loc>
+    <loc>https://tuhbm.github.io/2026/09/10/kpopCarbonNeutral/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/10/07/ktTitle3rdRace/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/08/31/lakeOntarioRename/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2025/10/22/lateNightSnack/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/17/leeKangInMvp/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/07/leeChangdongVenice/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/21/japanHeightStall/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/22/japanSentoDecline/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/30/japanSingle40/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/10/02/japanNaitei856/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/10/06/japanStayFee/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2018/04/12/javaBook/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/10/japanYouthAssetGap/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2018/06/14/javaDataType/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2018/06/13/javaNumberText/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2018/06/21/javaObjectOriented/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2018/06/24/javaScope/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2019/02/10/javascript30secArray1/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2019/02/17/javascript30secDate/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2019/02/22/javascript30secUtiltity/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2018/12/01/javascriptDestructuring/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/08/29/jejuMissingCase2026/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/20/jejuRaccoonGrapes/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/20/illustrationAuction/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2021/08/11/importanceOfFirstAnnualSalary/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2017/08/16/image-compressor/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/16/inheritanceCohabit/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/10/01/incheonAngelCut/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/01/insuranceFalseClaims/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2021/03/15/interface/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/18/iphone18OnlineOnly/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2090,7 +2225,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/09/israelSettlementSanction/</loc>
+    <loc>https://tuhbm.github.io/2026/08/29/iranBlockade2026/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2100,6 +2235,15 @@
   
   <url>
     <loc>https://tuhbm.github.io/2026/09/02/isaReformScrapped/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/09/israelSettlementSanction/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2144,312 +2288,6 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/21/japanHeightStall/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/10/02/japanNaitei856/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/22/japanSentoDecline/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/30/japanSingle40/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/10/06/japanStayFee/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/10/japanYouthAssetGap/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2018/04/12/javaBook/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2018/06/14/javaDataType/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2018/06/13/javaNumberText/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/02/27/highBuff_260227/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/26/hipBuddhismNext/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/11/holdbackStall/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/03/honamFloodFarms/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/07/hormuzKoreaPressure/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/02/hormuzTankerAttack/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/26/hungaryKoreanFilm/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/22/housingPlan119/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/01/hyundaiWageDeal2026/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/07/ifa2026Energy/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2017/08/16/image-compressor/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/20/illustrationAuction/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2021/08/11/importanceOfFirstAnnualSalary/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/10/01/incheonAngelCut/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/16/inheritanceCohabit/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/01/insuranceFalseClaims/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2021/03/15/interface/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/21/germanFarRightVote/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/07/germanyAfdWin/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/02/germanyRussiaDrone/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/03/googleAdxRuling/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/10/02/googleSpaceTpu/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/19/grapheneFiber/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/30/growthFund2/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/18/guangzhouSpeakerFine/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2026/09/14/gunkanjimaDeletion/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2459,16 +2297,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/19/guatemalaDrought/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/08/30/haraldFarewell2026/</loc>
+    <loc>https://tuhbm.github.io/2026/09/09/gyeongbokPalaceFee/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2486,7 +2315,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/09/gyeongbokPalaceFee/</loc>
+    <loc>https://tuhbm.github.io/2026/08/30/haraldFarewell2026/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2522,7 +2351,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/14/evGlobalSales/</loc>
+    <loc>https://tuhbm.github.io/2026/02/27/highBuff_260227/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2531,7 +2360,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/03/exoTicketCrackdown/</loc>
+    <loc>https://tuhbm.github.io/2026/09/11/holdbackStall/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2540,7 +2369,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/07/factCheckShortage/</loc>
+    <loc>https://tuhbm.github.io/2026/09/26/hipBuddhismNext/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2549,7 +2378,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/19/fakeJobAds/</loc>
+    <loc>https://tuhbm.github.io/2026/09/03/honamFloodFarms/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2558,7 +2387,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/17/fedRateHike/</loc>
+    <loc>https://tuhbm.github.io/2026/09/07/hormuzKoreaPressure/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2567,7 +2396,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/02/financeUnionStrike/</loc>
+    <loc>https://tuhbm.github.io/2026/09/02/hormuzTankerAttack/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2576,7 +2405,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/23/fireAmoeba63/</loc>
+    <loc>https://tuhbm.github.io/2026/09/22/housingPlan119/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2585,7 +2414,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2021/10/21/first-class-citizen/</loc>
+    <loc>https://tuhbm.github.io/2026/09/26/hungaryKoreanFilm/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2594,7 +2423,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2018/02/21/firstProgramming/</loc>
+    <loc>https://tuhbm.github.io/2026/09/01/hyundaiWageDeal2026/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2603,7 +2432,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/10/01/flydubaiCockpit/</loc>
+    <loc>https://tuhbm.github.io/2026/09/07/ifa2026Energy/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2613,15 +2442,6 @@
   
   <url>
     <loc>https://tuhbm.github.io/2017/07/17/frameworkVSliblibrary/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/08/fourHandsDrama/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2693,7 +2513,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/20/cuaronBiff/</loc>
+    <loc>https://tuhbm.github.io/2026/09/21/germanFarRightVote/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2702,7 +2522,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/14/dadParentalLeave/</loc>
+    <loc>https://tuhbm.github.io/2026/09/07/germanyAfdWin/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2711,7 +2531,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/29/departureTax/</loc>
+    <loc>https://tuhbm.github.io/2026/09/02/germanyRussiaDrone/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2720,7 +2540,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2019/04/02/devTools-performance/</loc>
+    <loc>https://tuhbm.github.io/2026/09/03/googleAdxRuling/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2729,7 +2549,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2019/04/10/devTools-audits/</loc>
+    <loc>https://tuhbm.github.io/2026/09/19/grapheneFiber/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2738,7 +2558,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/22/dinosaurAgeShift/</loc>
+    <loc>https://tuhbm.github.io/2026/10/02/googleSpaceTpu/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2747,7 +2567,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/26/disabledLibraryGap/</loc>
+    <loc>https://tuhbm.github.io/2026/09/30/growthFund2/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2756,7 +2576,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2017/08/21/doctype/</loc>
+    <loc>https://tuhbm.github.io/2026/09/18/guangzhouSpeakerFine/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2765,25 +2585,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/23/dropoutResetRisk/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/20/easyPaymentRecord/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/11/ecbRateHike/</loc>
+    <loc>https://tuhbm.github.io/2026/09/19/guatemalaDrought/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2801,25 +2603,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2017/07/17/emmet1/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2026/09/30/enceladusMicrobe/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/16/euKidsAct/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2837,6 +2621,33 @@
   </url>
   
   <url>
+    <loc>https://tuhbm.github.io/2026/09/16/euKidsAct/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/14/evGlobalSales/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/03/exoTicketCrackdown/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tuhbm.github.io/2026/09/04/europeGasStorage/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -2846,7 +2657,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/17/chuseokKoreanFilms/</loc>
+    <loc>https://tuhbm.github.io/2026/09/07/factCheckShortage/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2855,7 +2666,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/19/chuseokSpending/</loc>
+    <loc>https://tuhbm.github.io/2026/09/19/fakeJobAds/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2864,7 +2675,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/18/chuseokTableCost/</loc>
+    <loc>https://tuhbm.github.io/2026/09/17/fedRateHike/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2873,7 +2684,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/17/chuseokTrafficPeak/</loc>
+    <loc>https://tuhbm.github.io/2026/09/23/fireAmoeba63/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2882,7 +2693,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2017/07/17/cli/</loc>
+    <loc>https://tuhbm.github.io/2026/09/02/financeUnionStrike/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2891,7 +2702,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2017/09/06/component/</loc>
+    <loc>https://tuhbm.github.io/2021/10/21/first-class-citizen/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2900,7 +2711,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/15/conanKids/</loc>
+    <loc>https://tuhbm.github.io/2018/02/21/firstProgramming/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2909,7 +2720,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/23/congoEbolaSurge/</loc>
+    <loc>https://tuhbm.github.io/2026/10/01/flydubaiCockpit/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -2918,34 +2729,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/03/congoEbolaOutbreak/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/10/constructionWinter/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/15/correctTheMap/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2021/03/17/copy/</loc>
+    <loc>https://tuhbm.github.io/2026/09/08/fourHandsDrama/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3000,6 +2784,312 @@
   
   <url>
     <loc>https://tuhbm.github.io/2018/02/21/cssReset/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/20/cuaronBiff/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/14/dadParentalLeave/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/29/departureTax/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2019/04/10/devTools-audits/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2019/04/02/devTools-performance/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/22/dinosaurAgeShift/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/26/disabledLibraryGap/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2017/08/21/doctype/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/23/dropoutResetRisk/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/20/easyPaymentRecord/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2017/07/17/emmet1/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/11/ecbRateHike/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/10/06/chinaStandIn/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/08/29/chinaTeaTrend2026/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/24/chuseokArtMuseums/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/28/chuseokBoxOffice/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/23/chuseokFoodCheck/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/17/chuseokKoreanFilms/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/19/chuseokSpending/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2017/07/17/cli/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/18/chuseokTableCost/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/17/chuseokTrafficPeak/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2017/09/06/component/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/15/conanKids/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/03/congoEbolaOutbreak/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/23/congoEbolaSurge/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/10/constructionWinter/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2021/03/17/copy/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/15/correctTheMap/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/10/07/bukangiBlacktip/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/07/bundangPriceSurge/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/08/28/busFareHike2026/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/16/busStrikeAverted/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/27/busanSharkEffect/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3089,7 +3179,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/10/06/chinaStandIn/</loc>
+    <loc>https://tuhbm.github.io/2026/09/23/batteryRule2080/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3098,7 +3188,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/08/29/chinaTeaTrend2026/</loc>
+    <loc>https://tuhbm.github.io/2026/08/30/berlinRansomware2026/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3107,7 +3197,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/24/chuseokArtMuseums/</loc>
+    <loc>https://tuhbm.github.io/2026/09/02/biff2026Lineup/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3116,7 +3206,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/28/chuseokBoxOffice/</loc>
+    <loc>https://tuhbm.github.io/2026/10/06/biff31/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3125,7 +3215,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/23/chuseokFoodCheck/</loc>
+    <loc>https://tuhbm.github.io/2026/09/25/billboardRecord23/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3170,15 +3260,6 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2019/09/15/book-review-interviewBook/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2019/08/21/book-review-smacss/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -3188,7 +3269,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2019/04/17/bookAlgorithms/</loc>
+    <loc>https://tuhbm.github.io/2019/09/15/book-review-interviewBook/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3206,7 +3287,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/10/broadcastPlan30T/</loc>
+    <loc>https://tuhbm.github.io/2019/04/17/bookAlgorithms/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3216,6 +3297,15 @@
   
   <url>
     <loc>https://tuhbm.github.io/2026/09/03/broadcomAiEarnings/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/10/broadcastPlan30T/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3243,168 +3333,6 @@
   
   <url>
     <loc>https://tuhbm.github.io/2025/10/27/buffett/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/10/07/bukangiBlacktip/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/07/bundangPriceSurge/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/08/28/busFareHike2026/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/16/busStrikeAverted/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/27/busanSharkEffect/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/28/aiPainAxis/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/14/aiSlowdownCall/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/08/30/aiPolicyRestart2026/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/10/02/aiSpeakHabit/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/10/01/alaskaLngGap/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/20/aiStudyPisa/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2018/08/20/algorithm/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/30/anSeYoung2/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2021/03/16/api/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/08/appleWatch12/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2019/04/24/architecture/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/10/arcticQuakeLandslide/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2021/09/21/arrayAlign/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3467,15 +3395,6 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/01/augustExportRecord/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2026/09/30/augustTriple/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -3485,7 +3404,25 @@
   </url>
   
   <url>
+    <loc>https://tuhbm.github.io/2026/09/01/augustExportRecord/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tuhbm.github.io/2019/03/21/axios/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/10/06/bankHackProof/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3504,15 +3441,6 @@
   
   <url>
     <loc>https://tuhbm.github.io/2026/09/09/bankAtmDecline/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/10/06/bankHackProof/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3566,51 +3494,6 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/23/batteryRule2080/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/08/30/berlinRansomware2026/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/02/biff2026Lineup/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/10/06/biff31/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/2026/09/25/billboardRecord23/</loc>
-    
-    <lastmod>2026-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/2025/10/25/10_15_realty/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -3629,7 +3512,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2026/09/17/abortionPillPlan/</loc>
+    <loc>https://tuhbm.github.io/2017/09/08/OSI7/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3638,7 +3521,7 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/2017/09/08/OSI7/</loc>
+    <loc>https://tuhbm.github.io/2026/09/17/abortionPillPlan/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3710,7 +3593,124 @@
   </url>
   
   <url>
+    <loc>https://tuhbm.github.io/2026/09/28/aiPainAxis/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tuhbm.github.io/2026/09/04/aiOutageGlobal/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/08/30/aiPolicyRestart2026/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/14/aiSlowdownCall/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/10/02/aiSpeakHabit/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/20/aiStudyPisa/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/10/01/alaskaLngGap/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2018/08/20/algorithm/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/30/anSeYoung2/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2021/03/16/api/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/08/appleWatch12/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2019/04/24/architecture/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2026/09/10/arcticQuakeLandslide/</loc>
+    
+    <lastmod>2026-10-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/2021/09/21/arrayAlign/</loc>
     
     <lastmod>2026-10-08</lastmod>
     
@@ -3781,21 +3781,14 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%82%AC%ED%9A%8C/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%82%AC%ED%9A%8C/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3824,6 +3817,13 @@
   
   <url>
     <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B5%AD%EC%A0%9C/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
