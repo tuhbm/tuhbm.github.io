@@ -13,6 +13,18 @@
 ---
 
 
+## 2026-10-16 (Windows PC) — 주말 예약 20편 작성(10/17 토 10편, 10/18 일 10편)
+
+- 한 일:
+  - 10/17(토, 09:00~13:30): koreaFoodConvenienceNA(편의점 북미 매출), youthPensionProxyApply(청년 연금 사전신청 부모 대리 70.3%), elderlyPolypharmacy(저소득 노인 다제약물), timeBestInventions2026(타임 선정 삼성 3종), touchMacBookOct28(애플 10/28 행사, 확인 사실과 전망 구분), pangyoRemoteDriving(판교 원격 주행), anthropocene1952(인류세 1952), leapHourCgpm(윤초→윤시, 2027.5.20 시행), blindDrivingExperience(시각장애인 운전 체험), a2oLiteMelon29h(A2O 라이트 멜론 1위, 소속사 발표 기준).
+  - 10/18(일, 09:00~13:30): threePmDismissalOecd(3시 하교 통계 논문), researchInstituteExodus(출연연 30·40대 퇴직), tokyoCrematoriumShortage(도쿄 화장장), japanFurusatoResident(일본 고향주민등록제), catMummyExhibition(12/11 이집트 미라전), petHouseholds29(반려동물 가구 29.2%), womenFootballFifpro(FIFPRO 조사), museumStorageSaturation(수장고 포화, 10/19 국감 예고), chatgptVoiceKorean(챗GPT 한국어 음성), worldBreastCancerDay(10/19 세계 유방암의 날, 전문의 칼럼 요약).
+  - 규칙: 본문에 오늘·내일 같은 상대 표현 없이 절대 날짜 사용, 며칠 뒤에도 유효한 주제만 선정. 제외: 정치·재판, 사생활성 연예 가십, 수사 중 사건, 임금체불 논란 보도(A2O 소속사 외 주장).
+  - 검증: preview-future 빌드 에러 0, 날짜별 10편씩 확인, 볼드 0, 본문 최소 3277자, 이미지 20장 전수 검수·수정.
+  - 예약 작업: 11차 석유 최고가격 글은 18:10 1회 실행 예약 작업(oil-price-11th-post-1016)으로 등록. 첫 실행 승인 대기로 멈출 수 있으니 필요하면 Run now로 도구 승인.
+- 다음에 할 일: 10/17 준PO 1차전 결과(14:00 광주, 경기 종료 후 작성), 10/20 교황 퇴원, 10/22 한은 금통위, 10/23 베이비몬스터, 10/28 돔구장 의향서, 10/29 태국 출국세 마감, 11/3 미국 중간선거. 10/19(월)·10/20(화)은 평일이므로 당일 작성.
+
+---
+
 ## 2026-10-16 (Windows PC) — 평일 10편(09:00~13:30 순차)
 
 - 한 일:
