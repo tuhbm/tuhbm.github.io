@@ -6,12 +6,22 @@
 
 ## 후속 글 일정 (해당 날짜 글 작성 시 자동 포함, 사용자 지시 2026-10-15)
 
-- (10/16 18시 11차 석유 최고가격: 10/19 추가 글 oilPriceCap11th로 완료) / (10/17 준PO 1·2차전: 10/19 글 kiaSemiPlayoff2Wins로 소화) / 10/20 교황 퇴원 / 10/22 한은 금통위 결정
+- (10/16 18시 11차 석유 최고가격: 10/19 추가 글 oilPriceCap11th로 완료) / (10/17 준PO 1·2차전: 10/19 글 kiaSemiPlayoff2Wins로 소화) / (10/20 교황 퇴원: popeLeoRecovery로 완료) / 10/22 한은 금통위 결정
 - 10/23 베이비몬스터(공식 발표 기반만) / 10/28 돔구장 의향서 / 10/29 태국 출국세 의견 마감(thailandDepartureTax 후속) / 11/3 미국 중간선거(중립 사실만)
 - 포함 후 이 목록에서 완료 표시. 결과 기사를 직접 읽어 사실 확인한 뒤 작성.
 
 ---
 
+
+## 2026-10-20 (Windows PC) — 평일 10편
+
+- 한 일: 10/20 브리핑 10편 작성·배포(국제 2·경제 2·사회 2·IT과학 2·연예 1·생활문화 1). 교황 퇴원 후속 포함(popeLeoRecovery). 이미지 10장 v4 템플릿, 검수 후 문구 넘침 3건 수정.
+  - 글: popeLeoRecovery, seoulMonthlyRentHalf, daycareWaitlist75, youtuberCorporate207, marsMoonMmxLaunch, youtubeFakeDoctorElderly, deafblindConference, japanVendingDecline, sinkwaham3, knittingDopamine (09:00~13:30)
+  - 제외: 프랑스 시위 통금령(10/19 글과 중복 주제), 정치·재판 이슈, 사생활성 연예 가십, 정유사 담합 관련.
+  - 10/20 준PO 3차전(18:30)은 작성 시점에 미경기라 미포함.
+- 다음에 할 일: 10/22 한은 금통위, 10/23 베이비몬스터(공식 발표 기반), 10/28 돔구장 의향서, 10/29 태국 출국세 마감, 11/3 미국 중간선거. 준PO 결과는 필요 시.
+
+---
 
 ## 2026-10-19 (Windows PC) — 평일 10편(09:00~13:30 순차)
 
