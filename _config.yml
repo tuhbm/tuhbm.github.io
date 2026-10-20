@@ -36,6 +36,7 @@ render_drafts: true
 post_asset_folder: false
 relative_link: false
 future: false   # 미래 날짜 글은 빌드에서 제외(예약 발행). 예약 글 포함 로컬 검증은 node tools/preview-future.js
+updated_option: 'date'   # updated 미지정 글은 파일 mtime(CI 체크아웃 시각) 대신 작성일을 사용 → sitemap lastmod가 배포마다 바뀌는 문제 방지
 highlight:
   enable: true
   line_number: true
@@ -93,6 +94,7 @@ sitemap:
   path:
     - sitemap.xml
     - sitemap.txt
+  template: sitemap-template.xml   # 홈/카테고리 lastmod를 배포 시각이 아닌 최신 글 날짜로
   tags: false
   categories: true
 
