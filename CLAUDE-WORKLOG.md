@@ -19,6 +19,7 @@
   - 글: popeLeoRecovery, seoulMonthlyRentHalf, daycareWaitlist75, youtuberCorporate207, marsMoonMmxLaunch, youtubeFakeDoctorElderly, deafblindConference, japanVendingDecline, sinkwaham3, knittingDopamine (09:00~13:30)
   - 제외: 프랑스 시위 통금령(10/19 글과 중복 주제), 정치·재판 이슈, 사생활성 연예 가십, 정유사 담합 관련.
   - 10/20 준PO 3차전(18:30)은 작성 시점에 미경기라 미포함.
+- 추가: 사용자 요청으로 samsung24hRobot(IT과학, 중앙일보 단독, 09:20 즉시 공개) 1편 추가 — 10/20 총 11편.
 - 다음에 할 일: 10/22 한은 금통위, 10/23 베이비몬스터(공식 발표 기반), 10/28 돔구장 의향서, 10/29 태국 출국세 마감, 11/3 미국 중간선거. 준PO 결과는 필요 시.
 
 ---
