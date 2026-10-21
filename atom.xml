@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2026-10-20T04:30:00.000Z</updated>
+  <updated>2026-10-21T00:00:00.000Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>빚에 갇힌 2030 — 39세 이하 채무조정 신청이 4년 새 65% 늘었다</title>
+    <link href="https://tuhbm.github.io/2026/10/21/youthDebtRestructuring/"/>
+    <id>https://tuhbm.github.io/2026/10/21/youthDebtRestructuring/</id>
+    <published>2026-10-21T00:00:00.000Z</published>
+    <updated>2026-10-21T00:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      신용회복위원회 자료에서 39세 이하 채무조정 신청자가 2021년 4만979명에서 지난해 6만7540명으로 64.8% 늘었습니다. 20·30대 개인회생 신청도 32.2% 증가했고 갚은 비율은 낮아졌습니다. 동아일보 보도로 수치와 사례, 전문가 제언을 정리했습니다.
+    
+    </summary>
+    
+      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
+    
+      <category term="사회" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%82%AC%ED%9A%8C/"/>
+    
+    
+      <category term="청년" scheme="https://tuhbm.github.io/tags/%EC%B2%AD%EB%85%84/"/>
+    
+      <category term="생활경제" scheme="https://tuhbm.github.io/tags/%EC%83%9D%ED%99%9C%EA%B2%BD%EC%A0%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>틀리면 풀면 된다 — 2030이 뜨개질에서 찾은 도파민 손맛</title>
@@ -474,9 +498,9 @@
     
       <category term="AI" scheme="https://tuhbm.github.io/tags/AI/"/>
     
-      <category term="직장인" scheme="https://tuhbm.github.io/tags/%EC%A7%81%EC%9E%A5%EC%9D%B8/"/>
-    
       <category term="교육" scheme="https://tuhbm.github.io/tags/%EA%B5%90%EC%9C%A1/"/>
+    
+      <category term="직장인" scheme="https://tuhbm.github.io/tags/%EC%A7%81%EC%9E%A5%EC%9D%B8/"/>
     
   </entry>
   
@@ -503,32 +527,6 @@
       <category term="동물" scheme="https://tuhbm.github.io/tags/%EB%8F%99%EB%AC%BC/"/>
     
       <category term="관광" scheme="https://tuhbm.github.io/tags/%EA%B4%80%EA%B4%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>국민연금 상장주식 평가액 100일 만에 182조 줄었다 — 삼성전자·SK하이닉스가 손실의 71.8%</title>
-    <link href="https://tuhbm.github.io/2026/10/19/pensionFundLoss182t/"/>
-    <id>https://tuhbm.github.io/2026/10/19/pensionFundLoss182t/</id>
-    <published>2026-10-19T00:30:00.000Z</published>
-    <updated>2026-10-19T00:30:00.000Z</updated>
-    
-    <summary type="html">
-    
-      에프앤가이드 집계를 인용한 한국경제 보도에 따르면 국민연금이 5% 이상 지분을 보유한 상장사 287개의 주식 평가액은 6월 말 515조9293억 원에서 10월 15일 333조5330억 원으로 182조3963억 원 줄었습니다. 손실의 71.8%가 삼성전자와 SK하이닉스에서 발생했습니다. 수치의 성격과 한계를 함께 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
-    
-    
-      <category term="주식" scheme="https://tuhbm.github.io/tags/%EC%A3%BC%EC%8B%9D/"/>
-    
-      <category term="반도체" scheme="https://tuhbm.github.io/tags/%EB%B0%98%EB%8F%84%EC%B2%B4/"/>
-    
-      <category term="연금" scheme="https://tuhbm.github.io/tags/%EC%97%B0%EA%B8%88/"/>
     
   </entry>
   
