@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2026-10-21T00:09:00.000Z</updated>
+  <updated>2026-10-21T03:50:00.000Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>월급 300만 원으로 1억 만드는 통장 구조 — 박곰희 작가가 말한 계좌 3개와 투자 순서</title>
+    <link href="https://tuhbm.github.io/2026/10/21/salaryAccountRoutine/"/>
+    <id>https://tuhbm.github.io/2026/10/21/salaryAccountRoutine/</id>
+    <published>2026-10-21T03:50:00.000Z</published>
+    <updated>2026-10-21T03:50:00.000Z</updated>
+    
+    <summary type="html">
+    
+      지식인사이드 채널의 지식인 클래스 30화에서 박곰희 작가가 설명한 직장인 통장 관리법을 정리했습니다. 월급의 절반을 저축하는 규칙, CMA·연금저축·ISA 세 계좌로 시작하는 순서, 비상금을 따로 두지 않는 이유, CMA 종류 고르는 법까지 영상 내용을 글로 옮겼습니다.
+    
+    </summary>
+    
+      <category term="기타" scheme="https://tuhbm.github.io/categories/%EA%B8%B0%ED%83%80/"/>
+    
+      <category term="블로그운영" scheme="https://tuhbm.github.io/categories/%EA%B8%B0%ED%83%80/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/"/>
+    
+    
+      <category term="투자" scheme="https://tuhbm.github.io/tags/%ED%88%AC%EC%9E%90/"/>
+    
+      <category term="직장인" scheme="https://tuhbm.github.io/tags/%EC%A7%81%EC%9E%A5%EC%9D%B8/"/>
+    
+      <category term="재테크" scheme="https://tuhbm.github.io/tags/%EC%9E%AC%ED%85%8C%ED%81%AC/"/>
+    
+  </entry>
   
   <entry>
     <title>에버랜드 단풍 이번 주말부터 본격 — 은행나무길·하늘정원길 가을 코스 총정리</title>
@@ -495,32 +521,6 @@
       <category term="생활경제" scheme="https://tuhbm.github.io/tags/%EC%83%9D%ED%99%9C%EA%B2%BD%EC%A0%9C/"/>
     
       <category term="부동산" scheme="https://tuhbm.github.io/tags/%EB%B6%80%EB%8F%99%EC%82%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>퇴근 없는 신입이 온다 — 삼성전자 24시간 일하는 로봇, CES 2027 겨냥</title>
-    <link href="https://tuhbm.github.io/2026/10/20/samsung24hRobot/"/>
-    <id>https://tuhbm.github.io/2026/10/20/samsung24hRobot/</id>
-    <published>2026-10-20T00:20:00.000Z</published>
-    <updated>2026-10-20T00:20:00.000Z</updated>
-    
-    <summary type="html">
-    
-      삼성전자가 내년 1월 CES 2027을 겨냥해 24시간 가동하는 로봇을 개발 중이라고 중앙일보가 단독 보도했습니다. 이족보행 휴머노이드로 알려졌고 서울R&amp;D캠퍼스에서 3교대로 성능을 검증하고 있습니다. 보스턴다이내믹스·유비테크와의 비교, 핫스왑 배터리 기술, 삼성의 추격 전략을 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="IT과학" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/"/>
-    
-    
-      <category term="AI" scheme="https://tuhbm.github.io/tags/AI/"/>
-    
-      <category term="일자리" scheme="https://tuhbm.github.io/tags/%EC%9D%BC%EC%9E%90%EB%A6%AC/"/>
-    
-      <category term="연구개발" scheme="https://tuhbm.github.io/tags/%EC%97%B0%EA%B5%AC%EA%B0%9C%EB%B0%9C/"/>
     
   </entry>
   
