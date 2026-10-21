@@ -532,8 +532,8 @@ https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/
 https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/
 https://tuhbm.github.io/categories/%EB%A8%B8%EB%8B%88/%EB%B6%80%EB%8F%99%EC%82%B0/
 https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/JavaScript/
-https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/
 https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%ED%9A%8C%EA%B3%A0%C2%B7%EC%97%90%EC%84%B8%EC%9D%B4/
+https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/
 https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/
 https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/
 https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%97%B0%EC%98%88/
