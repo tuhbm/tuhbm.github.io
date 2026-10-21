@@ -13,6 +13,15 @@
 ---
 
 
+## 2026-10-22 (Windows PC) — 핫이슈 위주 평일 10편
+
+- 한 일: 10/22 브리핑(사용자 요청 "핫이슈들로") 작성·배포. 1차로 9편 푸시, 한은 금통위(10/22 후속 일정)는 결정 발표(9:50경) 후 10번째 글로 추가.
+  - 글: sharkBukangiReturn, phpZeroDayAiFound, housewifeNationalPension, (bokRateDecisionOct 예정), cryptoTaxFourthDeferral, spacexQ3Revenue, witkoffPutinHumanitarian, examAnxietyDrugTeens, sillakwonOpening, bankHoursCut
+  - 제외: 프랑스 시위·삼성 로봇(전일 중복), 정치·재판·수사, 김정은 사망설(미확인), 사생활성 연예 가십.
+- 다음에 할 일: 10/23 베이비몬스터(공식 발표 기반), 10/28 돔구장 의향서, 10/29 태국 출국세 마감, 11/3 미국 중간선거.
+
+---
+
 ## 2026-10-21 (Windows PC) — 평일 10편
 
 - 한 일: 10/21 브리핑 10편 작성·배포(사용자 요청으로 발행 시각을 09:00~09:09로 앞당겨 즉시 공개)(사회 2·경제 3·IT과학 1·국제 2·연예 1·생활문화 1). 이미지 10장 v4 템플릿, 검수 후 문구 3건 수정.
