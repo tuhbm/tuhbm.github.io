@@ -15,7 +15,7 @@
 
 ## 2026-10-21 (Windows PC) — 평일 10편
 
-- 한 일: 10/21 브리핑 10편 작성·배포(사회 2·경제 3·IT과학 1·국제 2·연예 1·생활문화 1). 이미지 10장 v4 템플릿, 검수 후 문구 3건 수정.
+- 한 일: 10/21 브리핑 10편 작성·배포(사용자 요청으로 발행 시각을 09:00~09:09로 앞당겨 즉시 공개)(사회 2·경제 3·IT과학 1·국제 2·연예 1·생활문화 1). 이미지 10장 v4 템플릿, 검수 후 문구 3건 수정.
   - 글: youthDebtRestructuring, seoulPropertyTax3t, shinglesVaccineNip, bankRetirementPensionDrop, parkinsonsIpscTransplant, tunaPriceSplit, nigeriaFirstEbola, japanBearRobotDog, maggieKangLiveAction, everlandAutumnFoliage (09:00~13:30)
   - 제외: 프랑스 시위·삼성 로봇·월세(전날과 중복), 정치·재판·수사 이슈, 사생활성 연예 가십.
   - 오늘 후속 일정 항목 없음(10/22 금통위가 다음).
