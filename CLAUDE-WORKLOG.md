@@ -13,6 +13,17 @@
 ---
 
 
+## 2026-10-21 (Windows PC) — 평일 10편
+
+- 한 일: 10/21 브리핑 10편 작성·배포(사회 2·경제 3·IT과학 1·국제 2·연예 1·생활문화 1). 이미지 10장 v4 템플릿, 검수 후 문구 3건 수정.
+  - 글: youthDebtRestructuring, seoulPropertyTax3t, shinglesVaccineNip, bankRetirementPensionDrop, parkinsonsIpscTransplant, tunaPriceSplit, nigeriaFirstEbola, japanBearRobotDog, maggieKangLiveAction, everlandAutumnFoliage (09:00~13:30)
+  - 제외: 프랑스 시위·삼성 로봇·월세(전날과 중복), 정치·재판·수사 이슈, 사생활성 연예 가십.
+  - 오늘 후속 일정 항목 없음(10/22 금통위가 다음).
+  - 별도 작업: sitemap lastmod 수정(updated_option date + sitemap-template.xml), CLAUDE.md 기록 완료.
+- 다음에 할 일: 10/22 한은 금통위, 10/23 베이비몬스터(공식 발표 기반), 10/28 돔구장 의향서, 10/29 태국 출국세 마감, 11/3 미국 중간선거.
+
+---
+
 ## 2026-10-20 (Windows PC) — 평일 10편
 
 - 한 일: 10/20 브리핑 10편 작성·배포(국제 2·경제 2·사회 2·IT과학 2·연예 1·생활문화 1). 교황 퇴원 후속 포함(popeLeoRecovery). 이미지 10장 v4 템플릿, 검수 후 문구 넘침 3건 수정.
