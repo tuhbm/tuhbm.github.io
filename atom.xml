@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2026-10-22T04:30:00.000Z</updated>
+  <updated>2026-10-22T08:15:00.000Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>한은 기준금리 3.00% 동결 — 만장일치인데 왜 매파적일까, 11월 인상 가능성 열어뒀다</title>
+    <link href="https://tuhbm.github.io/2026/10/22/bokRateDecisionOct/"/>
+    <id>https://tuhbm.github.io/2026/10/22/bokRateDecisionOct/</id>
+    <published>2026-10-22T08:15:00.000Z</published>
+    <updated>2026-10-22T08:15:00.000Z</updated>
+    
+    <summary type="html">
+    
+      한국은행 금융통화위원회가 10월 22일 기준금리를 연 3.00%로 동결했습니다. 7·8월 연속 인상 이후 첫 동결이고 위원 7명 전원이 찬성했습니다. 신현송 총재는 이번 동결을 호미질의 결실이라고 평가하면서도 긴축 기조를 이어가겠다고 밝혔습니다. 이데일리·중앙일보·아시아경제 보도로 정리했습니다.
+    
+    </summary>
+    
+      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
+    
+      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
+    
+    
+      <category term="기준금리" scheme="https://tuhbm.github.io/tags/%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC/"/>
+    
+      <category term="물가" scheme="https://tuhbm.github.io/tags/%EB%AC%BC%EA%B0%80/"/>
+    
+      <category term="부동산" scheme="https://tuhbm.github.io/tags/%EB%B6%80%EB%8F%99%EC%82%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>내년 4월부터 은행 문 30분 늦게 연다 — 영업시간 7시간에서 6시간 30분으로</title>
@@ -491,30 +517,6 @@
       <category term="부동산" scheme="https://tuhbm.github.io/tags/%EB%B6%80%EB%8F%99%EC%82%B0/"/>
     
       <category term="세금" scheme="https://tuhbm.github.io/tags/%EC%84%B8%EA%B8%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>빚에 갇힌 2030 — 39세 이하 채무조정 신청이 4년 새 65% 늘었다</title>
-    <link href="https://tuhbm.github.io/2026/10/21/youthDebtRestructuring/"/>
-    <id>https://tuhbm.github.io/2026/10/21/youthDebtRestructuring/</id>
-    <published>2026-10-21T00:00:00.000Z</published>
-    <updated>2026-10-21T00:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      신용회복위원회 자료에서 39세 이하 채무조정 신청자가 2021년 4만979명에서 지난해 6만7540명으로 64.8% 늘었습니다. 20·30대 개인회생 신청도 32.2% 증가했고 갚은 비율은 낮아졌습니다. 동아일보 보도로 수치와 사례, 전문가 제언을 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="사회" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%82%AC%ED%9A%8C/"/>
-    
-    
-      <category term="청년" scheme="https://tuhbm.github.io/tags/%EC%B2%AD%EB%85%84/"/>
-    
-      <category term="생활경제" scheme="https://tuhbm.github.io/tags/%EC%83%9D%ED%99%9C%EA%B2%BD%EC%A0%9C/"/>
     
   </entry>
   
