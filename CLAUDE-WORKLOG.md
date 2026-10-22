@@ -7,11 +7,24 @@
 ## 후속 글 일정 (해당 날짜 글 작성 시 자동 포함, 사용자 지시 2026-10-15)
 
 - (10/16 18시 11차 석유 최고가격: 10/19 추가 글 oilPriceCap11th로 완료) / (10/17 준PO 1·2차전: 10/19 글 kiaSemiPlayoff2Wins로 소화) / (10/20 교황 퇴원: popeLeoRecovery로 완료) / 10/22 한은 금통위 결정
-- 10/23 베이비몬스터(공식 발표 기반만) / 10/28 돔구장 의향서 / 10/29 태국 출국세 의견 마감(thailandDepartureTax 후속) / 11/3 미국 중간선거(중립 사실만)
+- (10/23 베이비몬스터: babyMonsterDeserve로 예약 완료) / 10/28 돔구장 의향서 / 10/29 태국 출국세 의견 마감(thailandDepartureTax 후속) / 11/3 미국 중간선거(중립 사실만)
 - 포함 후 이 목록에서 완료 표시. 결과 기사를 직접 읽어 사실 확인한 뒤 작성.
 
 ---
 
+
+## 2026-10-22 (Windows PC) — 금·토·일 예약 발행 30편 (사용자 휴가)
+
+- 한 일: 사용자 휴가(10/23 금)로 금·토·일 글 30편을 미리 작성해 날짜 예약(date=발행일 09:00~13:30, future:false + Actions 예약 빌드로 공개). 이미지 30장 v4 템플릿 검수 후 문구·id 충돌(rocket 불꽃, podium 은색) 수정.
+  - 금 10/23: seoulAptPrice155, subwayFreeRideLoss, youthFirstSalary254, healthInsuranceIncomeSettle, koreanReusableRocket, metaQ3Results, hyundaiAiManagement, seoulTourismAbsolutely, **babyMonsterDeserve(13:00, 후속 일정: 베이비몬스터 YG 공식 발표 기반)**, modooCardUpdate(10/26 마감 안내)
+  - 토 10/24: highSchoolCreditTeachers, petClinicFeeGap, dormantAccounts341m, producerPriceSept, marsSampleReturnRace, teslaCapexCut, postpartumCareCostGap, takaichiOneYear, japaneseJobSeekersKorea, smeRetirementPensionLoss
+  - 일 10/25: kboPlayoffKiaSamsung(PO 1차전 일정·관전 포인트), dokdoDay126, shortDramaChina, naverAiInvest, seoulAiCityIndex, bigFirmNonRegular, farmlandAuctionSlump, chinaWineNingxia, motorolaRazrFlex, foreignCaregiverVisa
+  - 작성 원칙: 상대 날짜 표현 금지, 결과 미확정 사안은 일정·현황까지만(KBO PO 결과 미포함, 베이비몬스터 반응 미포함).
+  - 이전 상황: 10/22 당일 글(sharkBukangiReturn 등 10편)은 인증 오류로 푸시 지연 후 사용자가 푸시. 금통위 글 bokRateDecisionOct는 17:15자.
+  - 헬퍼(helpers.js·jobs1007.js)가 스크래치패드에서 사라져 SVG 출력에서 역산해 복원함(common.js 추가). 다음 세션에서 필요하면 tools/svgcard 쪽에 영구화 검토.
+- 다음에 할 일: 10/28 돔구장 의향서, 10/29 태국 출국세 마감(thailandDepartureTax 후속), 11/3 미국 중간선거(중립 사실만). 준PO·PO 결과는 필요 시.
+
+---
 
 ## 2026-10-22 (Windows PC) — 핫이슈 위주 평일 10편
 
