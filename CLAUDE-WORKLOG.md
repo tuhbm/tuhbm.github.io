@@ -13,6 +13,20 @@
 ---
 
 
+## 2026-10-26 (Windows PC) — 월요일 10편 + KBO PO 글 정정
+
+- 한 일: 10/26 일정 확인 결과 후속 글 일정 해당 없음(다음은 10/28·10/29·11/3). 최신 이슈 10편 작성(date 10/26 09:00~13:30, future:false 예약 발행), 이미지 10장 v4 템플릿 검수 후 라벨 겹침·넘침 수정.
+  - 경제: basicPensionCut(기초연금 감액), shortTermJobsLow(단기 일자리 31년 최저), wonDollarRate1320(환율·명목실효환율)
+  - 사회: malnutritionElderly(영양실조 진료 환자), hearingAidMarkup(보청기 가격), halloweenCrowdSeoul(핼러윈 인파관리)
+  - 국제: ukBeReadyCampaign(영국 비상물자 비축), usHalloweenCandyDrop(미국 핼러윈 간식 판매)
+  - IT과학: starshipLaunch456(스타십 연 456회) / 연예: limYoungWoongMovie2(임영웅 극장 개봉)
+  - 정정: 10/25 예약 발행된 kboPlayoffKiaSamsung(PO 1차전)이 우천 취소로 10/26 18:30 연기되어, 제목·일정표·FAQ를 수정하고 삼성 불펜 변수(마무리 김재윤 이탈) 절과 참고 자료를 추가, 이미지도 재생성함.
+  - 이미지 생성기: 스크래치패드 jobs1026.js(common.js 사용). 미국 핼러윈·핼러윈 인파 글이 소재는 겹치나 지역·성격이 달라 둘 다 유지.
+- 다음에 할 일: 10/28 돔구장 의향서, 10/29 태국 출국세 의견 마감(thailandDepartureTax 후속), 11/3 미국 중간선거(중립 사실만). PO 1차전 결과(10/26 저녁)는 미반영.
+
+---
+
+
 ## 2026-10-22 (Windows PC) — 금·토·일 예약 발행 30편 (사용자 휴가)
 
 - 한 일: 사용자 휴가(10/23 금)로 금·토·일 글 30편을 미리 작성해 날짜 예약(date=발행일 09:00~13:30, future:false + Actions 예약 빌드로 공개). 이미지 30장 v4 템플릿 검수 후 문구·id 충돌(rocket 불꽃, podium 은색) 수정.
