@@ -82,6 +82,161 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-sass2" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/01/24/sass2/" class="article-date">
+  <time datetime="2018-01-24T11:01:13.000Z" itemprop="datePublished">2018-01-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/01/24/sass2/">SASS에 대해 알아보자2</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="SASS"><a href="#SASS" class="headerlink" title="SASS"></a>SASS</h1><p><code>SASS를 통칭 사스 라고 표기하겠습니다.</code><br><a href="https://tuhbm.github.io/2018/01/24/sass1/">지난 포스팅</a>을 통해 SASS의 확장자가 최종적으로 <code>.scss</code>로 확정되었다고 말씀드렸습니다.<br>이번 포스팅부터는 사스의 문법에 대해 알아보겠습니다.</p>
+<h2 id="변수사용"><a href="#변수사용" class="headerlink" title="변수사용"></a>변수사용</h2><p>변수를 사용하므로써, 한번의 변경으로 사용한 모든 변수의 값을 바꿀 수 있는 효율적인 방법이라고 말씀드렸었습니다.<br>변수를 <code>키</code>와<code>값</code>으로 표현해 보겠습니다.</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$normalFontSize</span>: <span class="number">14px</span>;</span><br></pre></td></tr></table></figure>
+        
+          <p class="article-more-link">
+            <a href="/2018/01/24/sass2/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/01/24/sass2/" data-id="cmvq17ljm0107pv37glc5belj" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/01/24/sass2/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/include/" rel="tag">include</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mixin/" rel="tag">mixin</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sass/" rel="tag">sass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/scss/" rel="tag">scss</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B3%80%EC%88%98/" rel="tag">변수</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%82%AC%EC%8A%A4/" rel="tag">사스</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-sass1" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/01/24/sass1/" class="article-date">
+  <time datetime="2018-01-24T07:12:13.000Z" itemprop="datePublished">2018-01-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/01/24/sass1/">SASS에 대해 알아보자1</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="SASS"><a href="#SASS" class="headerlink" title="SASS"></a>SASS</h1><p><code>SASS를 통칭 사스 라고 표기하겠습니다.</code><br>금일은 사스에 대해 알아보겠습니다.<br>우선 컴파일 하는 방법에 대해 지난번 포스팅한 것이 있는데요.</p>
+<blockquote>
+<p><strong>1. <a href="https://tuhbm.github.io/2017/07/17/sass-compile/">scout앱 사용하여 컴파일하기</a> (지난번 포스팅내용입니다.)</strong><br><strong>2. <a target="_blank" rel="external nofollow noopener noreferrer" href="https://velopert.com/1712">Ruby를 설치해 Cli를 통해 컴파일하기</a></strong><br><strong>3. <a target="_blank" rel="external nofollow noopener noreferrer" href="http://webclub.tistory.com/470">gulp등 Task runner(또는 webpack같은 빌드도구)이용하여 컴파일하기</a></strong><br><strong>4. <a target="_blank" rel="external nofollow noopener noreferrer" href="https://prepros.io/">prepros</a> 또는 <a target="_blank" rel="external nofollow noopener noreferrer" href="http://koala-app.com/">kolal</a>등의 앱사용하기</strong></p>
+</blockquote>
+<p>사스는 이렇게 컴파일 하시면 되겠구요.</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/01/24/sass1/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/01/24/sass1/" data-id="cmvq17ljl0104pv37ef0o0j3f" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/01/24/sass1/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/compile/" rel="tag">compile</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/processors/" rel="tag">processors</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sass/" rel="tag">sass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/scss/" rel="tag">scss</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%82%AC%EC%8A%A4/" rel="tag">사스</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%A0%84%EC%B2%98%EB%A6%AC%EA%B8%B0/" rel="tag">전처리기</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-sideEffect" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/01/22/sideEffect/" class="article-date">
+  <time datetime="2018-01-22T13:40:55.000Z" itemprop="datePublished">2018-01-22</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/01/22/sideEffect/">부수효과</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="용어정리"><a href="#용어정리" class="headerlink" title="용어정리"></a>용어정리</h2><p>이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.<br>제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.<br>오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.</p>
+<hr>
+<h1 id="부수효과-side-effect"><a href="#부수효과-side-effect" class="headerlink" title="부수효과(side effect)"></a>부수효과(side effect)</h1><p><code>부수효과를 좀 있어보이게 사이드이팩트라 쓰겠습니다</code><br>사이드이팩트란 무엇인가 알아보았다.<br>위키에서의 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://ko.wikipedia.org/wiki/%EB%B6%80%EA%B0%80%EC%9E%91%EC%9A%A9">부수효과(부가작용)</a> 이렇게 정의하고 있습니다.<br>이처럼 <code>원래의 목적과 다르게 다른 효과 또는 부작용이 나는 상태</code>를 지칭합니다.</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/01/22/sideEffect/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/01/22/sideEffect/" data-id="cmvq17lk60136pv37c7tv86rv" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/01/22/sideEffect/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/functional-programming/" rel="tag">functional programming</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/side-effect/" rel="tag">side effect</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B6%80%EC%88%98%ED%9A%A8%EA%B3%BC/" rel="tag">부수효과</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-vanillaJS" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/01/21/vanillaJS/" class="article-date">
@@ -117,7 +272,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/01/21/vanillaJS/" data-id="cmvpz34iy01b4xy379f4y4jkz" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/01/21/vanillaJS/" data-id="cmvq17llp01bbpv37d8hnbxjl" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/01/21/vanillaJS/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -166,7 +321,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/01/17/bye2017/" data-id="cmvpz34af006yxy378mi1afxr" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/01/17/bye2017/" data-id="cmvq17lf5006xpv37g8if05dj" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/01/17/bye2017/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -217,7 +372,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/20/vue4/" data-id="cmvpz34ja01cdxy37a8d14cci" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2017/09/20/vue4/" data-id="cmvq17llw01cfpv371kwu5zyw" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2017/09/20/vue4/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -269,7 +424,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/19/vue3/" data-id="cmvpz34j901c9xy37bu8o8ooh" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2017/09/19/vue3/" data-id="cmvq17llw01cdpv375ds19gej" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2017/09/19/vue3/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -321,7 +476,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/18/vue2/" data-id="cmvpz34j801c6xy37e5jm7wof" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2017/09/18/vue2/" data-id="cmvq17llv01c9pv37cw8f5vc2" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2017/09/18/vue2/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -373,7 +528,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/15/vue1/" data-id="cmvpz34j701c3xy37bbwwazv3" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2017/09/15/vue1/" data-id="cmvq17llu01c6pv37273y5sml" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2017/09/15/vue1/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -424,7 +579,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/08/OSI7/" data-id="cmvpz348y0005xy37acqh8q08" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2017/09/08/OSI7/" data-id="cmvq17le00002pv37f8zea462" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2017/09/08/OSI7/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -438,161 +593,11 @@
 
 
   
-    <article id="post-component" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/09/06/component/" class="article-date">
-  <time datetime="2017-09-06T09:04:01.000Z" itemprop="datePublished">2017-09-06</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/06/component/">Component</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="용어정리"><a href="#용어정리" class="headerlink" title="용어정리"></a>용어정리</h2><p>이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.<br>제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.<br>오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.</p>
-<hr>
-<p>컴포넌트란 무엇인가?<br>쉬운듯 하나 어려운 IT언어…<br>금일은 컴포넌트단위.. 컴포넌트수정..등 컴포넌트에 대해 알아보겠습니다.</p>
-        
-          <p class="article-more-link">
-            <a href="/2017/09/06/component/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/09/06/component/" data-id="cmvpz34at0093xy37hq8u0gr6" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2017/09/06/component/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Component/" rel="tag">Component</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8/" rel="tag">컴포넌트</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-doctype" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/08/21/doctype/" class="article-date">
-  <time datetime="2017-08-21T08:03:11.000Z" itemprop="datePublished">2017-08-21</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/21/doctype/">doctype이란 무엇인가?</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="doctype이란-무엇인가"><a href="#doctype이란-무엇인가" class="headerlink" title="doctype이란 무엇인가?"></a>doctype이란 무엇인가?</h1><p>DOCTYPE이란 무엇인가. 흔히들 줄여말해 DTD라고 불리운다.<br>DTD는 Document Type Definition의 약자이다. 즉, 문서형식을 정의해주는 것이다.<br>HTML이 어떤 버전으로 작성되었는지 미리 선언해,웹브라우저가 내용을 올바로 표시할 수 있도록 해주는 것이 DTD입니다.</p>
-        
-          <p class="article-more-link">
-            <a href="/2017/08/21/doctype/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/08/21/doctype/" data-id="cmvpz34b500bbxy37etzz5637" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2017/08/21/doctype/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/DTD/" rel="tag">DTD</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/doc/" rel="tag">doc</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html/" rel="tag">html</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html-doctype/" rel="tag">html doctype</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-function1" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/08/17/function1/" class="article-date">
-  <time datetime="2017-08-17T12:50:26.000Z" itemprop="datePublished">2017-08-17</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/17/function1/">자바스트립트 함수 정리 1편</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="함수정리"><a href="#함수정리" class="headerlink" title="함수정리"></a>함수정리</h1><h2 id="gt-사용법편"><a href="#gt-사용법편" class="headerlink" title="&gt; 사용법편"></a>&gt; 사용법편</h2><p>함수란 무엇일까요?<br>우리는 중학교를 나왔다면, 이미 들어봤을것입니다.<br>간단한 함수를 보며 살펴 보겠습니다.</p>
-<p> y = f(x)</p>
-        
-          <p class="article-more-link">
-            <a href="/2017/08/17/function1/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2017/08/17/function1/" data-id="cmvpz34by00e7xy374sv30bec" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2017/08/17/function1/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/function/" rel="tag">function</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/" rel="tag">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript-function/" rel="tag">javascript function</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/new/" rel="tag">new</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%83%9D%EC%84%B1%EC%9E%90%ED%95%A8%EC%88%98/" rel="tag">생성자함수</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%95%A8%EC%88%98/" rel="tag">함수</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%95%A8%EC%88%98%EC%84%A0%EC%96%B8%EB%AC%B8/" rel="tag">함수선언문</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%95%A8%EC%88%98%ED%91%9C%ED%98%84%EC%8B%9D/" rel="tag">함수표현식</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 
   <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/56/">&lt; 이전</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/55/">55</a><a class="page-number" href="/page/56/">56</a><span class="page-number current">57</span><a class="page-number" href="/page/58/">58</a><a class="extend next" rel="next" href="/page/58/">다음 &gt;</a>
+    <a class="extend prev" rel="prev" href="/page/56/">&lt; 이전</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/55/">55</a><a class="page-number" href="/page/56/">56</a><span class="page-number current">57</span><a class="page-number" href="/page/58/">58</a><a class="page-number" href="/page/59/">59</a><a class="extend next" rel="next" href="/page/58/">다음 &gt;</a>
   </nav>
 
 </section>
@@ -743,23 +748,23 @@
       <ul>
         
           <li>
+            <a href="/2026/10/27/kboPlayoffGame1Review/">KIA, 플레이오프 1차전 삼성에 5-1 승리 — 네일 헤드샷 퇴장 위기를 막은 정해영, 오늘 2차전 18시 30분</a>
+          </li>
+        
+          <li>
+            <a href="/2026/10/27/oecdBankLoanBigFirms/">OECD &#34;한국 은행 대출, 우량 대기업에 집중&#34; — 중소기업 대출 비중 4.2%포인트 하락</a>
+          </li>
+        
+          <li>
+            <a href="/2026/10/27/anthropicIpoFiling/">앤트로픽, 미국 증권거래위원회에 상장 신청서 제출 — AI 모델 개발사 중 첫 IPO 절차</a>
+          </li>
+        
+          <li>
             <a href="/2026/10/27/q3GdpGrowth/">3분기 GDP 1.0% 성장 — 반도체 수출이 이끌고 민간소비는 15분기 만에 감소</a>
           </li>
         
           <li>
             <a href="/2026/10/27/industrialSafetyFine/">산업안전보건법 개정안 공포 — 반복 산재 사망 기업에 영업이익 5% 과징금, 내년 4월 28일 시행</a>
-          </li>
-        
-          <li>
-            <a href="/2026/10/26/halloweenCrowdSeoul/">핼러윈 앞두고 서울 인파관리 비상 — 용산·마포·성동 안전대책 총력</a>
-          </li>
-        
-          <li>
-            <a href="/2026/10/26/limYoungWoongMovie2/">임영웅 공연실황 영화 아임 히어로 더 스타디움 2, 11월 18일 전국 CGV 개봉 — 포스터 공개</a>
-          </li>
-        
-          <li>
-            <a href="/2026/10/26/starshipLaunch456/">스페이스X 스타십 연간 최대 456회 발사 추진 — FAA 심사 착수, 다음 달 공청회 5회</a>
           </li>
         
       </ul>
