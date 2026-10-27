@@ -13,6 +13,20 @@
 ---
 
 
+## 2026-10-27 (Windows PC) — 화요일 10편
+
+- 한 일: 후속 일정 해당 없음(다음은 10/28·10/29·11/3). 최신 이슈 10편 작성(date 10/27 09:00~13:30), 이미지 10장 v4 템플릿 검수·수정(월성 그라데이션 id가 wrap 필터 id와 충돌해 hT로 변경).
+  - 사회: industrialSafetyFine(산안법 과징금), suneungAiGlassesTalks(수능 AI 안경 긴급 논의)
+  - 경제: q3GdpGrowth(3분기 GDP), oecdBankLoanBigFirms(OECD 은행 대출 쏠림)
+  - 국제: euParcelFee2Euro(EU 소포 수수료), japanProfitableClosure(일본 흑자 폐업)
+  - IT과학: anthropicIpoFiling(앤트로픽 상장 신청), spaceDebrisAdrSat(우주쓰레기 청소위성)
+  - 생활문화: wolseongStelaAiMatch(월성 비편) / 연예: khsRbwAlliance(KHS–RBW 협약)
+  - 주의: 슬러그 suneungAiGlasses는 10/16 글과 중복이라 새 슬러그 suneungAiGlassesTalks 사용(Write 덮어쓰기 사고를 git checkout으로 복원). 새 슬러그는 작성 전 source/_posts 존재 여부 확인할 것. 납 배출 주사(DN오토모티브) 건은 특정 기업 의혹 보도라 제외.
+- 다음에 할 일: 10/28 돔구장 의향서, 10/29 태국 출국세 의견 마감(thailandDepartureTax 후속), 11/3 미국 중간선거(중립 사실만).
+
+---
+
+
 ## 2026-10-26 (Windows PC) — 월요일 10편 + KBO PO 글 정정
 
 - 한 일: 10/26 일정 확인 결과 후속 글 일정 해당 없음(다음은 10/28·10/29·11/3). 최신 이슈 10편 작성(date 10/26 09:00~13:30, future:false 예약 발행), 이미지 10장 v4 템플릿 검수 후 라벨 겹침·넘침 수정.
