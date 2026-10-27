@@ -13,6 +13,20 @@
 ---
 
 
+## 2026-10-28 (Windows PC) — 수요일 10편 (플레이오프 2차전 포함)
+
+- 한 일: 후속 일정 10/28 돔구장 의향서를 포함해 10편 작성(date 10/28 09:00~13:30). 사용자 요청에 따라 KBO 플레이오프 글을 매일 포함(스포츠 섹션 sports.daum.net/baseball에서 기사 수집, 일반 섹션 목록엔 안 나옴).
+  - 스포츠: kboPlayoffGame2Review(PO 2차전 삼성 8-3, 1승 1패, 3차전 10/29 광주)
+  - 사회: domeStadiumBidDeadline(돔구장 유치 의향서 마감, 후속 일정 소화), guryongVillageFire(구룡마을 화재), creHospitalPriority(CRE 감염관리)
+  - 경제: npsProxyVotingAudit(국민연금 의결권 점검), ownerFamilyStockStake(오너일가 지분 변동)
+  - 국제: israelElectionExitPoll(이스라엘 총선 출구조사), japanCyberRansom(일본 기업 해킹)
+  - IT과학: galaxyWatchSleepApnea / 연예: enaMysticMc
+  - 기사 수집 시 sports.daum.net/baseball에서 v.daum.net 링크를 추출(정규식 /v/d+/로 필터해야 null 오류 없음). 특정 기업 의혹 보도(MBC 납 배출 주사)는 이전 날에 이어 제외 유지.
+- 다음에 할 일: 10/29 태국 출국세 의견 마감(thailandDepartureTax 후속)과 PO 3차전(광주) 결과·4차전 전망, 11/3 미국 중간선거(중립 사실만). PO 시리즈가 끝나면 한국시리즈 진출팀 글.
+
+---
+
+
 ## 2026-10-27 (Windows PC) — 화요일 10편
 
 - 한 일: 후속 일정 해당 없음(다음은 10/28·10/29·11/3). 최신 이슈 10편 작성(date 10/27 09:00~13:30), 이미지 10장 v4 템플릿 검수·수정(월성 그라데이션 id가 wrap 필터 id와 충돌해 hT로 변경).
