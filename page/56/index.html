@@ -82,6 +82,57 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-async03" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/11/24/async03/" class="article-date">
+  <time datetime="2018-11-24T08:18:14.000Z" itemprop="datePublished">2018-11-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/11/24/async03/">번역 - 비동기 자바스크립트의 간단한 참고서 3편</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="비동기-자바스크립트의-간단한-참고서-3편"><a href="#비동기-자바스크립트의-간단한-참고서-3편" class="headerlink" title="비동기 자바스크립트의 간단한 참고서 3편"></a>비동기 자바스크립트의 간단한 참고서 3편</h1><p>지난시간 <a href="https://tuhbm.github.io/2018/11/05/async01/">1편</a>에서 동기와 비동기에 대해 배우고, <code>callback</code>을 통해 비동기 통신을 해보았습니다.<br><a href="https://tuhbm.github.io/2018/11/14/async02/">2편</a>에서는 callback이 아닌 <code>Promise</code>을 알아보고 정적메소드를 알아보았습니다.<br>이번시간에는 <code>Promise</code>를 순서대로 진행해보고, 실습을 진행해 보겠습니다.</p>
+<h2 id="Promise순서대로-실행하기"><a href="#Promise순서대로-실행하기" class="headerlink" title="Promise순서대로 실행하기"></a><code>Promise</code>순서대로 실행하기</h2><p>만약 두 개의 비동기 작업을 순서대로 실행하려면 다음과 같은 패턴을 따라야합니다.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> promiseChain = task1()</span><br><span class="line">  .then(<span class="function"><span class="keyword">function</span>(<span class="params">task1Result</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> task2();</span><br><span class="line">  &#125;)</span><br><span class="line">  .then(<span class="function"><span class="keyword">function</span>(<span class="params">task2Result</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> task3();</span><br><span class="line">  &#125;)</span><br><span class="line">  .then(<span class="function"><span class="keyword">function</span>(<span class="params">task3Result</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> task4();</span><br><span class="line">  &#125;)</span><br><span class="line">  .then(<span class="function"><span class="keyword">function</span>(<span class="params">task4Result</span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&#x27;done&#x27;</span>, task4Result);</span><br><span class="line">  &#125;)</span><br><span class="line">  .catch(<span class="function"><span class="keyword">function</span>(<span class="params">err</span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&#x27;Error&#x27;</span>, err);</span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
+        
+          <p class="article-more-link">
+            <a href="/2018/11/24/async03/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/11/24/async03/" data-id="cmvssvrii002n4w0d1uwt1iop" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/11/24/async03/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/all/" rel="tag">all</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/asynchronous/" rel="tag">asynchronous</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/method/" rel="tag">method</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/promise/" rel="tag">promise</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/return/" rel="tag">return</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/synchronous/" rel="tag">synchronous</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/then/" rel="tag">then</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%8F%99%EA%B8%B0/" rel="tag">동기</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B9%84%EB%8F%99%EA%B8%B0/" rel="tag">비동기</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-async02" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/11/14/async02/" class="article-date">
@@ -124,7 +175,7 @@
       
     </li></ul></div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/11/14/async02/" data-id="cmvs1ksiw002fz40d2kujdaxh" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/11/14/async02/" data-id="cmvssvrii002j4w0dcsqx49jx" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/11/14/async02/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -182,7 +233,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/11/05/async01/" data-id="cmvs1ksix002jz40d42t1a65u" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/11/05/async01/" data-id="cmvssvrih002f4w0d9fn94bx7" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/11/05/async01/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -235,7 +286,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/31/cssAlignCenter/" data-id="cmvs1kska00a8z40d6jj3gl3t" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/31/cssAlignCenter/" data-id="cmvssvrk000a84w0d5gbb8ki9" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/31/cssAlignCenter/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -290,7 +341,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/30/vue-firebase5/" data-id="cmvs1kst701cqz40d6q3355fp" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/30/vue-firebase5/" data-id="cmvssvrti01dl4w0d7mkrfh05" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/30/vue-firebase5/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -344,7 +395,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/22/vue-firebase4/" data-id="cmvs1kst901cwz40dhw0i5tu1" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/22/vue-firebase4/" data-id="cmvssvrth01di4w0d6xoxh68f" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/22/vue-firebase4/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -396,7 +447,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase3/" data-id="cmvs1kst601cmz40dgo6389aj" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase3/" data-id="cmvssvrtf01de4w0d1aarb3x7" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/20/vue-firebase3/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -450,7 +501,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase2/" data-id="cmvs1kst501cjz40ddooy3ljg" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase2/" data-id="cmvssvrtd01d74w0dgv0x9q3c" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/20/vue-firebase2/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -502,7 +553,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase1/" data-id="cmvs1kst301ccz40d1gdbfr4x" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase1/" data-id="cmvssvrte01db4w0d0n86e6k3" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/20/vue-firebase1/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -552,64 +603,12 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/09/29/seo1/" data-id="cmvs1ksq7011sz40dbdezgbon" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/09/29/seo1/" data-id="cmvssvrqa012a4w0d5ctz86he" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/09/29/seo1/#disqus_thread" class="article-comment-link">댓글</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/canonical/" rel="tag">canonical</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/engine/" rel="tag">engine</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html/" rel="tag">html</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/noindex/" rel="tag">noindex</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/optimization/" rel="tag">optimization</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/search/" rel="tag">search</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/seo/" rel="tag">seo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EA%B2%80%EC%83%89%EC%B5%9C%EC%A0%81%ED%99%94/" rel="tag">검색최적화</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-algorithm" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/08/20/algorithm/" class="article-date">
-  <time datetime="2018-08-20T13:47:40.000Z" itemprop="datePublished">2018-08-20</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/08/20/algorithm/">알고리즘</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="용어정리"><a href="#용어정리" class="headerlink" title="용어정리"></a>용어정리</h2><p>이 카테고리는 비전공자로서 개발자로써 공부하며, 평소 이해하지 못한 단어를 제방식대로 정리하는 카테고리입니다.<br>제방식대로 풀어 쓴것이므로 오류가 있을 수 있습니다.<br>오류가 있을시 댓글로 남겨주시면 참고하도록 하겠습니다.</p>
-<hr>
-<p><img src="https://tuhbm.github.io/images/terms/algorithm1.png" alt="알고리즘"></p>
-<h1 id="알고리즘"><a href="#알고리즘" class="headerlink" title="알고리즘"></a>알고리즘</h1><h2 id="알고리즘이란"><a href="#알고리즘이란" class="headerlink" title="알고리즘이란?"></a>알고리즘이란?</h2><p>명령어들의 순서상 <strong>처리과정</strong>을 말합니다.<br>예를들어 우리가 학교에 등교할때도 잠에서 깨고, 아침을 먹고, 양치를 하고, 씻고, 교복을 입고, 학교에 도착하기까지의 순서상 처리하는 과정이 있습니다.<br>이들을 순서상 나열해놓은 것을 알고리즘이라고 합니다.</p>
-        
-          <p class="article-more-link">
-            <a href="/2018/08/20/algorithm/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/08/20/algorithm/" data-id="cmvs1ksif001az40damxegprj" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2018/08/20/algorithm/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/algorithm/" rel="tag">algorithm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EA%B0%9C%EB%B0%9C/" rel="tag">개발</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/" rel="tag">알고리즘</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%9A%A8%EC%9C%A8%EC%84%B1/" rel="tag">효율성</a></li></ul>
 
     </footer>
   </div>
@@ -773,6 +772,10 @@
       <ul>
         
           <li>
+            <a href="/2026/10/29/kboPlayoffGame3Preview/">플레이오프 3차전 오늘 광주 — 삼성 최원태 vs KIA 시라카와, 1승 1패 뒤 3차전 승리팀의 한국시리즈 진출 확률은</a>
+          </li>
+        
+          <li>
             <a href="/2026/10/28/enaMysticMc/">ENA 오디션 미스틱 MC에 니콜·산다라박·샤오팅 — 11월 17일 첫 방송, 참가자 21명</a>
           </li>
         
@@ -786,10 +789,6 @@
         
           <li>
             <a href="/2026/10/28/creHospitalPriority/">병원 감염관리 1순위는 CRE — 질병관리청 연구, 감염 환자 30일 사망률 16.9%</a>
-          </li>
-        
-          <li>
-            <a href="/2026/10/28/japanCyberRansom/">일본 기업 해킹 잇따라 — GMO 인터넷그룹 5000만 달러 요구, 라쿠텐 트래블 최대 260만 건 유출</a>
           </li>
         
       </ul>
