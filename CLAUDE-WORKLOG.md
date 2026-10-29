@@ -13,6 +13,19 @@
 ---
 
 
+## 2026-10-29 (Windows PC) — 목요일 10편 (유입 우선 주제 선정)
+
+- 한 일: 사용자 지시로 **주제 선정 기본 조건을 유입 우선**으로 변경(메모리 feedback_blog_topic_traffic·daily-blog 스킬에 반영). 다음뉴스 홈의 실시간 트렌드(검색어 순위)와 sports.daum.net/baseball에서 후보를 수집해 10편 작성(date 10/29 09:00~13:30).
+  - 스포츠: kboPlayoffGame3Preview(PO 3차전 최원태 vs 시라카와)
+  - 국제: thailandDepartureTaxDeadline(태국 출국세 의견 수렴 마감, 후속 일정 소화), israelElectionCount(이스라엘 개표), spainHighSpeedTrain(스페인 열차 사고)
+  - 경제: skHynixShareholderReturn(하이닉스 83조·100조 환원·삼성전자 배당), retirementPensionOffsite(퇴직금 사외적립 의무화), miraeAssetSanko(미래에셋 산코증권 인수)
+  - 사회: yeoksamArsonReferral(역삼동 방화 송치) / 연예: shinHaechulCultureMedal(대중문화예술상) / 생활: glp1FamilyEffect(비만치료제 가족 영향, 소규모 연구 한계 명시)
+  - 태국 출국세는 마감일 신규 기사가 없어 10/15 글·일본 출국세 인상 기사로 구성. 이스라엘은 10/28 출구조사 글의 후속(개표 90%). 삼성전자 확정 실적 기사는 미확인이라 배당 예정 보도만 사용.
+- 다음에 할 일: 11/3 미국 중간선거(중립 사실만). PO 3차전 결과·4차전(10/30)·시리즈 종료 시 한국시리즈 진출팀 글. 삼성전자 배당 확정 결과 후속 가능.
+
+---
+
+
 ## 2026-10-28 (Windows PC) — 수요일 10편 (플레이오프 2차전 포함)
 
 - 한 일: 후속 일정 10/28 돔구장 의향서를 포함해 10편 작성(date 10/28 09:00~13:30). 사용자 요청에 따라 KBO 플레이오프 글을 매일 포함(스포츠 섹션 sports.daum.net/baseball에서 기사 수집, 일반 섹션 목록엔 안 나옴).
