@@ -115,6 +115,8 @@
       
         <h2 id="증상"><a href="#증상" class="headerlink" title="증상"></a>증상</h2><p>어느 날 사이트맵을 열어 보니 이상했다. 새로 쓴 글이 아닌데도 모든 URL의 <code>&lt;lastmod&gt;</code>가 <strong>마지막 배포 날짜</strong>로 찍혀 있었다. 글은 하나도 안 고쳤는데 배포할 때마다 전부 “방금 수정됨”이 되는 것이다.</p>
 <p><code>lastmod</code>는 검색엔진에 “이 페이지 내용이 언제 바뀌었는지” 알려 주는 값이다. 전부 오늘 날짜로 나오면 검색엔진 입장에서는 믿을 수 없는 값이 되고, 크롤링 우선순위에도 도움이 안 된다. 새로 생기거나 실제로 고친 글만 날짜가 바뀌어야 맞다.</p>
+<span id="more"></span>
+
 <h2 id="범위부터-좁혔다"><a href="#범위부터-좁혔다" class="headerlink" title="범위부터 좁혔다"></a>범위부터 좁혔다</h2><p>사이트맵은 <code>hexo-generator-sitemap</code>이 만든다. 이 플러그인은 글의 <code>updated</code> 값을 <code>lastmod</code>로 쓴다. 그럼 <code>updated</code>는 어디서 올까.</p>
 <p>Hexo는 글 머리말에 <code>updated</code>가 없으면 기본적으로 <strong>파일의 수정 시각</strong>(mtime)을 쓴다. 문제는 여기였다. 내 배포는 GitHub Actions가 매번 저장소를 새로 체크아웃해서 빌드한다. 체크아웃하는 순간 모든 파일의 mtime이 “지금”이 된다. 그러니 빌드할 때마다 모든 글의 <code>updated</code>가 빌드 시각이 되고, 사이트맵의 <code>lastmod</code>도 전부 배포 시각이 되는 것이었다.</p>
 <p>로컬에서는 파일을 안 건드리면 mtime이 그대로라, 이 문제는 CI에서 매번 새로 체크아웃하는 구조에서만 드러난다.</p>
@@ -142,7 +144,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/" data-id="cmvu94tj30160r70ddvle2rwa" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/" data-id="cmvu9dnrj0163rg0d9gm5d8o1" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/#disqus_thread" class="article-comment-link">댓글</a>
       

@@ -118,6 +118,8 @@
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ERROR &#123;</span><br><span class="line">  err: YAMLException: bad indentation of a mapping entry (4:22)</span><br></pre></td></tr></table></figure>
 
 <p>Hexo는 글 하나의 머리말이 YAML로 읽히지 않아도 <strong>프로세스를 멈추지 않고 그 글만 건너뛴다.</strong> 그래서 빌드 성공처럼 보이는 게 함정이다.</p>
+<span id="more"></span>
+
 <h2 id="범인은-작은따옴표-한-글자"><a href="#범인은-작은따옴표-한-글자" class="headerlink" title="범인은 작은따옴표 한 글자"></a>범인은 작은따옴표 한 글자</h2><p>문제의 글은 이런 머리말을 갖고 있었다.</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">description:</span> <span class="string">&#x27;국민 아버지&#x27;</span><span class="string">로</span> <span class="string">불린</span> <span class="string">배우가</span> <span class="string">별세했습니다.</span> <span class="string">...</span></span><br></pre></td></tr></table></figure>
 
@@ -167,7 +169,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/hexoYamlFrontMatterPitfalls/" data-id="cmvu94tf400h3r70d42prf2lr" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2026/10/30/hexoYamlFrontMatterPitfalls/" data-id="cmvu9dnot00harg0dbt162y3b" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2026/10/30/hexoYamlFrontMatterPitfalls/#disqus_thread" class="article-comment-link">댓글</a>
       

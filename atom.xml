@@ -25,10 +25,8 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;왜-SVG로-만들었나&quot;&gt;&lt;a href=&quot;#왜-SVG로-만들었나&quot; class=&quot;headerlink&quot; title=&quot;왜 SVG로 만들었나&quot;&gt;&lt;/a&gt;왜 SVG로 만들었나&lt;/h2&gt;&lt;p&gt;글마다 대표 이미지를 붙이고 싶었다. 디자인 툴을 열어서 하나
-      
+      &lt;h2 id=&quot;왜-SVG로-만들었나&quot;&gt;&lt;a href=&quot;#왜-SVG로-만들었나&quot; class=&quot;headerlink&quot; title=&quot;왜 SVG로 만들었나&quot;&gt;&lt;/a&gt;왜 SVG로 만들었나&lt;/h2&gt;&lt;p&gt;글마다 대표 이미지를 붙이고 싶었다. 디자인 툴을 열어서 하나씩 만들면 하루에 여러 편 올리는 속도를 못 따라간다. 그래서 틀을 코드로 만들고 숫자와 문구만 바꿔 끼우는 방식으로 갔다. SVG는 텍스트 파일이라 코드로 찍어내기 좋고, 마지막에 PNG로만 바꾸면 어디서든 열린다.&lt;/p&gt;
+&lt;p&gt;흐름은 단순하다. 문구를 담은 JSON을 읽어서 SVG를 만들고, 그걸 PNG로 변환해 &lt;code&gt;source/images&lt;/code&gt;에 둔다.&lt;/p&gt;
     
     </summary>
     
@@ -58,10 +56,14 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;별표가-화면에-그대로-보인다&quot;&gt;&lt;a href=&quot;#별표가-화면에-그대로-보인다&quot; class=&quot;headerlink&quot; title=&quot;별표가 화면에 그대로 보인다&quot;&gt;&lt;/a&gt;별표가 화면에 그대로 보인다&lt;/h2&gt;&lt;p&gt;블로그 글을 올리고 나서 확인하는
-      
+      &lt;h2 id=&quot;별표가-화면에-그대로-보인다&quot;&gt;&lt;a href=&quot;#별표가-화면에-그대로-보인다&quot; class=&quot;headerlink&quot; title=&quot;별표가 화면에 그대로 보인다&quot;&gt;&lt;/a&gt;별표가 화면에 그대로 보인다&lt;/h2&gt;&lt;p&gt;블로그 글을 올리고 나서 확인하는데 이상한 데가 있었다. 분명 굵게 쓴 부분인데 화면에는 이렇게 나왔다.&lt;/p&gt;
+&lt;figure class=&quot;highlight text&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;금리가 **9%**로 확정됐다&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;볼드가 적용되지 않고 별표 네 개가 글자 그대로 남아 있었다. 같은 글의 다른 볼드는 멀쩡해서 더 헷갈렸다. 비교해 보니 깨진 곳에는 공통점이 있었다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;닫는 &lt;code&gt;**&lt;/code&gt; 바로 앞이 &lt;code&gt;%&lt;/code&gt;, 따옴표, 괄호 같은 &lt;strong&gt;문장부호&lt;/strong&gt;이고&lt;/li&gt;
+&lt;li&gt;바로 뒤에 &lt;code&gt;로&lt;/code&gt;, &lt;code&gt;를&lt;/code&gt;, &lt;code&gt;이&lt;/code&gt; 같은 &lt;strong&gt;한글 조사&lt;/strong&gt;가 붙어 있었다&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -91,10 +93,11 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;10편을-썼는데-9편만-나왔다&quot;&gt;&lt;a href=&quot;#10편을-썼는데-9편만-나왔다&quot; class=&quot;headerlink&quot; title=&quot;10편을 썼는데 9편만 나왔다&quot;&gt;&lt;/a&gt;10편을 썼는데 9편만 나왔다&lt;/h2&gt;&lt;p&gt;하루에 글 10편을 올리는
-      
+      &lt;h2 id=&quot;10편을-썼는데-9편만-나왔다&quot;&gt;&lt;a href=&quot;#10편을-썼는데-9편만-나왔다&quot; class=&quot;headerlink&quot; title=&quot;10편을 썼는데 9편만 나왔다&quot;&gt;&lt;/a&gt;10편을 썼는데 9편만 나왔다&lt;/h2&gt;&lt;p&gt;하루에 글 10편을 올리는 날이었다. 로컬에서 빌드하고 나서 습관처럼 오늘 날짜 폴더의 글 수를 셌는데 9개였다. 에러 메시지는 분명 떴는데 빌드는 끝까지 돌아서, 그냥 지나치면 한 편이 빠진 채로 푸시할 뻔했다.&lt;/p&gt;
+&lt;p&gt;로그를 올려 보니 이랬다.&lt;/p&gt;
+&lt;figure class=&quot;highlight text&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ERROR &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  err: YAMLException: bad indentation of a mapping entry (4:22)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;Hexo는 글 하나의 머리말이 YAML로 읽히지 않아도 &lt;strong&gt;프로세스를 멈추지 않고 그 글만 건너뛴다.&lt;/strong&gt; 그래서 빌드 성공처럼 보이는 게 함정이다.&lt;/p&gt;
     
     </summary>
     
@@ -124,10 +127,8 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;증상&quot;&gt;&lt;a href=&quot;#증상&quot; class=&quot;headerlink&quot; title=&quot;증상&quot;&gt;&lt;/a&gt;증상&lt;/h2&gt;&lt;p&gt;어느 날 사이트맵을 열어 보니 이상했다. 새로 쓴 글이 아닌데도 모든 URL의 &lt;code&gt;&amp;lt;lastmod&amp;gt;&lt;/cod
-      
+      &lt;h2 id=&quot;증상&quot;&gt;&lt;a href=&quot;#증상&quot; class=&quot;headerlink&quot; title=&quot;증상&quot;&gt;&lt;/a&gt;증상&lt;/h2&gt;&lt;p&gt;어느 날 사이트맵을 열어 보니 이상했다. 새로 쓴 글이 아닌데도 모든 URL의 &lt;code&gt;&amp;lt;lastmod&amp;gt;&lt;/code&gt;가 &lt;strong&gt;마지막 배포 날짜&lt;/strong&gt;로 찍혀 있었다. 글은 하나도 안 고쳤는데 배포할 때마다 전부 “방금 수정됨”이 되는 것이다.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;lastmod&lt;/code&gt;는 검색엔진에 “이 페이지 내용이 언제 바뀌었는지” 알려 주는 값이다. 전부 오늘 날짜로 나오면 검색엔진 입장에서는 믿을 수 없는 값이 되고, 크롤링 우선순위에도 도움이 안 된다. 새로 생기거나 실제로 고친 글만 날짜가 바뀌어야 맞다.&lt;/p&gt;
     
     </summary>
     
@@ -157,10 +158,7 @@
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;시작은-휴가였다&quot;&gt;&lt;a href=&quot;#시작은-휴가였다&quot; class=&quot;headerlink&quot; title=&quot;시작은 휴가였다&quot;&gt;&lt;/a&gt;시작은 휴가였다&lt;/h2&gt;&lt;p&gt;블로그에 글을 매일 올리다 보니 며칠 자리를 비울 때가 문제였다. 워드프레스나 티스
-      
+      &lt;h2 id=&quot;시작은-휴가였다&quot;&gt;&lt;a href=&quot;#시작은-휴가였다&quot; class=&quot;headerlink&quot; title=&quot;시작은 휴가였다&quot;&gt;&lt;/a&gt;시작은 휴가였다&lt;/h2&gt;&lt;p&gt;블로그에 글을 매일 올리다 보니 며칠 자리를 비울 때가 문제였다. 워드프레스나 티스토리에는 예약 발행이 기본으로 있는데 Hexo는 정적 사이트 생성기라 그런 게 없다. 글을 미리 써 두고 “내일 아침 9시에 열려라” 하는 걸 어떻게 만들지 고민하다가, 의외로 설정 한 줄과 워크플로 몇 줄로 끝나서 정리해 둔다.&lt;/p&gt;
     
     </summary>
     

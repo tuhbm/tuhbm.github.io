@@ -115,6 +115,8 @@
       
         <h2 id="왜-SVG로-만들었나"><a href="#왜-SVG로-만들었나" class="headerlink" title="왜 SVG로 만들었나"></a>왜 SVG로 만들었나</h2><p>글마다 대표 이미지를 붙이고 싶었다. 디자인 툴을 열어서 하나씩 만들면 하루에 여러 편 올리는 속도를 못 따라간다. 그래서 틀을 코드로 만들고 숫자와 문구만 바꿔 끼우는 방식으로 갔다. SVG는 텍스트 파일이라 코드로 찍어내기 좋고, 마지막에 PNG로만 바꾸면 어디서든 열린다.</p>
 <p>흐름은 단순하다. 문구를 담은 JSON을 읽어서 SVG를 만들고, 그걸 PNG로 변환해 <code>source/images</code>에 둔다.</p>
+<span id="more"></span>
+
 <h2 id="변환은-resvg"><a href="#변환은-resvg" class="headerlink" title="변환은 resvg"></a>변환은 resvg</h2><p>브라우저 없이 Node에서 SVG를 PNG로 바꿔 주는 라이브러리를 찾다가 <code>@resvg/resvg-js</code>를 골랐다. 헤드리스 브라우저를 띄우는 것보다 가볍고 빠르다. 변환 코드는 이게 전부다.</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; Resvg &#125; = <span class="built_in">require</span>(<span class="string">&#x27;@resvg/resvg-js&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&#x27;fs&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> svg = fs.readFileSync(<span class="string">&#x27;card.svg&#x27;</span>, <span class="string">&#x27;utf8&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> resvg = <span class="keyword">new</span> Resvg(svg, &#123;</span><br><span class="line">  fitTo: &#123; <span class="attr">mode</span>: <span class="string">&#x27;width&#x27;</span>, <span class="attr">value</span>: <span class="number">1536</span> &#125;,</span><br><span class="line">  font: &#123; <span class="attr">loadSystemFonts</span>: <span class="literal">true</span> &#125;,</span><br><span class="line">  background: <span class="string">&#x27;white&#x27;</span>,</span><br><span class="line">&#125;);</span><br><span class="line">fs.writeFileSync(<span class="string">&#x27;card.png&#x27;</span>, resvg.render().asPng());</span><br></pre></td></tr></table></figure>
 
@@ -145,7 +147,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/svgToPngResvg/" data-id="cmvu94tjn0199r70d7br8az1h" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2026/10/30/svgToPngResvg/" data-id="cmvu9dnry019erg0d62t38tf1" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2026/10/30/svgToPngResvg/#disqus_thread" class="article-comment-link">댓글</a>
       
