@@ -13,6 +13,18 @@
 ---
 
 
+## 2026-10-30 (Windows PC) — 금요일 10편 (유입 우선·트렌드 반영)
+
+- 한 일: 실시간 트렌드 상위(최불암 별세, 아주대병원 압수수색, 알파벳 시총 증발, 블랙핑크 문화훈장 등)와 sports.daum.net/baseball에서 후보 수집해 10편 작성(date 10/30 09:00~13:30). 후속 일정 해당 없음.
+  - 스포츠: kboPlayoffGame3Review(PO 3차전 삼성 6-4, 2승 1패, 4차전 10/30 18:30 네일 vs 페덱)
+  - 연예: choiBulamObituary(최불암 별세) / 경제: samsungQ3Operating100T, seoulAptPrice90Weeks, industrialOutputTripleRise
+  - 사회: ajouHospitalSearchBacklash, gyeongbokgungAdmissionDebate / 국제: fedHoldAlphabetEarnings, nvidiaChinaSpyReport(NYT 보도 인용, 확인 전 명시) / IT: iphoneDuoDefects
+  - 주의: description/title이 따옴표(작은따옴표 포함)로 시작하면 YAML 오류로 해당 글 빌드 누락(choiBulamObituary에서 발생, 수정). 빌드 후 public/날짜/ 글 수를 반드시 10개로 확인할 것. 10/29 삼성전자 확정 실적 기사는 이날 EBN 기사로 보강.
+- 다음에 할 일: 11/3 미국 중간선거(중립 사실만). PO 4차전 결과·한국시리즈 진출팀(KT 상대 가능) 글. 최불암 발인·장례 후속 가능.
+
+---
+
+
 ## 2026-10-29 (Windows PC) — 목요일 10편 (유입 우선 주제 선정)
 
 - 한 일: 사용자 지시로 **주제 선정 기본 조건을 유입 우선**으로 변경(메모리 feedback_blog_topic_traffic·daily-blog 스킬에 반영). 다음뉴스 홈의 실시간 트렌드(검색어 순위)와 sports.daum.net/baseball에서 후보를 수집해 10편 작성(date 10/29 09:00~13:30).
