@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+<!-- Google tag (gtag.js) - GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4QDFV5ZBM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K4QDFV5ZBM');
+</script>
+<!-- End Google tag -->
+
+ 
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4940548197015353" crossorigin="anonymous"></script>
+    <title>sitemap의 lastmod가 배포할 때마다 바뀌는 이유 (Hexo) | 코드머니 브리핑</title>
+    <meta name="google-site-verification" content="-p8gKAM2rWXrLMIE_2lihVvsLgdqQj4MZ-tBbLssnSg">
+    <meta name="naver-site-verification" content="a1885616f6d673099c6fbf6c59cf4e0084a6d421">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    
+    <link rel="canonical" href="https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/">
+    
+    
+    <meta name="description" content="증상어느 날 사이트맵을 열어 보니 이상했다. 새로 쓴 글이 아닌데도 모든 URL의 &lt;lastmod&gt;가 마지막 배포 날짜로 찍혀 있었다. 글은 하나도 안 고쳤는데 배포할 때마다 전부 “방금 수정됨”이 되는 것이다. lastmod는 검색엔진에 “이 페이지 내용이 언제 바뀌었는지” 알려 주는 값이다. 전부 오늘 날짜로 나오면 검색엔진 입장에서는 믿을">
+<meta property="og:type" content="article">
+<meta property="og:title" content="sitemap의 lastmod가 배포할 때마다 바뀌는 이유 (Hexo)">
+<meta property="og:url" content="https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/index.html">
+<meta property="og:site_name" content="코드머니 브리핑">
+<meta property="og:description" content="증상어느 날 사이트맵을 열어 보니 이상했다. 새로 쓴 글이 아닌데도 모든 URL의 &lt;lastmod&gt;가 마지막 배포 날짜로 찍혀 있었다. 글은 하나도 안 고쳤는데 배포할 때마다 전부 “방금 수정됨”이 되는 것이다. lastmod는 검색엔진에 “이 페이지 내용이 언제 바뀌었는지” 알려 주는 값이다. 전부 오늘 날짜로 나오면 검색엔진 입장에서는 믿을">
+<meta property="og:locale" content="ko_KR">
+<meta property="article:published_time" content="2026-10-30T00:16:00.000Z">
+<meta property="article:modified_time" content="2026-10-30T00:16:00.000Z">
+<meta property="article:author" content="Taekyun Kim">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="sitemap">
+<meta property="article:tag" content="lastmod">
+<meta property="article:tag" content="SEO">
+<meta property="article:tag" content="서치콘솔">
+<meta name="twitter:card" content="summary"> 
+    <link rel="alternate" href="/atom.xml" title="코드머니 브리핑" type="application/atom+xml">
+     
+    <link rel="icon" href="/favicon.png">
+     
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+     
+<link rel="stylesheet" href="/css/style.css">
+
+  <meta name="generator" content="Hexo 5.4.0"></head>
+</html>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">코드머니 브리핑</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="검색"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://tuhbm.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-sitemapLastmodFix" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2026/10/30/sitemapLastmodFix/" class="article-date">
+  <time datetime="2026-10-30T00:16:00.000Z" itemprop="datePublished">2026-10-30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      sitemap의 lastmod가 배포할 때마다 바뀌는 이유 (Hexo)
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="증상"><a href="#증상" class="headerlink" title="증상"></a>증상</h2><p>어느 날 사이트맵을 열어 보니 이상했다. 새로 쓴 글이 아닌데도 모든 URL의 <code>&lt;lastmod&gt;</code>가 <strong>마지막 배포 날짜</strong>로 찍혀 있었다. 글은 하나도 안 고쳤는데 배포할 때마다 전부 “방금 수정됨”이 되는 것이다.</p>
+<p><code>lastmod</code>는 검색엔진에 “이 페이지 내용이 언제 바뀌었는지” 알려 주는 값이다. 전부 오늘 날짜로 나오면 검색엔진 입장에서는 믿을 수 없는 값이 되고, 크롤링 우선순위에도 도움이 안 된다. 새로 생기거나 실제로 고친 글만 날짜가 바뀌어야 맞다.</p>
+<h2 id="범위부터-좁혔다"><a href="#범위부터-좁혔다" class="headerlink" title="범위부터 좁혔다"></a>범위부터 좁혔다</h2><p>사이트맵은 <code>hexo-generator-sitemap</code>이 만든다. 이 플러그인은 글의 <code>updated</code> 값을 <code>lastmod</code>로 쓴다. 그럼 <code>updated</code>는 어디서 올까.</p>
+<p>Hexo는 글 머리말에 <code>updated</code>가 없으면 기본적으로 <strong>파일의 수정 시각</strong>(mtime)을 쓴다. 문제는 여기였다. 내 배포는 GitHub Actions가 매번 저장소를 새로 체크아웃해서 빌드한다. 체크아웃하는 순간 모든 파일의 mtime이 “지금”이 된다. 그러니 빌드할 때마다 모든 글의 <code>updated</code>가 빌드 시각이 되고, 사이트맵의 <code>lastmod</code>도 전부 배포 시각이 되는 것이었다.</p>
+<p>로컬에서는 파일을 안 건드리면 mtime이 그대로라, 이 문제는 CI에서 매번 새로 체크아웃하는 구조에서만 드러난다.</p>
+<h2 id="해결은-설정-한-줄"><a href="#해결은-설정-한-줄" class="headerlink" title="해결은 설정 한 줄"></a>해결은 설정 한 줄</h2><p><code>_config.yml</code>에 이 옵션이 있었다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">updated_option:</span> <span class="string">&#x27;date&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p><code>updated</code>가 비어 있을 때 무엇을 쓸지 정하는 옵션이다. 기본값은 <code>mtime</code>이고 <code>date</code>(작성일), <code>empty</code>(안 씀)도 고를 수 있다. <code>date</code>로 바꾸면 <code>updated</code>가 없는 글은 작성일을 쓴다. 이제 배포를 몇 번 해도 <code>lastmod</code>는 글을 쓴 날 그대로다. 내용을 정말 고친 글에만 머리말에 <code>updated:</code>를 직접 적어 주면 그 날짜로 바뀐다.</p>
+<h2 id="홈과-카테고리-페이지는-따로-손봤다"><a href="#홈과-카테고리-페이지는-따로-손봤다" class="headerlink" title="홈과 카테고리 페이지는 따로 손봤다"></a>홈과 카테고리 페이지는 따로 손봤다</h2><p>글 URL은 이걸로 해결됐는데 홈, 태그, 카테고리 URL의 <code>lastmod</code>는 여전히 배포 시각이었다. 플러그인의 기본 템플릿이 이쪽에는 “현재 시각”을 넣고 있어서다. 그래서 템플릿을 직접 만들어 연결했다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">sitemap.xml</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">sitemap.txt</span></span><br><span class="line">  <span class="attr">template:</span> <span class="string">sitemap-template.xml</span></span><br></pre></td></tr></table></figure>
+
+<p>템플릿에서 홈은 가장 최근 글의 날짜로, 태그는 소속 글 중 가장 최근 날짜로 고정했다.</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">url</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">loc</span>&gt;</span>&#123;&#123; config.url | uriencode &#125;&#125;<span class="tag">&lt;/<span class="name">loc</span>&gt;</span></span><br><span class="line">  &#123;% if posts.length %&#125;<span class="tag">&lt;<span class="name">lastmod</span>&gt;</span>&#123;&#123; posts[0].updated | formatDate &#125;&#125;<span class="tag">&lt;/<span class="name">lastmod</span>&gt;</span>&#123;% endif %&#125;</span><br><span class="line">  <span class="tag">&lt;<span class="name">changefreq</span>&gt;</span>daily<span class="tag">&lt;/<span class="name">changefreq</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">priority</span>&gt;</span>1.0<span class="tag">&lt;/<span class="name">priority</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>이러면 새 글을 쓰기 전까지는 홈의 날짜도 변하지 않는다.</p>
+<h2 id="같이-정리한-것들"><a href="#같이-정리한-것들" class="headerlink" title="같이 정리한 것들"></a>같이 정리한 것들</h2><p>이 과정에서 사이트맵 쪽 문제를 몇 개 더 정리했다.</p>
+<ul>
+<li>사이트맵 플러그인이 <strong>중복으로 설치</strong>돼 있어서 하나를 지웠다.</li>
+<li>색인형(sitemap index) 구조를 <strong>평면 단일 파일</strong>로 바꿨다. 굳이 쪼갤 필요가 없다고 판단했다.</li>
+<li>서치콘솔이 예전에 <code>sitemap.xml</code>을 읽은 판정을 캐시해 두고 새로 안 읽는 것 같아서, 내용이 같은 <code>sitemap.txt</code>를 함께 만들었다. 한 번도 본 적 없는 새 URL이라 처음부터 새로 읽게 하려는 용도다.</li>
+<li><code>robots.txt</code>에 사이트맵 주소를 등록했다.</li>
+</ul>
+<h2 id="확인하는-방법"><a href="#확인하는-방법" class="headerlink" title="확인하는 방법"></a>확인하는 방법</h2><p>배포하고 나서 <code>sitemap.xml</code>을 열어 몇 개만 보면 된다. 오래된 글의 <code>lastmod</code>가 작성일 그대로인지, 최근에 쓴 글만 최근 날짜인지 확인하면 된다. 배포를 한 번 더 해도 값이 안 바뀌면 성공이다.</p>
+<p>정리하면, CI에서 매번 새로 체크아웃하는 구조에서는 <strong>파일 mtime을 믿으면 안 된다.</strong> 날짜가 의미를 가지는 값은 파일 시스템이 아니라 글 머리말에 직접 두는 게 안전하다.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/" data-id="cmvu94tj30160r70ddvle2rwa" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SEO/" rel="tag">SEO</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lastmod/" rel="tag">lastmod</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sitemap/" rel="tag">sitemap</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%84%9C%EC%B9%98%EC%BD%98%EC%86%94/" rel="tag">서치콘솔</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2026/10/30/hexoYamlFrontMatterPitfalls/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">최신</strong>
+      <div class="article-nav-title">
+        
+          Hexo 머리말(front-matter) YAML 때문에 글 한 편이 사라진 날
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2026/10/30/hexoScheduledPublish/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">이전</strong>
+      <div class="article-nav-title">Hexo 블로그에 예약 발행 붙이기 (future 옵션 + GitHub Actions cron)</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">카테고리</h3>
+    <div class="widget">
+      
+      <ul class="category-list">
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/Java/">Java</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/Python/">Python</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/SEO/">SEO</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EB%8F%85%EC%84%9C/">독서</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%ED%9A%8C%EA%B3%A0%C2%B7%EC%97%90%EC%84%B8%EC%9D%B4/">회고·에세이</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/">머니</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%EB%B6%80%EB%8F%99%EC%82%B0/">부동산</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D/">시장분석</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%ED%88%AC%EC%9E%90/">투자</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%ED%88%AC%EC%9E%90%EC%9D%BC%EC%A7%80/">투자일지</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/">브리핑</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/">IT과학</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/">경제</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B5%AD%EC%A0%9C/">국제</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%82%AC%ED%9A%8C/">사회</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%83%9D%ED%99%9C%EB%AC%B8%ED%99%94/">생활문화</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%8A%A4%ED%8F%AC%EC%B8%A0/">스포츠</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%97%B0%EC%98%88/">연예</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EA%B8%B0%ED%83%80/">기타</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EA%B8%B0%ED%83%80/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/">블로그운영</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">최근 포스트</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2026/10/30/svgToPngResvg/">블로그 대표 이미지를 SVG로 만들고 resvg로 PNG 변환하기 (한글 폰트와 삽질 기록)</a>
+          </li>
+        
+          <li>
+            <a href="/2026/10/30/markdownBoldBroken/">마크다운 볼드(**)가 그대로 노출될 때, 원인은 한글 조사였다</a>
+          </li>
+        
+          <li>
+            <a href="/2026/10/30/hexoYamlFrontMatterPitfalls/">Hexo 머리말(front-matter) YAML 때문에 글 한 편이 사라진 날</a>
+          </li>
+        
+          <li>
+            <a href="/2026/10/30/sitemapLastmodFix/">sitemap의 lastmod가 배포할 때마다 바뀌는 이유 (Hexo)</a>
+          </li>
+        
+          <li>
+            <a href="/2026/10/30/hexoScheduledPublish/">Hexo 블로그에 예약 발행 붙이기 (future 옵션 + GitHub Actions cron)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap" style="display: none;">
+    <h3 class="widget-title">아카이브</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/10/">10월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/09/">9월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/08/">8월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/02/">2월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/01/">1월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/11/">11월 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/10/">10월 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/10/">10월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">9월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">8월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/03/">3월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">11월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">9월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">8월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">7월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">6월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">4월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">3월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">2월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">12월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">11월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">10월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">9월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">8월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">6월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">4월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">3월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">2월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">1월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">9월 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">8월 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">7월 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2026 Taekyun Kim<br>
+      Powered by <a href="http://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'bogo-baeuneun-gaebal-6734';
+  
+  var disqus_url = 'https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>

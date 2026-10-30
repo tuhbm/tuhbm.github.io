@@ -82,6 +82,409 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-svgToPngResvg" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2026/10/30/svgToPngResvg/" class="article-date">
+  <time datetime="2026-10-30T00:19:00.000Z" itemprop="datePublished">2026-10-30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2026/10/30/svgToPngResvg/">블로그 대표 이미지를 SVG로 만들고 resvg로 PNG 변환하기 (한글 폰트와 삽질 기록)</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="왜-SVG로-만들었나"><a href="#왜-SVG로-만들었나" class="headerlink" title="왜 SVG로 만들었나"></a>왜 SVG로 만들었나</h2><p>글마다 대표 이미지를 붙이고 싶었다. 디자인 툴을 열어서 하나씩 만들면 하루에 여러 편 올리는 속도를 못 따라간다. 그래서 틀을 코드로 만들고 숫자와 문구만 바꿔 끼우는 방식으로 갔다. SVG는 텍스트 파일이라 코드로 찍어내기 좋고, 마지막에 PNG로만 바꾸면 어디서든 열린다.</p>
+<p>흐름은 단순하다. 문구를 담은 JSON을 읽어서 SVG를 만들고, 그걸 PNG로 변환해 <code>source/images</code>에 둔다.</p>
+<h2 id="변환은-resvg"><a href="#변환은-resvg" class="headerlink" title="변환은 resvg"></a>변환은 resvg</h2><p>브라우저 없이 Node에서 SVG를 PNG로 바꿔 주는 라이브러리를 찾다가 <code>@resvg/resvg-js</code>를 골랐다. 헤드리스 브라우저를 띄우는 것보다 가볍고 빠르다. 변환 코드는 이게 전부다.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; Resvg &#125; = <span class="built_in">require</span>(<span class="string">&#x27;@resvg/resvg-js&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&#x27;fs&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> svg = fs.readFileSync(<span class="string">&#x27;card.svg&#x27;</span>, <span class="string">&#x27;utf8&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> resvg = <span class="keyword">new</span> Resvg(svg, &#123;</span><br><span class="line">  fitTo: &#123; <span class="attr">mode</span>: <span class="string">&#x27;width&#x27;</span>, <span class="attr">value</span>: <span class="number">1536</span> &#125;,</span><br><span class="line">  font: &#123; <span class="attr">loadSystemFonts</span>: <span class="literal">true</span> &#125;,</span><br><span class="line">  background: <span class="string">&#x27;white&#x27;</span>,</span><br><span class="line">&#125;);</span><br><span class="line">fs.writeFileSync(<span class="string">&#x27;card.png&#x27;</span>, resvg.render().asPng());</span><br></pre></td></tr></table></figure>
+
+<p>옵션 세 개만 짚는다.</p>
+<ul>
+<li><code>fitTo</code>: 결과 너비를 1536px로 맞춘다. SVG의 viewBox 비율은 그대로 유지된다.</li>
+<li><code>font.loadSystemFonts</code>: <strong>시스템에 설치된 폰트를 불러온다.</strong> 한글이 나오게 하려면 사실상 필수다.</li>
+<li><code>background</code>: 투명 배경 대신 흰 배경으로 깔아 준다.</li>
+</ul>
+<h2 id="한글이-네모로-나왔다"><a href="#한글이-네모로-나왔다" class="headerlink" title="한글이 네모로 나왔다"></a>한글이 네모로 나왔다</h2><p>한글을 그냥 쓰면 글자가 □로 나오거나 빠질 수 있다. 원인은 단순하다. resvg는 브라우저가 아니라서 웹폰트나 CSS 폴백을 알아서 해 주지 않는다. <code>loadSystemFonts: true</code>를 켜고, SVG의 텍스트에 <strong>폰트 이름을 직접</strong> 적어 줘야 한다.</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">text</span> <span class="attr">font-family</span>=<span class="string">&quot;&#x27;Malgun Gothic&#x27;, Arial, sans-serif&quot;</span> <span class="attr">font-size</span>=<span class="string">&quot;48&quot;</span> <span class="attr">fill</span>=<span class="string">&quot;#fff&quot;</span>&gt;</span></span><br><span class="line">  한글 제목</span><br><span class="line"><span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>Windows에서는 <code>Malgun Gothic</code>(맑은 고딕)이 기본으로 있어서 이게 잘 통했다. 다른 OS에서 돌릴 때는 거기 설치된 한글 폰트 이름으로 바꿔야 한다. 한글은 글자 폭도 넓어서, 알약 모양 배경(rect)을 영문 기준으로 잡았다가 글자가 삐져나오는 일이 잦았다. <code>text-anchor=&quot;middle&quot;</code>로 가운데 정렬하고 배경은 넉넉히 잡는 게 마음 편하다.</p>
+<h2 id="요소가-통째로-사라지는-함정들"><a href="#요소가-통째로-사라지는-함정들" class="headerlink" title="요소가 통째로 사라지는 함정들"></a>요소가 통째로 사라지는 함정들</h2><p>변환은 에러 없이 끝났는데 이미지에서 뭔가 빠져 있는 경우가 제일 힘들었다. 겪은 것만 적는다.</p>
+<p><strong>1. 속성값 끝의 공백.</strong> <code>width=&quot;180 &quot;</code>처럼 끝에 공백이 하나 들어가면 그 요소가 통째로 안 그려졌다. 템플릿 문자열로 숫자를 이어 붙이다가 생겼다. 에러가 안 나서 찾는 데 오래 걸렸다.</p>
+<p><strong>2. <code>&amp;</code> 문자.</strong> 문구에 <code>R&amp;D</code>를 넣었더니 SVG 자체가 파싱에 실패했다. XML이라서 <code>&amp;</code>는 <code>&amp;amp;</code>로 써야 한다.</p>
+<p><strong>3. id 충돌.</strong> 이게 제일 헷갈렸다. 그라데이션과 그림자 필터가 <strong>같은 id</strong>를 쓰면 한쪽이 무시돼서 도형이 안 보이거나 검게 나왔다. 공통 필터를 정의해 두는 함수가 있었는데, 거기서 쓰는 id와 내가 새로 만든 그라데이션 id가 겹친 것이었다. 접두어 규칙을 정해서 겹치지 않게 했다.</p>
+<p><strong>4. 겹쳐 그리는 순서.</strong> SVG는 나중에 그린 게 위에 올라온다. 텍스트가 도형 뒤에 가려져서 안 보이면 코드 순서를 바꾸면 된다.</p>
+<h2 id="결과를-꼭-눈으로-본다"><a href="#결과를-꼭-눈으로-본다" class="headerlink" title="결과를 꼭 눈으로 본다"></a>결과를 꼭 눈으로 본다</h2><p>자동화를 해 놓으면 결과를 안 보고 넘기고 싶어지는데, 그림은 코드가 맞아도 글자가 넘치거나 카드에 가려지는 일이 생긴다. 나는 변환 직후 PNG를 직접 열어서 텍스트가 카드 밖으로 나가지 않는지, 요소가 서로 겹치지 않는지 확인한다. 문구 길이는 칩이나 카드 폭에 맞춰 짧게 줄이는 쪽으로 정리했다.</p>
+<h2 id="정리"><a href="#정리" class="headerlink" title="정리"></a>정리</h2><ul>
+<li><code>@resvg/resvg-js</code>로 Node만으로 SVG → PNG 변환이 된다.</li>
+<li>한글은 <code>loadSystemFonts: true</code>와 <code>font-family</code> 지정이 둘 다 필요하다.</li>
+<li>에러 없이 요소가 사라지면 속성값 공백, <code>&amp;</code>, id 충돌부터 의심한다.</li>
+<li>만든 이미지는 반드시 눈으로 확인한다.</li>
+</ul>
+<p>글마다 다른 이미지를 붙이는 일이 이제는 JSON 한 줄 고치는 일로 바뀌어서, 매일 글을 올리는 부담이 많이 줄었다.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2026/10/30/svgToPngResvg/" data-id="cmvu94tjn0199r70d7br8az1h" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2026/10/30/svgToPngResvg/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Node-js/" rel="tag">Node.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SVG/" rel="tag">SVG</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/resvg/" rel="tag">resvg</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%9E%90%EB%8F%99%ED%99%94/" rel="tag">이미지자동화</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%95%9C%EA%B8%80%ED%8F%B0%ED%8A%B8/" rel="tag">한글폰트</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-markdownBoldBroken" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2026/10/30/markdownBoldBroken/" class="article-date">
+  <time datetime="2026-10-30T00:18:00.000Z" itemprop="datePublished">2026-10-30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2026/10/30/markdownBoldBroken/">마크다운 볼드(**)가 그대로 노출될 때, 원인은 한글 조사였다</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="별표가-화면에-그대로-보인다"><a href="#별표가-화면에-그대로-보인다" class="headerlink" title="별표가 화면에 그대로 보인다"></a>별표가 화면에 그대로 보인다</h2><p>블로그 글을 올리고 나서 확인하는데 이상한 데가 있었다. 분명 굵게 쓴 부분인데 화면에는 이렇게 나왔다.</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">금리가 **9%**로 확정됐다</span><br></pre></td></tr></table></figure>
+
+<p>볼드가 적용되지 않고 별표 네 개가 글자 그대로 남아 있었다. 같은 글의 다른 볼드는 멀쩡해서 더 헷갈렸다. 비교해 보니 깨진 곳에는 공통점이 있었다.</p>
+<ul>
+<li>닫는 <code>**</code> 바로 앞이 <code>%</code>, 따옴표, 괄호 같은 <strong>문장부호</strong>이고</li>
+<li>바로 뒤에 <code>로</code>, <code>를</code>, <code>이</code> 같은 <strong>한글 조사</strong>가 붙어 있었다</li>
+</ul>
+<h2 id="왜-그런가"><a href="#왜-그런가" class="headerlink" title="왜 그런가"></a>왜 그런가</h2><p>Hexo의 마크다운 렌더러(marked)는 CommonMark 규칙을 따른다. 강조(<code>**</code>)를 닫으려면 닫는 구분자가 “오른쪽에 붙은(right-flanking)” 조건을 만족해야 한다. 규칙을 줄이면 이렇다.</p>
+<ul>
+<li>닫는 <code>**</code>의 바로 앞이 공백이면 안 된다.</li>
+<li>닫는 <code>**</code>의 바로 앞이 문장부호라면, 바로 뒤는 <strong>공백이거나 문장부호</strong>여야 한다.</li>
+</ul>
+<p><code>**9%**로</code>를 보면 <code>**</code> 앞이 <code>%</code>(문장부호)인데 뒤가 <code>로</code>(글자)라서 이 조건에 걸린다. 그래서 <code>**</code>를 닫는 기호로 인정하지 않고 일반 문자로 두는 것이다. 영어는 <code>**9%** is</code>처럼 뒤에 공백이 오는 경우가 많아 잘 안 보이지만, 한글은 조사가 바로 붙으니 자주 걸린다.</p>
+<h2 id="이렇게-쓰면-깨진다"><a href="#이렇게-쓰면-깨진다" class="headerlink" title="이렇게 쓰면 깨진다"></a>이렇게 쓰면 깨진다</h2><table>
+<thead>
+<tr>
+<th>깨지는 예</th>
+<th>이유</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>**9%**로 확정</code></td>
+<td>앞이 <code>%</code>, 뒤가 한글</td>
+</tr>
+<tr>
+<td><code>**&quot;신중&quot;**이라고</code></td>
+<td>앞이 따옴표, 뒤가 한글</td>
+</tr>
+<tr>
+<td><code>**(예정)**이다</code></td>
+<td>앞이 괄호, 뒤가 한글</td>
+</tr>
+</tbody></table>
+<h2 id="고치는-방법"><a href="#고치는-방법" class="headerlink" title="고치는 방법"></a>고치는 방법</h2><p><strong>1. 볼드 경계를 글자나 숫자로 끝낸다.</strong> 문장부호를 볼드 안쪽 끝에 두지 말고, 한글이나 숫자로 끝나게 문구를 바꾼다.</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**9%로 확정**</span>됐다        (OK: 안쪽 끝이 한글 &#x27;정&#x27;)</span><br><span class="line"><span class="strong">**신중**</span>이라고 했다      (OK: 따옴표를 볼드 밖으로)</span><br></pre></td></tr></table></figure>
+
+<p><strong>2. 따옴표는 볼드 밖에 둔다.</strong> <code>**&quot;신중&quot;**이라고</code> 대신 <code>&quot;**신중**&quot;이라고</code>로 쓰면 된다.</p>
+<p><strong>3. 그래도 필요하면 HTML을 쓴다.</strong> <code>&lt;strong&gt;9%&lt;/strong&gt;로</code>는 이 규칙과 상관없이 동작한다. 다만 마크다운 파일이 지저분해져서 나는 잘 쓰지 않는다.</p>
+<h2 id="확인-습관"><a href="#확인-습관" class="headerlink" title="확인 습관"></a>확인 습관</h2><p>눈으로 하나하나 찾기는 어려우니 빌드한 HTML에서 별표가 남아 있는지 검색한다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep -l <span class="string">&#x27;\*\*&#x27;</span> public/2026/10/30/*/index.html</span><br></pre></td></tr></table></figure>
+
+<p>결과가 비어 있으면 깨진 볼드가 없는 것이다. 나는 하루 글을 올릴 때마다 이 한 줄을 돌린다. 한 번 나오면 해당 글을 열어서 <code>**</code> 주변만 고치면 되니 금방이다.</p>
+<p>마크다운은 “일단 되겠지” 하고 쓰기 쉬운데, 한글은 조사 때문에 영어권 예제가 그대로 안 통하는 경우가 있다는 걸 이번에 제대로 배웠다.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2026/10/30/markdownBoldBroken/" data-id="cmvu94tgk00rsr70d717c1wco" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2026/10/30/markdownBoldBroken/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CommonMark/" rel="tag">CommonMark</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/marked/" rel="tag">marked</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/" rel="tag">마크다운</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B3%BC%EB%93%9C/" rel="tag">볼드</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hexoYamlFrontMatterPitfalls" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2026/10/30/hexoYamlFrontMatterPitfalls/" class="article-date">
+  <time datetime="2026-10-30T00:17:00.000Z" itemprop="datePublished">2026-10-30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2026/10/30/hexoYamlFrontMatterPitfalls/">Hexo 머리말(front-matter) YAML 때문에 글 한 편이 사라진 날</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="10편을-썼는데-9편만-나왔다"><a href="#10편을-썼는데-9편만-나왔다" class="headerlink" title="10편을 썼는데 9편만 나왔다"></a>10편을 썼는데 9편만 나왔다</h2><p>하루에 글 10편을 올리는 날이었다. 로컬에서 빌드하고 나서 습관처럼 오늘 날짜 폴더의 글 수를 셌는데 9개였다. 에러 메시지는 분명 떴는데 빌드는 끝까지 돌아서, 그냥 지나치면 한 편이 빠진 채로 푸시할 뻔했다.</p>
+<p>로그를 올려 보니 이랬다.</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ERROR &#123;</span><br><span class="line">  err: YAMLException: bad indentation of a mapping entry (4:22)</span><br></pre></td></tr></table></figure>
+
+<p>Hexo는 글 하나의 머리말이 YAML로 읽히지 않아도 <strong>프로세스를 멈추지 않고 그 글만 건너뛴다.</strong> 그래서 빌드 성공처럼 보이는 게 함정이다.</p>
+<h2 id="범인은-작은따옴표-한-글자"><a href="#범인은-작은따옴표-한-글자" class="headerlink" title="범인은 작은따옴표 한 글자"></a>범인은 작은따옴표 한 글자</h2><p>문제의 글은 이런 머리말을 갖고 있었다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">description:</span> <span class="string">&#x27;국민 아버지&#x27;</span><span class="string">로</span> <span class="string">불린</span> <span class="string">배우가</span> <span class="string">별세했습니다.</span> <span class="string">...</span></span><br></pre></td></tr></table></figure>
+
+<p>YAML에서 값이 <code>&#39;</code>나 <code>&quot;</code>로 <strong>시작하면 문자열 전체가 따옴표로 감싸진 값</strong>이라고 해석한다. 그런데 <code>&#39;국민 아버지&#39;</code> 뒤에 글자(<code>로 불린...</code>)가 더 붙어 있으니 문법이 깨진다. 제목 말머리에 인용부호를 쓰고 싶어서 습관처럼 쓴 게 화근이었다.</p>
+<p>고치는 방법은 둘이다. 따옴표로 시작하지 않게 문장을 바꾸거나, 아예 값 전체를 따옴표로 감싸고 안쪽 따옴표를 이스케이프하는 것이다. 나는 앞의 방법을 골랐다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">description:</span> <span class="string">국민</span> <span class="string">아버지로</span> <span class="string">불린</span> <span class="string">배우가</span> <span class="string">별세했습니다.</span> <span class="string">...</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="같은-계열로-터지는-것들"><a href="#같은-계열로-터지는-것들" class="headerlink" title="같은 계열로 터지는 것들"></a>같은 계열로 터지는 것들</h2><p>겪어 보니 머리말 값에서 조심해야 할 건 대략 이렇다.</p>
+<table>
+<thead>
+<tr>
+<th>상황</th>
+<th>결과</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>값이 <code>&#39;</code> 또는 <code>&quot;</code>로 시작</td>
+<td>따옴표 짝이 안 맞으면 파싱 실패</td>
+</tr>
+<tr>
+<td>값 중간에 <code>: </code>(콜론+공백)</td>
+<td>새 키로 해석돼 구조가 깨짐</td>
+</tr>
+<tr>
+<td>값이 <code>#</code>로 시작하거나 중간에 <code> #</code></td>
+<td>뒤쪽이 주석으로 잘림</td>
+</tr>
+<tr>
+<td>값이 <code>*</code>, <code>&amp;</code>, <code>!</code>, <code>%</code>, <code>@</code>로 시작</td>
+<td>YAML 특수 문자로 해석</td>
+</tr>
+<tr>
+<td>탭 문자 들여쓰기</td>
+<td>YAML은 탭 들여쓰기를 허용하지 않음</td>
+</tr>
+</tbody></table>
+<p>제목에 <code>: </code>가 필요하면 <code>—</code>(줄표)나 <code>-</code>로 바꾸는 게 제일 간단했다. 이 블로그는 글이 많아서 아예 규칙으로 정해 뒀다. 제목과 설명은 따옴표로 시작하지 않고, 값 중간에 콜론+공백을 쓰지 않는다.</p>
+<h2 id="재발-방지-푸시-전-두-가지-확인"><a href="#재발-방지-푸시-전-두-가지-확인" class="headerlink" title="재발 방지: 푸시 전 두 가지 확인"></a>재발 방지: 푸시 전 두 가지 확인</h2><p><strong>1. 글 수를 센다.</strong> 하루에 올리는 글 수가 정해져 있으니 빌드 뒤에 개수만 비교해도 빠진 글을 바로 알 수 있다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npx hexo clean &amp;&amp; npx hexo generate</span><br><span class="line">ls -d public/2026/10/30/*/ | wc -l</span><br></pre></td></tr></table></figure>
+
+<p><strong>2. YAML을 직접 파싱해 본다.</strong> Hexo가 쓰는 <code>js-yaml</code>을 그대로 써서 머리말만 검사하는 스크립트다. 에러가 난 글 이름을 바로 알려 준다.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&#x27;fs&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> yaml = <span class="built_in">require</span>(<span class="string">&#x27;js-yaml&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">const</span> f <span class="keyword">of</span> fs.readdirSync(<span class="string">&#x27;source/_posts&#x27;</span>).filter(<span class="function"><span class="params">f</span> =&gt;</span> f.endsWith(<span class="string">&#x27;.md&#x27;</span>))) &#123;</span><br><span class="line">  <span class="keyword">const</span> src = fs.readFileSync(<span class="string">&#x27;source/_posts/&#x27;</span> + f, <span class="string">&#x27;utf8&#x27;</span>).replace(<span class="regexp">/\r/g</span>, <span class="string">&#x27;&#x27;</span>);</span><br><span class="line">  <span class="keyword">const</span> head = src.split(<span class="regexp">/^---\s*$/m</span>)[<span class="number">1</span>];</span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    yaml.load(head);</span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(f, <span class="string">&#x27;→&#x27;</span>, e.message.split(<span class="string">&#x27;\n&#x27;</span>)[<span class="number">0</span>]);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>글이 수백 편이어도 몇 초면 끝난다. 이걸 푸시 전에 한 번 돌리는 습관을 들였다.</p>
+<h2 id="마무리"><a href="#마무리" class="headerlink" title="마무리"></a>마무리</h2><p>에러가 났는데도 빌드가 “성공”하는 도구는 로그를 안 보면 놓친다. 사람이 눈으로 확인하는 대신 글 수와 YAML 검사 같은 기계적인 체크를 걸어 두는 게 마음이 편하다. 내 경우에는 글을 빨리 많이 쓰다 보니 그냥 지나칠 위험이 높아서 더 그랬다.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2026/10/30/hexoYamlFrontMatterPitfalls/" data-id="cmvu94tf400h3r70d42prf2lr" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2026/10/30/hexoYamlFrontMatterPitfalls/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/YAML/" rel="tag">YAML</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/front-matter/" rel="tag">front-matter</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js-yaml/" rel="tag">js-yaml</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B9%8C%EB%93%9C%EC%98%A4%EB%A5%98/" rel="tag">빌드오류</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-sitemapLastmodFix" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2026/10/30/sitemapLastmodFix/" class="article-date">
+  <time datetime="2026-10-30T00:16:00.000Z" itemprop="datePublished">2026-10-30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2026/10/30/sitemapLastmodFix/">sitemap의 lastmod가 배포할 때마다 바뀌는 이유 (Hexo)</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="증상"><a href="#증상" class="headerlink" title="증상"></a>증상</h2><p>어느 날 사이트맵을 열어 보니 이상했다. 새로 쓴 글이 아닌데도 모든 URL의 <code>&lt;lastmod&gt;</code>가 <strong>마지막 배포 날짜</strong>로 찍혀 있었다. 글은 하나도 안 고쳤는데 배포할 때마다 전부 “방금 수정됨”이 되는 것이다.</p>
+<p><code>lastmod</code>는 검색엔진에 “이 페이지 내용이 언제 바뀌었는지” 알려 주는 값이다. 전부 오늘 날짜로 나오면 검색엔진 입장에서는 믿을 수 없는 값이 되고, 크롤링 우선순위에도 도움이 안 된다. 새로 생기거나 실제로 고친 글만 날짜가 바뀌어야 맞다.</p>
+<h2 id="범위부터-좁혔다"><a href="#범위부터-좁혔다" class="headerlink" title="범위부터 좁혔다"></a>범위부터 좁혔다</h2><p>사이트맵은 <code>hexo-generator-sitemap</code>이 만든다. 이 플러그인은 글의 <code>updated</code> 값을 <code>lastmod</code>로 쓴다. 그럼 <code>updated</code>는 어디서 올까.</p>
+<p>Hexo는 글 머리말에 <code>updated</code>가 없으면 기본적으로 <strong>파일의 수정 시각</strong>(mtime)을 쓴다. 문제는 여기였다. 내 배포는 GitHub Actions가 매번 저장소를 새로 체크아웃해서 빌드한다. 체크아웃하는 순간 모든 파일의 mtime이 “지금”이 된다. 그러니 빌드할 때마다 모든 글의 <code>updated</code>가 빌드 시각이 되고, 사이트맵의 <code>lastmod</code>도 전부 배포 시각이 되는 것이었다.</p>
+<p>로컬에서는 파일을 안 건드리면 mtime이 그대로라, 이 문제는 CI에서 매번 새로 체크아웃하는 구조에서만 드러난다.</p>
+<h2 id="해결은-설정-한-줄"><a href="#해결은-설정-한-줄" class="headerlink" title="해결은 설정 한 줄"></a>해결은 설정 한 줄</h2><p><code>_config.yml</code>에 이 옵션이 있었다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">updated_option:</span> <span class="string">&#x27;date&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p><code>updated</code>가 비어 있을 때 무엇을 쓸지 정하는 옵션이다. 기본값은 <code>mtime</code>이고 <code>date</code>(작성일), <code>empty</code>(안 씀)도 고를 수 있다. <code>date</code>로 바꾸면 <code>updated</code>가 없는 글은 작성일을 쓴다. 이제 배포를 몇 번 해도 <code>lastmod</code>는 글을 쓴 날 그대로다. 내용을 정말 고친 글에만 머리말에 <code>updated:</code>를 직접 적어 주면 그 날짜로 바뀐다.</p>
+<h2 id="홈과-카테고리-페이지는-따로-손봤다"><a href="#홈과-카테고리-페이지는-따로-손봤다" class="headerlink" title="홈과 카테고리 페이지는 따로 손봤다"></a>홈과 카테고리 페이지는 따로 손봤다</h2><p>글 URL은 이걸로 해결됐는데 홈, 태그, 카테고리 URL의 <code>lastmod</code>는 여전히 배포 시각이었다. 플러그인의 기본 템플릿이 이쪽에는 “현재 시각”을 넣고 있어서다. 그래서 템플릿을 직접 만들어 연결했다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">  <span class="attr">path:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">sitemap.xml</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">sitemap.txt</span></span><br><span class="line">  <span class="attr">template:</span> <span class="string">sitemap-template.xml</span></span><br></pre></td></tr></table></figure>
+
+<p>템플릿에서 홈은 가장 최근 글의 날짜로, 태그는 소속 글 중 가장 최근 날짜로 고정했다.</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">url</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">loc</span>&gt;</span>&#123;&#123; config.url | uriencode &#125;&#125;<span class="tag">&lt;/<span class="name">loc</span>&gt;</span></span><br><span class="line">  &#123;% if posts.length %&#125;<span class="tag">&lt;<span class="name">lastmod</span>&gt;</span>&#123;&#123; posts[0].updated | formatDate &#125;&#125;<span class="tag">&lt;/<span class="name">lastmod</span>&gt;</span>&#123;% endif %&#125;</span><br><span class="line">  <span class="tag">&lt;<span class="name">changefreq</span>&gt;</span>daily<span class="tag">&lt;/<span class="name">changefreq</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">priority</span>&gt;</span>1.0<span class="tag">&lt;/<span class="name">priority</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">url</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>이러면 새 글을 쓰기 전까지는 홈의 날짜도 변하지 않는다.</p>
+<h2 id="같이-정리한-것들"><a href="#같이-정리한-것들" class="headerlink" title="같이 정리한 것들"></a>같이 정리한 것들</h2><p>이 과정에서 사이트맵 쪽 문제를 몇 개 더 정리했다.</p>
+<ul>
+<li>사이트맵 플러그인이 <strong>중복으로 설치</strong>돼 있어서 하나를 지웠다.</li>
+<li>색인형(sitemap index) 구조를 <strong>평면 단일 파일</strong>로 바꿨다. 굳이 쪼갤 필요가 없다고 판단했다.</li>
+<li>서치콘솔이 예전에 <code>sitemap.xml</code>을 읽은 판정을 캐시해 두고 새로 안 읽는 것 같아서, 내용이 같은 <code>sitemap.txt</code>를 함께 만들었다. 한 번도 본 적 없는 새 URL이라 처음부터 새로 읽게 하려는 용도다.</li>
+<li><code>robots.txt</code>에 사이트맵 주소를 등록했다.</li>
+</ul>
+<h2 id="확인하는-방법"><a href="#확인하는-방법" class="headerlink" title="확인하는 방법"></a>확인하는 방법</h2><p>배포하고 나서 <code>sitemap.xml</code>을 열어 몇 개만 보면 된다. 오래된 글의 <code>lastmod</code>가 작성일 그대로인지, 최근에 쓴 글만 최근 날짜인지 확인하면 된다. 배포를 한 번 더 해도 값이 안 바뀌면 성공이다.</p>
+<p>정리하면, CI에서 매번 새로 체크아웃하는 구조에서는 <strong>파일 mtime을 믿으면 안 된다.</strong> 날짜가 의미를 가지는 값은 파일 시스템이 아니라 글 머리말에 직접 두는 게 안전하다.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/" data-id="cmvu94tj30160r70ddvle2rwa" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SEO/" rel="tag">SEO</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lastmod/" rel="tag">lastmod</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sitemap/" rel="tag">sitemap</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%84%9C%EC%B9%98%EC%BD%98%EC%86%94/" rel="tag">서치콘솔</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hexoScheduledPublish" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2026/10/30/hexoScheduledPublish/" class="article-date">
+  <time datetime="2026-10-30T00:15:00.000Z" itemprop="datePublished">2026-10-30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2026/10/30/hexoScheduledPublish/">Hexo 블로그에 예약 발행 붙이기 (future 옵션 + GitHub Actions cron)</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="시작은-휴가였다"><a href="#시작은-휴가였다" class="headerlink" title="시작은 휴가였다"></a>시작은 휴가였다</h2><p>블로그에 글을 매일 올리다 보니 며칠 자리를 비울 때가 문제였다. 워드프레스나 티스토리에는 예약 발행이 기본으로 있는데 Hexo는 정적 사이트 생성기라 그런 게 없다. 글을 미리 써 두고 “내일 아침 9시에 열려라” 하는 걸 어떻게 만들지 고민하다가, 의외로 설정 한 줄과 워크플로 몇 줄로 끝나서 정리해 둔다.</p>
+<h2 id="원리부터"><a href="#원리부터" class="headerlink" title="원리부터"></a>원리부터</h2><p>Hexo는 <code>hexo generate</code> 할 때 글의 <code>date</code>가 <strong>현재 시각보다 미래</strong>면 기본적으로 건너뛴다. <code>_config.yml</code>에 이런 옵션이 있다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">future:</span> <span class="literal">false</span>   <span class="comment"># 미래 날짜 글은 빌드에서 제외</span></span><br></pre></td></tr></table></figure>
+
+<p>Hexo의 기본값은 <code>true</code>라서 미래 날짜 글도 그냥 빌드된다. 나는 일부러 <code>false</code>를 명시해 뒀다. 이러면 글 머리말에 <code>date: 2026-10-30 13:30:00</code>을 적어 두고 푸시해도, 13시 30분 전에 빌드된 결과물에는 그 글이 없다.</p>
+<p>여기까지는 “숨기기”일 뿐이다. 시간이 지나서 <strong>다시 빌드</strong>를 돌려줘야 글이 나타난다. 그래서 필요한 게 정해진 시각마다 빌드를 돌려주는 스케줄러였고, 이미 GitHub Actions로 배포하고 있어서 <code>schedule</code> 트리거를 추가했다.</p>
+<h2 id="워크플로"><a href="#워크플로" class="headerlink" title="워크플로"></a>워크플로</h2><p>내 구조는 이렇다. 소스는 <code>gh-pages</code> 브랜치에 있고, Actions가 빌드해서 <code>master</code>에 올린다. 거기에 cron만 붙이면 된다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">on:</span></span><br><span class="line">  <span class="attr">push:</span></span><br><span class="line">    <span class="attr">branches:</span> [ <span class="string">gh-pages</span> ]</span><br><span class="line">  <span class="attr">schedule:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">cron:</span> <span class="string">&#x27;17,47 0-5 * * *&#x27;</span></span><br><span class="line">  <span class="attr">workflow_dispatch:</span></span><br></pre></td></tr></table></figure>
+
+<p>cron 표현에서 주의할 점이 몇 가지 있었다.</p>
+<ul>
+<li><strong>UTC 기준</strong>이다. <code>0-5</code>시는 한국 시간으로 09~14시다. 아침 9시부터 오후 2시까지 30분 간격으로 돈다.</li>
+<li>분을 <code>0,30</code>이 아니라 <strong>17, 47</strong>로 잡았다. 정각 언저리에는 전 세계 예약 실행이 몰려서 늦게 돌거나 가끔 빠진다는 얘기를 봐서 일부러 피했다. 실제로 17분, 47분으로 바꾼 뒤로는 큰 문제가 없었다.</li>
+<li>그래도 GitHub 부하에 따라 몇 분에서 수십 분 늦을 수 있다. 정확히 13시 30분 땡에 열리는 건 아니고, 13시 30분 이후 첫 번째 빌드에서 열린다고 생각하면 마음이 편하다.</li>
+<li><code>workflow_dispatch</code>를 같이 넣어 두면 급할 때 Actions 탭에서 수동으로 돌릴 수 있다.</li>
+</ul>
+<p>푸시 빌드와 예약 빌드가 겹치면 <code>master</code> 푸시가 충돌할 수 있어서 동시 실행 그룹도 걸어 뒀다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">concurrency:</span></span><br><span class="line">  <span class="attr">group:</span> <span class="string">deploy-master</span></span><br><span class="line">  <span class="attr">cancel-in-progress:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<p><code>cancel-in-progress: false</code>가 포인트다. 이미 돌고 있는 빌드를 죽이지 않고 뒤에 오는 걸 기다리게 한다.</p>
+<h2 id="삽질-두-개"><a href="#삽질-두-개" class="headerlink" title="삽질 두 개"></a>삽질 두 개</h2><h3 id="1-타임존"><a href="#1-타임존" class="headerlink" title="1. 타임존"></a>1. 타임존</h3><p>한국 시간 기준으로 돌리려면 보통 <code>_config.yml</code>에 <code>timezone: Asia/Seoul</code>을 넣는다. 그런데 Actions 러너는 UTC라서, 이 설정을 켜면 새벽 0시부터 9시 사이에 올린 글 9편의 <strong>퍼머링크 날짜가 하루 앞당겨진다.</strong> 글 주소에 날짜가 들어가는 구조라서 기존 URL이 깨지는 일이다. 그래서 이 방법은 쓰지 않았다.</p>
+<p>결국 설정 대신 빌드 단계에서 환경변수로 풀었다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Build</span> <span class="string">Hexo</span></span><br><span class="line">  <span class="attr">env:</span></span><br><span class="line">    <span class="attr">TZ:</span> <span class="string">Asia/Seoul</span></span><br><span class="line">  <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line">    <span class="string">npx</span> <span class="string">hexo</span> <span class="string">clean</span></span><br><span class="line">    <span class="string">npx</span> <span class="string">hexo</span> <span class="string">generate</span></span><br></pre></td></tr></table></figure>
+
+<p><code>TZ=Asia/Seoul</code>이면 날짜 해석도 퍼머링크도 모두 한국 시간이라 로컬(Windows) 빌드 결과와 똑같다. 기존 URL도 그대로다.</p>
+<h3 id="2-npm-ci가-실패한다"><a href="#2-npm-ci가-실패한다" class="headerlink" title="2. npm ci가 실패한다"></a>2. npm ci가 실패한다</h3><p>러너에서 <code>npm ci</code>가 <code>Missing: chokidar@3.6.0 from lock file</code> 같은 메시지를 뱉으며 죽었다. 원인은 내 로컬 npm(11)이 만든 <code>package-lock.json</code>을 Node 20에 딸린 npm 10이 읽지 못해서였다. 워크플로의 Node를 24로 올렸더니 해결됐다. lock 파일을 만든 npm 메이저 버전과 CI의 npm 버전을 맞춰야 한다는 교훈.</p>
+<h2 id="로컬에서-예약-글까지-확인하기"><a href="#로컬에서-예약-글까지-확인하기" class="headerlink" title="로컬에서 예약 글까지 확인하기"></a>로컬에서 예약 글까지 확인하기</h2><p><code>future: false</code>의 부작용은 로컬에서 <code>hexo generate</code>를 돌려도 예약 글이 안 보인다는 것이다. 맞게 쓴 건지 확인이 안 되니 불안했다. 그래서 설정을 코드로 덮어쓰는 작은 스크립트를 만들었다.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// tools/preview-future.js</span></span><br><span class="line"><span class="keyword">const</span> Hexo = <span class="built_in">require</span>(<span class="string">&#x27;hexo&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> hexo = <span class="keyword">new</span> Hexo(process.cwd(), &#123;&#125;);</span><br><span class="line">hexo.init()</span><br><span class="line">  .then(<span class="function">() =&gt;</span> &#123; hexo.config.future = <span class="literal">true</span>; <span class="keyword">return</span> hexo.call(<span class="string">&#x27;generate&#x27;</span>, &#123;&#125;); &#125;)</span><br><span class="line">  .then(<span class="function">() =&gt;</span> hexo.exit())</span><br><span class="line">  .catch(<span class="function"><span class="params">err</span> =&gt;</span> hexo.exit(err));</span><br></pre></td></tr></table></figure>
+
+<p><code>hexo clean</code> 하고 <code>node tools/preview-future.js</code>를 돌리면 예약 글까지 <code>public/</code>에 만들어진다. 글 수나 깨진 곳을 이걸로 확인한 뒤에 푸시한다.</p>
+<h2 id="쓰다-보니-알게-된-것들"><a href="#쓰다-보니-알게-된-것들" class="headerlink" title="쓰다 보니 알게 된 것들"></a>쓰다 보니 알게 된 것들</h2><ul>
+<li>예약 시각이 지났는데 안 열렸다면 대개 아직 다음 cron이 안 돈 것이다. 급하면 <code>workflow_dispatch</code>로 수동 실행하면 된다.</li>
+<li>반대로 “지금 당장 열어야지” 싶으면 글의 <code>date</code>를 현재보다 과거로 바꿔서 푸시하면 된다. 푸시 트리거가 바로 빌드를 돌린다.</li>
+<li>배포 직후에는 CDN이 반영되는 데 1~2분 걸려 404가 한두 번 뜰 수 있다. 놀라지 말고 한 번 더 확인하면 된다.</li>
+</ul>
+<p>설정은 간단한데 시간대와 npm 버전에서 시간을 꽤 썼다. 비슷하게 Actions로 정적 사이트를 배포하는 분이라면 이 두 가지는 미리 체크해 보면 좋겠다.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2026/10/30/hexoScheduledPublish/" data-id="cmvu94tf400h1r70dd0ltec36" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2026/10/30/hexoScheduledPublish/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GitHub-Actions/" rel="tag">GitHub Actions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cron/" rel="tag">cron</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/" rel="tag">블로그운영</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%98%88%EC%95%BD%EB%B0%9C%ED%96%89/" rel="tag">예약발행</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-iphoneDuoDefects" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2026/10/30/iphoneDuoDefects/" class="article-date">
@@ -122,7 +525,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/iphoneDuoDefects/" data-id="cmvu8d77p00juz60d75poe4vw" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2026/10/30/iphoneDuoDefects/" data-id="cmvu94tfg00jxr70d39wc3hje" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2026/10/30/iphoneDuoDefects/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -176,7 +579,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/gyeongbokgungAdmissionDebate/" data-id="cmvu8d76u00glz60d81fg7zvd" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2026/10/30/gyeongbokgungAdmissionDebate/" data-id="cmvu94tf100gjr70d38lya13f" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2026/10/30/gyeongbokgungAdmissionDebate/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -230,7 +633,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/nvidiaChinaSpyReport/" data-id="cmvu8d79y00w3z60d1b0id7xh" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2026/10/30/nvidiaChinaSpyReport/" data-id="cmvu94thj00wbr70dd7q1buyy" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2026/10/30/nvidiaChinaSpyReport/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -284,7 +687,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/fedHoldAlphabetEarnings/" data-id="cmvu8d76a00dpz60d2ncja9pe" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2026/10/30/fedHoldAlphabetEarnings/" data-id="cmvu94teo00dkr70d9xwbd1c0" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2026/10/30/fedHoldAlphabetEarnings/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -338,7 +741,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/ajouHospitalSearchBacklash/" data-id="cmvu8d73u0015z60d2h5r9joh" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2026/10/30/ajouHospitalSearchBacklash/" data-id="cmvu94tck0015r70dfxqjfvth" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2026/10/30/ajouHospitalSearchBacklash/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -352,281 +755,11 @@
 
 
   
-    <article id="post-industrialOutputTripleRise" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2026/10/30/industrialOutputTripleRise/" class="article-date">
-  <time datetime="2026-10-30T00:04:00.000Z" itemprop="datePublished">2026-10-30</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/">브리핑</a>►<a class="article-category-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/">경제</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2026/10/30/industrialOutputTripleRise/">9월 산업활동 석 달 만에 생산·소비·투자 &#39;트리플 증가&#39; — 전산업 생산 15년 6개월 만에 최대 폭 증가</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="https://tuhbm.github.io/images/normal/industrialOutputTripleRise.png" alt="산업활동동향 트리플 증가를 나타낸 이미지"></p>
-<h2 id="한눈에-요약"><a href="#한눈에-요약" class="headerlink" title="한눈에 요약"></a>한눈에 요약</h2><ul>
-<li><strong>무슨 일?</strong> 국가데이터처가 10월 30일 발표한 2026년 9월 산업활동동향에서 국내 생산·소비·투자가 3개월 만에 ‘트리플 증가’를 기록했습니다. 전산업 생산은 전월 대비 3.0% 늘어 2011년 3월 이후 15년 6개월 만에 가장 큰 증가 폭입니다.</li>
-<li><strong>왜 중요?</strong> 반도체와 자동차 호조가 반등을 이끌었고 제조업 생산은 9.9% 늘어 17년 7개월 만에 최대 증가 폭을 기록했습니다.</li>
-<li><strong>유의점</strong>: 자동차 생산은 전월 파업·여름휴가에 따른 기저효과도 작용했고, 동행지수는 올랐지만 선행지수는 하락했습니다.</li>
-</ul>
-        
-          <p class="article-more-link">
-            <a href="/2026/10/30/industrialOutputTripleRise/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/industrialOutputTripleRise/" data-id="cmvu8d77c00j5z60dcpan4jr3" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2026/10/30/industrialOutputTripleRise/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B0%98%EB%8F%84%EC%B2%B4/" rel="tag">반도체</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%82%B0%EC%97%85%ED%99%9C%EB%8F%99%EB%8F%99%ED%96%A5/" rel="tag">산업활동동향</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%83%9D%EC%82%B0/" rel="tag">생산</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%86%8C%EB%B9%84/" rel="tag">소비</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%9E%90%EB%8F%99%EC%B0%A8/" rel="tag">자동차</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-seoulAptPrice90Weeks" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2026/10/30/seoulAptPrice90Weeks/" class="article-date">
-  <time datetime="2026-10-30T00:03:00.000Z" itemprop="datePublished">2026-10-30</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/">브리핑</a>►<a class="article-category-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/">경제</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2026/10/30/seoulAptPrice90Weeks/">서울 아파트값 90주 연속 상승, 신규택지 7만 6700가구에 서울은 1000가구뿐 — 풍선효과 우려</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="https://tuhbm.github.io/images/normal/seoulAptPrice90Weeks.png" alt="서울 아파트값 상승을 나타낸 이미지"></p>
-<h2 id="한눈에-요약"><a href="#한눈에-요약" class="headerlink" title="한눈에 요약"></a>한눈에 요약</h2><ul>
-<li><strong>무슨 일?</strong> 주간 아파트 가격 동향에서 서울 아파트값이 90주 연속 올랐고, 정부는 29일 신규 주택공급 후보지를 발표했습니다. YTN 방송에서 주원 현대경제연구원 연구본부장이 시장 상황과 대책을 설명했습니다.</li>
-<li><strong>왜 중요?</strong> 이번 공급 대책은 6곳 7만 6700가구인데 서울은 강서구 염창동 1000가구뿐이고 나머지 7만 5700가구는 경기도입니다.</li>
-<li><strong>핵심 흐름</strong>: 강남구는 낙폭이 커졌지만 성북 주간 0.39%, 서대문 0.36% 등 서울 다른 지역과 경기도 오름폭이 만만치 않고 전셋값 불안도 큽니다.</li>
-</ul>
-        
-          <p class="article-more-link">
-            <a href="/2026/10/30/seoulAptPrice90Weeks/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/seoulAptPrice90Weeks/" data-id="cmvu8d7bk013rz60d76ft8gys" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2026/10/30/seoulAptPrice90Weeks/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B6%80%EB%8F%99%EC%82%B0/" rel="tag">부동산</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%84%9C%EC%9A%B8/" rel="tag">서울</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%8B%A0%EA%B7%9C%ED%83%9D%EC%A7%80/" rel="tag">신규택지</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%95%84%ED%8C%8C%ED%8A%B8%EA%B0%92/" rel="tag">아파트값</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%A0%84%EC%84%B8/" rel="tag">전세</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-samsungQ3Operating100T" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2026/10/30/samsungQ3Operating100T/" class="article-date">
-  <time datetime="2026-10-30T00:02:00.000Z" itemprop="datePublished">2026-10-30</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/">브리핑</a>►<a class="article-category-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/">경제</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2026/10/30/samsungQ3Operating100T/">삼성전자 글로벌 테크 기업 최초 분기 영업이익 100조 돌파 — 반도체 부문 106조 5000억, 창립 57주년 &#34;기술 경쟁력 회복 아직&#34;</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="https://tuhbm.github.io/images/normal/samsungQ3Operating100T.png" alt="삼성전자 영업이익을 나타낸 이미지"></p>
-<h2 id="한눈에-요약"><a href="#한눈에-요약" class="headerlink" title="한눈에 요약"></a>한눈에 요약</h2><ul>
-<li><strong>무슨 일?</strong> 삼성전자 경영진이 글로벌 테크 기업 최초로 분기 영업이익 100조 원을 돌파한 성과에도 기술·품질 경쟁력 강화를 주문했습니다. 30일 창립 57주년 기념사에서입니다.</li>
-<li><strong>왜 중요?</strong> 삼성전자 반도체(DS) 부문은 올해 3분기 매출 147조 1000억 원, 영업이익 106조 5000억 원으로 역대 최대 실적을 냈습니다. 하지만 전영현 부회장은 기술 경쟁력이 충분히 회복됐다고 보기는 어렵다고 말했습니다.</li>
-<li><strong>핵심 숫자</strong>: 3분기 DS 부문 영업이익 106.5조 원, 창립 57주년, 별도 기념식 없이 기념사로 대체.</li>
-</ul>
-        
-          <p class="article-more-link">
-            <a href="/2026/10/30/samsungQ3Operating100T/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/samsungQ3Operating100T/" data-id="cmvu8d7b4011tz60d8i6t4iz3" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2026/10/30/samsungQ3Operating100T/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HBM/" rel="tag">HBM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B0%98%EB%8F%84%EC%B2%B4/" rel="tag">반도체</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/" rel="tag">삼성전자</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%98%81%EC%97%85%EC%9D%B4%EC%9D%B5/" rel="tag">영업이익</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%B0%BD%EB%A6%BD%EA%B8%B0%EB%85%90/" rel="tag">창립기념</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-choiBulamObituary" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2026/10/30/choiBulamObituary/" class="article-date">
-  <time datetime="2026-10-30T00:01:00.000Z" itemprop="datePublished">2026-10-30</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/">브리핑</a>►<a class="article-category-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%97%B0%EC%98%88/">연예</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2026/10/30/choiBulamObituary/">배우 최불암 별세 향년 87세 — 수사반장 전원일기로 기억되는 국민 아버지, 빈소는 서울아산병원</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="https://tuhbm.github.io/images/normal/choiBulamObituary.png" alt="배우 최불암 추모를 나타낸 이미지"></p>
-<h2 id="한눈에-요약"><a href="#한눈에-요약" class="headerlink" title="한눈에 요약"></a>한눈에 요약</h2><ul>
-<li><strong>무슨 일?</strong> 한국의 아버지상을 대표해 국민 아버지로 불린 배우 최불암(본명 최영한)이 10월 29일 밤 서울 강서구의 한 병원에서 입원 치료 중 세상을 떠났습니다. 향년 87세입니다.</li>
-<li><strong>빈소·장례</strong>: 빈소는 서울아산병원 장례식장에 마련되며 30일 오전 10시부터 조문객을 맞습니다. 장례는 고인의 뜻을 기려 초록우산 어린이재단장으로 치러집니다.</li>
-<li><strong>핵심 이력</strong>: 연기 인생 67년, MBC 수사반장 박영한 반장과 전원일기 양촌리 김 회장으로 국민적 사랑을 받았습니다.</li>
-</ul>
-        
-          <p class="article-more-link">
-            <a href="/2026/10/30/choiBulamObituary/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/choiBulamObituary/" data-id="cmvu8d75b008fz60dfzijajut" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2026/10/30/choiBulamObituary/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EA%B5%AD%EB%AF%BC%EC%95%84%EB%B2%84%EC%A7%80/" rel="tag">국민아버지</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B3%84%EC%84%B8/" rel="tag">별세</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%88%98%EC%82%AC%EB%B0%98%EC%9E%A5/" rel="tag">수사반장</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%A0%84%EC%9B%90%EC%9D%BC%EA%B8%B0/" rel="tag">전원일기</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%B5%9C%EB%B6%88%EC%95%94/" rel="tag">최불암</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-kboPlayoffGame3Review" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2026/10/30/kboPlayoffGame3Review/" class="article-date">
-  <time datetime="2026-10-30T00:00:00.000Z" itemprop="datePublished">2026-10-30</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/">브리핑</a>►<a class="article-category-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%8A%A4%ED%8F%AC%EC%B8%A0/">스포츠</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2026/10/30/kboPlayoffGame3Review/">삼성, 플레이오프 3차전 KIA에 6-4 승리로 2승 1패 — 한국시리즈 진출까지 1승, 오늘 4차전 네일 vs 페덱</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="https://tuhbm.github.io/images/normal/kboPlayoffGame3Review.png" alt="KBO 플레이오프 3차전을 나타낸 이미지"></p>
-<h2 id="한눈에-요약"><a href="#한눈에-요약" class="headerlink" title="한눈에 요약"></a>한눈에 요약</h2><ul>
-<li><strong>무슨 일?</strong> 삼성 라이온즈가 10월 29일 광주-KIA챔피언스필드에서 열린 2026 KBO 플레이오프(5전 3선승제) 3차전에서 KIA 타이거즈를 6-4로 이겼습니다. 시리즈 전적은 삼성 2승 1패입니다.</li>
-<li><strong>왜 중요?</strong> 삼성은 2년 만의 한국시리즈 진출까지 1승만 남겼습니다. 벼랑 끝에 몰린 KIA는 4차전을 져도 시리즈가 끝납니다.</li>
-<li><strong>오늘 일정</strong>: 4차전은 10월 30일 오후 6시 30분 광주에서 열리며 삼성 크리스 페덱, KIA 제임스 네일이 선발로 예고됐습니다.</li>
-</ul>
-        
-          <p class="article-more-link">
-            <a href="/2026/10/30/kboPlayoffGame3Review/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2026/10/30/kboPlayoffGame3Review/" data-id="cmvu8d78d00ntz60d36bc75lt" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2026/10/30/kboPlayoffGame3Review/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/KBO/" rel="tag">KBO</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/KIA/" rel="tag">KIA</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%82%BC%EC%84%B1/" rel="tag">삼성</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84/" rel="tag">플레이오프</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88/" rel="tag">한국시리즈</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 
   <nav id="page-nav">
     
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/62/">62</a><a class="extend next" rel="next" href="/page/2/">다음 &gt;</a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/63/">63</a><a class="extend next" rel="next" href="/page/2/">다음 &gt;</a>
   </nav>
 
 </section>
@@ -777,23 +910,23 @@
       <ul>
         
           <li>
-            <a href="/2026/10/30/iphoneDuoDefects/">애플 첫 폴더블 &#39;아이폰 듀오&#39; 결함 인정 뒤 또 품질 논란 — 힌지 틈·화면 번쩍임 주장, 교체 대응</a>
+            <a href="/2026/10/30/svgToPngResvg/">블로그 대표 이미지를 SVG로 만들고 resvg로 PNG 변환하기 (한글 폰트와 삽질 기록)</a>
           </li>
         
           <li>
-            <a href="/2026/10/30/gyeongbokgungAdmissionDebate/">21년째 3000원 경복궁 관람료 인상해야 할까 — 궁궐 관람객 69%가 무료, 베르사유는 5만 7000원</a>
+            <a href="/2026/10/30/markdownBoldBroken/">마크다운 볼드(**)가 그대로 노출될 때, 원인은 한글 조사였다</a>
           </li>
         
           <li>
-            <a href="/2026/10/30/nvidiaChinaSpyReport/">NYT, 엔비디아 젠슨 황에 접근한 중국 스파이 의혹 보도 — 엔비디아는 통상 업무, 중국은 근거 없는 모함 반박</a>
+            <a href="/2026/10/30/hexoYamlFrontMatterPitfalls/">Hexo 머리말(front-matter) YAML 때문에 글 한 편이 사라진 날</a>
           </li>
         
           <li>
-            <a href="/2026/10/30/fedHoldAlphabetEarnings/">미국 연준 기준금리 3.75~4.00% 동결 — 12월 인상 확률 78%, 알파벳은 순이익 25% 감소에 시간외 10% 급락</a>
+            <a href="/2026/10/30/sitemapLastmodFix/">sitemap의 lastmod가 배포할 때마다 바뀌는 이유 (Hexo)</a>
           </li>
         
           <li>
-            <a href="/2026/10/30/ajouHospitalSearchBacklash/">아주대병원 소아응급센터 압수수색 후폭풍 — 교수 7명 사직 의사, 의료계 &#34;경찰 사과·수사 지침 마련&#34;</a>
+            <a href="/2026/10/30/hexoScheduledPublish/">Hexo 블로그에 예약 발행 붙이기 (future 옵션 + GitHub Actions cron)</a>
           </li>
         
       </ul>

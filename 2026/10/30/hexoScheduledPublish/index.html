@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+<!-- Google tag (gtag.js) - GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4QDFV5ZBM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K4QDFV5ZBM');
+</script>
+<!-- End Google tag -->
+
+ 
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4940548197015353" crossorigin="anonymous"></script>
+    <title>Hexo 블로그에 예약 발행 붙이기 (future 옵션 + GitHub Actions cron) | 코드머니 브리핑</title>
+    <meta name="google-site-verification" content="-p8gKAM2rWXrLMIE_2lihVvsLgdqQj4MZ-tBbLssnSg">
+    <meta name="naver-site-verification" content="a1885616f6d673099c6fbf6c59cf4e0084a6d421">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    
+    <link rel="canonical" href="https://tuhbm.github.io/2026/10/30/hexoScheduledPublish/">
+    
+    
+    <meta name="description" content="시작은 휴가였다블로그에 글을 매일 올리다 보니 며칠 자리를 비울 때가 문제였다. 워드프레스나 티스토리에는 예약 발행이 기본으로 있는데 Hexo는 정적 사이트 생성기라 그런 게 없다. 글을 미리 써 두고 “내일 아침 9시에 열려라” 하는 걸 어떻게 만들지 고민하다가, 의외로 설정 한 줄과 워크플로 몇 줄로 끝나서 정리해 둔다. 원리부터Hexo는 hexo ge">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo 블로그에 예약 발행 붙이기 (future 옵션 + GitHub Actions cron)">
+<meta property="og:url" content="https://tuhbm.github.io/2026/10/30/hexoScheduledPublish/index.html">
+<meta property="og:site_name" content="코드머니 브리핑">
+<meta property="og:description" content="시작은 휴가였다블로그에 글을 매일 올리다 보니 며칠 자리를 비울 때가 문제였다. 워드프레스나 티스토리에는 예약 발행이 기본으로 있는데 Hexo는 정적 사이트 생성기라 그런 게 없다. 글을 미리 써 두고 “내일 아침 9시에 열려라” 하는 걸 어떻게 만들지 고민하다가, 의외로 설정 한 줄과 워크플로 몇 줄로 끝나서 정리해 둔다. 원리부터Hexo는 hexo ge">
+<meta property="og:locale" content="ko_KR">
+<meta property="article:published_time" content="2026-10-30T00:15:00.000Z">
+<meta property="article:modified_time" content="2026-10-30T00:15:00.000Z">
+<meta property="article:author" content="Taekyun Kim">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="GitHub Actions">
+<meta property="article:tag" content="예약발행">
+<meta property="article:tag" content="cron">
+<meta property="article:tag" content="블로그운영">
+<meta name="twitter:card" content="summary"> 
+    <link rel="alternate" href="/atom.xml" title="코드머니 브리핑" type="application/atom+xml">
+     
+    <link rel="icon" href="/favicon.png">
+     
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+     
+<link rel="stylesheet" href="/css/style.css">
+
+  <meta name="generator" content="Hexo 5.4.0"></head>
+</html>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">코드머니 브리핑</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="검색"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://tuhbm.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-hexoScheduledPublish" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2026/10/30/hexoScheduledPublish/" class="article-date">
+  <time datetime="2026-10-30T00:15:00.000Z" itemprop="datePublished">2026-10-30</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Hexo 블로그에 예약 발행 붙이기 (future 옵션 + GitHub Actions cron)
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="시작은-휴가였다"><a href="#시작은-휴가였다" class="headerlink" title="시작은 휴가였다"></a>시작은 휴가였다</h2><p>블로그에 글을 매일 올리다 보니 며칠 자리를 비울 때가 문제였다. 워드프레스나 티스토리에는 예약 발행이 기본으로 있는데 Hexo는 정적 사이트 생성기라 그런 게 없다. 글을 미리 써 두고 “내일 아침 9시에 열려라” 하는 걸 어떻게 만들지 고민하다가, 의외로 설정 한 줄과 워크플로 몇 줄로 끝나서 정리해 둔다.</p>
+<h2 id="원리부터"><a href="#원리부터" class="headerlink" title="원리부터"></a>원리부터</h2><p>Hexo는 <code>hexo generate</code> 할 때 글의 <code>date</code>가 <strong>현재 시각보다 미래</strong>면 기본적으로 건너뛴다. <code>_config.yml</code>에 이런 옵션이 있다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">future:</span> <span class="literal">false</span>   <span class="comment"># 미래 날짜 글은 빌드에서 제외</span></span><br></pre></td></tr></table></figure>
+
+<p>Hexo의 기본값은 <code>true</code>라서 미래 날짜 글도 그냥 빌드된다. 나는 일부러 <code>false</code>를 명시해 뒀다. 이러면 글 머리말에 <code>date: 2026-10-30 13:30:00</code>을 적어 두고 푸시해도, 13시 30분 전에 빌드된 결과물에는 그 글이 없다.</p>
+<p>여기까지는 “숨기기”일 뿐이다. 시간이 지나서 <strong>다시 빌드</strong>를 돌려줘야 글이 나타난다. 그래서 필요한 게 정해진 시각마다 빌드를 돌려주는 스케줄러였고, 이미 GitHub Actions로 배포하고 있어서 <code>schedule</code> 트리거를 추가했다.</p>
+<h2 id="워크플로"><a href="#워크플로" class="headerlink" title="워크플로"></a>워크플로</h2><p>내 구조는 이렇다. 소스는 <code>gh-pages</code> 브랜치에 있고, Actions가 빌드해서 <code>master</code>에 올린다. 거기에 cron만 붙이면 된다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">on:</span></span><br><span class="line">  <span class="attr">push:</span></span><br><span class="line">    <span class="attr">branches:</span> [ <span class="string">gh-pages</span> ]</span><br><span class="line">  <span class="attr">schedule:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">cron:</span> <span class="string">&#x27;17,47 0-5 * * *&#x27;</span></span><br><span class="line">  <span class="attr">workflow_dispatch:</span></span><br></pre></td></tr></table></figure>
+
+<p>cron 표현에서 주의할 점이 몇 가지 있었다.</p>
+<ul>
+<li><strong>UTC 기준</strong>이다. <code>0-5</code>시는 한국 시간으로 09~14시다. 아침 9시부터 오후 2시까지 30분 간격으로 돈다.</li>
+<li>분을 <code>0,30</code>이 아니라 <strong>17, 47</strong>로 잡았다. 정각 언저리에는 전 세계 예약 실행이 몰려서 늦게 돌거나 가끔 빠진다는 얘기를 봐서 일부러 피했다. 실제로 17분, 47분으로 바꾼 뒤로는 큰 문제가 없었다.</li>
+<li>그래도 GitHub 부하에 따라 몇 분에서 수십 분 늦을 수 있다. 정확히 13시 30분 땡에 열리는 건 아니고, 13시 30분 이후 첫 번째 빌드에서 열린다고 생각하면 마음이 편하다.</li>
+<li><code>workflow_dispatch</code>를 같이 넣어 두면 급할 때 Actions 탭에서 수동으로 돌릴 수 있다.</li>
+</ul>
+<p>푸시 빌드와 예약 빌드가 겹치면 <code>master</code> 푸시가 충돌할 수 있어서 동시 실행 그룹도 걸어 뒀다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">concurrency:</span></span><br><span class="line">  <span class="attr">group:</span> <span class="string">deploy-master</span></span><br><span class="line">  <span class="attr">cancel-in-progress:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<p><code>cancel-in-progress: false</code>가 포인트다. 이미 돌고 있는 빌드를 죽이지 않고 뒤에 오는 걸 기다리게 한다.</p>
+<h2 id="삽질-두-개"><a href="#삽질-두-개" class="headerlink" title="삽질 두 개"></a>삽질 두 개</h2><h3 id="1-타임존"><a href="#1-타임존" class="headerlink" title="1. 타임존"></a>1. 타임존</h3><p>한국 시간 기준으로 돌리려면 보통 <code>_config.yml</code>에 <code>timezone: Asia/Seoul</code>을 넣는다. 그런데 Actions 러너는 UTC라서, 이 설정을 켜면 새벽 0시부터 9시 사이에 올린 글 9편의 <strong>퍼머링크 날짜가 하루 앞당겨진다.</strong> 글 주소에 날짜가 들어가는 구조라서 기존 URL이 깨지는 일이다. 그래서 이 방법은 쓰지 않았다.</p>
+<p>결국 설정 대신 빌드 단계에서 환경변수로 풀었다.</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Build</span> <span class="string">Hexo</span></span><br><span class="line">  <span class="attr">env:</span></span><br><span class="line">    <span class="attr">TZ:</span> <span class="string">Asia/Seoul</span></span><br><span class="line">  <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line">    <span class="string">npx</span> <span class="string">hexo</span> <span class="string">clean</span></span><br><span class="line">    <span class="string">npx</span> <span class="string">hexo</span> <span class="string">generate</span></span><br></pre></td></tr></table></figure>
+
+<p><code>TZ=Asia/Seoul</code>이면 날짜 해석도 퍼머링크도 모두 한국 시간이라 로컬(Windows) 빌드 결과와 똑같다. 기존 URL도 그대로다.</p>
+<h3 id="2-npm-ci가-실패한다"><a href="#2-npm-ci가-실패한다" class="headerlink" title="2. npm ci가 실패한다"></a>2. npm ci가 실패한다</h3><p>러너에서 <code>npm ci</code>가 <code>Missing: chokidar@3.6.0 from lock file</code> 같은 메시지를 뱉으며 죽었다. 원인은 내 로컬 npm(11)이 만든 <code>package-lock.json</code>을 Node 20에 딸린 npm 10이 읽지 못해서였다. 워크플로의 Node를 24로 올렸더니 해결됐다. lock 파일을 만든 npm 메이저 버전과 CI의 npm 버전을 맞춰야 한다는 교훈.</p>
+<h2 id="로컬에서-예약-글까지-확인하기"><a href="#로컬에서-예약-글까지-확인하기" class="headerlink" title="로컬에서 예약 글까지 확인하기"></a>로컬에서 예약 글까지 확인하기</h2><p><code>future: false</code>의 부작용은 로컬에서 <code>hexo generate</code>를 돌려도 예약 글이 안 보인다는 것이다. 맞게 쓴 건지 확인이 안 되니 불안했다. 그래서 설정을 코드로 덮어쓰는 작은 스크립트를 만들었다.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// tools/preview-future.js</span></span><br><span class="line"><span class="keyword">const</span> Hexo = <span class="built_in">require</span>(<span class="string">&#x27;hexo&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> hexo = <span class="keyword">new</span> Hexo(process.cwd(), &#123;&#125;);</span><br><span class="line">hexo.init()</span><br><span class="line">  .then(<span class="function">() =&gt;</span> &#123; hexo.config.future = <span class="literal">true</span>; <span class="keyword">return</span> hexo.call(<span class="string">&#x27;generate&#x27;</span>, &#123;&#125;); &#125;)</span><br><span class="line">  .then(<span class="function">() =&gt;</span> hexo.exit())</span><br><span class="line">  .catch(<span class="function"><span class="params">err</span> =&gt;</span> hexo.exit(err));</span><br></pre></td></tr></table></figure>
+
+<p><code>hexo clean</code> 하고 <code>node tools/preview-future.js</code>를 돌리면 예약 글까지 <code>public/</code>에 만들어진다. 글 수나 깨진 곳을 이걸로 확인한 뒤에 푸시한다.</p>
+<h2 id="쓰다-보니-알게-된-것들"><a href="#쓰다-보니-알게-된-것들" class="headerlink" title="쓰다 보니 알게 된 것들"></a>쓰다 보니 알게 된 것들</h2><ul>
+<li>예약 시각이 지났는데 안 열렸다면 대개 아직 다음 cron이 안 돈 것이다. 급하면 <code>workflow_dispatch</code>로 수동 실행하면 된다.</li>
+<li>반대로 “지금 당장 열어야지” 싶으면 글의 <code>date</code>를 현재보다 과거로 바꿔서 푸시하면 된다. 푸시 트리거가 바로 빌드를 돌린다.</li>
+<li>배포 직후에는 CDN이 반영되는 데 1~2분 걸려 404가 한두 번 뜰 수 있다. 놀라지 말고 한 번 더 확인하면 된다.</li>
+</ul>
+<p>설정은 간단한데 시간대와 npm 버전에서 시간을 꽤 썼다. 비슷하게 Actions로 정적 사이트를 배포하는 분이라면 이 두 가지는 미리 체크해 보면 좋겠다.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2026/10/30/hexoScheduledPublish/" data-id="cmvu94tf400h1r70dd0ltec36" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2026/10/30/hexoScheduledPublish/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GitHub-Actions/" rel="tag">GitHub Actions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cron/" rel="tag">cron</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/" rel="tag">블로그운영</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%98%88%EC%95%BD%EB%B0%9C%ED%96%89/" rel="tag">예약발행</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2026/10/30/sitemapLastmodFix/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">최신</strong>
+      <div class="article-nav-title">
+        
+          sitemap의 lastmod가 배포할 때마다 바뀌는 이유 (Hexo)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2026/10/30/iphoneDuoDefects/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">이전</strong>
+      <div class="article-nav-title">애플 첫 폴더블 &#39;아이폰 듀오&#39; 결함 인정 뒤 또 품질 논란 — 힌지 틈·화면 번쩍임 주장, 교체 대응</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">카테고리</h3>
+    <div class="widget">
+      
+      <ul class="category-list">
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/Java/">Java</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/Python/">Python</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/SEO/">SEO</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EB%8F%85%EC%84%9C/">독서</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%ED%9A%8C%EA%B3%A0%C2%B7%EC%97%90%EC%84%B8%EC%9D%B4/">회고·에세이</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/">머니</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%EB%B6%80%EB%8F%99%EC%82%B0/">부동산</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D/">시장분석</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%ED%88%AC%EC%9E%90/">투자</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%ED%88%AC%EC%9E%90%EC%9D%BC%EC%A7%80/">투자일지</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/">브리핑</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/">IT과학</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/">경제</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B5%AD%EC%A0%9C/">국제</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%82%AC%ED%9A%8C/">사회</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%83%9D%ED%99%9C%EB%AC%B8%ED%99%94/">생활문화</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%8A%A4%ED%8F%AC%EC%B8%A0/">스포츠</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%97%B0%EC%98%88/">연예</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EA%B8%B0%ED%83%80/">기타</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EA%B8%B0%ED%83%80/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/">블로그운영</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">최근 포스트</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2026/10/30/svgToPngResvg/">블로그 대표 이미지를 SVG로 만들고 resvg로 PNG 변환하기 (한글 폰트와 삽질 기록)</a>
+          </li>
+        
+          <li>
+            <a href="/2026/10/30/markdownBoldBroken/">마크다운 볼드(**)가 그대로 노출될 때, 원인은 한글 조사였다</a>
+          </li>
+        
+          <li>
+            <a href="/2026/10/30/hexoYamlFrontMatterPitfalls/">Hexo 머리말(front-matter) YAML 때문에 글 한 편이 사라진 날</a>
+          </li>
+        
+          <li>
+            <a href="/2026/10/30/sitemapLastmodFix/">sitemap의 lastmod가 배포할 때마다 바뀌는 이유 (Hexo)</a>
+          </li>
+        
+          <li>
+            <a href="/2026/10/30/hexoScheduledPublish/">Hexo 블로그에 예약 발행 붙이기 (future 옵션 + GitHub Actions cron)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap" style="display: none;">
+    <h3 class="widget-title">아카이브</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/10/">10월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/09/">9월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/08/">8월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/02/">2월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/01/">1월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/11/">11월 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/10/">10월 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/10/">10월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">9월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">8월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/03/">3월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">11월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">9월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">8월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">7월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">6월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">4월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">3월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">2월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">12월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">11월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">10월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">9월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">8월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">6월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">4월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">3월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">2월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">1월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">9월 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">8월 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">7월 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2026 Taekyun Kim<br>
+      Powered by <a href="http://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'bogo-baeuneun-gaebal-6734';
+  
+  var disqus_url = 'https://tuhbm.github.io/2026/10/30/hexoScheduledPublish/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>

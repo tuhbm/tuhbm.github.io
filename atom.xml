@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2026-10-30T00:09:00.000Z</updated>
+  <updated>2026-10-30T00:19:00.000Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -15,6 +15,171 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>블로그 대표 이미지를 SVG로 만들고 resvg로 PNG 변환하기 (한글 폰트와 삽질 기록)</title>
+    <link href="https://tuhbm.github.io/2026/10/30/svgToPngResvg/"/>
+    <id>https://tuhbm.github.io/2026/10/30/svgToPngResvg/</id>
+    <published>2026-10-30T00:19:00.000Z</published>
+    <updated>2026-10-30T00:19:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;왜-SVG로-만들었나&quot;&gt;&lt;a href=&quot;#왜-SVG로-만들었나&quot; class=&quot;headerlink&quot; title=&quot;왜 SVG로 만들었나&quot;&gt;&lt;/a&gt;왜 SVG로 만들었나&lt;/h2&gt;&lt;p&gt;글마다 대표 이미지를 붙이고 싶었다. 디자인 툴을 열어서 하나
+      
+    
+    </summary>
+    
+      <category term="코드" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/"/>
+    
+      <category term="기타" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/"/>
+    
+    
+      <category term="SVG" scheme="https://tuhbm.github.io/tags/SVG/"/>
+    
+      <category term="resvg" scheme="https://tuhbm.github.io/tags/resvg/"/>
+    
+      <category term="Node.js" scheme="https://tuhbm.github.io/tags/Node-js/"/>
+    
+      <category term="이미지자동화" scheme="https://tuhbm.github.io/tags/%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%9E%90%EB%8F%99%ED%99%94/"/>
+    
+      <category term="한글폰트" scheme="https://tuhbm.github.io/tags/%ED%95%9C%EA%B8%80%ED%8F%B0%ED%8A%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>마크다운 볼드(**)가 그대로 노출될 때, 원인은 한글 조사였다</title>
+    <link href="https://tuhbm.github.io/2026/10/30/markdownBoldBroken/"/>
+    <id>https://tuhbm.github.io/2026/10/30/markdownBoldBroken/</id>
+    <published>2026-10-30T00:18:00.000Z</published>
+    <updated>2026-10-30T00:18:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;별표가-화면에-그대로-보인다&quot;&gt;&lt;a href=&quot;#별표가-화면에-그대로-보인다&quot; class=&quot;headerlink&quot; title=&quot;별표가 화면에 그대로 보인다&quot;&gt;&lt;/a&gt;별표가 화면에 그대로 보인다&lt;/h2&gt;&lt;p&gt;블로그 글을 올리고 나서 확인하는
+      
+    
+    </summary>
+    
+      <category term="코드" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/"/>
+    
+      <category term="기타" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/"/>
+    
+    
+      <category term="Hexo" scheme="https://tuhbm.github.io/tags/Hexo/"/>
+    
+      <category term="마크다운" scheme="https://tuhbm.github.io/tags/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/"/>
+    
+      <category term="marked" scheme="https://tuhbm.github.io/tags/marked/"/>
+    
+      <category term="CommonMark" scheme="https://tuhbm.github.io/tags/CommonMark/"/>
+    
+      <category term="볼드" scheme="https://tuhbm.github.io/tags/%EB%B3%BC%EB%93%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 머리말(front-matter) YAML 때문에 글 한 편이 사라진 날</title>
+    <link href="https://tuhbm.github.io/2026/10/30/hexoYamlFrontMatterPitfalls/"/>
+    <id>https://tuhbm.github.io/2026/10/30/hexoYamlFrontMatterPitfalls/</id>
+    <published>2026-10-30T00:17:00.000Z</published>
+    <updated>2026-10-30T00:17:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;10편을-썼는데-9편만-나왔다&quot;&gt;&lt;a href=&quot;#10편을-썼는데-9편만-나왔다&quot; class=&quot;headerlink&quot; title=&quot;10편을 썼는데 9편만 나왔다&quot;&gt;&lt;/a&gt;10편을 썼는데 9편만 나왔다&lt;/h2&gt;&lt;p&gt;하루에 글 10편을 올리는
+      
+    
+    </summary>
+    
+      <category term="코드" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/"/>
+    
+      <category term="기타" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/"/>
+    
+    
+      <category term="Hexo" scheme="https://tuhbm.github.io/tags/Hexo/"/>
+    
+      <category term="YAML" scheme="https://tuhbm.github.io/tags/YAML/"/>
+    
+      <category term="front-matter" scheme="https://tuhbm.github.io/tags/front-matter/"/>
+    
+      <category term="빌드오류" scheme="https://tuhbm.github.io/tags/%EB%B9%8C%EB%93%9C%EC%98%A4%EB%A5%98/"/>
+    
+      <category term="js-yaml" scheme="https://tuhbm.github.io/tags/js-yaml/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sitemap의 lastmod가 배포할 때마다 바뀌는 이유 (Hexo)</title>
+    <link href="https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/"/>
+    <id>https://tuhbm.github.io/2026/10/30/sitemapLastmodFix/</id>
+    <published>2026-10-30T00:16:00.000Z</published>
+    <updated>2026-10-30T00:16:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;증상&quot;&gt;&lt;a href=&quot;#증상&quot; class=&quot;headerlink&quot; title=&quot;증상&quot;&gt;&lt;/a&gt;증상&lt;/h2&gt;&lt;p&gt;어느 날 사이트맵을 열어 보니 이상했다. 새로 쓴 글이 아닌데도 모든 URL의 &lt;code&gt;&amp;lt;lastmod&amp;gt;&lt;/cod
+      
+    
+    </summary>
+    
+      <category term="코드" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/"/>
+    
+      <category term="기타" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/"/>
+    
+    
+      <category term="Hexo" scheme="https://tuhbm.github.io/tags/Hexo/"/>
+    
+      <category term="sitemap" scheme="https://tuhbm.github.io/tags/sitemap/"/>
+    
+      <category term="lastmod" scheme="https://tuhbm.github.io/tags/lastmod/"/>
+    
+      <category term="SEO" scheme="https://tuhbm.github.io/tags/SEO/"/>
+    
+      <category term="서치콘솔" scheme="https://tuhbm.github.io/tags/%EC%84%9C%EC%B9%98%EC%BD%98%EC%86%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 블로그에 예약 발행 붙이기 (future 옵션 + GitHub Actions cron)</title>
+    <link href="https://tuhbm.github.io/2026/10/30/hexoScheduledPublish/"/>
+    <id>https://tuhbm.github.io/2026/10/30/hexoScheduledPublish/</id>
+    <published>2026-10-30T00:15:00.000Z</published>
+    <updated>2026-10-30T00:15:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;시작은-휴가였다&quot;&gt;&lt;a href=&quot;#시작은-휴가였다&quot; class=&quot;headerlink&quot; title=&quot;시작은 휴가였다&quot;&gt;&lt;/a&gt;시작은 휴가였다&lt;/h2&gt;&lt;p&gt;블로그에 글을 매일 올리다 보니 며칠 자리를 비울 때가 문제였다. 워드프레스나 티스
+      
+    
+    </summary>
+    
+      <category term="코드" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/"/>
+    
+      <category term="기타" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/"/>
+    
+    
+      <category term="Hexo" scheme="https://tuhbm.github.io/tags/Hexo/"/>
+    
+      <category term="GitHub Actions" scheme="https://tuhbm.github.io/tags/GitHub-Actions/"/>
+    
+      <category term="예약발행" scheme="https://tuhbm.github.io/tags/%EC%98%88%EC%95%BD%EB%B0%9C%ED%96%89/"/>
+    
+      <category term="cron" scheme="https://tuhbm.github.io/tags/cron/"/>
+    
+      <category term="블로그운영" scheme="https://tuhbm.github.io/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/"/>
+    
+  </entry>
   
   <entry>
     <title>애플 첫 폴더블 &#39;아이폰 듀오&#39; 결함 인정 뒤 또 품질 논란 — 힌지 틈·화면 번쩍임 주장, 교체 대응</title>
@@ -463,156 +628,6 @@
       <category term="해외여행" scheme="https://tuhbm.github.io/tags/%ED%95%B4%EC%99%B8%EC%97%AC%ED%96%89/"/>
     
       <category term="톨레도" scheme="https://tuhbm.github.io/tags/%ED%86%A8%EB%A0%88%EB%8F%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>이스라엘 총선 개표 뒤집혔다 — 네타냐후 진영 53석·야권 48석, 둘 다 과반 실패 최종 결과는 다음 달 4일</title>
-    <link href="https://tuhbm.github.io/2026/10/29/israelElectionCount/"/>
-    <id>https://tuhbm.github.io/2026/10/29/israelElectionCount/</id>
-    <published>2026-10-29T02:00:00.000Z</published>
-    <updated>2026-10-29T02:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      이스라엘 총선 개표가 90% 진행된 가운데 네타냐후 총리 진영이 53석, 야권이 48석으로 모두 과반에 실패했습니다. 출구조사와 달라진 개표 흐름과 연정 구성 전망을 이데일리·연합뉴스 보도로 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="국제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B5%AD%EC%A0%9C/"/>
-    
-    
-      <category term="이스라엘" scheme="https://tuhbm.github.io/tags/%EC%9D%B4%EC%8A%A4%EB%9D%BC%EC%97%98/"/>
-    
-      <category term="총선" scheme="https://tuhbm.github.io/tags/%EC%B4%9D%EC%84%A0/"/>
-    
-      <category term="네타냐후" scheme="https://tuhbm.github.io/tags/%EB%84%A4%ED%83%80%EB%83%90%ED%9B%84/"/>
-    
-      <category term="개표" scheme="https://tuhbm.github.io/tags/%EA%B0%9C%ED%91%9C/"/>
-    
-      <category term="연립정부" scheme="https://tuhbm.github.io/tags/%EC%97%B0%EB%A6%BD%EC%A0%95%EB%B6%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>퇴직금 회사 밖에 쌓는다 — 2030년까지 전 사업장 퇴직급여 사외적립 의무화, 내 퇴직금은 어떻게 달라지나</title>
-    <link href="https://tuhbm.github.io/2026/10/29/retirementPensionOffsite/"/>
-    <id>https://tuhbm.github.io/2026/10/29/retirementPensionOffsite/</id>
-    <published>2026-10-29T01:30:00.000Z</published>
-    <updated>2026-10-29T01:30:00.000Z</updated>
-    
-    <summary type="html">
-    
-      정부가 2028년 100인 이상 사업장을 시작으로 2030년 10인 미만 사업장까지 퇴직급여 사외적립을 3단계로 의무화하는 퇴직연금 기능강화 방안을 10월 29일 발표했습니다. 조선일보 보도로 주요 내용과 달라지는 점을 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
-    
-    
-      <category term="퇴직금" scheme="https://tuhbm.github.io/tags/%ED%87%B4%EC%A7%81%EA%B8%88/"/>
-    
-      <category term="퇴직연금" scheme="https://tuhbm.github.io/tags/%ED%87%B4%EC%A7%81%EC%97%B0%EA%B8%88/"/>
-    
-      <category term="사외적립" scheme="https://tuhbm.github.io/tags/%EC%82%AC%EC%99%B8%EC%A0%81%EB%A6%BD/"/>
-    
-      <category term="기금형퇴직연금" scheme="https://tuhbm.github.io/tags/%EA%B8%B0%EA%B8%88%ED%98%95%ED%87%B4%EC%A7%81%EC%97%B0%EA%B8%88/"/>
-    
-      <category term="노후" scheme="https://tuhbm.github.io/tags/%EB%85%B8%ED%9B%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SK하이닉스 3분기 영업이익 83조 원·100조 원 주주환원에 코스피 6000 탈환 — 오늘 삼성전자 30조 배당 확정 주목</title>
-    <link href="https://tuhbm.github.io/2026/10/29/skHynixShareholderReturn/"/>
-    <id>https://tuhbm.github.io/2026/10/29/skHynixShareholderReturn/</id>
-    <published>2026-10-29T01:00:00.000Z</published>
-    <updated>2026-10-29T01:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      SK하이닉스가 사상 최대 실적과 100조 원 안팎의 주주환원 계획을 내놓자 코스피가 6% 넘게 급등해 6000선을 되찾았습니다. 조선비즈 보도로 실적과 환원 내용, 삼성전자 배당 발표를 둘러싼 쟁점을 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
-    
-    
-      <category term="삼성전자" scheme="https://tuhbm.github.io/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/"/>
-    
-      <category term="SK하이닉스" scheme="https://tuhbm.github.io/tags/SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4/"/>
-    
-      <category term="코스피" scheme="https://tuhbm.github.io/tags/%EC%BD%94%EC%8A%A4%ED%94%BC/"/>
-    
-      <category term="주주환원" scheme="https://tuhbm.github.io/tags/%EC%A3%BC%EC%A3%BC%ED%99%98%EC%9B%90/"/>
-    
-      <category term="배당" scheme="https://tuhbm.github.io/tags/%EB%B0%B0%EB%8B%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>태국 출국세 의견 수렴 오늘(29일) 마감 — 1인당 1000바트 부활 검토, 일본 출국세는 이미 3배 올랐다</title>
-    <link href="https://tuhbm.github.io/2026/10/29/thailandDepartureTaxDeadline/"/>
-    <id>https://tuhbm.github.io/2026/10/29/thailandDepartureTaxDeadline/</id>
-    <published>2026-10-29T00:30:00.000Z</published>
-    <updated>2026-10-29T00:30:00.000Z</updated>
-    
-    <summary type="html">
-    
-      태국 국세청이 항공편 출국 승객에게 1인당 1000바트(약 4만 원)의 출국세를 부과하는 법안의 의견 수렴이 10월 29일 마감됩니다. 이전 보도와 일본 출국세 인상 사례를 정리해 4인 가족 여행 비용 영향을 짚었습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="국제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B5%AD%EC%A0%9C/"/>
-    
-    
-      <category term="일본" scheme="https://tuhbm.github.io/tags/%EC%9D%BC%EB%B3%B8/"/>
-    
-      <category term="해외여행" scheme="https://tuhbm.github.io/tags/%ED%95%B4%EC%99%B8%EC%97%AC%ED%96%89/"/>
-    
-      <category term="태국" scheme="https://tuhbm.github.io/tags/%ED%83%9C%EA%B5%AD/"/>
-    
-      <category term="출국세" scheme="https://tuhbm.github.io/tags/%EC%B6%9C%EA%B5%AD%EC%84%B8/"/>
-    
-      <category term="항공권" scheme="https://tuhbm.github.io/tags/%ED%95%AD%EA%B3%B5%EA%B6%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>플레이오프 3차전 오늘 광주 — 삼성 최원태 vs KIA 시라카와, 1승 1패 뒤 3차전 승리팀의 한국시리즈 진출 확률은</title>
-    <link href="https://tuhbm.github.io/2026/10/29/kboPlayoffGame3Preview/"/>
-    <id>https://tuhbm.github.io/2026/10/29/kboPlayoffGame3Preview/</id>
-    <published>2026-10-29T00:00:00.000Z</published>
-    <updated>2026-10-29T00:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      1승 1패로 맞선 KBO 플레이오프가 10월 29일 광주-KIA챔피언스필드에서 3차전을 치릅니다. 삼성 최원태와 KIA 시라카와의 선발 맞대결과 역대 1승 1패 뒤 3차전 승리팀의 한국시리즈 진출 통계를 스포츠동아 보도로 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="스포츠" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%8A%A4%ED%8F%AC%EC%B8%A0/"/>
-    
-    
-      <category term="KBO" scheme="https://tuhbm.github.io/tags/KBO/"/>
-    
-      <category term="한국시리즈" scheme="https://tuhbm.github.io/tags/%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88/"/>
-    
-      <category term="플레이오프" scheme="https://tuhbm.github.io/tags/%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84/"/>
-    
-      <category term="KIA" scheme="https://tuhbm.github.io/tags/KIA/"/>
-    
-      <category term="삼성" scheme="https://tuhbm.github.io/tags/%EC%82%BC%EC%84%B1/"/>
     
   </entry>
   
