@@ -13,6 +13,19 @@
 ---
 
 
+## 2026-11-02 (Windows PC) — 월요일 10편 (주말 이슈 위주)
+
+- 한 일: 사용자 지시로 주말(10/31~11/1)에 쓰지 못한 이슈 위주로 10편 작성(date 11/2 09:00~13:30). 실시간 트렌드·sports.daum.net/baseball에서 수집. 모든 글에 <!-- more --> 포함(코드 글 more 누락 사건 후 재확인).
+  - 스포츠: samsungKsKtGame1Preview(삼성 PO5차전 6-1 승리·한국시리즈 진출, KS 1차전 11/3 18:30 수원 KT)
+  - 경제: intelFab28Plunge(인텔 폭락·팹28 폭발), retirementAge65Legislation(65세 정년연장), seoulHousePriceExperts(전문가 10인 집값), budget2027Speech(821조 예산 시정연설)
+  - 사회: nationalPension8MillionTiers(국민연금 수급자 800만), halloween2026CrowdSafe(핼러윈 인파)
+  - 국제: usMidtermEveOutlook(미국 중간선거 D-1, 중립 정리), floridaJetCrash(플로리다 제트기 추락) / 연예: choiBulamFuneral(최불암 발인)
+  - 주의: 분량 측정 오류 발견. 이전 보고의 공백 제외 약 4,000자는 Git Bash wc -m이 바이트 기준으로 센 값이었고 실제 본문은 약 1,700~2,000자였다. 앞으로 node로 본문(머리말 제외)을 센다(split 정규식 /^---s*$/m 의 [2]). 오늘 글은 용어·배경 섹션을 보강해 1,700~2,000자.
+- 다음에 할 일: 11/3 미국 중간선거 결과(중립 사실만, D-1 글은 오늘 작성함), 한국시리즈 1차전(11/3 18:30) 결과·일정. 삼성전자 배당·최불암 후속은 필요 시.
+
+---
+
+
 ## 2026-10-30 (Windows PC) — 금요일 10편 (유입 우선·트렌드 반영)
 
 - 한 일: 실시간 트렌드 상위(최불암 별세, 아주대병원 압수수색, 알파벳 시총 증발, 블랙핑크 문화훈장 등)와 sports.daum.net/baseball에서 후보 수집해 10편 작성(date 10/30 09:00~13:30). 후속 일정 해당 없음.
