@@ -13,6 +13,19 @@
 ---
 
 
+## 2026-11-04 (Windows PC) — 수요일 10편 (노출·클릭 상승용 핫이슈 중심)
+
+- 한 일: 사용자 요청(노출·클릭이 적으니 핫이슈로)에 따라 다음뉴스 실시간 트렌드 상위(HLB 간암 신약, 미국 중간선거, 쿠팡 3분기, 소리새 김광석, 뮌헨 아틀레티코 등)와 한국시리즈 1차전 결과 중심으로 10편 작성(date 11/4, 첫 글 08:50 나머지 09:30~13:30). 제목에 결과·숫자·인물명을 앞세워 검색 유입을 노림. 모든 글 <!-- more --> 포함, 분량은 node로 측정(1,800~2,270자).
+  - 스포츠: ktSamsungKs1Result(KS 1차전 KT 8-7 삼성), leeKangInKimMinJaeUcl(UCL 뮌헨 2-0 아틀레티코, 이강인·김민재 교체 출전)
+  - 국제: usMidtermCountingStarts(개표 시작·CNN 출구조사, 중립), trumpIsraelAidEnd(트럼프 이스라엘 연 40억 달러 지원 중단 발언)
+  - 경제: coupang2026Q3Loss, nationalPensionBasicPensionReversal, hobanHanjinkalAudit, hlbRivoceranibFdaReview(투자 권유 아님 명시)
+  - IT: gstar2026Gta6 / 연예: sorisaeKimKwangseokObit(연합뉴스 부고 기반)
+  - 주의: UCL 순위(21위/22위)와 김민재 투입 시각(34분/24분)은 매체별로 달라 병기했다. 11/3 usMidterm4Scenarios 후속으로 결과 글은 별도 필요.
+- 다음에 할 일: 한국시리즈 2차전 이후 결과, 미국 중간선거 최종 결과(상원 윤곽은 한국시간 11/4 오후, 하원은 며칠 소요, 중립 사실만), 쿠팡·한진칼 후속.
+
+---
+
+
 ## 2026-11-03 (Windows PC) — 화요일 10편 (유입 우선·실시간 트렌드)
 
 - 한 일: 실시간 트렌드(한양증권 해킹·10월 물가·애플·김여정 바이낸스 담화 등)와 sports.daum.net/baseball에서 후보 수집해 10편 작성(date 11/3 09:00~13:30). 모든 글에 <!-- more --> 포함. 분량은 node로 본문만 측정(1,830~2,240자).
