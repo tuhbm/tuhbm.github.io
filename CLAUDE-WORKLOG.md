@@ -7,8 +7,21 @@
 ## 후속 글 일정 (해당 날짜 글 작성 시 자동 포함, 사용자 지시 2026-10-15)
 
 - (10/16 18시 11차 석유 최고가격: 10/19 추가 글 oilPriceCap11th로 완료) / (10/17 준PO 1·2차전: 10/19 글 kiaSemiPlayoff2Wins로 소화) / (10/20 교황 퇴원: popeLeoRecovery로 완료) / 10/22 한은 금통위 결정
-- (10/23 베이비몬스터: babyMonsterDeserve로 예약 완료) / 10/28 돔구장 의향서 / 10/29 태국 출국세 의견 마감(thailandDepartureTax 후속) / 11/3 미국 중간선거(중립 사실만)
+- (10/23 베이비몬스터: babyMonsterDeserve로 예약 완료) / 10/28 돔구장 의향서 / 10/29 태국 출국세 의견 마감(thailandDepartureTax 후속) / 11/3 미국 중간선거(중립 사실만, 11/3 usMidterm4Scenarios로 완료)
 - 포함 후 이 목록에서 완료 표시. 결과 기사를 직접 읽어 사실 확인한 뒤 작성.
+
+---
+
+
+## 2026-11-03 (Windows PC) — 화요일 10편 (유입 우선·실시간 트렌드)
+
+- 한 일: 실시간 트렌드(한양증권 해킹·10월 물가·애플·김여정 바이낸스 담화 등)와 sports.daum.net/baseball에서 후보 수집해 10편 작성(date 11/3 09:00~13:30). 모든 글에 <!-- more --> 포함. 분량은 node로 본문만 측정(1,830~2,240자).
+  - 스포츠: ktSamsungKs1Starters(KS 1차전 대니엘 vs 최원태, 1차전 승리팀 우승 73.8%)
+  - 국제: usMidterm4Scenarios(미국 중간선거 당일, 4가지 시나리오 중립 정리 — 11/3 후속 일정 소화), kimchiWonSpanishDictionary(김치·원 스페인어 사전 등재)
+  - 경제: october2026Cpi28(10월 물가 2.8%), twentiesPartTimeQuarter(20대 시간제 24.7%), binanceHackOutflow(바이낸스 순유출·금융위 점검, 북한 배후는 단정 안 함)
+  - 사회: hanyangSecuritiesBreach(한양증권 해킹) / IT: appleQ4RevenueMargin(애플 4분기 실적) / 연예: nayeonJisooComeback(소속사 발표 기반) / 생활: infantHeadShapeCraniosynostosis(영유아 두상, 의료진 설명)
+  - 주의: 이미지 SVG에서 wrap()이 p+'S' id(그림자 필터)를 정의하므로 같은 id를 그라데이션에 쓰면 얼굴이 흐려짐(infant에서 발생, jK로 변경). 11/2 푸시 후 GitHub 예약 빌드(09:17·09:47)가 돌지 않아 노출이 지연된 적이 있음 → 예약 글은 푸시 직후 빈 커밋으로 빌드를 트리거할 수 있음.
+- 다음에 할 일: 한국시리즈 1차전(11/3 저녁) 결과 글, 미국 중간선거 결과(11/4 오전 윤곽, 중립 사실만), 한양증권·바이낸스 후속 조사 결과.
 
 ---
 
