@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2026-11-03T04:30:00.000Z</updated>
+  <updated>2026-11-03T23:50:00.000Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>한국시리즈 1차전 KT 8-7 삼성 — 8-0 리드 뒤 7점 추격 허용, 안현민·한승택·김현수 홈런에 박영현 5아웃 세이브</title>
+    <link href="https://tuhbm.github.io/2026/11/04/ktSamsungKs1Result/"/>
+    <id>https://tuhbm.github.io/2026/11/04/ktSamsungKs1Result/</id>
+    <published>2026-11-03T23:50:00.000Z</published>
+    <updated>2026-11-03T23:50:00.000Z</updated>
+    
+    <summary type="html">
+    
+      11월 3일 수원에서 열린 한국시리즈 1차전에서 KT가 삼성을 8-7로 꺾었습니다. 8-0으로 앞서다 7회와 8회에 7점을 내준 경기 흐름과 홈런 3방, 마무리 박영현의 5아웃 세이브, 양 팀 감독의 투수 교체 평가를 정리했습니다.
+    
+    </summary>
+    
+      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
+    
+      <category term="스포츠" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%8A%A4%ED%8F%AC%EC%B8%A0/"/>
+    
+    
+      <category term="한국시리즈" scheme="https://tuhbm.github.io/tags/%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88/"/>
+    
+      <category term="삼성라이온즈" scheme="https://tuhbm.github.io/tags/%EC%82%BC%EC%84%B1%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%A6%88/"/>
+    
+      <category term="KT위즈" scheme="https://tuhbm.github.io/tags/KT%EC%9C%84%EC%A6%88/"/>
+    
+      <category term="안현민" scheme="https://tuhbm.github.io/tags/%EC%95%88%ED%98%84%EB%AF%BC/"/>
+    
+      <category term="박영현" scheme="https://tuhbm.github.io/tags/%EB%B0%95%EC%98%81%ED%98%84/"/>
+    
+  </entry>
   
   <entry>
     <title>아기 머리 납작해 걱정이라면 — 자세성 사두증과 두개골조기유합증, 헬멧으로 해결 안 되는 경우가 있다</title>
@@ -583,36 +613,6 @@
       <category term="주가폭락" scheme="https://tuhbm.github.io/tags/%EC%A3%BC%EA%B0%80%ED%8F%AD%EB%9D%BD/"/>
     
       <category term="폭발사고" scheme="https://tuhbm.github.io/tags/%ED%8F%AD%EB%B0%9C%EC%82%AC%EA%B3%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>삼성, 플레이오프 5차전 KIA에 6-1 승리로 한국시리즈 진출 — 내일 수원에서 KT와 1차전</title>
-    <link href="https://tuhbm.github.io/2026/11/02/samsungKsKtGame1Preview/"/>
-    <id>https://tuhbm.github.io/2026/11/02/samsungKsKtGame1Preview/</id>
-    <published>2026-11-02T00:00:00.000Z</published>
-    <updated>2026-11-02T00:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      삼성이 11월 1일 플레이오프 5차전에서 KIA를 6-1로 꺾고 한국시리즈에 진출했습니다. 김지찬의 3안타 3타점 3득점과 후라도의 7이닝 1실점, 그리고 3주를 쉰 KT와 맞붙는 한국시리즈 1차전 전망을 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="스포츠" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%8A%A4%ED%8F%AC%EC%B8%A0/"/>
-    
-    
-      <category term="KBO" scheme="https://tuhbm.github.io/tags/KBO/"/>
-    
-      <category term="한국시리즈" scheme="https://tuhbm.github.io/tags/%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88/"/>
-    
-      <category term="플레이오프" scheme="https://tuhbm.github.io/tags/%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84/"/>
-    
-      <category term="삼성" scheme="https://tuhbm.github.io/tags/%EC%82%BC%EC%84%B1/"/>
-    
-      <category term="KT" scheme="https://tuhbm.github.io/tags/KT/"/>
     
   </entry>
   
