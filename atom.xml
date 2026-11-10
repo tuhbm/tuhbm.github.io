@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2026-11-09T04:30:00.000Z</updated>
+  <updated>2026-11-09T23:45:00.000Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>젠슨 황 스캔들 여파 — AMD 13% 폭등 엔비디아 4% 하락, 네이버 1.3조 투자 납입 마무리 18일 의회 청문회 요구</title>
+    <link href="https://tuhbm.github.io/2026/11/10/jensenHuangKoreaImpactAmd/"/>
+    <id>https://tuhbm.github.io/2026/11/10/jensenHuangKoreaImpactAmd/</id>
+    <published>2026-11-09T23:45:00.000Z</published>
+    <updated>2026-11-09T23:45:00.000Z</updated>
+    
+    <summary type="html">
+    
+      젠슨 황 엔비디아 CEO 논란이 커지는 가운데 9일 미국 증시에서 AMD가 13.26% 올랐고 엔비디아는 4.27% 내렸습니다. 네이버 1.3조 원 지분 투자, SK텔레콤 협약, 미 하원의 18일 비공개 청문회 요구를 머니투데이와 뉴시스 보도로 정리했습니다.
+    
+    </summary>
+    
+      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
+    
+      <category term="IT과학" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/"/>
+    
+    
+      <category term="엔비디아" scheme="https://tuhbm.github.io/tags/%EC%97%94%EB%B9%84%EB%94%94%EC%95%84/"/>
+    
+      <category term="젠슨황" scheme="https://tuhbm.github.io/tags/%EC%A0%A0%EC%8A%A8%ED%99%A9/"/>
+    
+      <category term="AMD" scheme="https://tuhbm.github.io/tags/AMD/"/>
+    
+      <category term="네이버" scheme="https://tuhbm.github.io/tags/%EB%84%A4%EC%9D%B4%EB%B2%84/"/>
+    
+      <category term="청문회" scheme="https://tuhbm.github.io/tags/%EC%B2%AD%EB%AC%B8%ED%9A%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>수능 D-10 AI 스마트안경 부정행위 차단 총력 — 1312개 시험장 전담 인력 배치, 응시자 55만 1864명 19일 시행</title>
@@ -124,13 +154,13 @@
       <category term="국제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B5%AD%EC%A0%9C/"/>
     
     
+      <category term="APEC" scheme="https://tuhbm.github.io/tags/APEC/"/>
+    
       <category term="다카이치" scheme="https://tuhbm.github.io/tags/%EB%8B%A4%EC%B9%B4%EC%9D%B4%EC%B9%98/"/>
     
       <category term="중일관계" scheme="https://tuhbm.github.io/tags/%EC%A4%91%EC%9D%BC%EA%B4%80%EA%B3%84/"/>
     
       <category term="중국총영사" scheme="https://tuhbm.github.io/tags/%EC%A4%91%EA%B5%AD%EC%B4%9D%EC%98%81%EC%82%AC/"/>
-    
-      <category term="APEC" scheme="https://tuhbm.github.io/tags/APEC/"/>
     
       <category term="대만유사시" scheme="https://tuhbm.github.io/tags/%EB%8C%80%EB%A7%8C%EC%9C%A0%EC%82%AC%EC%8B%9C/"/>
     
@@ -218,9 +248,9 @@
     
       <category term="헤그세스" scheme="https://tuhbm.github.io/tags/%ED%97%A4%EA%B7%B8%EC%84%B8%EC%8A%A4/"/>
     
-      <category term="탄핵소추" scheme="https://tuhbm.github.io/tags/%ED%83%84%ED%95%B5%EC%86%8C%EC%B6%94/"/>
-    
       <category term="미국하원" scheme="https://tuhbm.github.io/tags/%EB%AF%B8%EA%B5%AD%ED%95%98%EC%9B%90/"/>
+    
+      <category term="탄핵소추" scheme="https://tuhbm.github.io/tags/%ED%83%84%ED%95%B5%EC%86%8C%EC%B6%94/"/>
     
       <category term="민주당" scheme="https://tuhbm.github.io/tags/%EB%AF%BC%EC%A3%BC%EB%8B%B9/"/>
     
@@ -583,36 +613,6 @@
       <category term="사이드카" scheme="https://tuhbm.github.io/tags/%EC%82%AC%EC%9D%B4%EB%93%9C%EC%B9%B4/"/>
     
       <category term="SK하이닉스" scheme="https://tuhbm.github.io/tags/SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>나스닥 5.52% 폭락 시총 3400조 원 하루 만에 증발 — AI 데이터센터 규제 공포에 엔비디아 9.3% AMD 17.3%↓</title>
-    <link href="https://tuhbm.github.io/2026/11/06/nasdaqAiRegulationCrash/"/>
-    <id>https://tuhbm.github.io/2026/11/06/nasdaqAiRegulationCrash/</id>
-    <published>2026-11-05T23:45:00.000Z</published>
-    <updated>2026-11-05T23:45:00.000Z</updated>
-    
-    <summary type="html">
-    
-      11월 5일 미국 뉴욕증시가 AI 기술주를 중심으로 급락했습니다. 나스닥 5.52%, S&amp;P500 4.36%, 다우 3.44% 하락과 나스닥 시총 2조 5000억 달러 증발, 엔비디아·AMD·브로드컴 낙폭을 연합뉴스 보도로 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
-    
-    
-      <category term="나스닥" scheme="https://tuhbm.github.io/tags/%EB%82%98%EC%8A%A4%EB%8B%A5/"/>
-    
-      <category term="반도체" scheme="https://tuhbm.github.io/tags/%EB%B0%98%EB%8F%84%EC%B2%B4/"/>
-    
-      <category term="엔비디아" scheme="https://tuhbm.github.io/tags/%EC%97%94%EB%B9%84%EB%94%94%EC%95%84/"/>
-    
-      <category term="뉴욕증시" scheme="https://tuhbm.github.io/tags/%EB%89%B4%EC%9A%95%EC%A6%9D%EC%8B%9C/"/>
-    
-      <category term="AI데이터센터" scheme="https://tuhbm.github.io/tags/AI%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0/"/>
     
   </entry>
   
