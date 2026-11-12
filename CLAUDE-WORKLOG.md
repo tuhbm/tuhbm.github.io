@@ -21,6 +21,7 @@
 - 이미지: 잠수함 히어로에서 그라데이션 id(jS)가 wrap 필터 id와 충돌해 본체가 안 보이던 문제를 jH로 수정(히어로 id에 S/F 접미 금지)
 - 코드 카테고리 글 3편 추가(date 13:40~14:00): pagesDeploy404Polling(Pages 반영 지연·curl 폴링), verifyPostsScript(발행 전 점검 스크립트), nodeCheckTopLevelReturn(node --check vs vm.Script)
 - 신규 도구 tools/verify-posts.js: node tools/verify-posts.js YYYY-MM-DD 로 글자수·more·이미지·참고링크·볼드경계 점검(문제 시 종료코드 2)
+- KBO 3편 추가(date 08:46~08:48 즉시 노출): ssgReleaseKimMinsikRyuHyoseung(SSG 방출), apbcKoreaAustraliaComeback(APBC 호주전 6-4 역전, 최종결과 미확인), lgAustinRenewal2million(오스틴 200만 달러). 이미지 3장 jobs1112b
 
 **다음에 할 일**
 - 후속: 엔비디아 이사회 결정 결과, 13일 사우디전·17일 카타르전 결과, 국고채 PD 행정소송 제기, 25일 서울지하철 파업 여부, 18~19일 앤트로픽 상장, 12/8~9 FOMC
