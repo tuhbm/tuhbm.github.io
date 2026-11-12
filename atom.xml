@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tuhbm.github.io/"/>
-  <updated>2026-11-11T04:30:00.000Z</updated>
+  <updated>2026-11-11T23:45:00.000Z</updated>
   <id>https://tuhbm.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>엔비디아 이사회 젠슨 황 해임 준비 보도 — WSJ 11일 거취 결정 회의, 구글·AMD 공세와 삼성·SK하이닉스 영향</title>
+    <link href="https://tuhbm.github.io/2026/11/12/nvidiaBoardJensenHuangDismissal/"/>
+    <id>https://tuhbm.github.io/2026/11/12/nvidiaBoardJensenHuangDismissal/</id>
+    <published>2026-11-11T23:45:00.000Z</published>
+    <updated>2026-11-11T23:45:00.000Z</updated>
+    
+    <summary type="html">
+    
+      월스트리트저널이 엔비디아 이사회가 젠슨 황 CEO 해임을 준비하며 11일 거취 결정 회의를 연다고 보도했습니다. 독립 조사 발표 사흘 만의 변화, 후임 거론 인물, 구글 TPU와 AMD 공세, 삼성전자·SK하이닉스에 미칠 영향을 연합뉴스·뉴시스 보도로 정리했습니다.
+    
+    </summary>
+    
+      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
+    
+      <category term="IT과학" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/"/>
+    
+    
+      <category term="AI" scheme="https://tuhbm.github.io/tags/AI/"/>
+    
+      <category term="미국" scheme="https://tuhbm.github.io/tags/%EB%AF%B8%EA%B5%AD/"/>
+    
+      <category term="반도체" scheme="https://tuhbm.github.io/tags/%EB%B0%98%EB%8F%84%EC%B2%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>NASA 달에서 살 우주비행사 모집, 연봉 약 2억 2000만 원 — 지원 자격과 12월 3일 마감, 경쟁률 800대 1 뚫어야</title>
@@ -553,36 +579,6 @@
       <category term="호르무즈" scheme="https://tuhbm.github.io/tags/%ED%98%B8%EB%A5%B4%EB%AC%B4%EC%A6%88/"/>
     
       <category term="국제유가" scheme="https://tuhbm.github.io/tags/%EA%B5%AD%EC%A0%9C%EC%9C%A0%EA%B0%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>젠슨 황 스캔들 여파 — AMD 13% 폭등 엔비디아 4% 하락, 네이버 1.3조 투자 납입 마무리 18일 의회 청문회 요구</title>
-    <link href="https://tuhbm.github.io/2026/11/10/jensenHuangKoreaImpactAmd/"/>
-    <id>https://tuhbm.github.io/2026/11/10/jensenHuangKoreaImpactAmd/</id>
-    <published>2026-11-09T23:45:00.000Z</published>
-    <updated>2026-11-09T23:45:00.000Z</updated>
-    
-    <summary type="html">
-    
-      젠슨 황 엔비디아 CEO 논란이 커지는 가운데 9일 미국 증시에서 AMD가 13.26% 올랐고 엔비디아는 4.27% 내렸습니다. 네이버 1.3조 원 지분 투자, SK텔레콤 협약, 미 하원의 18일 비공개 청문회 요구를 머니투데이와 뉴시스 보도로 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="IT과학" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/"/>
-    
-    
-      <category term="엔비디아" scheme="https://tuhbm.github.io/tags/%EC%97%94%EB%B9%84%EB%94%94%EC%95%84/"/>
-    
-      <category term="젠슨황" scheme="https://tuhbm.github.io/tags/%EC%A0%A0%EC%8A%A8%ED%99%A9/"/>
-    
-      <category term="AMD" scheme="https://tuhbm.github.io/tags/AMD/"/>
-    
-      <category term="네이버" scheme="https://tuhbm.github.io/tags/%EB%84%A4%EC%9D%B4%EB%B2%84/"/>
-    
-      <category term="청문회" scheme="https://tuhbm.github.io/tags/%EC%B2%AD%EB%AC%B8%ED%9A%8C/"/>
     
   </entry>
   
