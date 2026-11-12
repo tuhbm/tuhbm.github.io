@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+<!-- Google tag (gtag.js) - GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4QDFV5ZBM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K4QDFV5ZBM');
+</script>
+<!-- End Google tag -->
+
+ 
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4940548197015353" crossorigin="anonymous"></script>
+    <title>배포 커밋은 떴는데 글 주소는 404 — GitHub Pages 반영 지연을 curl 폴링으로 기다리는 법 | 코드머니 브리핑</title>
+    <meta name="google-site-verification" content="-p8gKAM2rWXrLMIE_2lihVvsLgdqQj4MZ-tBbLssnSg">
+    <meta name="naver-site-verification" content="a1885616f6d673099c6fbf6c59cf4e0084a6d421">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    
+    <link rel="canonical" href="https://tuhbm.github.io/2026/11/12/pagesDeploy404Polling/">
+    
+    
+    <meta name="description" content="푸시도 했고 deploy 커밋도 떴는데며칠 전 글 10편을 푸시하고 Actions가 master에 deploy: &lt;해시&gt; 커밋을 만든 것까지 확인했다. 그런데 새 글 주소를 열면 404였다. 빌드가 실패한 것도 아니고 글이 빠진 것도 아니었다. 그냥 기다리면 열렸는데, 이날은 약 10분이 걸렸다. 그때 어떻게 “열렸는지”를 기계적으로 확인하게 만">
+<meta property="og:type" content="article">
+<meta property="og:title" content="배포 커밋은 떴는데 글 주소는 404 — GitHub Pages 반영 지연을 curl 폴링으로 기다리는 법">
+<meta property="og:url" content="https://tuhbm.github.io/2026/11/12/pagesDeploy404Polling/index.html">
+<meta property="og:site_name" content="코드머니 브리핑">
+<meta property="og:description" content="푸시도 했고 deploy 커밋도 떴는데며칠 전 글 10편을 푸시하고 Actions가 master에 deploy: &lt;해시&gt; 커밋을 만든 것까지 확인했다. 그런데 새 글 주소를 열면 404였다. 빌드가 실패한 것도 아니고 글이 빠진 것도 아니었다. 그냥 기다리면 열렸는데, 이날은 약 10분이 걸렸다. 그때 어떻게 “열렸는지”를 기계적으로 확인하게 만">
+<meta property="og:locale" content="ko_KR">
+<meta property="article:published_time" content="2026-11-11T23:41:00.000Z">
+<meta property="article:modified_time" content="2026-11-11T23:41:00.000Z">
+<meta property="article:author" content="Taekyun Kim">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="GitHub Actions">
+<meta property="article:tag" content="블로그운영">
+<meta property="article:tag" content="빌드오류">
+<meta name="twitter:card" content="summary"> 
+    <link rel="alternate" href="/atom.xml" title="코드머니 브리핑" type="application/atom+xml">
+     
+    <link rel="icon" href="/favicon.png">
+     
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+     
+<link rel="stylesheet" href="/css/style.css">
+
+  <meta name="generator" content="Hexo 5.4.0"></head>
+</html>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">코드머니 브리핑</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="검색"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://tuhbm.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-pagesDeploy404Polling" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2026/11/12/pagesDeploy404Polling/" class="article-date">
+  <time datetime="2026-11-11T23:41:00.000Z" itemprop="datePublished">2026-11-12</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      배포 커밋은 떴는데 글 주소는 404 — GitHub Pages 반영 지연을 curl 폴링으로 기다리는 법
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="푸시도-했고-deploy-커밋도-떴는데"><a href="#푸시도-했고-deploy-커밋도-떴는데" class="headerlink" title="푸시도 했고 deploy 커밋도 떴는데"></a>푸시도 했고 deploy 커밋도 떴는데</h2><p>며칠 전 글 10편을 푸시하고 Actions가 <code>master</code>에 <code>deploy: &lt;해시&gt;</code> 커밋을 만든 것까지 확인했다. 그런데 새 글 주소를 열면 <strong>404</strong>였다. 빌드가 실패한 것도 아니고 글이 빠진 것도 아니었다. 그냥 기다리면 열렸는데, 이날은 약 10분이 걸렸다. 그때 어떻게 “열렸는지”를 기계적으로 확인하게 만들었는지 정리해 둔다.</p>
+<span id="more"></span>
+
+<h2 id="배포-흐름과-어디서-늦는가"><a href="#배포-흐름과-어디서-늦는가" class="headerlink" title="배포 흐름과 어디서 늦는가"></a>배포 흐름과 어디서 늦는가</h2><p>내 블로그 구조는 이렇다.</p>
+<ol>
+<li>글과 설정은 <code>gh-pages</code> 브랜치(소스)에 푸시한다.</li>
+<li>GitHub Actions가 Hexo를 빌드해서 결과물을 <code>master</code>에 올린다. 커밋 메시지는 <code>deploy: &lt;소스 해시&gt;</code>.</li>
+<li>GitHub Pages가 <code>master</code>의 새 커밋을 받아 사이트에 반영한다.</li>
+</ol>
+<p>2번이 끝나면 <code>master</code>에 커밋이 보이지만, 3번은 별개 단계다. 그래서 <strong>커밋이 보인다고 사이트가 바뀐 것은 아니다.</strong> 이날 내가 겪은 404는 2번과 3번 사이의 시간차였다.</p>
+<h2 id="먼저-확인하는-세-가지"><a href="#먼저-확인하는-세-가지" class="headerlink" title="먼저 확인하는 세 가지"></a>먼저 확인하는 세 가지</h2><p>404를 보면 우선 빌드가 진짜로 끝났는지부터 본다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> C:/project/tuhbm.github.io</span><br><span class="line">git fetch origin master</span><br><span class="line">git <span class="built_in">log</span> -1 --format=<span class="string">&#x27;%s&#x27;</span> origin/master</span><br></pre></td></tr></table></figure>
+
+<p>출력이 <code>deploy: &lt;방금 푸시한 gh-pages 해시&gt;</code>면 2번까지는 정상이다. 해시가 이전 것이면 아직 Actions가 도는 중이거나 실패한 것이다. 이 경우는 Actions 탭을 봐야 한다.</p>
+<p>해시가 맞는데도 404면 3번 지연이다. 이때 할 일은 조급해하지 않고 응답 코드를 지켜보는 것이다.</p>
+<h2 id="응답-코드만-뽑아서-기다리기"><a href="#응답-코드만-뽑아서-기다리기" class="headerlink" title="응답 코드만 뽑아서 기다리기"></a>응답 코드만 뽑아서 기다리기</h2><p>새로고침을 반복하는 대신, 상태 코드만 찍는 폴링을 걸어 두었다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">URL=https://tuhbm.github.io/2026/11/12/nvidiaBoardJensenHuangDismissal/</span><br><span class="line">until [ <span class="string">&quot;<span class="subst">$(curl -s -o /dev/null -w &#x27;%&#123;http_code&#125;&#x27; <span class="string">&quot;<span class="variable">$URL</span>&quot;</span>)</span>&quot;</span> = <span class="string">&quot;200&quot;</span> ]; <span class="keyword">do</span></span><br><span class="line">  sleep 30</span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;live&quot;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>-s -o /dev/null</code>은 본문을 버리고, <code>-w &#39;%&#123;http_code&#125;&#39;</code>는 상태 코드만 출력한다.</li>
+<li>200이 될 때까지 30초 간격으로 돈다. 너무 촘촘하게 칠 이유가 없다.</li>
+<li>끝나면 <code>live</code>가 찍히니, 다른 작업을 하다가 알림만 받으면 된다.</li>
+</ul>
+<p>이 스크립트를 실제로 두 주소에 한 번씩 돌려 보니 열려 있는 글은 <code>200</code>, 없는 슬러그는 <code>404</code>가 나왔다. 그래서 “404 = 아직 안 열림 또는 주소 오타” 둘 중 하나로 읽으면 된다. 폴링을 걸기 전에 주소를 한 번 눈으로 확인하는 게 낫다. 오타 난 주소를 기다리면 영원히 안 끝난다.</p>
+<h2 id="이미지도-따로-확인한다"><a href="#이미지도-따로-확인한다" class="headerlink" title="이미지도 따로 확인한다"></a>이미지도 따로 확인한다</h2><p>글 페이지가 열려도 대표 이미지가 안 열리는 경우가 있을까 싶어서, 첫 글을 확인할 때는 이미지 주소도 같이 쳐 본다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl -s -o /dev/null -w <span class="string">&#x27;%&#123;http_code&#125;\n&#x27;</span> \</span><br><span class="line">  https://tuhbm.github.io/images/normal/nvidiaBoardJensenHuangDismissal.png</span><br></pre></td></tr></table></figure>
+
+<p>둘 다 200이고, 메인 목록에도 글 슬러그가 보이면 그날 첫 글은 라이브로 판단한다. 목록 확인은 이렇게 한다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -s https://tuhbm.github.io/ | grep -c nvidiaBoardJensenHuangDismissal</span><br></pre></td></tr></table></figure>
+
+<p>0이 아니면 목록에 노출된 것이다.</p>
+<h2 id="예약-글과-함께-쓰는-요령"><a href="#예약-글과-함께-쓰는-요령" class="headerlink" title="예약 글과 함께 쓰는 요령"></a>예약 글과 함께 쓰는 요령</h2><p>이 블로그는 <code>future: false</code>라서 날짜가 미래인 글은 빌드에서 빠진다. 예약 빌드가 가끔 늦게 도는 날이 있어서, 그날 첫 글의 <code>date</code>를 <strong>지금보다 이른 시각</strong>(예: 08:45)으로 잡아 푸시한다. 푸시로 시작된 빌드에는 이미 시각이 지난 그 글이 들어가니 예약 빌드를 기다리지 않고 바로 열린다. 나머지 글은 날짜가 된 뒤 예약 빌드가 돌 때 한꺼번에 열린다.</p>
+<p>여기서 주의할 점이 하나 있다. 예약 빌드가 한동안 안 돌면 나머지 글이 계속 안 열리는데, 이때는 빈 커밋을 푸시해 빌드를 한 번 더 일으키면 된다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git commit --allow-empty -m <span class="string">&quot;빌드 재실행&quot;</span></span><br><span class="line">git push</span><br></pre></td></tr></table></figure>
+
+<h2 id="정리"><a href="#정리" class="headerlink" title="정리"></a>정리</h2><ul>
+<li><code>master</code>에 <code>deploy:</code> 커밋이 보이는 것과 사이트가 바뀐 것은 다른 일이다.</li>
+<li>404를 만나면 먼저 <code>origin/master</code> 최신 커밋의 해시가 내가 푸시한 해시인지 본다.</li>
+<li>해시가 맞으면 반영 지연이다. <code>curl</code>로 상태 코드를 폴링해 200이 될 때까지 기다린다.</li>
+<li>첫 글은 글 주소, 대표 이미지, 메인 목록 노출까지 세 곳을 확인한다.</li>
+</ul>
+<p>아무리 자동화를 해도 마지막 한 단계의 지연은 내가 통제할 수 없다. 대신 “열렸는지”를 사람 눈 대신 코드가 확인하게 만들어 두면 기다리는 시간이 덜 불안하다.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2026/11/12/pagesDeploy404Polling/" data-id="cmwcvztwv012z0i4e93fn5mg8" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2026/11/12/pagesDeploy404Polling/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GitHub-Actions/" rel="tag">GitHub Actions</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/" rel="tag">블로그운영</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B9%8C%EB%93%9C%EC%98%A4%EB%A5%98/" rel="tag">빌드오류</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2026/11/12/verifyPostsScript/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">최신</strong>
+      <div class="article-nav-title">
+        
+          하루 글 10편 발행 전 점검 스크립트 — 글자 수·이미지·more 분리선·볼드 잔재를 한 번에 검사하기
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2026/11/11/nasaAstronautRecruit2027/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">이전</strong>
+      <div class="article-nav-title">NASA 달에서 살 우주비행사 모집, 연봉 약 2억 2000만 원 — 지원 자격과 12월 3일 마감, 경쟁률 800대 1 뚫어야</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">카테고리</h3>
+    <div class="widget">
+      
+      <ul class="category-list">
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/Java/">Java</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/Python/">Python</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/SEO/">SEO</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EB%8F%85%EC%84%9C/">독서</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%ED%9A%8C%EA%B3%A0%C2%B7%EC%97%90%EC%84%B8%EC%9D%B4/">회고·에세이</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/">머니</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%EB%B6%80%EB%8F%99%EC%82%B0/">부동산</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D/">시장분석</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%ED%88%AC%EC%9E%90/">투자</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%ED%88%AC%EC%9E%90%EC%9D%BC%EC%A7%80/">투자일지</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/">브리핑</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/">IT과학</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/">경제</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B5%AD%EC%A0%9C/">국제</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%82%AC%ED%9A%8C/">사회</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%83%9D%ED%99%9C%EB%AC%B8%ED%99%94/">생활문화</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%8A%A4%ED%8F%AC%EC%B8%A0/">스포츠</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%97%B0%EC%98%88/">연예</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EA%B8%B0%ED%83%80/">기타</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EA%B8%B0%ED%83%80/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/">블로그운영</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">최근 포스트</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2026/11/12/seoulJeonseRenewalRate46/">서울 아파트 세입자 절반 눌러앉았다 — 올해 전월세 갱신계약 46.5%, 비강남권 갱신권 사용 늘고 전셋값 동북권 11% 급등</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/12/treasuryBondCollusionFine/">국고채 담합 과징금 1조 6266억 역대 최대 — 증권사·은행 15곳 부과, 7곳 고발 방침과 행정소송 예고</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/12/koreaSaudiFriendly1113/">축구대표팀 13일 밤 11시 30분 사우디전 — 내분설 이후 첫 소집, 손흥민·황희찬 훈련장 대화와 모레노 감독의 시험대</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/12/nvidiaBoardJensenHuangDismissal/">엔비디아 이사회 젠슨 황 해임 준비 보도 — WSJ 11일 거취 결정 회의, 구글·AMD 공세와 삼성·SK하이닉스 영향</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/12/nodeCheckTopLevelReturn/">node --check는 함수 밖 return을 통과시킨다 — 브라우저용 JS는 vm.Script로 문법 검사하기</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap" style="display: none;">
+    <h3 class="widget-title">아카이브</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/11/">11월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/10/">10월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/09/">9월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/08/">8월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/02/">2월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/01/">1월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/11/">11월 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/10/">10월 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/10/">10월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">9월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">8월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/03/">3월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">11월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">9월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">8월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">7월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">6월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">4월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">3월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">2월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">12월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">11월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">10월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">9월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">8월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">6월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">4월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">3월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">2월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">1월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">9월 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">8월 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">7월 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2026 Taekyun Kim<br>
+      Powered by <a href="http://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'bogo-baeuneun-gaebal-6734';
+  
+  var disqus_url = 'https://tuhbm.github.io/2026/11/12/pagesDeploy404Polling/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>

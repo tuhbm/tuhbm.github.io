@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+<!-- Google tag (gtag.js) - GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4QDFV5ZBM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K4QDFV5ZBM');
+</script>
+<!-- End Google tag -->
+
+ 
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4940548197015353" crossorigin="anonymous"></script>
+    <title>node --check는 함수 밖 return을 통과시킨다 — 브라우저용 JS는 vm.Script로 문법 검사하기 | 코드머니 브리핑</title>
+    <meta name="google-site-verification" content="-p8gKAM2rWXrLMIE_2lihVvsLgdqQj4MZ-tBbLssnSg">
+    <meta name="naver-site-verification" content="a1885616f6d673099c6fbf6c59cf4e0084a6d421">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    
+    <link rel="canonical" href="https://tuhbm.github.io/2026/11/12/nodeCheckTopLevelReturn/">
+    
+    
+    <meta name="description" content="문법 검사를 통과했는데 브라우저에서 터졌다JS를 고치고 나서 node --check 파일.js로 문법을 확인하는 습관이 있다. 그런데 이 검사가 통과한 파일이 브라우저에서는 Illegal return statement로 죽는 걸 겪은 뒤로, 검사 방법을 바꿨다. 원인은 간단했다. node --check가 파일을 CommonJS 모듈로 파싱하기 때문이다.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="node --check는 함수 밖 return을 통과시킨다 — 브라우저용 JS는 vm.Script로 문법 검사하기">
+<meta property="og:url" content="https://tuhbm.github.io/2026/11/12/nodeCheckTopLevelReturn/index.html">
+<meta property="og:site_name" content="코드머니 브리핑">
+<meta property="og:description" content="문법 검사를 통과했는데 브라우저에서 터졌다JS를 고치고 나서 node --check 파일.js로 문법을 확인하는 습관이 있다. 그런데 이 검사가 통과한 파일이 브라우저에서는 Illegal return statement로 죽는 걸 겪은 뒤로, 검사 방법을 바꿨다. 원인은 간단했다. node --check가 파일을 CommonJS 모듈로 파싱하기 때문이다.">
+<meta property="og:locale" content="ko_KR">
+<meta property="article:published_time" content="2026-11-11T23:43:00.000Z">
+<meta property="article:modified_time" content="2026-11-11T23:43:00.000Z">
+<meta property="article:author" content="Taekyun Kim">
+<meta property="article:tag" content="블로그운영">
+<meta property="article:tag" content="빌드오류">
+<meta property="article:tag" content="Node.js">
+<meta name="twitter:card" content="summary"> 
+    <link rel="alternate" href="/atom.xml" title="코드머니 브리핑" type="application/atom+xml">
+     
+    <link rel="icon" href="/favicon.png">
+     
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+     
+<link rel="stylesheet" href="/css/style.css">
+
+  <meta name="generator" content="Hexo 5.4.0"></head>
+</html>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">코드머니 브리핑</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="검색"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://tuhbm.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-nodeCheckTopLevelReturn" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2026/11/12/nodeCheckTopLevelReturn/" class="article-date">
+  <time datetime="2026-11-11T23:43:00.000Z" itemprop="datePublished">2026-11-12</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      node --check는 함수 밖 return을 통과시킨다 — 브라우저용 JS는 vm.Script로 문법 검사하기
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="문법-검사를-통과했는데-브라우저에서-터졌다"><a href="#문법-검사를-통과했는데-브라우저에서-터졌다" class="headerlink" title="문법 검사를 통과했는데 브라우저에서 터졌다"></a>문법 검사를 통과했는데 브라우저에서 터졌다</h2><p>JS를 고치고 나서 <code>node --check 파일.js</code>로 문법을 확인하는 습관이 있다. 그런데 이 검사가 통과한 파일이 브라우저에서는 <code>Illegal return statement</code>로 죽는 걸 겪은 뒤로, 검사 방법을 바꿨다. 원인은 간단했다. <code>node --check</code>가 파일을 <strong>CommonJS 모듈</strong>로 파싱하기 때문이다.</p>
+<span id="more"></span>
+
+<h2 id="재현해-보기"><a href="#재현해-보기" class="headerlink" title="재현해 보기"></a>재현해 보기</h2><p>함수 밖에 <code>return</code>이 잘못 들어간 파일을 만들었다. 편집하다가 코드를 함수 바깥에 붙여 넣으면 실제로 생길 수 있는 모양이다.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">run</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&#x27;ok&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">1</span>;   <span class="comment">// 함수 밖 return</span></span><br></pre></td></tr></table></figure>
+
+<p>이걸 <code>node --check</code>로 검사하면 이렇게 된다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ node --check bad.js</span><br><span class="line">$ <span class="built_in">echo</span> $?</span><br><span class="line">0</span><br></pre></td></tr></table></figure>
+
+<p>에러 없이 종료 코드 0이다. 문법이 맞는다고 말해 주는 셈이다. 그런데 같은 파일을 스크립트 모드로 파싱하면 얘기가 달라진다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ node -e <span class="string">&quot;new (require(&#x27;vm&#x27;).Script)(require(&#x27;fs&#x27;).readFileSync(&#x27;bad.js&#x27;,&#x27;utf8&#x27;))&quot;</span></span><br><span class="line">...</span><br><span class="line">  <span class="built_in">return</span> 1;   // 함수 밖 <span class="built_in">return</span></span><br><span class="line">  ^^^^^^</span><br><span class="line"></span><br><span class="line">SyntaxError: Illegal <span class="built_in">return</span> statement</span><br></pre></td></tr></table></figure>
+
+<p>이쪽은 정확히 잡아낸다. 종료 코드도 1이다. 브라우저의 <code>&lt;script&gt;</code> 태그가 하는 방식과 같다.</p>
+<h2 id="왜-다르게-동작할까"><a href="#왜-다르게-동작할까" class="headerlink" title="왜 다르게 동작할까"></a>왜 다르게 동작할까</h2><p>Node의 CommonJS 모듈은 내부적으로 파일 전체를 <strong>함수로 감싸서</strong> 실행한다. 모듈 안에서 <code>require</code>, <code>module</code>, <code>exports</code>를 쓸 수 있는 이유도 그 래퍼 함수의 인자이기 때문이다. 파일 전체가 함수 몸통이니 최상위 <code>return</code>이 문법상 허용된다. <code>--check</code>도 같은 방식으로 파싱하니 통과하는 것이다.</p>
+<p>반면 브라우저에서 <code>&lt;script&gt;</code>로 불러오는 코드는 함수 안이 아니라 <strong>스크립트 최상위</strong>다. 여기서 <code>return</code>은 불법이라 문법 오류가 난다. 같은 파일이 환경에 따라 합법이기도, 불법이기도 한 셈이다.</p>
+<p><code>vm.Script</code>는 코드를 스크립트로 컴파일하기만 하고 실행하지는 않는다. 그래서 브라우저와 같은 규칙으로 문법만 검사할 수 있다.</p>
+<h2 id="쓰는-방법"><a href="#쓰는-방법" class="headerlink" title="쓰는 방법"></a>쓰는 방법</h2><p>한 줄로 쓰기엔 길어서 필요하면 작은 파일로 빼 둘 수 있다.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// check-browser-js.js</span></span><br><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&#x27;fs&#x27;</span>);</span><br><span class="line"><span class="keyword">const</span> vm = <span class="built_in">require</span>(<span class="string">&#x27;vm&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> bad = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">const</span> file <span class="keyword">of</span> process.argv.slice(<span class="number">2</span>)) &#123;</span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">new</span> vm.Script(fs.readFileSync(file, <span class="string">&#x27;utf8&#x27;</span>), &#123; <span class="attr">filename</span>: file &#125;);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&#x27;OK &#x27;</span>, file);</span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    bad++;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&#x27;ERR&#x27;</span>, file, <span class="string">&#x27;→&#x27;</span>, e.message);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">process.exit(bad ? <span class="number">1</span> : <span class="number">0</span>);</span><br></pre></td></tr></table></figure>
+
+<p><code>filename</code> 옵션을 주면 에러 메시지에 파일 이름과 줄 번호가 정확히 나온다. 여러 파일을 한 번에 넣어도 된다.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node check-browser-js.js assets/main.js assets/search.js</span><br></pre></td></tr></table></figure>
+
+<h2 id="정리"><a href="#정리" class="headerlink" title="정리"></a>정리</h2><table>
+<thead>
+<tr>
+<th>검사 방법</th>
+<th>파싱 방식</th>
+<th>최상위 <code>return</code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>node --check 파일.js</code></td>
+<td>CommonJS 모듈</td>
+<td>통과</td>
+</tr>
+<tr>
+<td><code>new vm.Script(코드)</code></td>
+<td>스크립트</td>
+<td>오류</td>
+</tr>
+<tr>
+<td>브라우저 <code>&lt;script&gt;</code></td>
+<td>스크립트</td>
+<td>오류</td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>Node에서 돌릴 코드</strong>라면 <code>node --check</code>로 충분하다.</li>
+<li><strong>브라우저에서 돌릴 코드</strong>라면 <code>vm.Script</code>로 검사해야 같은 결과를 본다.</li>
+<li><code>vm.Script</code>는 실행하지 않고 컴파일만 하므로 부작용이 없다. 다만 <code>import</code>/<code>export</code>를 쓰는 ES 모듈 파일에는 맞지 않는다. 그런 파일은 <code>.mjs</code>로 두고 별도로 검사해야 한다.</li>
+</ul>
+<p>문법 검사 하나도 “어디서 돌릴 코드인가”에 따라 도구를 골라야 한다는 걸 다시 배웠다. 통과 표시가 떴다고 안심하기 전에, 그 도구가 내가 쓸 환경과 같은 방식으로 읽는지부터 확인하는 게 맞다.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2026/11/12/nodeCheckTopLevelReturn/" data-id="cmwcvztw7010b0i4ecl2sd3o7" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2026/11/12/nodeCheckTopLevelReturn/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Node-js/" rel="tag">Node.js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/" rel="tag">블로그운영</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B9%8C%EB%93%9C%EC%98%A4%EB%A5%98/" rel="tag">빌드오류</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2026/11/12/nvidiaBoardJensenHuangDismissal/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">최신</strong>
+      <div class="article-nav-title">
+        
+          엔비디아 이사회 젠슨 황 해임 준비 보도 — WSJ 11일 거취 결정 회의, 구글·AMD 공세와 삼성·SK하이닉스 영향
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2026/11/12/verifyPostsScript/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">이전</strong>
+      <div class="article-nav-title">하루 글 10편 발행 전 점검 스크립트 — 글자 수·이미지·more 분리선·볼드 잔재를 한 번에 검사하기</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">카테고리</h3>
+    <div class="widget">
+      
+      <ul class="category-list">
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/Java/">Java</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/Python/">Python</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/SEO/">SEO</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/">기타</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EB%8F%85%EC%84%9C/">독서</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/">용어정리</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EC%BD%94%EB%93%9C/%ED%9A%8C%EA%B3%A0%C2%B7%EC%97%90%EC%84%B8%EC%9D%B4/">회고·에세이</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/">머니</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%EB%B6%80%EB%8F%99%EC%82%B0/">부동산</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D/">시장분석</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%ED%88%AC%EC%9E%90/">투자</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%A8%B8%EB%8B%88/%ED%88%AC%EC%9E%90%EC%9D%BC%EC%A7%80/">투자일지</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/">브리핑</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/">IT과학</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/">경제</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B5%AD%EC%A0%9C/">국제</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%82%AC%ED%9A%8C/">사회</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%83%9D%ED%99%9C%EB%AC%B8%ED%99%94/">생활문화</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%8A%A4%ED%8F%AC%EC%B8%A0/">스포츠</a>
+            </li>
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%97%B0%EC%98%88/">연예</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/%EA%B8%B0%ED%83%80/">기타</a>
+          
+          
+          <ul class="category-list-child">
+            
+            <li class="category-list-item">
+              <a class="category-list-link" href="/categories/%EA%B8%B0%ED%83%80/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/">블로그운영</a>
+            </li>
+            
+          </ul>
+          
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">최근 포스트</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2026/11/12/seoulJeonseRenewalRate46/">서울 아파트 세입자 절반 눌러앉았다 — 올해 전월세 갱신계약 46.5%, 비강남권 갱신권 사용 늘고 전셋값 동북권 11% 급등</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/12/treasuryBondCollusionFine/">국고채 담합 과징금 1조 6266억 역대 최대 — 증권사·은행 15곳 부과, 7곳 고발 방침과 행정소송 예고</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/12/koreaSaudiFriendly1113/">축구대표팀 13일 밤 11시 30분 사우디전 — 내분설 이후 첫 소집, 손흥민·황희찬 훈련장 대화와 모레노 감독의 시험대</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/12/nvidiaBoardJensenHuangDismissal/">엔비디아 이사회 젠슨 황 해임 준비 보도 — WSJ 11일 거취 결정 회의, 구글·AMD 공세와 삼성·SK하이닉스 영향</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/12/nodeCheckTopLevelReturn/">node --check는 함수 밖 return을 통과시킨다 — 브라우저용 JS는 vm.Script로 문법 검사하기</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap" style="display: none;">
+    <h3 class="widget-title">아카이브</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/11/">11월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/10/">10월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/09/">9월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/08/">8월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/02/">2월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/01/">1월 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/11/">11월 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/10/">10월 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/10/">10월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">9월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">8월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/03/">3월 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">11월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">9월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">8월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">7월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">6월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">4월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">3월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">2월 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">12월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">11월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">10월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">9월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">8월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">6월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">4월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">3월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">2월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">1월 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">9월 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">8월 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">7월 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2026 Taekyun Kim<br>
+      Powered by <a href="http://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'bogo-baeuneun-gaebal-6734';
+  
+  var disqus_url = 'https://tuhbm.github.io/2026/11/12/nodeCheckTopLevelReturn/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>

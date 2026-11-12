@@ -119,6 +119,88 @@
   </entry>
   
   <entry>
+    <title>node --check는 함수 밖 return을 통과시킨다 — 브라우저용 JS는 vm.Script로 문법 검사하기</title>
+    <link href="https://tuhbm.github.io/2026/11/12/nodeCheckTopLevelReturn/"/>
+    <id>https://tuhbm.github.io/2026/11/12/nodeCheckTopLevelReturn/</id>
+    <published>2026-11-11T23:43:00.000Z</published>
+    <updated>2026-11-11T23:43:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;문법-검사를-통과했는데-브라우저에서-터졌다&quot;&gt;&lt;a href=&quot;#문법-검사를-통과했는데-브라우저에서-터졌다&quot; class=&quot;headerlink&quot; title=&quot;문법 검사를 통과했는데 브라우저에서 터졌다&quot;&gt;&lt;/a&gt;문법 검사를 통과했는데 브라우저에서 터졌다&lt;/h2&gt;&lt;p&gt;JS를 고치고 나서 &lt;code&gt;node --check 파일.js&lt;/code&gt;로 문법을 확인하는 습관이 있다. 그런데 이 검사가 통과한 파일이 브라우저에서는 &lt;code&gt;Illegal return statement&lt;/code&gt;로 죽는 걸 겪은 뒤로, 검사 방법을 바꿨다. 원인은 간단했다. &lt;code&gt;node --check&lt;/code&gt;가 파일을 &lt;strong&gt;CommonJS 모듈&lt;/strong&gt;로 파싱하기 때문이다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="코드" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/"/>
+    
+      <category term="기타" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/"/>
+    
+    
+      <category term="블로그운영" scheme="https://tuhbm.github.io/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/"/>
+    
+      <category term="빌드오류" scheme="https://tuhbm.github.io/tags/%EB%B9%8C%EB%93%9C%EC%98%A4%EB%A5%98/"/>
+    
+      <category term="Node.js" scheme="https://tuhbm.github.io/tags/Node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>하루 글 10편 발행 전 점검 스크립트 — 글자 수·이미지·more 분리선·볼드 잔재를 한 번에 검사하기</title>
+    <link href="https://tuhbm.github.io/2026/11/12/verifyPostsScript/"/>
+    <id>https://tuhbm.github.io/2026/11/12/verifyPostsScript/</id>
+    <published>2026-11-11T23:42:00.000Z</published>
+    <updated>2026-11-11T23:42:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;손으로-세다가-놓친-것들&quot;&gt;&lt;a href=&quot;#손으로-세다가-놓친-것들&quot; class=&quot;headerlink&quot; title=&quot;손으로 세다가 놓친 것들&quot;&gt;&lt;/a&gt;손으로 세다가 놓친 것들&lt;/h2&gt;&lt;p&gt;하루에 글을 여러 편 올리다 보니 빠뜨리는 게 생겼다. 글자 수가 모자란 글, 대표 이미지를 안 만든 글, &lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;를 깜빡한 글이 대표적이다. 며칠 전에는 분량 기준(공백 제외 2,000자)에 못 미치는 글이 하루에 여러 편 나와서 배포 직전에 늘려 쓰기도 했다. 눈으로 세는 건 한계가 있어서, 날짜만 넣으면 그날 글을 전부 검사하는 스크립트를 만들었다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="코드" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/"/>
+    
+      <category term="기타" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/"/>
+    
+    
+      <category term="Hexo" scheme="https://tuhbm.github.io/tags/Hexo/"/>
+    
+      <category term="블로그운영" scheme="https://tuhbm.github.io/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/"/>
+    
+      <category term="마크다운" scheme="https://tuhbm.github.io/tags/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4/"/>
+    
+      <category term="Node.js" scheme="https://tuhbm.github.io/tags/Node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>배포 커밋은 떴는데 글 주소는 404 — GitHub Pages 반영 지연을 curl 폴링으로 기다리는 법</title>
+    <link href="https://tuhbm.github.io/2026/11/12/pagesDeploy404Polling/"/>
+    <id>https://tuhbm.github.io/2026/11/12/pagesDeploy404Polling/</id>
+    <published>2026-11-11T23:41:00.000Z</published>
+    <updated>2026-11-11T23:41:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;푸시도-했고-deploy-커밋도-떴는데&quot;&gt;&lt;a href=&quot;#푸시도-했고-deploy-커밋도-떴는데&quot; class=&quot;headerlink&quot; title=&quot;푸시도 했고 deploy 커밋도 떴는데&quot;&gt;&lt;/a&gt;푸시도 했고 deploy 커밋도 떴는데&lt;/h2&gt;&lt;p&gt;며칠 전 글 10편을 푸시하고 Actions가 &lt;code&gt;master&lt;/code&gt;에 &lt;code&gt;deploy: &amp;lt;해시&amp;gt;&lt;/code&gt; 커밋을 만든 것까지 확인했다. 그런데 새 글 주소를 열면 &lt;strong&gt;404&lt;/strong&gt;였다. 빌드가 실패한 것도 아니고 글이 빠진 것도 아니었다. 그냥 기다리면 열렸는데, 이날은 약 10분이 걸렸다. 그때 어떻게 “열렸는지”를 기계적으로 확인하게 만들었는지 정리해 둔다.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="코드" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/"/>
+    
+      <category term="기타" scheme="https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EA%B8%B0%ED%83%80/"/>
+    
+    
+      <category term="Hexo" scheme="https://tuhbm.github.io/tags/Hexo/"/>
+    
+      <category term="GitHub Actions" scheme="https://tuhbm.github.io/tags/GitHub-Actions/"/>
+    
+      <category term="블로그운영" scheme="https://tuhbm.github.io/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%9A%B4%EC%98%81/"/>
+    
+      <category term="빌드오류" scheme="https://tuhbm.github.io/tags/%EB%B9%8C%EB%93%9C%EC%98%A4%EB%A5%98/"/>
+    
+  </entry>
+  
+  <entry>
     <title>NASA 달에서 살 우주비행사 모집, 연봉 약 2억 2000만 원 — 지원 자격과 12월 3일 마감, 경쟁률 800대 1 뚫어야</title>
     <link href="https://tuhbm.github.io/2026/11/11/nasaAstronautRecruit2027/"/>
     <id>https://tuhbm.github.io/2026/11/11/nasaAstronautRecruit2027/</id>
@@ -475,96 +557,6 @@
       <category term="확정금리" scheme="https://tuhbm.github.io/tags/%ED%99%95%EC%A0%95%EA%B8%88%EB%A6%AC/"/>
     
       <category term="노후준비" scheme="https://tuhbm.github.io/tags/%EB%85%B8%ED%9B%84%EC%A4%80%EB%B9%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>프랑스 슈퍼마켓 700곳 냉장고 해킹 배후에 이란 혁명수비대 지목 — 대사 초치, EU 차원 제재 예고</title>
-    <link href="https://tuhbm.github.io/2026/11/10/franceFridgeHackIranIrgc/"/>
-    <id>https://tuhbm.github.io/2026/11/10/franceFridgeHackIranIrgc/</id>
-    <published>2026-11-10T03:00:00.000Z</published>
-    <updated>2026-11-10T03:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      프랑스 정부가 지난달 슈퍼마켓 약 700개 매장 냉장설비 온도를 50도 이상으로 올린 해킹 공격의 배후로 이란 혁명수비대를 지목하고 대사를 초치했습니다. 수사 개시, 공격 정황, 유럽 각국 피해를 한겨레 보도로 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="국제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B5%AD%EC%A0%9C/"/>
-    
-    
-      <category term="프랑스" scheme="https://tuhbm.github.io/tags/%ED%94%84%EB%9E%91%EC%8A%A4/"/>
-    
-      <category term="사이버공격" scheme="https://tuhbm.github.io/tags/%EC%82%AC%EC%9D%B4%EB%B2%84%EA%B3%B5%EA%B2%A9/"/>
-    
-      <category term="이란혁명수비대" scheme="https://tuhbm.github.io/tags/%EC%9D%B4%EB%9E%80%ED%98%81%EB%AA%85%EC%88%98%EB%B9%84%EB%8C%80/"/>
-    
-      <category term="냉장고해킹" scheme="https://tuhbm.github.io/tags/%EB%83%89%EC%9E%A5%EA%B3%A0%ED%95%B4%ED%82%B9/"/>
-    
-      <category term="유럽제재" scheme="https://tuhbm.github.io/tags/%EC%9C%A0%EB%9F%BD%EC%A0%9C%EC%9E%AC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>삼성화재 영국 캐노피우스 경영권 인수 — 2조 2647억 원 투입 지분 80.6%, 해외사업 비중 20%대로 확대</title>
-    <link href="https://tuhbm.github.io/2026/11/10/samsungFireCanopiusAcquisition/"/>
-    <id>https://tuhbm.github.io/2026/11/10/samsungFireCanopiusAcquisition/</id>
-    <published>2026-11-10T02:30:00.000Z</published>
-    <updated>2026-11-10T02:30:00.000Z</updated>
-    
-    <summary type="html">
-    
-      삼성화재가 영국 로이즈 특수보험사 캐노피우스의 잔여 지분 60% 인수 계약을 체결했습니다. 전체 인수 규모 약 3조 원, 삼성화재 부담 2조 2647억 원, KKR·한국투자공사 공동투자, 해외 비중 확대 전망을 디지털타임스 보도로 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
-    
-    
-      <category term="삼성화재" scheme="https://tuhbm.github.io/tags/%EC%82%BC%EC%84%B1%ED%99%94%EC%9E%AC/"/>
-    
-      <category term="캐노피우스" scheme="https://tuhbm.github.io/tags/%EC%BA%90%EB%85%B8%ED%94%BC%EC%9A%B0%EC%8A%A4/"/>
-    
-      <category term="해외M&amp;A" scheme="https://tuhbm.github.io/tags/%ED%95%B4%EC%99%B8M-A/"/>
-    
-      <category term="로이즈" scheme="https://tuhbm.github.io/tags/%EB%A1%9C%EC%9D%B4%EC%A6%88/"/>
-    
-      <category term="보험" scheme="https://tuhbm.github.io/tags/%EB%B3%B4%ED%97%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>삼성증권 2조 2000억 위법 일임매매로 83억 제재 — 금감원 기관경고 과징금 43억, 검사 방해로 검사 기간 5배</title>
-    <link href="https://tuhbm.github.io/2026/11/10/samsungSecuritiesIllegalTrading/"/>
-    <id>https://tuhbm.github.io/2026/11/10/samsungSecuritiesIllegalTrading/</id>
-    <published>2026-11-10T02:00:00.000Z</published>
-    <updated>2026-11-10T02:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      금융감독원이 삼성증권의 전직 지점장 위법 일임매매와 불완전판매, 검사 방해를 적발해 기관경고와 과징금·과태료 83억 5400만 원을 부과했습니다. 위법 거래 규모, 내부통제 부실, 허위자료 제출을 연합뉴스TV 보도로 정리했습니다.
-    
-    </summary>
-    
-      <category term="브리핑" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/"/>
-    
-      <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
-    
-    
-      <category term="금융감독원" scheme="https://tuhbm.github.io/tags/%EA%B8%88%EC%9C%B5%EA%B0%90%EB%8F%85%EC%9B%90/"/>
-    
-      <category term="삼성증권" scheme="https://tuhbm.github.io/tags/%EC%82%BC%EC%84%B1%EC%A6%9D%EA%B6%8C/"/>
-    
-      <category term="일임매매" scheme="https://tuhbm.github.io/tags/%EC%9D%BC%EC%9E%84%EB%A7%A4%EB%A7%A4/"/>
-    
-      <category term="기관경고" scheme="https://tuhbm.github.io/tags/%EA%B8%B0%EA%B4%80%EA%B2%BD%EA%B3%A0/"/>
-    
-      <category term="내부통제" scheme="https://tuhbm.github.io/tags/%EB%82%B4%EB%B6%80%ED%86%B5%EC%A0%9C/"/>
     
   </entry>
   
