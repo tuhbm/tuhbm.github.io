@@ -9,7 +9,7 @@ tags:
   - 블로그운영
   - 마크다운
 thumbnail: https://tuhbm.github.io/images/bnr-tool.jpg
-date: 2026-11-12 13:50:00
+date: 2026-11-12 08:42:00
 ---
 ## 손으로 세다가 놓친 것들
 

@@ -9,7 +9,7 @@ tags:
   - 블로그운영
   - 빌드오류
 thumbnail: https://tuhbm.github.io/images/bnr-tool.jpg
-date: 2026-11-12 13:40:00
+date: 2026-11-12 08:41:00
 ---
 ## 푸시도 했고 deploy 커밋도 떴는데
 

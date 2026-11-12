@@ -8,7 +8,7 @@ tags:
   - 빌드오류
   - 블로그운영
 thumbnail: https://tuhbm.github.io/images/bnr-tool.jpg
-date: 2026-11-12 14:00:00
+date: 2026-11-12 08:43:00
 ---
 ## 문법 검사를 통과했는데 브라우저에서 터졌다
 
