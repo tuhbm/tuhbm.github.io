@@ -6592,14 +6592,6 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/</loc>
-    
-    <lastmod>2026-11-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/categories/%EB%A8%B8%EB%8B%88/</loc>
     
     <lastmod>2026-10-08</lastmod>
@@ -6608,9 +6600,9 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/</loc>
+    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/</loc>
     
-    <lastmod>2021-10-21</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -6632,33 +6624,17 @@
   </url>
   
   <url>
-    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%97%B0%EC%98%88/</loc>
-    
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/</loc>
-    
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/</loc>
-    
-    <lastmod>2026-11-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://tuhbm.github.io/categories/%EB%A8%B8%EB%8B%88/%EB%B6%80%EB%8F%99%EC%82%B0/</loc>
     
     <lastmod>2025-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/categories/%EC%BD%94%EB%93%9C/%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC/</loc>
+    
+    <lastmod>2021-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -6680,9 +6656,33 @@
   </url>
   
   <url>
+    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/</loc>
+    
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%83%9D%ED%99%9C%EB%AC%B8%ED%99%94/</loc>
     
     <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/IT%EA%B3%BC%ED%95%99/</loc>
+    
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EC%97%B0%EC%98%88/</loc>
+    
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
