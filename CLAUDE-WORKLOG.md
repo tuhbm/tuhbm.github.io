@@ -13,6 +13,19 @@
 ---
 
 
+## 2026-11-13 (Windows PC) — 주말 예약 20편 작성(11/14 토 10편, 11/15 일 10편)
+
+**한 일**
+- 11/14(토, 09:00~13:30): googleMapsKoreaNavigation(구글 지도 길찾기 보안조건 이행), mounjaroOverseasPurchase(마운자로 해외 반입·가격 차이), ramenScienceNoPreservative(라면 방부제 없는 이유), laborMarketTemporaryWorkOecd(임시직 OECD 1위), dyscalculiaBrainStudy(발달성 계산장애 뇌 연구), gameIndustryQ3Earnings(게임사 3분기), regionalFlagshipUnivSeoulRatio(지방거점대 서울 출신 5.8%), fluSeasonEarlyWave2026(독감 재확산), northKoreaFaceStealerFbi(북한 해커 얼굴 도둑), sunjongPortraitGogung(순종 어진 공개)
+- 11/15(일, 09:00~13:30): aiAgentMalfunctionPhoneCalls(AI 비서 오작동), individualInvestGovBondMillRotation(개인투자용 국채 풍차돌리기, 청약 11/17까지), nahongjinHopeReview(호프 11/15 개봉), youthVoluntaryQuitBenefit(청년 자진퇴사 구직급여 검토), foreignTourists20MillionRecord(방한 2000만), ebolaCongo11000Cases(에볼라 1만1042명), japanSuitcaseAbandonFine(일본 캐리어 과태료), parkHangseoThaiBan(박항서 징계), highSchoolGradJobsKyungsanoWi(고졸 청년 임금공개 제안), siberianCraneHealthStudy(흰두루미)
+- 규칙: 절대 날짜 사용, 며칠 뒤에도 유효한 주제, 정치·재판·수사·사생활 가십 제외. 이미지 jobs1114(스크래치패드) 20장 전수 검수·수정
+- 검증: YAML 20/20, 본문 2000자 이상, 날짜별 10편, more 노출, 볼드 0
+- **주의**: 11/13에 예약 빌드가 09:17~13:17 한 번도 돌지 않아 빈 커밋 푸시(1033c81)로 해결함. 주말에도 예약 빌드가 안 돌면 글이 안 열리니 오전에 라이브 확인, 필요 시 빈 커밋 푸시
+
+**다음에 할 일**
+- 11/14·11/15 09시대 라이브 확인(안 열리면 빈 커밋 푸시)
+- 11/16(월) 평일 글은 당일 작성. 후속: 사우디전·한일전·대만전 결과, 엔비디아 17일 실적, 삼성 FA, 노시환 12/2
+
 ## 2026-11-13 (Windows PC)
 
 **한 일**
