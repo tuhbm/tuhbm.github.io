@@ -13,6 +13,18 @@
 ---
 
 
+## 2026-11-16 (Windows PC) — 월요일 10편
+
+**한 일**
+- 주말 예약 20편(11/14·15) 모두 라이브 200 확인
+- 11/16 글 10편(date 08:45~13:30)·이미지 10장(jobs1116): koreaSaudiLossMorenoCrisis(사우디전 2-3 패배·모레노 계약 27일), usChinaRussiaSummit1119(19일 미중러 3자회담), bitcoin65kStrategyMsciExit(비트코인 6.5만달러·MSCI 30일 편출), apbcFinalJapanRunnerUp(APBC 결승 1-5·한일전 13연패), suneungAiCheatingAlarm(세무사 시험 AI 자백·수능 감독), koreaIpo92PercentBelowOffer(신규상장 92% 공모가 하회), usAirTrafficGroundStopOutdated(미 항공대란 노후 통신망), toastKimbapFranchiseDecline(토스트·김밥 가맹점 감소), yangEuijiFaApplyDoosan(양의지 FA 신청), longHoldingSellers20yrSeoulGyeonggi(20년 초과 보유 매도 증가)
+- 규칙 준수: 읽지 않은 기사는 참고자료에 넣지 않음(장기보유 글의 한국경제 링크 삭제), 제목만 본 정보(항공대란 책임 공방)는 본문에서 삭제, 이름 가진 일반인(세무사 시험 자백자) 미표기
+- 검증: YAML 10/10, 본문 2000자 이상, more 노출, 볼드 0
+
+**다음에 할 일**
+- 11/17 카타르전·엔비디아 3분기 실적, 11/18 앤트로픽 상장·APEC, 11/19 수능·3자회담, 11/20 하나에어로다이내믹스 상장 후속
+- 11/27 모레노 계약 만료, 11/30 MSCI 스트래티지 편출
+
 ## 2026-11-13 (Windows PC) — 주말 예약 20편 작성(11/14 토 10편, 11/15 일 10편)
 
 **한 일**
