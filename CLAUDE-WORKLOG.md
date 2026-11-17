@@ -13,6 +13,20 @@
 ---
 
 
+## 2026-11-18 (Windows PC) — 수요일 10편(스포츠 3·경제 3·사회 1·생활 1·국제 1·과학 1, 즉시 공개)
+
+**한 일**
+- date 08:20~08:47로 두어 푸시 빌드에 바로 포함
+- 스포츠: koreaQatarWinOhSehoonGoal(카타르 1-0, 모레노 거취), japanMoriyasuFarewellParaguayLoss(일본 모리야스 고별전), parkDongwonFaCatcherChainMove(FA 포수 연쇄 이동)
+- 경제: nvidiaQ3Earnings115Billion(엔비디아 3분기 실적), cryptoExchangesQ3LossDepositsDrop(업비트·빗썸 적자), luxuryPriceCutsBoucheronGucci(명품 가격 인하)
+- 사회/생활: suneungCheatingReward100MillionAlert(수능 부정 신고 포상금), chronicLonelinessDementia38(만성 외로움·치매) / 국제: usSystemOutagesNsaTrumpLife(미국 시스템 연쇄 장애) / 과학: voyager1OneLightDay
+- 스크래치패드 common.js가 사라져 있어 기존 내용 그대로 재작성함. 이미지 jobs1118, 검증: YAML 10/10, 2000자 이상, more 노출, 볼드 0
+
+**다음에 할 일**
+- 19일 수능 당일 부정행위 적발 현황, 미중러 3자 회담·APEC 결과, 모레노 계약 만료(11/27) 후속, 노시환 포스팅 결과(12/2~3), 구자욱·원태인 거취
+
+---
+
 ## 2026-11-17 오후 추가 (Windows PC) — KBO FA 첫날 소식 5편(즉시 공개)
 
 **한 일**
