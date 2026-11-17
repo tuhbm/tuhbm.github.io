@@ -13,6 +13,19 @@
 ---
 
 
+## 2026-11-17 (Windows PC) — 화요일 10편(스포츠 6·경제 2·국제 2, 즉시 공개)
+
+**한 일**
+- 사용자 요청(KBO FA글 포함 스포츠 6·경제 2·세계 2, 바로 오픈)에 따라 date를 08:30~08:39로 두어 푸시 빌드에 바로 포함
+- 스포츠: kboFa2026MarketOpens22Players(FA 22명 명단), choiWonhoSpeedFocusJapanGap(최원호 구속 편중 발언), hanwhaNoSihwanPostingFaStandstill(노시환 포스팅·한화 FA), koreaQatarFinalMatch1117(카타르전 프리뷰), hwangInbeomInterimManagerRemark(황인범 발언), samsungForeignTrioRenewalCap(삼성 외인 3명 460만 달러)
+- 경제: top500Q3OperatingProfit235(500대 기업 영업익), kimjangCost2026AtVsPriceInfo(김장비용 aT vs 물가정보) / 국제: trumpKimJongUnMeetingHint(트럼프 김정은 회동 시사), euFiveCountriesRwandaReturnHub(EU 5국 르완다 송환 거점)
+- **정정/주의**: 노시환 포스팅 마감일이 OSEN 12/2, 스포티비 12/3으로 엇갈림 → 11/13 글(noSihwanPostingDeadlineDec2)에 참고 문구 추가, 새 글에도 병기. 기사 페이지에 .article_view가 없을 수 있어 본문 추출은 navigate 후 3초 대기 + document.body 폴백 필요
+- 이미지 jobs1117, 검증: YAML 10/10, 2000자 이상, more 노출, 볼드 0
+
+**다음에 할 일**
+- 17일 밤 카타르전 결과, 엔비디아 3분기 실적(17일 현지), 18일 앤트로픽 상장·APEC, 19일 수능·미중러 회담
+- 삼성 FA 협상, 노시환 포스팅 마감(12/2~3), 모레노 계약 11/27 만료
+
 ## 2026-11-16 (Windows PC) — 월요일 10편
 
 **한 일**
