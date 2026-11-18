@@ -82,6 +82,117 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-async01" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/11/05/async01/" class="article-date">
+  <time datetime="2018-11-05T12:45:03.000Z" itemprop="datePublished">2018-11-05</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/JavaScript/">JavaScript</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/11/05/async01/">번역 - 비동기 자바스크립트의 간단한 참고서 1편</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="비동기-자바스크립트의-간단한-참고서"><a href="#비동기-자바스크립트의-간단한-참고서" class="headerlink" title="비동기 자바스크립트의 간단한 참고서"></a>비동기 자바스크립트의 간단한 참고서</h1><h2 id="JavaScript로-비동기-프로그래밍-배우기"><a href="#JavaScript로-비동기-프로그래밍-배우기" class="headerlink" title="JavaScript로 비동기 프로그래밍 배우기"></a>JavaScript로 비동기 프로그래밍 배우기</h2><p><img src="https://tuhbm.github.io/images/javascript/async/async_main_img.png" alt="image"></p>
+<p>JavaScript의 비동기 특성은 많은 사람들을 혼란스럽게 할 수있는 언어 측면 중 하나입니다. 그러나 기본 비동기 구문을 잘 이해하면 언어에 대한 많은 혼란을 줄일 수 있습니다. 이 가이드의 목표는 JavaScript로 <em>비동기 프로그래밍</em>을 소개합니다. 그리고 깨끗하고 유지 보수가 가능한 비동기 코드를 작성하는 데 필요한 기술을 제공하는 것입니다. 동기식 및 비동기식 실행 모델과 그 차이점을 살펴 보는 것으로 시작합니다. 그런 다음 콜백 기능에 대해 자세히 알아보고 비동기 작업 결과를 캡처하는 데 어떻게 사용되는지 조사하겠습니다. 그런 다음, <em>promise</em>에 대해 알아보고 콜백 기능을 추상화하여 비동기 흐름을 단순화하는 방법에 대해 알아보겠습니다.<br>또한 제너레이터를 살펴보고 비동기 흐름에 어떻게 사용할 수 있는지 알아보겠습니다. 끝으로 <em>async</em> 함수를 살펴보고 비동기 작업을 더욱 단순화하기 위해 <em>promise</em>와 함께 사용할 수있는 방법을 보여줍니다.</p>
+<h2 id="예제코드"><a href="#예제코드" class="headerlink" title="예제코드"></a>예제코드</h2><p>이 가이드의 모든 코드 예는 Gitlab에서 확인할 수 있습니다.<br><a target="_blank" rel="external nofollow noopener noreferrer" href="https://gitlab.com/aj_meyghani/asyncjs-code-examples">https://gitlab.com/aj_meyghani/asyncjs-code-examples</a></p>
+<p>당신은 Repository를 복제하거나 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://gitlab.com/aj_meyghani/asyncjs-code-examples/-/archive/master/asyncjs-code-examples-master.zip">zip</a> 파일로 다운로드 할 수 있습니다.</p>
+<h3 id="기타-간단한-참고서"><a href="#기타-간단한-참고서" class="headerlink" title="기타 간단한 참고서"></a>기타 간단한 참고서</h3><p>다른 간단한 참고서를 확인해보세요</p>
+<ol>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://medium.com/p/d42597ceb496">JavaScript Functions</a></li>
+<li><a target="_blank" rel="external nofollow noopener noreferrer" href="https://medium.com/p/d88f550ffce3">JavaScript Prototypes</a></li>
+</ol>
+<h2 id="소개"><a href="#소개" class="headerlink" title="소개"></a>소개</h2><p>JavaScript에서 비동기 프로그래밍을 처음 접한 경우 다음 코드를 보고 놀랄 수 있습니다.</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/11/05/async01/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/11/05/async01/" data-id="cmwlmkjq70038u74y75294klr" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/11/05/async01/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/asynchronous/" rel="tag">asynchronous</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/callback/" rel="tag">callback</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/synchronous/" rel="tag">synchronous</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%8F%99%EA%B8%B0/" rel="tag">동기</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%B9%84%EB%8F%99%EA%B8%B0/" rel="tag">비동기</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-cssAlignCenter" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/10/31/cssAlignCenter/" class="article-date">
+  <time datetime="2018-10-31T10:56:08.000Z" itemprop="datePublished">2018-10-31</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/HTML%C2%B7CSS/">HTML·CSS</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/10/31/cssAlignCenter/">번역 - css의 DOM을 가운데 정렬하는 다양한 방법</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="CSS에서-스타일을-중심으로-배치하는-방법"><a href="#CSS에서-스타일을-중심으로-배치하는-방법" class="headerlink" title="CSS에서 스타일을 중심으로 배치하는 방법"></a>CSS에서 스타일을 중심으로 배치하는 방법</h1><p><img src="https://tuhbm.github.io/images/css-align-center.jpg" alt="image"></p>
+<p>솔직하게 말해봅시다.</p>
+<p>때때로 우리의 코딩 경력 전반에 걸쳐 우리는 CSS의 중심에 좌절감을 나타 냈습니다(Google 또는 스택 오버 플로우에서 div 내에서 div를 가운데에 배치하는 방법을 찾는 방법).<br>이 작업은 가장 간단한 작업 중 하나일 수 있지만 페이지에 더 많은 요소와 스타일을 추가하면 빠르게 혼란이 올 수 있습니다.<br>이것이 꽤 흔한 문제이기 때문에, 저는 이 가이드에서 CSS를 중심으로 하는 방법을 정리했습니다.<br>또한 CodePen에서 만든 각 예제와 함께 코드/링크도 포함했습니다. 원한다면 마음대로 포크, 공유 또는 복사하세요!</p>
+<p>여기에서 저의 CodePen을 보세요.</p>
+<p>더 이상 고민 말고, 그것에 대해 이야기합시다!</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/10/31/cssAlignCenter/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tuhbm.github.io/2018/10/31/cssAlignCenter/" data-id="cmwlmkjr600bwu74yezc92nx4" class="article-share-link">공유</a>
+      
+        <a href="https://tuhbm.github.io/2018/10/31/cssAlignCenter/#disqus_thread" class="article-comment-link">댓글</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/absolute/" rel="tag">absolute</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/align-center/" rel="tag">align center</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/flex/" rel="tag">flex</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/transform/" rel="tag">transform</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/translate/" rel="tag">translate</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-vue-firebase5" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/10/30/vue-firebase5/" class="article-date">
@@ -123,7 +234,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/30/vue-firebase5/" data-id="cmwlmdxzk01ub1s4y3yag259g" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/30/vue-firebase5/" data-id="cmwlmkjy101ubu74yhw9m8si0" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/30/vue-firebase5/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -177,7 +288,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/22/vue-firebase4/" data-id="cmwlmdxzl01uf1s4yayydcqqg" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/22/vue-firebase4/" data-id="cmwlmkjy201ueu74y7xtub3lx" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/22/vue-firebase4/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -229,7 +340,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase3/" data-id="cmwlmdxzj01u81s4ya8o3c1z1" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase3/" data-id="cmwlmkjy301ulu74yhlne8sw3" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/20/vue-firebase3/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -283,7 +394,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase2/" data-id="cmwlmdxzi01u31s4y2e8vb5pw" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase2/" data-id="cmwlmkjy001u6u74ycst63g1s" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/20/vue-firebase2/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -335,7 +446,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase1/" data-id="cmwlmdxzh01u01s4y6g1c3vvb" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/10/20/vue-firebase1/" data-id="cmwlmkjy001u3u74ycrjdgjdm" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/10/20/vue-firebase1/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -385,7 +496,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/09/29/seo1/" data-id="cmwlmdxvt01f01s4ya9dte7dj" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/09/29/seo1/" data-id="cmwlmkjvp01f4u74y5yj2e2z0" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/09/29/seo1/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -437,7 +548,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/08/20/algorithm/" data-id="cmwlmdxlh001h1s4y8axb2xa4" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/08/20/algorithm/" data-id="cmwlmkjpx001du74yek7c4era" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/08/20/algorithm/#disqus_thread" class="article-comment-link">댓글</a>
       
@@ -490,116 +601,12 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/24/javaScope/" data-id="cmwlmdxq400rj1s4yfmwogwn5" class="article-share-link">공유</a>
+      <a data-url="https://tuhbm.github.io/2018/06/24/javaScope/" data-id="cmwlmkjsr00rbu74y4j9sares" class="article-share-link">공유</a>
       
         <a href="https://tuhbm.github.io/2018/06/24/javaScope/#disqus_thread" class="article-comment-link">댓글</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/oop/" rel="tag">oop</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/scope/" rel="tag">scope</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/this/" rel="tag">this</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5/" rel="tag">객체지향</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A9%94%EC%86%8C%EB%93%9C/" rel="tag">메소드</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A9%A4%EB%B2%84%EB%B3%80%EC%88%98/" rel="tag">멤버변수</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%8A%A4%EC%BD%94%ED%94%84/" rel="tag">스코프</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%9C%A0%ED%9A%A8%EB%B2%94%EC%9C%84/" rel="tag">유효범위</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%81%B4%EB%9E%98%EC%8A%A4/" rel="tag">클래스</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-javaObjectOriented" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/06/21/javaObjectOriented/" class="article-date">
-  <time datetime="2018-06-21T13:33:33.000Z" itemprop="datePublished">2018-06-21</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/Java/">Java</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/06/21/javaObjectOriented/">객체지향 언어 자바 이론</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="JAVA"><a href="#JAVA" class="headerlink" title="JAVA"></a>JAVA</h2><p>이 카테고리는 자바를 공부 하며, 익힌 내용을 기록합니다.<br>책을 보며, 또는 독학을 하므로 <code>잘못된 내용이 있으면 댓글 또는 메일주시면 신속히 오류처리하겠습니다.</code></p>
-<hr>
-<h1 id="객체지향"><a href="#객체지향" class="headerlink" title="객체지향"></a>객체지향</h1><p><img src="https://tuhbm.github.io/images/java/img_oop.png" alt="OOP"></p>
-<h2 id="이론"><a href="#이론" class="headerlink" title="이론"></a>이론</h2><p>하나의 결과물을 만들때, 필요한부분을 각각 개발하여, 하나로 사용하고, 또 필요한부분을 가져가 쓰는 방법이 객체지향프로그래밍입니다.</p>
-<p>예를 들어보겠습니다.<br>초창기 컴퓨터는 하나의 기계였습니다..<br>그림으로 살펴보겠습니다..</p>
-        
-          <p class="article-more-link">
-            <a href="/2018/06/21/javaObjectOriented/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/21/javaObjectOriented/" data-id="cmwlmdxq300re1s4yccd33804" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2018/06/21/javaObjectOriented/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/oop/" rel="tag">oop</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5/" rel="tag">객체지향</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A9%94%EC%86%8C%EB%93%9C/" rel="tag">메소드</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A9%A4%EB%B2%84%EB%B3%80%EC%88%98/" rel="tag">멤버변수</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%9D%80%EB%8B%89%ED%99%94/" rel="tag">은닉화</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4/" rel="tag">인터페이스</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%BA%A1%EC%8A%90%ED%99%94/" rel="tag">캡슐화</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%ED%81%B4%EB%9E%98%EC%8A%A4/" rel="tag">클래스</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-javaDataType" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/06/14/javaDataType/" class="article-date">
-  <time datetime="2018-06-14T12:27:36.000Z" itemprop="datePublished">2018-06-14</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/">코드</a>►<a class="article-category-link" href="/categories/%EC%BD%94%EB%93%9C/Java/">Java</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/06/14/javaDataType/">Java Data Type</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="JAVA"><a href="#JAVA" class="headerlink" title="JAVA"></a>JAVA</h2><p>이 카테고리는 자바를 공부 하며, 익힌 내용을 기록합니다.<br>책을 보며, 또는 독학을 하므로 <code>잘못된 내용이 있으면 댓글 또는 메일주시면 신속히 오류처리하겠습니다.</code></p>
-<hr>
-<h1 id="데이터-타입"><a href="#데이터-타입" class="headerlink" title="데이터 타입"></a>데이터 타입</h1><p><img src="https://tuhbm.github.io/images/java/img_data.jpg" alt="data"><br>프로그래밍에서 데이터는 데이터형식, 메모리의 소비크기, 표현가능범위에 따라 알맞게 사용해야합니다.<br>그 내용은 데이터의 형식을 알아보면서 알아보겠습니다.</p>
-        
-          <p class="article-more-link">
-            <a href="/2018/06/14/javaDataType/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tuhbm.github.io/2018/06/14/javaDataType/" data-id="cmwlmdxq200r71s4yfg3rbv36" class="article-share-link">공유</a>
-      
-        <a href="https://tuhbm.github.io/2018/06/14/javaDataType/#disqus_thread" class="article-comment-link">댓글</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/byte/" rel="tag">byte</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/float/" rel="tag">float</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/" rel="tag">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/long/" rel="tag">long</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/oop/" rel="tag">oop</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5/" rel="tag">객체지향</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%83%80%EC%9E%85/" rel="tag">데이터타입</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%AA%85%EC%8B%9C%EC%A0%81%ED%98%95%EB%B3%80%ED%99%94/" rel="tag">명시적형변화</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%AC%B8%EC%9E%90/" rel="tag">문자</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%AC%B8%EC%9E%90%EC%97%B4/" rel="tag">문자열</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%88%AB%EC%9E%90/" rel="tag">숫자</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%8B%A4%EC%88%98/" rel="tag">실수</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%95%94%EC%8B%9C%EC%A0%81%ED%98%95%EB%B3%80%ED%99%94/" rel="tag">암시적형변화</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EC%A0%95%EC%88%98/" rel="tag">정수</a></li></ul>
 
     </footer>
   </div>
@@ -767,6 +774,14 @@
       <ul>
         
           <li>
+            <a href="/2026/11/18/kimHoryungBiddingWarAfterChoiStay/">최지훈 잔류로 김호령이 더 귀해졌다 — 보상선수 없는 C등급에 중견수 필요한 구단 쟁탈전 가능성</a>
+          </li>
+        
+          <li>
+            <a href="/2026/11/18/doosanAfterYangEuijiOutsideFaTarget/">양의지 붙잡은 두산, 시선은 외부 FA로 — 정수빈·박치국 협상 남고 타선 보강이 최우선 과제</a>
+          </li>
+        
+          <li>
             <a href="/2026/11/18/choiJihoonSsgStay6700Million/">최지훈 SSG 잔류, 4년 67억 FA 계약 — 타율 0.250에도 구단이 중견수 가치에 값을 매긴 이유</a>
           </li>
         
@@ -776,14 +791,6 @@
         
           <li>
             <a href="/2026/11/18/usSystemOutagesNsaTrumpLife/">미국 항공·은행·애플에 NSA 내부망까지 연쇄 장애 — 사이버 공격 징후는 없다는데, 트럼프는 &#34;그게 인생&#34;</a>
-          </li>
-        
-          <li>
-            <a href="/2026/11/18/chronicLonelinessDementia38/">만성 외로움은 치매 위험 38% 높인다 — 가끔 느끼는 외로움은 관련 없다는 20년 추적 연구</a>
-          </li>
-        
-          <li>
-            <a href="/2026/11/18/suneungCheatingReward100MillionAlert/">수능 부정행위 신고 포상금 건당 1억 원 이상 — 시험 중 재난문자 불시 발송까지 검토, 이 대통령이 지시한 대책</a>
           </li>
         
       </ul>
