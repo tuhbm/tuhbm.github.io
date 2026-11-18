@@ -13,6 +13,11 @@
 ---
 
 
+## 2026-11-18 오후 추가2 (Windows PC) — KBO FA 소식 2편
+
+- `doosanAfterYangEuijiOutsideFaTarget`(스포츠서울), `kimHoryungBiddingWarAfterChoiStay`(OSEN) 작성, 13:20·13:25 즉시 공개. 오태곤 인터뷰 기사는 SSG·오태곤 중복이라 제외.
+- 다음에 할 일: 정수빈·박치국 재계약, 김호령·홍창기 거취, 구자욱·원태인, 노시환 포스팅(12/2~3).
+
 ## 2026-11-18 오후 추가 (Windows PC) — 최지훈 SSG 잔류 4년 67억 1편
 
 - 사용자 요청으로 `choiJihoonSsgStay6700Million` 작성(MK스포츠·MHN스포츠·데일리안 3건 정독, 날짜 13:05 즉시 공개). 이미지는 scratchpad jobs1118b.js.
