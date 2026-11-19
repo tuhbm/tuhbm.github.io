@@ -13,6 +13,21 @@
 ---
 
 
+## 2026-11-20 (Windows PC) — 금요일 10편(국제 2·경제 4·사회 1·스포츠 1·연예 1·과학 1, 즉시 공개)
+
+**한 일**
+- date 08:20~08:47로 두어 푸시 빌드에 바로 포함 (11/19 수능일은 글 없음)
+- 국제: usChinaRussiaSummitNoBreakthrough(미중러 3자 회담 결과), rohingyaIcjGenocideRuling(ICJ 로힝야 집단학살 인정)
+- 경제: anthropicNasdaqDebutUp17(상장 첫날 +17%), koreaExports1TrillionDollar(수출 1조 달러), koreaChinaFtaServicesDealHallyu(한중 FTA 후속협상·한한령), seoulAptPrice93WeeksSlowing(서울 집값 둔화)
+- 사회: nationalExamCheatingTenYearBan(자격시험 응시 제한 10년·수능 부정행위 98명) / 스포츠: scholtensHanwhaKboSigningNear(숄텐스 한화행 임박) / 연예: bigbangSurpriseSingle1120(빅뱅 신곡 20일 14시) / 과학: ukDragonFireLaserWeapon(영국 레이저 무기)
+- 앤트로픽 조달액 매체별 표기 차이(연합 1073억 달러 vs 테크42 813억/1070억)와 스페이스X 기록 차이(862억 vs 750억)를 본문에 명시. LEET 만점자 사망·개인 수사 건과 세무사 수석 합격자 실명은 제외(개인 사안). 이미지 jobs1120(scratchpad)에서 gradient 가로선 소실 버그 → 단색 stroke로 교체.
+- 검증: YAML 10/10, 2000자 이상, more 노출 10/10, 볼드 0
+
+**다음에 할 일**
+- 빅뱅 신곡 공개 후 반응, 숄텐스 한화 공식 발표, 모레노 계약 만료(11/27), 노시환 포스팅(12/2~3), 정수빈·박치국 재계약, 구자욱·원태인, 12월 G20(푸틴 초청), 김범수 2심 선고(20일, 사건성이라 다룰지 신중)
+
+---
+
 ## 2026-11-18 오후 추가2 (Windows PC) — KBO FA 소식 2편
 
 - `doosanAfterYangEuijiOutsideFaTarget`(스포츠서울), `kimHoryungBiddingWarAfterChoiStay`(OSEN) 작성, 13:20·13:25 즉시 공개. 오태곤 인터뷰 기사는 SSG·오태곤 중복이라 제외.
