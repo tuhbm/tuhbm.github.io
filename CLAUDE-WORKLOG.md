@@ -13,6 +13,24 @@
 ---
 
 
+## 2026-11-23 (Windows PC) — 월요일 10편(경제 2·국제 2·IT과학 2·사회/건강 1·스포츠 2·연예 1, 즉시 공개)
+
+**한 일**
+- date 08:50~09:17로 두어 푸시 빌드에 바로 포함 (11/21~22 주말은 글 없음)
+- 경제: koreaStockSlumpStabilityFund(코스피 4700선·증안펀드 18년 만 준비), chinaCarTradeDeficitRecord2026(대중 자동차 적자 역대 최대)
+- 국제: usMidtermDemocratsHouse258(민주 하원 258석), iwoJimaVolcanoNewLand(이오지마 새 육지)
+- IT·과학: bepiColomboMercuryOrbit(수성 궤도 진입), gabiaDotHanChinaObjection(.HAN 도메인)
+- 사회/건강: chelationVascularCleanseInjection(혈관청소주사, 오마이뉴스 기고라 필자 주장임을 명시·DN오토모티브 측 반론 병기)
+- 스포츠: kuJawookMlbInquiryRumor(구자욱 MLB 신분조회), ssgAllInternalFaSignedMoonSeungwon(SSG 내부 FA 3명 93억) / 연예: gdGoodDay2Producer(굿데이2)
+- 제외: 엔비디아·젠슨 황 관련 개인 스캔들·밀반입 연루 의혹(미확정 의혹), 김범수 재판, 정수빈·김호령 중견수 시장(김호령 글이 이미 2편)
+- 헤드라인만 본 정보(이데일리 민주당 관세·대미투자, 11/18 SSG 외인 교체설)는 본문에서 삭제
+- 검증: YAML 10/10, 2000자 이상(gdGoodDay2 보강), more 노출 10/10, 볼드 0. 이미지 jobs1123(scratchpad), 패널 문구 넘침 3건 수정.
+
+**다음에 할 일**
+- 24일 자사주 한도 완화 시행·증안펀드 가동 여부·코스피 흐름, 구자욱·원태인 거취, 정수빈·김호령 협상, 베피콜롬보 12월 분리, .HAN 이의제기(2027.3.16까지), 모레노 계약 만료(11/27), 노시환 포스팅(12/2~3), 12월 G20
+
+---
+
 ## 2026-11-20 (Windows PC) — 금요일 10편(국제 2·경제 4·사회 1·스포츠 1·연예 1·과학 1, 즉시 공개)
 
 **한 일**
