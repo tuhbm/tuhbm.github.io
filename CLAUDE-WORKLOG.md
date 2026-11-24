@@ -13,6 +13,23 @@
 ---
 
 
+## 2026-11-24 (Windows PC) — 화요일 10편(경제 4·국제 2·사회/건강 1·과학 1·스포츠 1·연예 1, 즉시 공개)
+
+**한 일**
+- date 08:40~09:07로 두어 푸시 빌드에 바로 포함
+- 경제: nvidiaHuangReturnsMarketRally(젠슨 황 11일 만에 복귀·나스닥 +6.51%), retirementPension2PercentDefaultOption(퇴직연금 2%대, 외부 필자 기고 명시), snackFranchiseStoresDeclineTteokbokki(분식 가맹점 감소), samsungExecutiveReshuffle2027(삼성 임원 131명 승진+노태문 MX사업부장 교체)
+- 국제: ukNeetYouthMilburnReport(영국 니트 98만), japanFoodInsecurity44Percent(일본 식량 위기층 43.8%)
+- 사회/건강: obesityInjectionClinicDirectSales(비만 주사제 원내 판매, 약사법 해석 양측 입장 병기)
+- 과학: korea10kGenomeUnist(코리아10K) / 스포츠: wonTaeinReyesNpbRumor(원태인·레이예스 NPB 이적설) / 연예: bigbangGiiiRipPerformanceFilm(기립 필름 25일 18시)
+- 엔비디아 글: 황 CEO 관련 의혹은 '의혹·조사 중'으로만 표기(혼외 관련 세부는 제외), 시총 증가액 매체별 차이(지디넷 9500억 vs 연합 1조 달러) 병기
+- 제외: 최태원 재산분할 화해권고(개인 소송), 구자욱 메츠 ESPN 보도(전날 구자욱 글과 중복), 김호령·정수빈 중견수 시장(김호령 이미 2편), 키움 박준현 학폭 소송(미성년 관련), 하정우·고경표 등 연예인 사생활·사건
+- 검증: YAML 10/10, 2000자 이상(빅뱅 문단 보강), more 노출 10/10, 볼드 0. 이미지 jobs1124(scratchpad), 패널 문구 넘침 2건 수정.
+
+**다음에 할 일**
+- 25일 빅뱅 필름 반응, 12/1 하원 위원회·12/3 상원 청문회(젠슨 황), 코스피 흐름·증안펀드 가동 여부, 영국 개혁 백서(내년 초), 일본 12월 예산 편성, 원태인·구자욱 거취, 모레노 계약 만료(11/27), 노시환 포스팅(12/2~3)
+
+---
+
 ## 2026-11-23 (Windows PC) — 월요일 10편(경제 2·국제 2·IT과학 2·사회/건강 1·스포츠 2·연예 1, 즉시 공개)
 
 **한 일**
