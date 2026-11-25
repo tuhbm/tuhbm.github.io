@@ -13,6 +13,23 @@
 ---
 
 
+## 2026-11-25 (Windows PC) — 수요일 10편(경제 3·사회 2·국제 1·과학 1·스포츠 2·연예 1, 즉시 공개)
+
+**한 일**
+- date 12:30~12:57로 두어 푸시 빌드에 바로 포함
+- 경제: kospiSidecarAgainNvidiaRallyFades(코스피 하루 만에 4700선·매도 사이드카), cryptoExchangeHackBlockWithdrawals12Hours(코인 거래소 해킹 의심 시 12시간 입출금 차단), teslaSpaceXMergerTalksCommittee(테슬라·스페이스X 합병 협상)
+- 사회: birthRateQ3Point9MarriageDrop(3분기 출산율 0.90·혼인 감소), seoulMetroLaborDealAvoidStrike500Hires(서울지하철 노사 타결)
+- 국제: japanGdpShareFallsTo3Percent / 과학: shenzhou24ForeignAstronautTiangong(선저우 24호 첫 외국인 탑승)
+- 스포츠: kimHaSeongDetroitOneYearDeal(김하성 디트로이트), satoCubsDealNohSihwanYankeesFactor(사토 컵스·노시환 변수) / 연예: hyukohAlbum33SixYears(혁오 33)
+- 헤드라인만 본 정보(이데일리 혼인 감소, 연합뉴스TV 지하철 밤샘 협상, 태연·손태진 LP)는 본문에서 삭제
+- 제외: 대한항공 동성부부 마일리지(인권위 결정, 개별 사안), 호프집 맥주 가격 이슈, 김호령·손아섭 등 FA 후보 소식(중복), 연예인 사생활·사건(고경표·하정우 등)
+- 검증: YAML 10/10, 2000자 이상(혁오·지하철·선저우 문단 보강), more 노출 10/10, 볼드 0. 이미지 jobs1125(scratchpad), 패널 문구 넘침 4건 수정.
+
+**다음에 할 일**
+- 26일 코스피 흐름·외국인 수급, 12/1 하원 위원회·12/3 상원 청문회(젠슨 황), 테슬라 12/3 주총·합병 진행, 노시환 포스팅 마감(한국시간 12/2 07:00), 김하성·사토 공식 발표, 혁오 앨범 반응, 선저우 24호 도킹 결과, 모레노 계약 만료(11/27)
+
+---
+
 ## 2026-11-24 (Windows PC) — 화요일 10편(경제 4·국제 2·사회/건강 1·과학 1·스포츠 1·연예 1, 즉시 공개)
 
 **한 일**
