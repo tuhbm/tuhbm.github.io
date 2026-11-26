@@ -13,6 +13,25 @@
 ---
 
 
+## 2026-11-26 (Windows PC) — 목요일 10편(경제 4·국제 1·과학 1·사회 1·스포츠 1·연예 2, 즉시 공개)
+
+**한 일**
+- date 08:50~09:17로 두어 푸시 빌드에 바로 포함
+- 경제: ustrSection301OverproductionTariffKorea(USTR 과잉생산 관세·한국 15%/25%), fedDecemberHike98PercentThreeBeats(美 12월 인상 확률 98.1%), mortgageRate498JeonseLoanRentShiftSeoul(주담대 4.98%·서울 월세 51%), anthropicSpaceXSkHynixAdrBelowIpoPrice(美 IPO 3대주 공모가 하회)
+- 국제: mamdaniRentFreezeCourtRuling(뉴욕 임대료 동결 법원 판단) / 과학: dartDimorphosCraterHeraProbe(다트 충돌구 확인)
+- 사회: nameChangeSystem113MillionFactCheck(개명 제도 — 특정 개인 사건 언급 없이 제도·통계만)
+- 스포츠: reyesLotteReSignAgreementNpbInterest(레이예스 재계약 합의 보도, 공식 발표 전 명시)
+- 연예: blueDragonAwards47SeolKyungguJeonDoyeon(청룡영화상), gukjesijang2LunarNewYear2027(국제시장2, 1편 관객 1425만 vs 1427만 병기)
+- 제외: 앨리스 황 중국 정보 제공 의혹(미확정 의혹), 리트 만점자 관련 수사, 시진핑 후계자 낙마(정치 분석), 육아휴직 세무사 합격 수기 논란, 투니버스 송출 중단 철회(정보 부족)
+- 앤트로픽 공모액 표기 차이(연합 이번 813억 달러 공모액 vs 11/20 글 1073억 사모 포함)를 본문에 명시
+- scratchpad common.js가 또 사라져 생성 SVG 구조를 역추적해 재작성(동일 출력 확인). 이미지 jobs1126, 패널 문구 넘침 2건 수정. title이 따옴표로 시작하는 YAML 오류 1건 수정(국제시장2).
+- 검증: YAML 10/10, 2000자 이상(국제시장2·맘다니·레이예스 보강), more 노출 10/10, 볼드 0
+
+**다음에 할 일**
+- 27일 모레노 계약 만료, 12/1 하원 위원회·12/3 상원 청문회(젠슨 황), 12/2 07:00 노시환 포스팅 마감, 12/3 테슬라 주총, USTR 의견 수렴(1/5)·공청회(1/25), 12월 Fed 회의, 레이예스 롯데 공식 발표, 헤라 탐사 결과
+
+---
+
 ## 2026-11-25 (Windows PC) — 수요일 10편(경제 3·사회 2·국제 1·과학 1·스포츠 2·연예 1, 즉시 공개)
 
 **한 일**
