@@ -192,11 +192,11 @@
       <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
     
     
+      <category term="AI" scheme="https://tuhbm.github.io/tags/AI/"/>
+    
       <category term="주식" scheme="https://tuhbm.github.io/tags/%EC%A3%BC%EC%8B%9D/"/>
     
       <category term="투자" scheme="https://tuhbm.github.io/tags/%ED%88%AC%EC%9E%90/"/>
-    
-      <category term="AI" scheme="https://tuhbm.github.io/tags/AI/"/>
     
       <category term="미국" scheme="https://tuhbm.github.io/tags/%EB%AF%B8%EA%B5%AD/"/>
     
@@ -220,9 +220,9 @@
       <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
     
     
-      <category term="생활경제" scheme="https://tuhbm.github.io/tags/%EC%83%9D%ED%99%9C%EA%B2%BD%EC%A0%9C/"/>
-    
       <category term="재테크" scheme="https://tuhbm.github.io/tags/%EC%9E%AC%ED%85%8C%ED%81%AC/"/>
+    
+      <category term="생활경제" scheme="https://tuhbm.github.io/tags/%EC%83%9D%ED%99%9C%EA%B2%BD%EC%A0%9C/"/>
     
       <category term="부동산" scheme="https://tuhbm.github.io/tags/%EB%B6%80%EB%8F%99%EC%82%B0/"/>
     
@@ -524,9 +524,9 @@
       <category term="경제" scheme="https://tuhbm.github.io/categories/%EB%B8%8C%EB%A6%AC%ED%95%91/%EA%B2%BD%EC%A0%9C/"/>
     
     
-      <category term="투자" scheme="https://tuhbm.github.io/tags/%ED%88%AC%EC%9E%90/"/>
-    
       <category term="안전" scheme="https://tuhbm.github.io/tags/%EC%95%88%EC%A0%84/"/>
+    
+      <category term="투자" scheme="https://tuhbm.github.io/tags/%ED%88%AC%EC%9E%90/"/>
     
       <category term="개인정보유출" scheme="https://tuhbm.github.io/tags/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EC%9C%A0%EC%B6%9C/"/>
     
